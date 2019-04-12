@@ -1,0 +1,16 @@
+
+    {
+      "orgName": "Cargill",
+      "sourceOrg": "00Dj0000000Jnf1EAC",
+      "features": ["MultiCurrency", "ServiceCloud"],
+      "settings": {
+      "orgPreferenceSettings": {
+      "networksEnabled": true,
+      "s1DesktopEnabled": true,
+      "s1EncryptedStoragePref2": false
+      },
+      "omniChannelSettings": {
+      "enableOmniChannel": true
+      }
+      }
+      }
