@@ -6,6 +6,7 @@
         <members>Poland_Users_Snapshot</members>
         <members>Prospects_lost_Customers_no_Opportunities</members>
         <name>AnalyticSnapshot</name>
+        <h1>Test Git Pull</h1>
     </types>
     <types>
         <members>ACN_ProjectGroupTriggerHandler</members>
