@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prospect Validation Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prospect Validation Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Auto Validate Check Box --></label>
+        <name>Auto_Validate_Check_Box__c</name>
+    </fields>
+    <fields>
+        <label><!-- DS Email Id --></label>
+        <name>DS_Email_Id__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

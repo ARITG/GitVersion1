@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>RBL1-1-SM4-Regional Sales Manager1</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>RBL1_1_Sales_Manager4</parentRole>
+</Role>

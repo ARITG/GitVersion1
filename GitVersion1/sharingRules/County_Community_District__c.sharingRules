@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>County_Sharing</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>County Sharing</label>
+        <sharedTo>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>CreatedById</field>
+            <operation>equals</operation>
+            <value>005j0000000jK11AAE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

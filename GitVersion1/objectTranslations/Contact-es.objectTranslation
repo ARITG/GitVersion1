@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account External Id --></label>
+        <name>Account_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Big Commerce --></label>
+        <name>Big_Commerce__c</name>
+    </fields>
+    <fields>
+        <label>Negocio</label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>CFN - China</masterLabel>
+            <translation><!-- CFN - China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Brazil</masterLabel>
+            <translation><!-- CPN - Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - France</masterLabel>
+            <translation><!-- CPN - France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - India</masterLabel>
+            <translation><!-- CPN - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Poland</masterLabel>
+            <translation><!-- CPN - Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation>Italia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>Países Bajos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>Polonia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain Mila</masterLabel>
+            <translation><!-- Spain Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CFR In Submission --></label>
+        <name>CFR_In_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- CFR USER TYPE --></label>
+        <name>CFR_USER_TYPE__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CFR Contact --></label>
+        <name>CFR_contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Account Number --></label>
+        <name>Dealer_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Contact --></label>
+        <name>Dealer_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Text --></label>
+        <name>Email_Text__c</name>
+    </fields>
+    <fields>
+        <label>Identificación Externa</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Offering Switch --></label>
+        <name>Flip_a_switch__c</name>
+    </fields>
+    <fields>
+        <label>Nombre del Flujo</label>
+        <name>Flow_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Function --></label>
+        <name>Function__c</name>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation>Servicio al Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation>Gerente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutritionist</masterLabel>
+            <translation>Nutricionista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation>Propietario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Representative</masterLabel>
+            <translation>Representante de Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Salesman</masterLabel>
+            <translation>Vendedor de Camiones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vet</masterLabel>
+            <translation>Veterinario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation>Almacén</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Modified ID --></label>
+        <name>Last_Modified_ID__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Clasificación del Marketing</label>
+        <name>Marketing_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Approval for marketing activities</masterLabel>
+            <translation><!-- Approval for marketing activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval for personal data processing</masterLabel>
+            <translation><!-- Approval for personal data processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval for sharing</masterLabel>
+            <translation><!-- Approval for sharing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Móvil primero</label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label>Metodo Preferido</label>
+        <name>Preferred_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Correo eléctronico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation>Móvil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>Teléfono</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Lenguaje Primario</label>
+        <name>Primary_Language__c</name>
+        <picklistValues>
+            <masterLabel>Bulgarian</masterLabel>
+            <translation>Búlgaro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Mandarin)</masterLabel>
+            <translation>Chino (Mandarín)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatian</masterLabel>
+            <translation>Croata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech</masterLabel>
+            <translation>Checo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation>Danés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation>Holandés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonian</masterLabel>
+            <translation>Estonio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation>Finlandés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Francés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Alemán</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greek</masterLabel>
+            <translation>Griego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungarian</masterLabel>
+            <translation>Húngaro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation>Italiano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Japonés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvian</masterLabel>
+            <translation>Letón</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuanian</masterLabel>
+            <translation>Lituano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltese</masterLabel>
+            <translation>Maltés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation>Noruego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation>Polaco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation>Portugués</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romanian</masterLabel>
+            <translation>Rumano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation>Ruso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovak</masterLabel>
+            <translation>Eslovaco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenian</masterLabel>
+            <translation>Esloveno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Español</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish </masterLabel>
+            <translation>Sueco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish</masterLabel>
+            <translation>Turco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation>Ucranio</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Primario</label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Offering Status --></label>
+        <name>Product_Offering_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Status --></label>
+        <name>Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted For Approval</masterLabel>
+            <translation><!-- Submitted For Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Saleslogic Id --></label>
+        <name>Saleslogic_Id__c</name>
+    </fields>
+    <fields>
+        <label>Correo electrónico Secundario</label>
+        <name>Secondary_Email__c</name>
+    </fields>
+    <fields>
+        <label>Lenguaje Secundario</label>
+        <name>Secondary_Language__c</name>
+        <picklistValues>
+            <masterLabel>Bulgarian</masterLabel>
+            <translation>Búlgaro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Mandarin)</masterLabel>
+            <translation>Chino (Mandarín)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatian</masterLabel>
+            <translation>Croata</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech</masterLabel>
+            <translation>Checo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation>Danés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation>Holandés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonian</masterLabel>
+            <translation>Estonio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation>Finlandés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Francés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Alemán</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greek</masterLabel>
+            <translation>Griego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungarian</masterLabel>
+            <translation>Húngaro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation>Italiano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Japonés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvian</masterLabel>
+            <translation>Letón</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuanian</masterLabel>
+            <translation>Lituano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltese</masterLabel>
+            <translation>Maltés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation>Noruego</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation>Polaco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation>Portugués</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romanian</masterLabel>
+            <translation>Rumano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation>Ruso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovak</masterLabel>
+            <translation>Eslovaco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenian</masterLabel>
+            <translation>Esloveno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Español</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish </masterLabel>
+            <translation>Sueco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish</masterLabel>
+            <translation>Turco</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation>Ucraniano</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sitio Web</label>
+        <name>Website__c</name>
+    </fields>
+    <fields>
+        <label>Idiomas</label>
+        <name>uf__Languages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level --></label>
+        <name>uf__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation>Primario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation>Secundario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation>Terciario</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contact CFN</layout>
+        <sections>
+            <label><!-- Cargill Feed Retailer Information --></label>
+            <section>Cargill Feed Retailer Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Cargill Feed Retailer Information --></label>
+            <section>Cargill Feed Retailer Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Submit for Approval --></label>
+        <name>Submit_for_Approval_CFR</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- External Id cannot be changed. --></errorMessage>
+        <name>External_ID_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>El primer nombre es obligatorio.</errorMessage>
+        <name>First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Business Unit must match current user&apos;s Business Unit. --></errorMessage>
+        <name>Match_Business_Unit_of_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit Mobile First flag. --></errorMessage>
+        <name>Mobile_First_Flag_Cannot_be_changed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LinkedIn_Search --></label>
+        <name>LinkedIn_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

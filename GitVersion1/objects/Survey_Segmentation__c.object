@@ -1,0 +1,2538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>CFN Poland segmentation survey for Step-1 and Step-2 (customized locally).</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>AlignedOfferYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has aligned offer, trade cond., service</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BaxterPOS_1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has 1 POS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BaxterPOS_4orMore__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has 4 or more POSes</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BaxterSeasonal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>POS available in season only</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BaxterWholeYear__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>POS available whole year</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BiggerConsumersYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Dennis sales reach to bigger consumers</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ChangeProactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is proactive, open for changes</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ChangeResistant__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is change resistant, traditional</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ConsiderChanges__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Consider changes, but expect validated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Created_by_User_role__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Created by User role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CreatingFormulas_NotApplicable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CreatingFormulas_NotApplicable</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DairyCGL_Basemix__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Basemix CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyCGL_Beef_Complete_Feed__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Beef Complete Feed CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyCGL_Beef_Concentrates__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Beef Concentrates CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyCGL_Calfs__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Calfs CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyCGL_Milk_Replacers__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Milk Replacers CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyTOT_Basemix__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Basemix__c+DairyCGL_Basemix__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Basemix Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyTOT_Beef_Complete_Feed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Beef_Complete_Feed__c+DairyCGL_Beef_Complete_Feed__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Beef Complete Feed Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyTOT_Beef_Concentrates__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Beef_Concentrates__c+DairyCGL_Beef_Concentrates__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Beef Concentrates Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyTOT_Calfs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Calfs__c+DairyCGL_Calfs__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Calfs Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DairyTOT_Milk_Replacers__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Milk_Replacers__c+DairyCGL_Milk_Replacers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Milk Replacers Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Basemix__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Basemix</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Beef_Complete_Feed__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Beef Complete Feed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Beef_Concentrates__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Beef Concentrates</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Calfs__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Calfs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Milk_Replacers__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Milk Replacers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Sales_Competitor__c</fullName>
+        <externalId>false</externalId>
+        <label>Dairy Sales Competitor</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3-4</fullName>
+                    <default>false</default>
+                    <label>3-4</label>
+                </value>
+                <value>
+                    <fullName>&gt;4</fullName>
+                    <default>false</default>
+                    <label>&gt;4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Dairy_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Dairy_Total__c=0, 0, Dairy_Total_Cargill__c / Dairy_Total__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Dairy_Total_Cargill__c</fullName>
+        <externalId>false</externalId>
+        <formula>DairyCGL_Basemix__c+DairyCGL_Beef_Complete_Feed__c+DairyCGL_Beef_Concentrates__c+DairyCGL_Calfs__c+DairyCGL_Milk_Replacers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Total Cargill</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Total_Competitor__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Basemix__c+Dairy_Beef_Complete_Feed__c+Dairy_Beef_Concentrates__c+Dairy_Calfs__c+Dairy_Milk_Replacers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Total Competitor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dairy_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Total_Cargill__c+Dairy_Total_Competitor__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Dairy Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DealerSalesLevelAbove50pc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sells above 50%</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DealerSalesLevelBelow50pc__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sells below 50%</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DontEmployPHbutPOS_Yes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Don&apos;t employ SREP but wants new POS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>DontEmployPHnorPOS_Yes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Don&apos;t employ new SREP nor POS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EmployPHMoreImportantThanPOS_Yes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Employs SREP and more import. than POS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ExtensiveOfferYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has extensive feed offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FeedingFormulas_CompleteFeedAndConcentra__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Feed formulas based on Complete Feed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FeedingFormulas_NotApplicable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>FeedingFormulas_NotApplicable</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>FeedingFormulas_PremixAndIngredients__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Feeding formulas based on Premixes</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasAlignedOffer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Offer aligned feed offer, trade condit.</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasExtensiveOffer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Offers complex feed offer, trade condit.</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HasSelectiveOffer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Offers selective, wide feed offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IngredientsCGL__c</fullName>
+        <externalId>false</externalId>
+        <label>Ingredients CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ingredients_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Ingredients_Total__c=0, 0, IngredientsCGL__c / Ingredients_Total__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ingredients Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Ingredients_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Ingredients__c+IngredientsCGL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ingredients Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ingredients__c</fullName>
+        <externalId>false</externalId>
+        <label>Ingredients</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IsDistributorCreatingFormulasYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Distributor creates feed formulas</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsFeedCompanyCreatingFormulasYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Feed company makes feed formulas</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Cost_Analyst_Med_S__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Liczy się dla niego przede wszystkim dobry wynik hodowlany, koszty są drugorzędne i liczy je orientacyjnie uwzględniając główne pozycje tj. koszt zwierząt, weterynarz, media.</inlineHelpText>
+        <label>Partially, but performance counts most</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Cost_Analyst_No_L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Nie liczy szczegółowo wydatków, liczy się przede wszystkim najniższa cena zakupu paszy.</inlineHelpText>
+        <label>No, the lowest price counts the most</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Cost_Analyst_Yes_E__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Tak, analizuje wszystkie koszty w dłuższej perspektywie np. media, koszty pracowników, koszt miejsca tuczowego (amortyzacja budynku), zakup zwierząt, zużycie paszy i koszty weterynaryjne.</inlineHelpText>
+        <label>Yes, analyze all costs</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Noah_active_user__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(OR(FIND(&quot;B2B&quot;, CreatedBy.UserRole.Name)&gt;0,FIND(&quot;Rzeżuchowski B2C Dairy&quot;, CreatedBy.UserRole.Name)&gt;0,FIND(&quot;Rzeżuchowski Team B2C Dairy&quot;, CreatedBy.UserRole.Name)&gt;0),True,False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Is Noah active user</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Self_Mixing_No__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Nie posiada zasobów.</inlineHelpText>
+        <label>No, does not mix</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Self_Mixing_Partially__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Tylko w niepełnym stopniu tj. ma zboże i posiada suszarnię, ale bez mieszalni.</inlineHelpText>
+        <label>Only can mix partially</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Self_Mixing_Yes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Tak, posiada własną mieszalnię.</inlineHelpText>
+        <label>Yes, owns mixer</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Open_For_Changes_Med_S__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Czasami jest otwarty na zmiany, ale oczekuje sprawdzonych rozwiązań, które rozwiążą jego problemy.</inlineHelpText>
+        <label>Sometimes is open conditionally</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Open_For_Changes_No_L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Niechętnie przyjmuje zmiany, bowiem liczy się dla niego przede wszystkim bezpieczeństwo i nie lubi ryzykować lub wprowadza zmianę, gdy zmusza go do tego sytuacja.</inlineHelpText>
+        <label>No, unlikely accepts changes</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Open_For_Changes_Yes_E__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Jest otwarty na zmiany, a często sam o nie zabiega.</inlineHelpText>
+        <label>Yes, is open</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PetFood_Sales_Competitors__c</fullName>
+        <externalId>false</externalId>
+        <label>PetFood Sales Competitors</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3-4</fullName>
+                    <default>false</default>
+                    <label>3-4</label>
+                </value>
+                <value>
+                    <fullName>&gt;4</fullName>
+                    <default>false</default>
+                    <label>&gt;4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pet_Food_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Petfood__c+PetfoodCGL__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pet Food Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pet_Foot_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Pet_Food_Total__c=0, 0, PetfoodCGL__c / Pet_Food_Total__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pet Foot Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PetfoodCGL__c</fullName>
+        <externalId>false</externalId>
+        <label>Petfood CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Petfood__c</fullName>
+        <externalId>false</externalId>
+        <label>Petfood</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkCGL_Complete_Feed_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Complete Feed Sows Hogs CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkCGL_Concentrates_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Concentrates Sows Hogs CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkCGL_Piglets__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Piglets CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkTOT_Complete_Feed_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Pork_Complete_Feed_Sows_Hogs__c+PorkCGL_Complete_Feed_Sows_Hogs__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Complete Feed Sows Hogs Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkTOT_Concentrates_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <formula>Pork_Concentrates_Sows_Hogs__c+PorkCGL_Concentrates_Sows_Hogs__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Concentrates Sows Hogs Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PorkTOT_Piglets__c</fullName>
+        <externalId>false</externalId>
+        <formula>Pork_Piglets__c+  PorkCGL_Piglets__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Piglets Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Complete_Feed_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Complete Feed Sows Hogs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Concentrates_Sows_Hogs__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Concentrates Sows Hogs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Piglets__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Piglets</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Sales_Competitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Pork Sales Competitors</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3-4</fullName>
+                    <default>false</default>
+                    <label>3-4</label>
+                </value>
+                <value>
+                    <fullName>&gt;4</fullName>
+                    <default>false</default>
+                    <label>&gt;4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Pork_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Pork_Total__c=0, 0, Pork_Total_Cargill__c / Pork_Total__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Pork_Total_Cargill__c</fullName>
+        <externalId>false</externalId>
+        <formula>PorkCGL_Complete_Feed_Sows_Hogs__c+PorkCGL_Concentrates_Sows_Hogs__c+PorkCGL_Piglets__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Total Cargill</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Total_Competitor__c</fullName>
+        <externalId>false</externalId>
+        <formula>Pork_Complete_Feed_Sows_Hogs__c+Pork_Concentrates_Sows_Hogs__c+Pork_Piglets__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Total Competitor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pork_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Pork_Total_Cargill__c+Pork_Total_Competitor__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Pork Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PoultryProducts__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Offers complete feed for poultry</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Poultry_Sales_Competitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Poultry Sales Competitors</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3-4</fullName>
+                    <default>false</default>
+                    <label>3-4</label>
+                </value>
+                <value>
+                    <fullName>&gt;4</fullName>
+                    <default>false</default>
+                    <label>&gt;4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Poultry_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Poultry_Total__c=0, 0, val_PoultryCGL_Sales__c / Poultry_Total__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Poultry Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Poultry_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>val_Poultry_Sales__c+val_PoultryCGL_Sales__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Poultry Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Price_Management_Med_S__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Dywersyfikuje odbiorców, chcąc tym samym zrównoważyć ryzyko.</inlineHelpText>
+        <label>Diverse buyers balancing risk</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Price_Management_No_L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Często zmienia odbiorców lub działa na wolnym rynku, akceptując związane z tym ryzyko, ale liczy na wyższy zysk.</inlineHelpText>
+        <label>No, sales on free market</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Price_Management_Yes_E__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Jest lojalny wobec odbiorców z którymi współpracuje na podstawie zawartych umów (tj. ubojnie, odbiorcy jaj itp). Akceptuje niższy zysk, ale dzięki temu ma pewny rynek zbytu i cenę sprzedaży, które pokrywają mu koszty.</inlineHelpText>
+        <label>Yes, contract all sales</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RecordType__c</fullName>
+        <externalId>false</externalId>
+        <formula>RecordType.Name</formula>
+        <label>RecordType</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Commercial Customer, Standard</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Survey Segmentations</relationshipLabel>
+        <relationshipName>Survey_Segmentations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Segm_9Box__c</fullName>
+        <externalId>false</externalId>
+        <label>Segm_9Box</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Limited</fullName>
+                    <default>false</default>
+                    <label>Limited</label>
+                </value>
+                <value>
+                    <fullName>Selected</fullName>
+                    <default>false</default>
+                    <label>Selected</label>
+                </value>
+                <value>
+                    <fullName>Extensive</fullName>
+                    <default>false</default>
+                    <label>Extensive</label>
+                </value>
+                <value>
+                    <fullName>Advisory Not Needed</fullName>
+                    <default>false</default>
+                    <label>Advisory Not Needed</label>
+                </value>
+                <value>
+                    <fullName>Self Mixing</fullName>
+                    <default>false</default>
+                    <label>Self Mixing</label>
+                </value>
+                <value>
+                    <fullName>Not Classified</fullName>
+                    <default>false</default>
+                    <label>Not Classified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Segm_9Box_recomm__c</fullName>
+        <externalId>false</externalId>
+        <label>Segm_9Box_recomm</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Baxter (Podstawowy)</fullName>
+                    <default>false</default>
+                    <label>Baxter (Podstawowy)</label>
+                </value>
+                <value>
+                    <fullName>Baxter (Średniozaawansowany)</fullName>
+                    <default>false</default>
+                    <label>Baxter (Średniozaawansowany)</label>
+                </value>
+                <value>
+                    <fullName>Baxter (Wymagający)</fullName>
+                    <default>false</default>
+                    <label>Baxter (Wymagający)</label>
+                </value>
+                <value>
+                    <fullName>Dennis (Wymagający)</fullName>
+                    <default>false</default>
+                    <label>Dennis (Wymagający)</label>
+                </value>
+                <value>
+                    <fullName>Spence</fullName>
+                    <default>false</default>
+                    <label>Spence</label>
+                </value>
+                <value>
+                    <fullName>Limited</fullName>
+                    <default>false</default>
+                    <label>Limited</label>
+                </value>
+                <value>
+                    <fullName>Selected</fullName>
+                    <default>false</default>
+                    <label>Selected</label>
+                </value>
+                <value>
+                    <fullName>Extensive</fullName>
+                    <default>false</default>
+                    <label>Extensive</label>
+                </value>
+                <value>
+                    <fullName>Advisory Not Needed</fullName>
+                    <default>false</default>
+                    <label>Advisory Not Needed</label>
+                </value>
+                <value>
+                    <fullName>Self Mixing</fullName>
+                    <default>false</default>
+                    <label>Self Mixing</label>
+                </value>
+                <value>
+                    <fullName>Service by Dealer - no potential</fullName>
+                    <default>false</default>
+                    <label>Service by Dealer - no potential</label>
+                </value>
+                <value>
+                    <fullName>Long Term Integration - no potential</fullName>
+                    <default>false</default>
+                    <label>Long Term Integration - no potential</label>
+                </value>
+                <value>
+                    <fullName>ASF/A-H1N1, Bird Flu, BSE - no potential</fullName>
+                    <default>false</default>
+                    <label>ASF/A-H1N1, Bird Flu, BSE - no potential</label>
+                </value>
+                <value>
+                    <fullName>Doubled account - no potential</fullName>
+                    <default>false</default>
+                    <label>Doubled account - no potential</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Segm_Y_Axis__c</fullName>
+        <externalId>false</externalId>
+        <label>Segm Y-Axis</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Small</fullName>
+                    <default>false</default>
+                    <label>Small</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Large</fullName>
+                    <default>false</default>
+                    <label>Large</label>
+                </value>
+                <value>
+                    <fullName>Not Classified</fullName>
+                    <default>false</default>
+                    <label>Not Classified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SmallerConsumersYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Dennis sales reach small consumers</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Total_Cargill_Sales__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Total_Cargill__c+PetfoodCGL__c+Pork_Total_Cargill__c+val_PoultryCGL_Sales__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Cargill Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Competitor_Sales__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Total_Competitor__c+Petfood__c+Pork_Total_Competitor__c+val_Poultry_Sales__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Competitor Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Feed_Sales__c</fullName>
+        <externalId>false</externalId>
+        <formula>Dairy_Total__c+Pet_Food_Total__c+Pork_Total__c+Poultry_Total__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Feed Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Share_of_Wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Total_Feed_Sales__c=0, 0, Total_Cargill_Sales__c / Total_Feed_Sales__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Share of Wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>User_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>$UserRole.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Want_To_Invest_Med_S__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Ma pomysły na rozwój, ale tylko &quot;w głowie&quot;, wie, że chciałby &quot;coś&quot; osiągnąć, ale nie jest to sprecyzowane (co i kiedy).</inlineHelpText>
+        <label>Has goals but not precised</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Want_To_Invest_No_L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Nie ma planu, nie chce się rozwijać, a obecna sytuacja jest dla niego wystarczająca. Jeśli planuje zmiany to tylko w odpowiedzi na bieżące problemy, ale nie oczekuje konsultacji w zakresie nowych inwestycji.</inlineHelpText>
+        <label>No, has no plans or manage on his own</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Want_To_Invest_Yes_E__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Tak, ma szczegółowy plan rozwoju na najbliższe lata i jest otwarty na współprace.</inlineHelpText>
+        <label>Yes, has detailed plan for next years</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>WantsEmployPHandPOS_Yes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wants to employ new REP and have new POS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Week_no__c</fullName>
+        <externalId>false</externalId>
+        <formula>MOD(FLOOR( ( DATEVALUE( CreatedDate ) - DATE(2016,01,01))/7),52)+1</formula>
+        <label>Week no</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>WideOfferYes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Offers wide sales feed offer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Year_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(DATEVALUE(CreatedDate)))&amp;&quot;.&quot;&amp;LPAD(text(MONTH(DATEVALUE(CreatedDate))), 2, &apos;0&apos; )</formula>
+        <label>Year Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Advisory_Needed_Answers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Does need advisory?</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_DealerSalesLevel__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <description>Jaką część całościowej sprzedaży paszy Dystrybutora stanowią premiksy w stosunku do koncentratów?</description>
+        <externalId>false</externalId>
+        <label>Premix vs Concentrates</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Is_Cost_Analyst_Answers__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Czy hodowca prowadząc biznes analizuje szczegółowo koszty?</inlineHelpText>
+        <label>Does analyze costs in details?</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Is_Open_For_Changes_Answers__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Czy hodowca jest otwarty na zmiany w zakresie nowych produktów i usług?</inlineHelpText>
+        <label>Is open for changes?</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Is_Self_Mixing_Answers__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Czy hodowca posiada zasoby, aby samodzielnie mieszać paszę z premiksów (sam produkuje pasze pełnop.)?
+Bydło - chodzi o produkcję w gospod. w mieszalniku (nie wozie paszowym) mieszanki składającej się ze zbóż, śrut białkowych czy innych źródeł białka.</inlineHelpText>
+        <label>Is self mixing?</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Price_Management_Answers__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>W jaki sposób hodowca zarządza ceną sprzedaży? (nie dotyczy bydła - w przypadku kolegów / koleżanek z działu bydlęcego proszę zaznaczyć I opcję - cała sprzedaż zakontraktowana)</inlineHelpText>
+        <label>How manage selling price (excl. dairy)?</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Via_Dealer_Answers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Does buy via Dealer?</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>sc_Want_To_Invest_Answers__c</fullName>
+        <defaultValue>&quot;&gt;&quot;</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Czy hodowca wyraża chęć rozwoju i inwestowania w swój biznes?</inlineHelpText>
+        <label>Does want to invest?</label>
+        <length>1</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>val_PoultryCGL_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>Poultry Sales CGL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>val_Poultry_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>Poultry Sales</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>var_BaxterPOS_2_3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Has from 2 to 3 POS&apos;s</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Survey Segmentation</label>
+    <listViews>
+        <fullName>All_Direct</fullName>
+        <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>Segm_9Box_recomm__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RecordType__c</field>
+            <operation>equals</operation>
+            <value>Direct</value>
+        </filters>
+        <label>All Direct (all CFN)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Distribution</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>Segm_Y_Axis__c</columns>
+        <columns>Total_Share_of_Wallet__c</columns>
+        <columns>Total_Feed_Sales__c</columns>
+        <columns>Total_Cargill_Sales__c</columns>
+        <columns>Total_Competitor_Sales__c</columns>
+        <columns>Poultry_Share_of_Wallet__c</columns>
+        <columns>Pork_Share_of_Wallet__c</columns>
+        <columns>Dairy_Share_of_Wallet__c</columns>
+        <columns>Pet_Foot_Share_of_Wallet__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RecordType__c</field>
+            <operation>equals</operation>
+            <value>Distribution</value>
+        </filters>
+        <label>All Dystrybucja (all CFN)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Distribution_NC</fullName>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>Segm_Y_Axis__c</columns>
+        <columns>Total_Share_of_Wallet__c</columns>
+        <columns>Total_Feed_Sales__c</columns>
+        <columns>Total_Cargill_Sales__c</columns>
+        <columns>Total_Competitor_Sales__c</columns>
+        <columns>Poultry_Share_of_Wallet__c</columns>
+        <columns>Pork_Share_of_Wallet__c</columns>
+        <columns>Dairy_Share_of_Wallet__c</columns>
+        <columns>Pet_Foot_Share_of_Wallet__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RecordType__c</field>
+            <operation>equals</operation>
+            <value>Distribution</value>
+        </filters>
+        <filters>
+            <field>Segm_Y_Axis__c</field>
+            <operation>equals</operation>
+            <value>Not Classified</value>
+        </filters>
+        <filters>
+            <field>Segm_9Box__c</field>
+            <operation>contains</operation>
+            <value>error</value>
+        </filters>
+        <label>All Dystrybucja (all CFN) Not Classified</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Noah_Dairy_Team</fullName>
+        <booleanFilter>1</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Created_by_User_role__c</field>
+            <operation>contains</operation>
+            <value>rzeżuchowski</value>
+        </filters>
+        <label>All Noah Dairy Team</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Noah_Pork_Team</fullName>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>gradowska,rosiński,zając,chajewski,twardowski</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>contains</operation>
+            <value>gradowsk,ausfe</value>
+        </filters>
+        <label>All Noah Pork Team</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Surveys</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box_recomm__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Surveys</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_is_mixing</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>Open_For_Changes_Yes_E__c</columns>
+        <columns>Open_For_Changes_Med_S__c</columns>
+        <columns>Open_For_Changes_No_L__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Is_Self_Mixing_Yes__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All (all CFN) miesza premiksy</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_my_survey</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box_recomm__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>All (My Survey)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_my_survey_no_advisory</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>sc_Advisory_Needed_Answers__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All (My Survey) nie potrzebuje doradztwa</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_no_advisory</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>Open_For_Changes_Yes_E__c</columns>
+        <columns>Open_For_Changes_Med_S__c</columns>
+        <columns>Open_For_Changes_No_L__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>sc_Advisory_Needed_Answers__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All (all CFN) nie potrzebuje doradztwa</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_specific</fullName>
+        <columns>NAME</columns>
+        <columns>Related_Account_Name__c</columns>
+        <columns>Segm_9Box__c</columns>
+        <columns>sc_Advisory_Needed_Answers__c</columns>
+        <columns>Is_Self_Mixing_Yes__c</columns>
+        <columns>Is_Self_Mixing_Partially__c</columns>
+        <columns>Is_Self_Mixing_No__c</columns>
+        <columns>sc_Via_Dealer_Answers__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>Created_by_User_role__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Related_Account_Name__c</field>
+            <operation>contains</operation>
+            <value>Żurada</value>
+        </filters>
+        <label>All (all CFN) specific</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>Survey-{000000}</displayFormat>
+        <label>Survey Segmentation Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Survey Segmentations</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Direct</fullName>
+        <active>true</active>
+        <description>For Noah</description>
+        <label>Direct</label>
+        <picklistValues>
+            <picklist>Dairy_Sales_Competitor__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PetFood_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pork_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Poultry_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_9Box__c</picklist>
+            <values>
+                <fullName>Advisory Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extensive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Classified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Mixing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_9Box_recomm__c</picklist>
+            <values>
+                <fullName>ASF%2FA-H1N1%2C Bird Flu%2C BSE - no potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Advisory Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doubled account - no potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extensive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Long Term Integration - no potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Mixing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Service by Dealer - no potential</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_Y_Axis__c</picklist>
+            <values>
+                <fullName>Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Classified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Distribution</fullName>
+        <active>true</active>
+        <description>For Baxter, Dennis</description>
+        <label>Distribution</label>
+        <picklistValues>
+            <picklist>Dairy_Sales_Competitor__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PetFood_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pork_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Poultry_Sales_Competitors__c</picklist>
+            <values>
+                <fullName>%3E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3-4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_9Box__c</picklist>
+            <values>
+                <fullName>Advisory Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extensive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Classified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Mixing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_9Box_recomm__c</picklist>
+            <values>
+                <fullName>ASF%2FA-H1N1%2C Bird Flu%2C BSE - no potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Advisory Not Needed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baxter %28Podstawowy%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baxter %28Wymagający%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baxter %28Średniozaawansowany%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dennis %28Wymagający%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Doubled account - no potential</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extensive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Limited</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Self Mixing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spence</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Segm_Y_Axis__c</picklist>
+            <values>
+                <fullName>Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Classified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Related_Account_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Segm_9Box__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Segm_9Box_recomm__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>sc_Via_Dealer_Answers__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UPDATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <listViewButtons>Mass_Delete</listViewButtons>
+        <listViewButtons>Segmentation_Survey</listViewButtons>
+        <lookupDialogsAdditionalFields>RECORDTYPE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Related_Account_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Created_by_User_role__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>UPDATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Related_Account_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RECORDTYPE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Created_by_User_role__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>UPDATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>RECORDTYPE</searchFilterFields>
+        <searchFilterFields>Related_Account_Name__c</searchFilterFields>
+        <searchFilterFields>Created_by_User_role__c</searchFilterFields>
+        <searchFilterFields>CREATEDBY_USER</searchFilterFields>
+        <searchFilterFields>CREATED_DATE</searchFilterFields>
+        <searchFilterFields>UPDATEDBY_USER</searchFilterFields>
+        <searchFilterFields>LAST_UPDATE</searchFilterFields>
+        <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Related_Account_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Created_by_User_role__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsCustomButtons>Mass_Delete</searchResultsCustomButtons>
+        <searchResultsCustomButtons>Segmentation_Survey</searchResultsCustomButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Does_analyze_costs</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+AND(sc_Advisory_Needed_Answers__c, NOT(Is_Self_Mixing_Yes__c), 
+IF 
+( 
+( 
+IF(Is_Cost_Analyst_Yes_E__c=TRUE,1,0) + 
+IF(Is_Cost_Analyst_Med_S__c=TRUE,1,0) + 
+IF(Is_Cost_Analyst_No_L__c=TRUE,1,0) 
+) 
+&lt;&gt;1,TRUE,FALSE) 
+),
+ ( AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward | Log user&quot;,RecordType.DeveloperName&lt;&gt;&quot;Distribution&quot; ) )
+ )</errorConditionFormula>
+        <errorDisplayField>Is_Cost_Analyst_Yes_E__c</errorDisplayField>
+        <errorMessage>Zaznacz jedną z trzech odpowiedzi czy hodowca analizuje szczegółowo koszty (przynajmniej jedną i nie więcej niż jedną odpowiedź).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Does_want_to_invest</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+AND(sc_Advisory_Needed_Answers__c, NOT(Is_Self_Mixing_Yes__c), 
+IF 
+( 
+( 
+IF(Want_To_Invest_Yes_E__c=TRUE,1,0) + 
+IF(Want_To_Invest_Med_S__c=TRUE,1,0) + 
+IF(Want_To_Invest_No_L__c=TRUE,1,0) 
+) 
+&lt;&gt;1,TRUE,FALSE) 
+)
+, 
+( AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward | Log user&quot;,RecordType.DeveloperName&lt;&gt;&quot;Distribution&quot;  ) ) 
+)</errorConditionFormula>
+        <errorDisplayField>Want_To_Invest_Yes_E__c</errorDisplayField>
+        <errorMessage>Zaznacz jedną z trzech odpowiedzi czy hodowca wyraża chęć rozwoju i inwestowania w swój biznes (przynajmniej jedną i nie więcej niż jedną odpowiedź).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Is_open_for_changes</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+AND(sc_Advisory_Needed_Answers__c, NOT(Is_Self_Mixing_Yes__c), 
+IF 
+( 
+( 
+IF(Open_For_Changes_Yes_E__c=TRUE,1,0) + 
+IF(Open_For_Changes_Med_S__c=TRUE,1,0) + 
+IF(Open_For_Changes_No_L__c=TRUE,1,0) 
+) 
+&lt;&gt;1,TRUE,FALSE) 
+)
+, 
+( AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward | Log user&quot;, RecordType.DeveloperName&lt;&gt;&quot;Distribution&quot;  ) ) 
+)</errorConditionFormula>
+        <errorDisplayField>Open_For_Changes_Yes_E__c</errorDisplayField>
+        <errorMessage>Zaznacz jedną z trzech odpowiedzi czy hodowca jest otwarty za zmiany (przynajmniej jedną i nie więcej niż jedną odpowiedź).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Is_self_mixing</fullName>
+        <active>true</active>
+        <description>If need advisory the user must answer on Is self mixing question</description>
+        <errorConditionFormula>AND
+(
+AND(sc_Advisory_Needed_Answers__c, 
+IF 
+( 
+( 
+IF(Is_Self_Mixing_Yes__c=TRUE,1,0) + 
+IF(Is_Self_Mixing_Partially__c=TRUE,1,0) + 
+IF(Is_Self_Mixing_No__c=TRUE,1,0) 
+) 
+&lt;&gt;1,TRUE,FALSE) 
+)
+, 
+( AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward | Log user&quot;, RecordType.DeveloperName&lt;&gt;&quot;Distribution&quot;  ) ) 
+)</errorConditionFormula>
+        <errorDisplayField>Is_Self_Mixing_Yes__c</errorDisplayField>
+        <errorMessage>Zaznacz jedną z trzech odpowiedzi czy hodowca może samodzielnie mieszać paszę z premiksów (przynajmniej jedną i nie więcej niż jedną odpowiedź).</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Manage_selling_price</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND
+(
+AND(sc_Advisory_Needed_Answers__c, NOT(Is_Self_Mixing_Yes__c), 
+IF 
+( 
+( 
+IF(Price_Management_Yes_E__c=TRUE,1,0) + 
+IF(Price_Management_Med_S__c=TRUE,1,0) + 
+IF(Price_Management_No_L__c=TRUE,1,0) 
+) 
+&lt;&gt;1,TRUE,FALSE) 
+)
+, 
+( AND($Profile.Name &lt;&gt; &quot;System Administrator&quot;,$Profile.Name &lt;&gt; &quot;Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward&quot;,$Profile.Name &lt;&gt; &quot;Polish Data Steward | Log user&quot;, RecordType.DeveloperName&lt;&gt;&quot;Distribution&quot;  ) ) 
+)</errorConditionFormula>
+        <errorDisplayField>Price_Management_Yes_E__c</errorDisplayField>
+        <errorMessage>Zaznacz jedną z trzech odpowiedzi w jaki sposób hodowca zarządza ceną sprzedaży (przynajmniej jedną i nie więcej niż jedną odpowiedź).</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.Survey_Segmentation__c )}; 
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Segmentation_Survey</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Segmentation Survey</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/flow/SMT_Survey_Step_1_and_Step_2?varAccountAliasName={!Account.Name}&amp;varActiveUserRole={!Account.ActiveUserRole__c}&amp;varAccountId={!Account.Id}&amp;retURL={!Account.Id}</url>
+    </webLinks>
+</CustomObject>

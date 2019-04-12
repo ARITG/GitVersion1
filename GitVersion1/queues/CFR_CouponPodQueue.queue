@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>CFR_CouponPodQueue</name>
+    <queueMembers>
+        <users>
+            <user>gwen_hallenbeck@cargill.com</user>
+            <user>mary_harris@cargill.com.18</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Project__c</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>Account</object>
+        <objectField>Id</objectField>
+        <userField>Contact.Account</userField>
+    </accessMappings>
+    <description>For giving access to their own account for Community users</description>
+    <name>Account Access</name>
+    <profiles>Customer Community User</profiles>
+</SharingSet>

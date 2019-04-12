@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Gminy i Powiaty</value>
+    </caseValues>
+    <fields>
+        <label>Gmina</label>
+        <name>Community__c</name>
+    </fields>
+    <fields>
+        <label>Powiat</label>
+        <name>County__c</name>
+    </fields>
+    <fields>
+        <label>Wojew.-Powiat-Gmina</label>
+        <name>County_matrix__c</name>
+    </fields>
+    <fields>
+        <label>Województwo</label>
+        <name>District__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>County-Community-District Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- County-Community-District Name --></nameFieldLabel>
+    <webLinks>
+        <label>Masowe usuwanie</label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Project Group still open</span></font><br><br><font face="arial" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-size: 12pt;">Project ID:&nbsp;{!Project_Group__c.Id}</span></font><br><font face="arial"><span style="font-size: 12pt;">Customer: {!Project_Group__c.Account__c}</span><br><span style="font-size: 12pt;">Status: {!Project_Group__c.Status__c}</span><br><span style="font-size: 12pt;">Project Complete Date: </span>{!Project__c.Project_Delivery_Date__c}<br><span style="font-size: 12pt;">Frontline Marketing Coordinator:&nbsp;</span>{!Account.00N21000000UnWS}<br><br><span style="font-size: 12pt;">Click this <a href="{!Project_Group__c}">Link</a>&nbsp;to access the Project Group directly</span></font>]]></td>
+</tr>
+</table>

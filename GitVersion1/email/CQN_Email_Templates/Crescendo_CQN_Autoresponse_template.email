@@ -1,0 +1,30 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt; margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">We have received
+your email and Case Number&nbsp;</font></span><font face="Times New Roman, Times, serif">{!Case.CaseNumber} ,&nbsp;<span style="font-size: 12pt;">“</span>{!Case.Subject}<span style="font-size: 12pt;">” has been created and
+assigned to our Sales and Customer support team. Please save your Case Number
+for reference.</span></font></div><div style=""><font face="Times New Roman, Times, serif"><span style="font-size: 12pt;"><br></span></font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">We strive to get
+back to our customers within 24 hours if your request is received on a weekday.
+In case you have sent the request on a weekend or during a public holiday, we
+will try our best to respond by the first working day. </font></span></p><p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif"><br></font></span></p>
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">If you wish to add
+additional information to your request, or wish to follow up, please reply to
+this email and leave the subject line unchanged.</font></span></p>
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">&nbsp;</font></span></p>
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">Thank You </font></span></p>
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">Sales and Customer
+Support Team</font></span></p>
+
+<p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif">Cargill Aqua
+Nutrition North America</font></span></p><p style="margin: 0px;"><span style="margin: 0px;"><font color="#000000" face="Times New Roman,Times,Serif"><br></font></span></p><p style="margin: 0px;"><span style="margin: 0px;"><span style="font-family: &quot;Times New Roman&quot;, Times, serif; background-color: rgb(255, 255, 255);">{!Case.Thread_Id}&nbsp;</span></span></p>
+
+</div>]]></td>
+</tr>
+</table>

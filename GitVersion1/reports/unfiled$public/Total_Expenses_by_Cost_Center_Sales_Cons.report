@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Project_Group__c$Expense_Cost__c</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c$Account__c</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c$Name</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c.Expenses__r$Name</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Project_Group__c.Expenses__r$Cost_Center__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Project_Group__c.Expenses__r$Tactic_Code__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Total Expenses by Cost Center Sales Cons</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Project_Groups_with_Expenses__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Project_Group__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

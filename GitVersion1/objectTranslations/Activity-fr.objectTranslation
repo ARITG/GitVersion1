@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Date d&apos;échéance</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>due_date_activity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Adresse courriel</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>email_activity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Lié à</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>related_to_activity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Customer Status --></label>
+        <name>Account_Customer_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activity End date --></label>
+        <name>Activity_End_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Start Date --></label>
+        <name>Activity_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Approbation du numéro de requête</label>
+        <name>Approval_Request_No__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>Brésil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFN - China</masterLabel>
+            <translation><!-- CFN - China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - France</masterLabel>
+            <translation><!-- CPN - France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - India</masterLabel>
+            <translation><!-- CPN - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Poland</masterLabel>
+            <translation><!-- CPN - Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>Pays-Bas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>Pologne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain Mila</masterLabel>
+            <translation><!-- Spain Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>É-U</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Call Notes Updated --></label>
+        <name>Call_Notes_Updated__c</name>
+    </fields>
+    <fields>
+        <label>Annulé</label>
+        <name>Cancelled__c</name>
+    </fields>
+    <fields>
+        <label>Réclamation/Plainte</label>
+        <name>Claim_Complaint__c</name>
+    </fields>
+    <fields>
+        <label>Classe</label>
+        <name>Class__c</name>
+        <picklistValues>
+            <masterLabel>All Dairy</masterLabel>
+            <translation>Tous laitiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Equine</masterLabel>
+            <translation>Tous équins</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Multispecies</masterLabel>
+            <translation>Tous multi-espèces</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Piglets</masterLabel>
+            <translation>Tous porcelets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Rabbit</masterLabel>
+            <translation>Tous lapins</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeding Herd</masterLabel>
+            <translation>Troupeau d&apos;élevage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicken</masterLabel>
+            <translation>Poulet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicken Layers</masterLabel>
+            <translation>Poules Pondeuses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow/calf</masterLabel>
+            <translation>Veau / Vache</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dog</masterLabel>
+            <translation>Chien</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Canards</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedlot</masterLabel>
+            <translation>Parc d&apos;engraissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Chèvre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hogs</masterLabel>
+            <translation>Porcs</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Ruminants</masterLabel>
+            <translation>Autres ruminants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Mouton</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkeys</masterLabel>
+            <translation>Dindons</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact External Id --></label>
+        <name>Contact_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Activity Type --></label>
+        <name>DB_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Flag --></label>
+        <name>Due_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Update Field1 --></label>
+        <name>Dummy_Update_Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Related To Accounts --></label>
+        <name>Event_Related_To_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalRecurrenceActivityId --></label>
+        <name>ExternalRecurrenceActivityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Account Id --></label>
+        <name>External_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label>Code d&apos;identification externe</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Groupe</label>
+        <name>Group__c</name>
+        <picklistValues>
+            <masterLabel>Cattle - Beef</masterLabel>
+            <translation>Bovin - Boeuf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cattle - Dairy</masterLabel>
+            <translation>Bovin - Laitier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Équin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish</masterLabel>
+            <translation>Poisson</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layers</masterLabel>
+            <translation>Pondeuses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meat Poultry</masterLabel>
+            <translation>Viande de volaille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multispecies</masterLabel>
+            <translation>Multiespèces</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Nourriture pour chiens et chats</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piglets</masterLabel>
+            <translation>Porcelets</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Lapin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Petits ruminants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow &amp; Hogs</masterLabel>
+            <translation>Truies et porcs</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ready for Approval --></label>
+        <name>Is_Ready_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label>Cellulaire en premier</label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner&apos;s Manager Role Name --></label>
+        <name>Owner_s_Manager_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label>Fonction du produit</label>
+        <name>Product_Function__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tout</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boar</masterLabel>
+            <translation>Sanglier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeder</masterLabel>
+            <translation>Éleveur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow Calf</masterLabel>
+            <translation>Veau / Vache</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creep</masterLabel>
+            <translation>Dérobée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Cow</masterLabel>
+            <translation>Vache tarie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finisher</masterLabel>
+            <translation>Finition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower</masterLabel>
+            <translation>Croissance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower/Finisher</masterLabel>
+            <translation>Croissance/Finition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heifer</masterLabel>
+            <translation>Génisse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactating Meat</masterLabel>
+            <translation>Viande de race laitière</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactation</masterLabel>
+            <translation><!-- Lactation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>Pondeuses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk Replacer</masterLabel>
+            <translation>Lait de remplacement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Lait de remplacement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Piglet</masterLabel>
+            <translation>Autre porcelet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Starter</masterLabel>
+            <translation>Pré-début</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pullet</masterLabel>
+            <translation>Poulette</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow</masterLabel>
+            <translation>Truie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow Gestation</masterLabel>
+            <translation>Truie en gestation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starter</masterLabel>
+            <translation>Début veau</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Espèces</label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation>Boeuf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation>Poulet à griller</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation>Laitier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Canards</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Équin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Chèvre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation>Ingrédients</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>Pondeuses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Lait de remplacement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation>Autre Volaille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Nourriture pour chiens et chats</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation>Porc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Lapin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Mouton</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Petits ruminants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation>Spécialité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>Dinde</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Rappel pour céduler un suivi</label>
+        <name>Reminder_to_Schedule_Follow_Up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report LInk --></label>
+        <name>Report_Link__c</name>
+    </fields>
+    <fields>
+        <label>Ventes</label>
+        <name>Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saleslogic Id --></label>
+        <name>Saleslogic_Id__c</name>
+    </fields>
+    <fields>
+        <label>Segment/Créneau (Étape 1)</label>
+        <name>Segment__c</name>
+        <picklistValues>
+            <masterLabel>Aiden</masterLabel>
+            <translation><!-- Aiden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baxter</masterLabel>
+            <translation><!-- Baxter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dennis</masterLabel>
+            <translation><!-- Dennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kobe</masterLabel>
+            <translation><!-- Kobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mila</masterLabel>
+            <translation><!-- Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noah</masterLabel>
+            <translation><!-- Noah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonya</masterLabel>
+            <translation><!-- Sonya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spence</masterLabel>
+            <translation><!-- Spence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walton</masterLabel>
+            <translation><!-- Walton --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Département</label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label>Événement-type</label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Interaction</masterLabel>
+            <translation>Interaction consommateur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Preparation</masterLabel>
+            <translation>Préparation d&apos;événement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation>Foire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation>Bureau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>Appel téléphonique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect visit</masterLabel>
+            <translation>Visite de Prospect</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team Meeting</masterLabel>
+            <translation>Rencontre d&apos;équipe Ventes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation>Séminaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>Service</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation>Visite site</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation>Salon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>Formation</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time Taken (Hours) --></label>
+        <name>Time_Taken_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Interaction</masterLabel>
+            <translation><!-- Consumer Interaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Preparation</masterLabel>
+            <translation><!-- Event Preparation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation><!-- Phone Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team Meeting</masterLabel>
+            <translation><!-- Sales Team Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation><!-- Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation><!-- Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade show</masterLabel>
+            <translation><!-- Trade show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Visit Report --></label>
+        <name>Visit_Report__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Week no --></label>
+        <name>Week_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Month --></label>
+        <name>Year_Month__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- New_Event --></label>
+        <name>New_Event</name>
+    </webLinks>
+</CustomObjectTranslation>

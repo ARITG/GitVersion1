@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <content>NewRebateRequest</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>NewRebateRequest</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>RebateRequestView</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Actual_session_user__c</fullName>
+        <description>Actual active session user for dynamic filtering on grid views (works as &apos;me&apos;)</description>
+        <externalId>false</externalId>
+        <formula>$User.Role_Name__c</formula>
+        <label>Actual session user</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Rebate_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CAR_Account__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Rebate Requests (Payer)</relationshipLabel>
+        <relationshipName>Rebate_Requests</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CAR_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Manager Approved</fullName>
+                    <default>false</default>
+                    <label>Manager Approved</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cargill_Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please select correct request type</inlineHelpText>
+        <label>Request Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Rebate Request</fullName>
+                    <default>true</default>
+                    <label>Rebate Request</label>
+                </value>
+                <value>
+                    <fullName>Credit Limit</fullName>
+                    <default>false</default>
+                    <label>Credit Limit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Health_Actual_Margin__c</fullName>
+        <externalId>false</externalId>
+        <formula>CAR_Account__r.Customer_Health_Actual_Margin__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Health - Actual Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Health_Target_Margin__c</fullName>
+        <externalId>false</externalId>
+        <formula>CAR_Account__r.Customer_Health_Target_Margin__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Customer Health - Target Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ERP_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CAR_Account__r.ERP_Payer_Id__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ERP ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Include_Payer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Include Payer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Inform_Supervisor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Inform Supervisor</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Locked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Locked</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manager_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Manager.FirstName&amp;&quot; &quot;&amp;Owner:User.Manager.LastName</formula>
+        <label>Manager Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manager_Role__c</fullName>
+        <description>Manager Role for filtering on list views</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.Manager.Role_Name__c</formula>
+        <label>Manager Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Needs_Manager_Approval__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Needs Manager Approval</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Role__c</fullName>
+        <description>Owner Role for easy filtering on grid view</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.Role_Name__c</formula>
+        <label>Owner Role</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Parent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent Rebate Request</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>$Source.CAR_Account__c</field>
+                <operation>equals</operation>
+                <valueField>CAR_RebateReqs__c.CAR_Account__r.Id</valueField>
+            </filterItems>
+            <filterItems>
+                <field>$Source.Id</field>
+                <operation>notEqual</operation>
+                <valueField>CAR_RebateReqs__c.Id</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>CAR_RebateReqs__c</referenceTo>
+        <relationshipLabel>Rebate Requests</relationshipLabel>
+        <relationshipName>Rebate_Requests</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Payer_Account_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>CAR_Account__r.RecordType.DeveloperName</formula>
+        <label>Payer Account Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rejection_checkbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rejection checkbox</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Req_Processing_Log__c</fullName>
+        <externalId>false</externalId>
+        <label>Req Processing Log</label>
+        <length>1500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Second_Manager_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Second Manager Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Valid_From__c</fullName>
+        <externalId>false</externalId>
+        <label>Valid From</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Valid_To__c</fullName>
+        <externalId>false</externalId>
+        <label>Valid To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>Rebate Request</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>All (mine only)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Completed</fullName>
+        <columns>NAME</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <label>All Completed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>Global_Admin</role>
+            <role>Poland_MasterData_DataSteward</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Data_Steward_Approved</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <label>All Data Steward Approved</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ended_In_Last_3_days</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:3</value>
+        </filters>
+        <label>All Ended In Last 3 days (only mine)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ended_In_Last_3_days_all</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:3</value>
+        </filters>
+        <label>All Ended In Last 3 days (all)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ending_In_Next_14_days</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:14</value>
+        </filters>
+        <label>All Ending In Next 14 days (only mine)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ending_In_Next_3_days</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:3</value>
+        </filters>
+        <label>All Ending In Next 3 days (only mine)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ending_In_Next_3_days_all</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:3</value>
+        </filters>
+        <label>All Ending In Next 3 days (all)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ending_In_Next_7_days</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:7</value>
+        </filters>
+        <label>All Ending In Next 7 days (only mine)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Ending_In_Next_7_days_all</fullName>
+        <columns>Valid_To__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+            <value>NEXT_N_DAYS:7</value>
+        </filters>
+        <label>All Ending In Next 7 days (all)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Manager_Approved_awaiting_for_DS</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Payer_Account_Record_Type__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approved</value>
+        </filters>
+        <label>All Manager Approved (awaiting for DS)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Manager_Approved_awaiting_for_DS_Payer_rec_type_std</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Payer_Account_Record_Type__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approved</value>
+        </filters>
+        <filters>
+            <field>Payer_Account_Record_Type__c</field>
+            <operation>equals</operation>
+            <value>Commercial Customer</value>
+        </filters>
+        <label>All Manager Approved (for DS Standard t)</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_No_Ending_Date</fullName>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>NAME</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>Locked__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Valid_To__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>All No Ending Date</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Rejected</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>All Rejected</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Sent</fullName>
+        <columns>NAME</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted,Manager Approved,Approved</value>
+        </filters>
+        <label>All Sent</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>Global_Admin</role>
+            <role>Poland_MasterData_DataSteward</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Sent_Manager_approval_not_needed</fullName>
+        <columns>NAME</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>Cargill_Request_Type__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approved,Approved</value>
+        </filters>
+        <filters>
+            <field>Needs_Manager_Approval__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Sent Manager approval not needed</label>
+        <language>en_US</language>
+        <sharedTo>
+            <role>Global_Admin</role>
+            <role>Poland_MasterData_DataSteward</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Submitted</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <label>All Submitted and Manager Awaiting</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Submitted_NowakS</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>Manager_Role__c</field>
+            <operation>contains</operation>
+            <value>nowak</value>
+        </filters>
+        <label>Do zatwierdzenia przez Sławka Nowaka</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>All_requests</fullName>
+        <columns>NAME</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>Manager_Role__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>All (all requests)</label>
+    </listViews>
+    <listViews>
+        <fullName>Approved_Karczewska</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approved</value>
+        </filters>
+        <filters>
+            <field>Assigned_To__c</field>
+            <operation>contains</operation>
+            <value>gawrońska</value>
+        </filters>
+        <label>Wnioski zatw. tylko przez Karczewska</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Approved_Wojtek</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Manager Approved</value>
+        </filters>
+        <filters>
+            <field>Assigned_To__c</field>
+            <operation>contains</operation>
+            <value>chociejowski</value>
+        </filters>
+        <label>Wnioski zatw. tylko przez Wojtka K</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Approved_by_DS_Karczewska</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <filters>
+            <field>Manager_Name__c</field>
+            <operation>contains</operation>
+            <value>gawrońska</value>
+        </filters>
+        <label>Wnioski zatw. przez Ceny dot. Karczewska</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Approved_by_DS_Wojtka</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <filters>
+            <field>Manager_Role__c</field>
+            <operation>contains</operation>
+            <value>poultry eggs</value>
+        </filters>
+        <label>Wnioski zatw. przez Ceny dot. Wojtka K</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Awaiting_Karczewska</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>Actual_session_user__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>Manager_Name__c</field>
+            <operation>contains</operation>
+            <value>gawrońska</value>
+        </filters>
+        <label>Wnioski do zatwierdzenia Karczewska</label>
+        <language>en_US</language>
+        <sharedTo/>
+    </listViews>
+    <listViews>
+        <fullName>Wnioski_oczekuj_ce_na_akceptacj_M_Rydl</fullName>
+        <columns>NAME</columns>
+        <columns>ERP_ID__c</columns>
+        <columns>CAR_Account__c</columns>
+        <columns>Valid_From__c</columns>
+        <columns>Valid_To__c</columns>
+        <columns>CAR_Status__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Manager_Role__c</columns>
+        <columns>Manager_Name__c</columns>
+        <columns>Needs_Manager_Approval__c</columns>
+        <columns>Inform_Supervisor__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CAR_Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>contains</operation>
+            <value>kornacki,sikorski</value>
+        </filters>
+        <label>Wnioski oczekujące na akceptację M. Rydl</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>RR-{00000}</displayFormat>
+        <label>Rebate Request Id</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Rebate Requests</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CAR_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CAR_Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ERP_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Valid_From__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Valid_To__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Needs_Manager_Approval__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Inform_Supervisor__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>UPDATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <listViewButtons>Mass_Delete</listViewButtons>
+        <lookupDialogsAdditionalFields>CAR_Account__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CAR_Status__c</lookupDialogsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Inform_Supervisor</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( Inform_Supervisor__c , NOT(Needs_Manager_Approval__c))</errorConditionFormula>
+        <errorMessage>Cannot check Inform Supervisor field if Needs Manager field is not checked.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rebate_Request_Lock_Check</fullName>
+        <active>true</active>
+        <errorConditionFormula>Locked__c</errorConditionFormula>
+        <errorMessage>Rebate Request Record is Locked. Rebate Request cannot be created, edited, or deleted.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Request_must_be_on_Payer_only</fullName>
+        <active>true</active>
+        <description>Cannot create a request for an account having another parent account.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(CAR_Account__r.ParentId)),NOT(ISPICKVAL(CAR_Account__r.Parent.Type,&quot;Buying Group&quot;)))</errorConditionFormula>
+        <errorDisplayField>CAR_Account__c</errorDisplayField>
+        <errorMessage>Rebate Request can be only created for the payer. Your account has parent account. Only parent account is acceptable if it is Buying Group.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ValidFromValidation</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL(Valid_From__c )</errorConditionFormula>
+        <errorDisplayField>Valid_From__c</errorDisplayField>
+        <errorMessage>You must enter a value</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.CAR_RebateReqs__c )}; 
+
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

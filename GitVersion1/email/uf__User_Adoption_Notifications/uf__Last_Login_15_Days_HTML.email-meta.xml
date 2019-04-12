@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Last Login 15 Days HTML</name>
+    <style>none</style>
+    <subject>15 Days of Salesforce.com Inactivity - Please Login</subject>
+    <textOnly>Hello {!uf__User_Status__c.uf__User__c}, 
+
+You have not logged into Salesforce.com in 15 days. Is something wrong? Is there something that we can help you with? 
+
+Please login to Salesforce.com and visit this link: 
+https://na9.salesforce.com/{!uf__User_Status__c.Id} 
+
+Please update this record with an explanation of why you have been inactive. 
+
+Please click this link if you no longer need access to Salesforce.com (be careful): 
+I DO NOT NEED A SALESFORCE LICENSE ANY LONGER
+https://usageforce-developer-edition.na9.force.com/uf__noneed?sid={!uf__User_Status__c.Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

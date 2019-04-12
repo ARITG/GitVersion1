@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Project_Groups__r$Sales_Consultant_New__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r$BCOrderId__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Account.Project_Groups__r$Total_Including_Tax__c</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r.Expenses__r$Cost_Center__c</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r.Expenses__r$Tactic_Code__c</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r$Campaign__c</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r$Customer_Message__c</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r.Expenses__r$Name</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Baxter Campaign Report with GL Coding</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Project_Groups__r$Campaign__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Project_Groups__r$Designate_Payment_Type__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Bill Cargill (Consultant Use Only)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Project_Groups__r$Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Delayed,Cancelled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Project_Groups__r$BC_Customer_Group__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Baxter,New Cargill Consultant</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Project_Groups__r.Expenses__r$Tactic_Code__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CFR.com description 640101.204</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>BX Campaign Report_GL Codes.204</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Project_Groups__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Project_Groups__r$Sales_Consultant_New__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account.Project_Groups__r$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

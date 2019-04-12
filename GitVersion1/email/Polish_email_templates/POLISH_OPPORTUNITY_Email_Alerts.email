@@ -1,0 +1,5 @@
+Witam {!Opportunity.OwnerFirstName},
+
+To jest przypomnienie dla szansy sprzedażowej {!Opportunity.Name}.  Przewidywana data zamkniecia to {!Opportunity.CloseDate}.
+
+Kliknij na ten link, aby uzyskać dostęp do Opportunity: {!Opportunity.Link}

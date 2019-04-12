@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Statut utilisateur</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Statut utilisateur</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adoption Champion --></label>
+        <name>uf__Adoption_Champion__c</name>
+        <relationshipLabel><!-- User Status (Adoption Champion) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost of Inactivity --></label>
+        <name>uf__Cost_of_Inactivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost per Salesforce License --></label>
+        <name>uf__Cost_per_Salesforce_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Last Login --></label>
+        <name>uf__Date_of_Last_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Since Login --></label>
+        <name>uf__Days_Since_Login__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactivity Explanation --></label>
+        <name>uf__Inactivity_Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager --></label>
+        <name>uf__Manager__c</name>
+        <relationshipLabel><!-- User Status (Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- To be filled in by inactive user --></help>
+        <label><!-- Reason for Inactivity --></label>
+        <name>uf__Reason_for_Inactivity__c</name>
+        <picklistValues>
+            <masterLabel>Approved Absence</masterLabel>
+            <translation><!-- Approved Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Travel</masterLabel>
+            <translation><!-- Business Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday / Vacation</masterLabel>
+            <translation><!-- Holiday / Vacation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Need Salesforce</masterLabel>
+            <translation><!-- No Longer Need Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Type --></label>
+        <name>uf__Status_Type__c</name>
+        <picklistValues>
+            <masterLabel>Inactivity</masterLabel>
+            <translation><!-- Inactivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never Logged In</masterLabel>
+            <translation><!-- Never Logged In --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the message that should be auto posted to the User&apos;s chatter, e.g. &quot;I haven&apos;t logged in for a while, please give some encouragement!&quot;  Set via Workflow Field Update. --></help>
+        <label><!-- User Chatter Message --></label>
+        <name>uf__User_Chatter_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Email --></label>
+        <name>uf__User_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>uf__User__c</name>
+        <relationshipLabel><!-- User Status (User) --></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel><!-- Status ID --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Create_Task_for_User --></label>
+        <name>uf__Create_Task_for_User</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate_User --></label>
+        <name>uf__Deactivate_User</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_User --></label>
+        <name>uf__Email_User</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- Hello,
+
+You have not logged into Salesforce.com in 60 days.  Please login and explain why you have been inactive. --></description>
+        <name>uf__Explain_the_60_days_of_inactivity</name>
+        <subject><!-- Explain the 60 days of inactivity --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Hello, it has been identified that you have not logged into Salesforce.com in a while.  Please login to Salesforce immediately at https://login.salesforce.com and mark this task as completed. --></description>
+        <name>uf__Please_Login_to_Salesforce_com</name>
+        <subject><!-- Please Login to Salesforce.com --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

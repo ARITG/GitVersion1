@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>MEMBER_NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Tom	Junglen</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Daniel Lacoss</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Jonathan	Marcotte</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Collin McCarthy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Connor McCluskey</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Gary Moore</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Sarah Nickerson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>John O&apos;Hare</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mallory Perkins</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Paul Preston</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Timothy Putnam</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Brad	 Saunders</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Russ Saville</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Phil Scully</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mark	 Spoor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Allyn Tubbs</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Ed Varnam</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Marty Waterman</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Clayton Wood</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT_OWNER_NAME</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Allyssa Yole</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT_OWNER_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>US - Northeast Region Account &amp; Team II</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountTeam</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

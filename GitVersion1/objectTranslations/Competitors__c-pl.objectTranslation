@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Powiązane konto</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Powiązane konta</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Competitor_FS_Input_OMSN --></label>
+        <name>Competitor_FS_Input_OMSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Competitor_FS_Input_OMSY --></label>
+        <name>Competitor_FS_Input_OMSY</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Competitor_FS_Readonly_OMSN --></label>
+        <name>Competitor_FS_Readonly_OMSN</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Competitor_FS_Readonly_OMSY --></label>
+        <name>Competitor_FS_Readonly_OMSY</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Potential_Calc_Comp_CC --></label>
+        <name>Potential_Calc_Comp_CC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Potential_Calc_Comp_DAC --></label>
+        <name>Potential_Calc_Comp_DAC</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Potential_Calc_Comp_SPE --></label>
+        <name>Potential_Calc_Comp_SPE</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Potential_Calc_Comp_SVE --></label>
+        <name>Potential_Calc_Comp_SVE</name>
+    </fieldSets>
+    <fields>
+        <label>Konto nadrzędne</label>
+        <name>Account_Standard_Commercial__c</name>
+        <relationshipLabel>Konta powiązane (Konkurent/Strona trzecia)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Współczynnik konwersji CFE</label>
+        <name>CFE_Conversion_Factor__c</name>
+    </fields>
+    <fields>
+        <label>Dostawy CFE</label>
+        <name>CFE_Shipments_NDA__c</name>
+    </fields>
+    <fields>
+        <help>Szacowane dostawy Konkurenta A * Współczynnik konwersji CFE</help>
+        <label>Dostawy CFE</label>
+        <name>CFE_Shipments__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa konkurenta</label>
+        <name>Competitor_Name__c</name>
+    </fields>
+    <fields>
+        <label>Konkurent</label>
+        <name>Competitor__c</name>
+        <relationshipLabel>Konta powiązane (Konkurenci)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kontrybucja Cargill</label>
+        <name>Contribution_Cg__c</name>
+    </fields>
+    <fields>
+        <label>Kontrybucja</label>
+        <name>Contribution_NDA__c</name>
+    </fields>
+    <fields>
+        <label>Kontrybucja</label>
+        <name>Contribution__c</name>
+    </fields>
+    <fields>
+        <label>Waluta / MT</label>
+        <name>MT__c</name>
+    </fields>
+    <fields>
+        <label>Główny</label>
+        <name>Main__c</name>
+    </fields>
+    <fields>
+        <help>Używaj tego pola wyłącznie w przypadku gdy chcesz utworzyć powiązanie między Konkurentem a Szansą Sprzedażową</help>
+        <label>Szansa sprzedażowa</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel>Konkurenci / Strony Trzecie</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Account Id --></label>
+        <name>Parent_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account Type --></label>
+        <name>Parent_Account_Type__c</name>
+    </fields>
+    <fields>
+        <label>Konto nadrzędne</label>
+        <name>Parent__c</name>
+    </fields>
+    <fields>
+        <label>Szacowane dostawy</label>
+        <name>Predicted_Shipments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>Related_Account__c</name>
+    </fields>
+    <fields>
+        <label>Udział [%]</label>
+        <name>Share__c</name>
+    </fields>
+    <fields>
+        <label>Strona trzecia</label>
+        <name>Third_Party__c</name>
+        <relationshipLabel>Konta powiązane (Third Parties)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Tony dostarczone</label>
+        <name>Tonnes_Supplied__c</name>
+    </fields>
+    <fields>
+        <label>Ilość zwierząt (źródło zewnętrzne)</label>
+        <name>Total_Animals__c</name>
+    </fields>
+    <fields>
+        <label>Powiązane konto nadrzędne</label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label>Wolumen w T</label>
+        <name>Volume__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Account Third Party Layout</layout>
+        <sections>
+            <label>Konkurent</label>
+            <section>Competitor</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General</layout>
+        <sections>
+            <label>Konkurent</label>
+            <section>Competitor</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Competitors Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Related Accounts Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Related Accounts No. --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- For adding Third Party on Accounts --></description>
+        <label>Konto</label>
+        <name>Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Adding related Competitors to an Opportunity --></description>
+        <label>Okazje biznesowe</label>
+        <name>Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Konto nadrzędne i konto powiazane nie mogą być takie same. Proszę podaj inne konto powiązane.</errorMessage>
+        <name>Parent_and_Related_Account_NOT_Same</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Record Type of Parent and Related Account can&apos;t be same. Please select a different Record Type Account. --></errorMessage>
+        <name>Record_Type_cannot_be_same</name>
+    </validationRules>
+    <webLinks>
+        <label>Utwórz powiązanie z kontami współpracującymi</label>
+        <name>New_Related_Competitor_Third_Party</name>
+    </webLinks>
+    <webLinks>
+        <label>Utwórz powiązanie z kontami współpracującymi</label>
+        <name>New_Third_Party</name>
+    </webLinks>
+</CustomObjectTranslation>

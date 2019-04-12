@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Crescendo Manuals</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>window.location.href = &quot;{!IF(    ISPICKVAL( $User.Country_Code__c , &quot;PL&quot;) , &quot;https://team.cargill.com/sites/PolandSales/CRM/Shared%20Documents/20.%20Szkolenia&quot;, &quot;https://cargillonline.sharepoint.com/sites/CFNPolandCRMDeployment/Shared%20Documents/CAN%20SFDC%20Global%20Template/Final%20GAT%20Deliverables/Training%20Documentation&quot;)}&quot;</url>
+</CustomPageWebLink>

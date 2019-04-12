@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Cost_Center__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Center</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Show-Sunglo 551741</fullName>
+                    <default>false</default>
+                    <label>Show-Sunglo 551741</label>
+                </value>
+                <value>
+                    <fullName>Go To Market 555747</fullName>
+                    <default>false</default>
+                    <label>Go To Market 555747</label>
+                </value>
+                <value>
+                    <fullName>US Sonya Sales 555850</fullName>
+                    <default>false</default>
+                    <label>US Sonya Sales 555850</label>
+                </value>
+                <value>
+                    <fullName>US Baxter Sales 555855</fullName>
+                    <default>false</default>
+                    <label>US Baxter Sales 555855</label>
+                </value>
+                <value>
+                    <fullName>Beef Sales 555861</fullName>
+                    <default>false</default>
+                    <label>Beef Sales 555861</label>
+                </value>
+                <value>
+                    <fullName>Commercial Marketing 555810</fullName>
+                    <default>false</default>
+                    <label>Commercial Marketing 555810</label>
+                </value>
+                <value>
+                    <fullName>Tractor Supply 551746</fullName>
+                    <default>false</default>
+                    <label>Tractor Supply 551746</label>
+                </value>
+                <value>
+                    <fullName>Midstates 551748</fullName>
+                    <default>false</default>
+                    <label>Midstates 551748</label>
+                </value>
+                <value>
+                    <fullName>SSC Marketing 561810</fullName>
+                    <default>false</default>
+                    <label>SSC Marketing 561810</label>
+                </value>
+                <value>
+                    <fullName>Show/Pet Sales 555901</fullName>
+                    <default>false</default>
+                    <label>Show/Pet Sales 555901</label>
+                </value>
+                <value>
+                    <fullName>Innovation/NPSS 555800</fullName>
+                    <default>false</default>
+                    <label>Innovation/NPSS 555800</label>
+                </value>
+                <value>
+                    <fullName>MarComms 551745</fullName>
+                    <default>false</default>
+                    <label>MarComms 551745</label>
+                </value>
+                <value>
+                    <fullName>Dairy Sales 555863</fullName>
+                    <default>false</default>
+                    <label>Dairy Sales 555863</label>
+                </value>
+                <value>
+                    <fullName>Channel Sponsor 555903</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Channel Sponsor 555903</label>
+                </value>
+                <value>
+                    <fullName>Channel Sponsorships cost center 555903</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Channel Sponsorships cost center 555903</label>
+                </value>
+                <value>
+                    <fullName>Equine 551742</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Equine 551742</label>
+                </value>
+                <value>
+                    <fullName>Go To Market</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Go To Market</label>
+                </value>
+                <value>
+                    <fullName>Innovation 555850</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Innovation 555850</label>
+                </value>
+                <value>
+                    <fullName>Pet 551755</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Pet 551755</label>
+                </value>
+                <value>
+                    <fullName>Poultry 551744</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Poultry 551744</label>
+                </value>
+                <value>
+                    <fullName>US Noah Feedlot Sales 555860</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>US Noah Feedlot Sales 555860</label>
+                </value>
+                <value>
+                    <fullName>Wildlife 551743</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Wildlife 551743</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Cost__c</fullName>
+        <description>CCMAP-132</description>
+        <externalId>false</externalId>
+        <label>Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Customer__c</fullName>
+        <externalId>false</externalId>
+        <formula>Project_Group_MD__r.Account__r.Name</formula>
+        <label>Customer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expense_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expense_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Project_Group_MD__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Group</label>
+        <referenceTo>Project_Group__c</referenceTo>
+        <relationshipLabel>Expenses</relationshipLabel>
+        <relationshipName>Expenses</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Project__c.Project_Group__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.Project_Group_MD__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Expenses</relationshipLabel>
+        <relationshipName>Expenses</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Tactic_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Tactic Code</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Cost_Center__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>National Tradeshows 640101.118</fullName>
+                    <default>false</default>
+                    <label>National Tradeshows 640101.118</label>
+                </value>
+                <value>
+                    <fullName>National Sponsorships 640101.150</fullName>
+                    <default>false</default>
+                    <label>National Sponsorships 640101.150</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Business Builder 640101.13</fullName>
+                    <default>false</default>
+                    <label>Business Builder 640101.13</label>
+                </value>
+                <value>
+                    <fullName>Stock Print - Imagine 640101.140</fullName>
+                    <default>false</default>
+                    <label>Stock Print - Imagine 640101.140</label>
+                </value>
+                <value>
+                    <fullName>Stock Wearable - Staples 640101.151</fullName>
+                    <default>false</default>
+                    <label>Stock Wearable - Staples 640101.151</label>
+                </value>
+                <value>
+                    <fullName>Custom Wearables 640101.290</fullName>
+                    <default>false</default>
+                    <label>Custom Wearables 640101.290</label>
+                </value>
+                <value>
+                    <fullName>Custom Projects 640101.201</fullName>
+                    <default>false</default>
+                    <label>Custom Projects 640101.201</label>
+                </value>
+                <value>
+                    <fullName>Channel Specific Promo 640101.204</fullName>
+                    <default>false</default>
+                    <label>Channel Specific Promo 640101.204</label>
+                </value>
+                <value>
+                    <fullName>Aluminum Signage 640101.153</fullName>
+                    <default>false</default>
+                    <label>Aluminum Signage 640101.153</label>
+                </value>
+                <value>
+                    <fullName>Dealer/Regional Sales Mtgs 640101.208</fullName>
+                    <default>false</default>
+                    <label>Dealer/Regional Sales Mtgs 640101.208</label>
+                </value>
+                <value>
+                    <fullName>Customer Expense (club rewards, dealer events, etc) 640101.200</fullName>
+                    <default>false</default>
+                    <label>Customer Expense (club rewards, dealer events, etc) 640101.200</label>
+                </value>
+                <value>
+                    <fullName>Regional Tradeshows 640101.260</fullName>
+                    <default>false</default>
+                    <label>Regional Tradeshows 640101.260</label>
+                </value>
+                <value>
+                    <fullName>Customer tradeshow 640101.261</fullName>
+                    <default>false</default>
+                    <label>Customer tradeshow 640101.261</label>
+                </value>
+                <value>
+                    <fullName>Adhoc sponsorships 640101.250</fullName>
+                    <default>false</default>
+                    <label>Adhoc sponsorships 640101.250</label>
+                </value>
+                <value>
+                    <fullName>Channel Sponsorship 640101.149</fullName>
+                    <default>false</default>
+                    <label>Channel Sponsorship 640101.149</label>
+                </value>
+                <value>
+                    <fullName>Customer Purchased Mkg 640101.270</fullName>
+                    <default>false</default>
+                    <label>Customer Purchased Mkg 640101.270</label>
+                </value>
+                <value>
+                    <fullName>Stock Print/production 640101.140</fullName>
+                    <default>false</default>
+                    <label>Stock Print/production 640101.140</label>
+                </value>
+                <value>
+                    <fullName>Stock Wearables 640101.151</fullName>
+                    <default>false</default>
+                    <label>Stock Wearables 640101.151</label>
+                </value>
+                <value>
+                    <fullName>CFR.com description 640101.204</fullName>
+                    <default>false</default>
+                    <label>CFR.com description 640101.204</label>
+                </value>
+                <value>
+                    <fullName>CFR.com (Limited Use) 640101.204</fullName>
+                    <default>false</default>
+                    <label>CFR.com (Limited Use) 640101.204</label>
+                </value>
+                <value>
+                    <fullName>Rural King Marketing fund 640101.153</fullName>
+                    <default>false</default>
+                    <label>Rural King Marketing fund 640101.153</label>
+                </value>
+                <value>
+                    <fullName>Print Production 640101.140</fullName>
+                    <default>false</default>
+                    <label>Print Production 640101.140</label>
+                </value>
+                <value>
+                    <fullName>GEM Fund 640101.95</fullName>
+                    <default>false</default>
+                    <label>GEM Fund 640101.95</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114.EQ</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114.EQ</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116.EQ</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116.EQ</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130.EQ</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130.EQ</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135.EQ</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135.EQ</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114.FF</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114.FF</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116.FF</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116.FF</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130.FF</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130.FF</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135.FF</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135.FF</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114.MS</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114.MS</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116.MS</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116.MS</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130.MS</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130.MS</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135.MS</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135.MS</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114.PY</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114.PY</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116.PY</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116.PY</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130.PY</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130.PY</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135.PY</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135.PY</label>
+                </value>
+                <value>
+                    <fullName>Media/PR 640101.114.WD</fullName>
+                    <default>false</default>
+                    <label>Media/PR 640101.114.WD</label>
+                </value>
+                <value>
+                    <fullName>Market Research 640101.116.WD</fullName>
+                    <default>false</default>
+                    <label>Market Research 640101.116.WD</label>
+                </value>
+                <value>
+                    <fullName>Creative Support 640101.130.WD</fullName>
+                    <default>false</default>
+                    <label>Creative Support 640101.130.WD</label>
+                </value>
+                <value>
+                    <fullName>Account Mgmt &amp; Support 640101.135.WD</fullName>
+                    <default>false</default>
+                    <label>Account Mgmt &amp; Support 640101.135.WD</label>
+                </value>
+                <value>
+                    <fullName>Stock Promotional Items 640101.151.WD</fullName>
+                    <default>false</default>
+                    <label>Stock Promotional Items 640101.151.WD</label>
+                </value>
+                <value>
+                    <fullName>Wholesale Feed Incentive Program (GEM) 640101.95</fullName>
+                    <default>false</default>
+                    <label>Wholesale Feed Incentive Program (GEM) 640101.95</label>
+                </value>
+                <value>
+                    <fullName>SHOW Program 640101.86</fullName>
+                    <default>false</default>
+                    <label>SHOW Program 640101.86</label>
+                </value>
+                <value>
+                    <fullName>Vet Clinic/Riding Program Incentive Program 640101.29</fullName>
+                    <default>false</default>
+                    <label>Vet Clinic/Riding Program Incentive Program 640101.29</label>
+                </value>
+                <value>
+                    <fullName>Rider/Trainer Sponsorships 640101.44</fullName>
+                    <default>false</default>
+                    <label>Rider/Trainer Sponsorships 640101.44</label>
+                </value>
+                <value>
+                    <fullName>Certified Equine Specialist/Consultant Program 640101.96</fullName>
+                    <default>false</default>
+                    <label>Certified Equine Specialist/Consultant Program 640101.96</label>
+                </value>
+                <value>
+                    <fullName>Livestock/Equine Events/Promo Items (Feed Consultant-related sponsorships) 640101.88</fullName>
+                    <default>false</default>
+                    <label>Livestock/Equine Events/Promo Items (Feed Consultant-related sponsorships) 640101.88</label>
+                </value>
+                <value>
+                    <fullName>Beef Marketing (not for new items/projects) 640101.87</fullName>
+                    <default>false</default>
+                    <label>Beef Marketing (not for new items/projects) 640101.87</label>
+                </value>
+                <value>
+                    <fullName>Poultry Marketing 640101.54</fullName>
+                    <default>false</default>
+                    <label>Poultry Marketing 640101.54</label>
+                </value>
+                <value>
+                    <fullName>Dairy Marketing 640101.97</fullName>
+                    <default>false</default>
+                    <label>Dairy Marketing 640101.97</label>
+                </value>
+                <value>
+                    <fullName>Club Master Program 640101.89</fullName>
+                    <default>false</default>
+                    <label>Club Master Program 640101.89</label>
+                </value>
+                <value>
+                    <fullName>Feed Literature reprints 640101.55</fullName>
+                    <default>false</default>
+                    <label>Feed Literature reprints 640101.55</label>
+                </value>
+                <value>
+                    <fullName>Carper/Callicutt D-Funds 640101.204</fullName>
+                    <default>false</default>
+                    <label>Carper/Callicutt D-Funds 640101.204</label>
+                </value>
+                <value>
+                    <fullName>FeedMaster 640101.90</fullName>
+                    <default>false</default>
+                    <label>FeedMaster 640101.90</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Channel Specific Promo 640101.204</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Aluminum Signage 640101.153</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <controllingFieldValue>US Baxter Sales 555855</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Dealer/Regional Sales Mtgs 640101.208</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <controllingFieldValue>US Baxter Sales 555855</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Customer Expense (club rewards, dealer events, etc) 640101.200</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Regional Tradeshows 640101.260</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>Tractor Supply 551746</controllingFieldValue>
+                <controllingFieldValue>Midstates 551748</controllingFieldValue>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <controllingFieldValue>US Baxter Sales 555855</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Customer tradeshow 640101.261</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Commercial Marketing 555810</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>Adhoc sponsorships 640101.250</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Show/Pet Sales 555901</controllingFieldValue>
+                <controllingFieldValue>Go To Market 555747</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Stock Print/production 640101.140</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Show/Pet Sales 555901</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Media/PR 640101.114</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Show/Pet Sales 555901</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Market Research 640101.116</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Show/Pet Sales 555901</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Creative Support 640101.130</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy Sales 555863</controllingFieldValue>
+                <controllingFieldValue>Show/Pet Sales 555901</controllingFieldValue>
+                <controllingFieldValue>Innovation/NPSS 555800</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tractor Supply 551746</controllingFieldValue>
+                <controllingFieldValue>Show-Sunglo 551741</controllingFieldValue>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <controllingFieldValue>US Baxter Sales 555855</controllingFieldValue>
+                <controllingFieldValue>Beef Sales 555861</controllingFieldValue>
+                <valueName>CFR.com description 640101.204</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <controllingFieldValue>US Baxter Sales 555855</controllingFieldValue>
+                <valueName>Channel Sponsorship 640101.149</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Wholesale Feed Incentive Program (GEM) 640101.95</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>SHOW Program 640101.86</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Vet Clinic/Riding Program Incentive Program 640101.29</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Rider/Trainer Sponsorships 640101.44</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Certified Equine Specialist/Consultant Program 640101.96</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Livestock/Equine Events/Promo Items (Feed Consultant-related sponsorships) 640101.88</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Beef Marketing (not for new items/projects) 640101.87</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Poultry Marketing 640101.54</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Dairy Marketing 640101.97</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Club Master Program 640101.89</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>Feed Literature reprints 640101.55</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SSC Marketing 561810</controllingFieldValue>
+                <valueName>FeedMaster 640101.90</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Show-Sunglo 551741</controllingFieldValue>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>National Tradeshows 640101.118</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Show-Sunglo 551741</controllingFieldValue>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>National Sponsorships 640101.150</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Go To Market 555747</controllingFieldValue>
+                <valueName>Business Builder 640101.13</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Go To Market 555747</controllingFieldValue>
+                <valueName>Customer Purchased Mkg 640101.270</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Go To Market 555747</controllingFieldValue>
+                <valueName>Stock Wearables 640101.151</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Go To Market 555747</controllingFieldValue>
+                <valueName>CFR.com (Limited Use) 640101.204</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>US Sonya Sales 555850</controllingFieldValue>
+                <valueName>Rural King Marketing fund 640101.153</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Media/PR 640101.114.EQ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Market Research 640101.116.EQ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Creative Support 640101.130.EQ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135.EQ</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Media/PR 640101.114.FF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Market Research 640101.116.FF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Creative Support 640101.130.FF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135.FF</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Media/PR 640101.114.MS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Market Research 640101.116.MS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Creative Support 640101.130.MS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135.MS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Media/PR 640101.114.PY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Market Research 640101.116.PY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Creative Support 640101.130.PY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135.PY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Media/PR 640101.114.WD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Market Research 640101.116.WD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Creative Support 640101.130.WD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Account Mgmt &amp; Support 640101.135.WD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MarComms 551745</controllingFieldValue>
+                <valueName>Stock Promotional Items 640101.151.WD</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Including_Tax__c</fullName>
+        <externalId>false</externalId>
+        <formula>Project_Group_MD__r.Total_Including_Tax__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Including Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Expense</label>
+    <nameField>
+        <displayFormat>E-{0000000}</displayFormat>
+        <label>Expense Name</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Expenses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Project_Validation</fullName>
+        <active>true</active>
+        <description>Selected Project should be of same Project Group.</description>
+        <errorConditionFormula>AND( NOT(ISBLANK( Project__c )), Project_Group_MD__r.Name&lt;&gt;  Project__r.Project_Group__r.Name )</errorConditionFormula>
+        <errorDisplayField>Project__c</errorDisplayField>
+        <errorMessage>Selected Project should be of same Project Group.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

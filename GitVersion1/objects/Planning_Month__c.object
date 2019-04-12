@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ASM_JFW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ASM JFW</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Activity_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity_End_Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Approver_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver 1</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Planning_Months</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approver_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approver 2</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Planning_Months1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Planned__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Days Planned</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Half__c</fullName>
+        <externalId>false</externalId>
+        <label>First Half</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Holiday</fullName>
+                    <default>false</default>
+                    <label>Holiday</label>
+                </value>
+                <value>
+                    <fullName>Customer Visit</fullName>
+                    <default>false</default>
+                    <label>Customer Visit</label>
+                </value>
+                <value>
+                    <fullName>Group Meeting,</fullName>
+                    <default>false</default>
+                    <label>Group Meeting,</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
+                </value>
+                <value>
+                    <fullName>Transit</fullName>
+                    <default>false</default>
+                    <label>Transit</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Branch Visit</fullName>
+                    <default>false</default>
+                    <label>Branch Visit</label>
+                </value>
+                <value>
+                    <fullName>Regional Office</fullName>
+                    <default>false</default>
+                    <label>Regional Office</label>
+                </value>
+                <value>
+                    <fullName>Dog Show</fullName>
+                    <default>false</default>
+                    <label>Dog Show</label>
+                </value>
+                <value>
+                    <fullName>Exhibition</fullName>
+                    <default>false</default>
+                    <label>Exhibition</label>
+                </value>
+                <value>
+                    <fullName>Leave</fullName>
+                    <default>false</default>
+                    <label>Leave</label>
+                </value>
+                <value>
+                    <fullName>On Field</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>On Field</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Individual_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Individual Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Line_Of_Business__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.Line_Of_Business__c)</formula>
+        <label>Line Of Business</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Month End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Month_Index__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(text(Month_Planned__c),
+&quot;January&quot;,1,
+&quot;February&quot;,2,
+&quot;March&quot;,3,
+&quot;April&quot;,4,
+&quot;May&quot;,5,
+&quot;June&quot;,6,
+&quot;July&quot;,7,
+&quot;August&quot;,8,
+&quot;September&quot;,9,
+&quot;October&quot;,10,
+&quot;November&quot;,11,
+&quot;December&quot;,12,
+0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month Index</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Month_Planned__c</fullName>
+        <externalId>false</externalId>
+        <label>Month Planned</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>January</fullName>
+                    <default>false</default>
+                    <label>January</label>
+                </value>
+                <value>
+                    <fullName>February</fullName>
+                    <default>false</default>
+                    <label>February</label>
+                </value>
+                <value>
+                    <fullName>March</fullName>
+                    <default>false</default>
+                    <label>March</label>
+                </value>
+                <value>
+                    <fullName>April</fullName>
+                    <default>false</default>
+                    <label>April</label>
+                </value>
+                <value>
+                    <fullName>May</fullName>
+                    <default>false</default>
+                    <label>May</label>
+                </value>
+                <value>
+                    <fullName>June</fullName>
+                    <default>false</default>
+                    <label>June</label>
+                </value>
+                <value>
+                    <fullName>July</fullName>
+                    <default>false</default>
+                    <label>July</label>
+                </value>
+                <value>
+                    <fullName>August</fullName>
+                    <default>false</default>
+                    <label>August</label>
+                </value>
+                <value>
+                    <fullName>September</fullName>
+                    <default>false</default>
+                    <label>September</label>
+                </value>
+                <value>
+                    <fullName>October</fullName>
+                    <default>false</default>
+                    <label>October</label>
+                </value>
+                <value>
+                    <fullName>November</fullName>
+                    <default>false</default>
+                    <label>November</label>
+                </value>
+                <value>
+                    <fullName>December</fullName>
+                    <default>false</default>
+                    <label>December</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Month_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Month Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>No_of_days_missed__c</fullName>
+        <externalId>false</externalId>
+        <formula>Number_of_Working_Days__c- Days_Planned__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>No of days missed</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Working_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(Working_Days_Per_week__c==7,(Month_End_Date__c  - Month_Start_Date__c)+1,
+CASE(MOD(  Month_Start_Date__c  - DATE(1985,6,24),7), 
+
+  0 , CASE( MOD( Month_End_Date__c- Month_Start_Date__c  ,7),1,2,2,3,3,4,4,5,5,5,6,5,1), 
+  1 , CASE( MOD( Month_End_Date__c - Month_Start_Date__c  ,7),1,2,2,3,3,4,4,4,5,4,6,5,1), 
+  2 , CASE( MOD( Month_End_Date__c- Month_Start_Date__c  ,7),1,2,2,3,3,3,4,3,5,4,6,5,1), 
+  3 , CASE( MOD( Month_End_Date__c- Month_Start_Date__c  ,7),1,2,2,2,3,2,4,3,5,4,6,5,1), 
+  4 , CASE( MOD( Month_End_Date__c - Month_Start_Date__c  ,7),1,1,2,1,3,2,4,3,5,4,6,5,1), 
+  5 , CASE( MOD( Month_End_Date__c - Month_Start_Date__c  ,7),1,0,2,1,3,2,4,3,5,4,6,5,0), 
+  6 , CASE( MOD( Month_End_Date__c - Month_Start_Date__c   ,7),1,1,2,2,3,3,4,4,5,5,6,5,0), 
+  999) 
+  + 
+  (FLOOR((  Month_End_Date__c  - Month_Start_Date__c  )/7)* Working_Days_Per_week__c ))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Working Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Other_JFW__c</fullName>
+        <externalId>false</externalId>
+        <label>Other JFW</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PlanDay_UniqueKey__c</fullName>
+        <externalId>false</externalId>
+        <label>PlanDay_UniqueKey</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Plan Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Plan_Day_Unique_Key_For_DupRule__c</fullName>
+        <description>Unique key used for finding duplicates. Populated by the trigger. Used in Duplicate rule</description>
+        <externalId>false</externalId>
+        <label>Plan Day Unique Key For DupRule</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Month_Unique_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Plan Month Unique Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plan_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Plan Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>2018</fullName>
+                    <default>false</default>
+                    <label>2018</label>
+                </value>
+                <value>
+                    <fullName>2019</fullName>
+                    <default>false</default>
+                    <label>2019</label>
+                </value>
+                <value>
+                    <fullName>2020</fullName>
+                    <default>false</default>
+                    <label>2020</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RSM_JFW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>RSM_JFW</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>text( Owner:User.Region__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Planning_Month__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Planning Month</label>
+        <referenceTo>Planning_Month__c</referenceTo>
+        <relationshipLabel>Planned Days</relationshipLabel>
+        <relationshipName>Planning_Months</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Route__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Route</label>
+        <referenceTo>Route__c</referenceTo>
+        <relationshipLabel>Planning Months</relationshipLabel>
+        <relationshipName>Planning_Months</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Second_Half__c</fullName>
+        <externalId>false</externalId>
+        <label>Second Half</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Holiday</fullName>
+                    <default>false</default>
+                    <label>Holiday</label>
+                </value>
+                <value>
+                    <fullName>Customer Visit</fullName>
+                    <default>false</default>
+                    <label>Customer Visit</label>
+                </value>
+                <value>
+                    <fullName>Group Meeting</fullName>
+                    <default>false</default>
+                    <label>Group Meeting</label>
+                </value>
+                <value>
+                    <fullName>Meeting</fullName>
+                    <default>false</default>
+                    <label>Meeting</label>
+                </value>
+                <value>
+                    <fullName>Transit</fullName>
+                    <default>false</default>
+                    <label>Transit</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Branch Visit</fullName>
+                    <default>false</default>
+                    <label>Branch Visit</label>
+                </value>
+                <value>
+                    <fullName>Regional Office</fullName>
+                    <default>false</default>
+                    <label>Regional Office</label>
+                </value>
+                <value>
+                    <fullName>Dog Show</fullName>
+                    <default>false</default>
+                    <label>Dog Show</label>
+                </value>
+                <value>
+                    <fullName>Exhibition</fullName>
+                    <default>false</default>
+                    <label>Exhibition</label>
+                </value>
+                <value>
+                    <fullName>Leave</fullName>
+                    <default>false</default>
+                    <label>Leave</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <defaultValue>&quot;Open&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Submitted for Approval</fullName>
+                    <default>false</default>
+                    <label>Submitted for Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supervisor_s_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Supervisor&apos;s Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Target__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Territory</label>
+        <referenceTo>Target__c</referenceTo>
+        <relationshipLabel>Planning Months</relationshipLabel>
+        <relationshipName>Planning_Months</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TerritoryId__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(RecordType.Name ==$Label.Cres_Plan_DayRecType &amp;&amp;  Related_Planning_Month__r.Target__c!=null,Related_Planning_Month__r.Target__c,
+if(RecordType.Name == $Label.Cres_PlanMonthRecType  &amp;&amp;  Target__c!=null,Target__c,null))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>TerritoryId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Territory_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Target__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Territory Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>User_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.User_Type__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>User Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>VSA_JFW__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>VSA_JFW</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Working_Days_Per_week__c</fullName>
+        <externalId>false</externalId>
+        <label>Working Days Per week</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>isReadOnly__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(RecordType.Name ==$Label.Cres_PlanMonthRecType &amp;&amp; OR(ISPICKVAL(Status__c,&apos;In Progress&apos;),ISPICKVAL(Status__c,&apos;Open&apos;),ISPICKVAL(Status__c,&apos;Rejected&apos;)),false,true)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>isReadOnly</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Planning Month</label>
+    <listViews>
+        <fullName>CPN_India_AH_Dairy_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AH Dairy</label>
+        <queue>CPN_India_AH_Dairy</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_AH_Pet_Care_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AH Pet Care</label>
+        <queue>CPN_India_AH_Pet_Care</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_AH_Poultry_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AH Poultry</label>
+        <queue>CPN_India_AH_Poultry</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_AN_Dairy_Feed_Additives_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AN Dairy - Feed Additives</label>
+        <queue>CPN_India_AN_Dairy_Feed_Additives</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_AN_Feed_Additives_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AN - Feed Additives</label>
+        <queue>CPN_India_AN_Feed_Additives</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_AN_Poultry_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - AN - Poultry</label>
+        <queue>CPN_India_AN_Poultry</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>CPN_India_IBG_TRADING_Planning_Month</fullName>
+        <filterScope>Queue</filterScope>
+        <label>CPN India - IBG TRADING</label>
+        <queue>CPN_India_IBG_TRADING</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Planning Month Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Planning Months</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Plan_Day</fullName>
+        <active>true</active>
+        <description>Record Type for Plan Day which are related to Plan Month</description>
+        <label>Plan Day</label>
+        <picklistValues>
+            <picklist>First_Half__c</picklist>
+            <values>
+                <fullName>Branch Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dog Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Meeting%2C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leave</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Month_Planned__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Plan_Year__c</picklist>
+            <values>
+                <fullName>2018</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2019</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2020</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Second_Half__c</picklist>
+            <values>
+                <fullName>Branch Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Visit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dog Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exhibition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Group Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leave</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Regional Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted for Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Plan_Month</fullName>
+        <active>true</active>
+        <description>Parent Record of Plan Day</description>
+        <label>Plan Month</label>
+        <picklistValues>
+            <picklist>First_Half__c</picklist>
+            <values>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Leave</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Month_Planned__c</picklist>
+            <values>
+                <fullName>April</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>August</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>December</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>February</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>January</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>June</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>March</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>May</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>November</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>October</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>September</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Plan_Year__c</picklist>
+            <values>
+                <fullName>2018</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2019</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2020</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Second_Half__c</picklist>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Open</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted for Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>ActivityEndDateLessThanStart</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(  RecordType.Name=$Label.Cres_Plan_DayRecType &amp;&amp; Plan_Date__c&gt; Activity_End_Date__c,true,false)</errorConditionFormula>
+        <errorMessage>Activity End Date should be greater than Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ActivityEndDateNotAllowed</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(!ISBLANK(Activity_End_Date__c) ,  RecordType.Name ==$Label.Cres_Plan_DayRecType ),if(OR(ISPICKVAL(First_Half__c,&apos;Leave&apos;) &amp;&amp; ISPICKVAL( Second_Half__c,&apos;Leave&apos;),(ISPICKVAL(First_Half__c,&apos;Training&apos;) &amp;&amp; ISPICKVAL(Second_Half__c,&apos;Training&apos;)) 
+),false,true),false)</errorConditionFormula>
+        <errorMessage>Activity End Date is allowed only if both first half and second half is either Leave/Training</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ActivityEndDateOutsideMonth</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(and(!ISBLANK(Activity_End_Date__c ),month(Related_Planning_Month__r.Month_Start_Date__c)!= month( Activity_End_Date__c),RecordType.Name == $Label.Cres_Plan_DayRecType ),true,false)</errorConditionFormula>
+        <errorMessage>Activity End Date should be within the planning month</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ActivityEndDateReadOnly</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(RecordType.Name ==$Label.Cres_Plan_DayRecType,ISCHANGED( Activity_End_Date__c ),AND(OR(ISPICKVAL( First_Half__c,&apos;Training&apos;),ISPICKVAL( First_Half__c,&apos;Leave&apos;)),OR(ISPICKVAL( Second_Half__c,&apos;Training&apos;),ISPICKVAL( Second_Half__c,&apos;Leave&apos;)))),true,false)</errorConditionFormula>
+        <errorMessage>Activity End Date Cannot be edited for Leave/Training.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ActivityEndDateRequired</fullName>
+        <active>true</active>
+        <description>Activity End Date is required if the Activity is Leave/Training</description>
+        <errorConditionFormula>if(OR(AND(ISPICKVAL( First_Half__c ,&apos;Leave&apos;),ISPICKVAL( Second_Half__c ,&apos;Leave&apos;)),AND(ISPICKVAL( First_Half__c ,&apos;Training&apos;),ISPICKVAL( Second_Half__c ,&apos;Training&apos;)))&amp;&amp; ISBLANK( Activity_End_Date__c ) &amp;&amp; RecordType.Name ==$Label.Cres_Plan_DayRecType ,true,false)</errorConditionFormula>
+        <errorMessage>Activity End Date is mandatory for Leave/Training Activities.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ActivityRequired</fullName>
+        <active>true</active>
+        <description>First Half and Second Half of the Activity should be selected</description>
+        <errorConditionFormula>if((OR(ISBLANK(text(First_Half__c)),ISBLANK( text(Second_Half__c))) &amp;&amp; RecordType.Name ==$Label.Cres_Plan_DayRecType ),TRUE,FALSE)</errorConditionFormula>
+        <errorMessage>Please select First Half and Second Half Activities.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ApproverMandatory</fullName>
+        <active>true</active>
+        <description>Status update to Submit for approval will be allowed to change if no of working days in a month equal to no of planned day in a month</description>
+        <errorConditionFormula>AND(ISPICKVAL(Status__c, &apos;Submitted for Approval&apos;),OR(
+Approver_1__c = NULL, Approver_2__c=NULL),RecordType.Name ==$Label.Cres_PlanMonthRecType)</errorConditionFormula>
+        <errorMessage>ASM Notification and RSM Approval should be selected for submission</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Invalid_Plan_Month</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(ISNEW() &amp;&amp; RecordType.Name ==$Label.Cres_PlanMonthRecType &amp;&amp; month(today()) != 12, 
+AND(Month_Index__c !=month(today()),Month_Index__c !=month(today())+1) || value(text(Plan_Year__c))!=YEAR(today()),
+if(ISNEW() &amp;&amp; RecordType.Name ==$Label.Cres_PlanMonthRecType &amp;&amp; month(today()) = 12,if(Month_Index__c=12,value(text(Plan_Year__c))!=YEAR(today()),
+if(Month_Index__c=1,value(text(Plan_Year__c))!=YEAR(today())+1,true))
+
+,False) )</errorConditionFormula>
+        <errorMessage>Invalid Year or Month Selected. Please select current month or next month for planning.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PlanDayCannotBeWeekends</fullName>
+        <active>true</active>
+        <description>Cannot Create a Plan on Weekends</description>
+        <errorConditionFormula>IF(AND( Related_Planning_Month__r.Working_Days_Per_week__c=5,OR(WEEKDAY(Plan_Date__c)=1,WEEKDAY(Plan_Date__c)=7),RecordType.Name ==$Label.Cres_Plan_DayRecType),TRUE,FALSE )</errorConditionFormula>
+        <errorMessage>Cannot Create a Plan on Weekends</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PlanDayOutsideMonth</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(Month( Related_Planning_Month__r.Month_Start_Date__c)!= month(Plan_Date__c), RecordType.Name==$Label.Cres_Plan_DayRecType ),true,false)</errorConditionFormula>
+        <errorMessage>Please select a date within the planning month</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PlanDayRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(ISBLANK(Plan_Date__c), RecordType.Name==$Label.Cres_Plan_DayRecType ),true,false )</errorConditionFormula>
+        <errorMessage>Please select the Day</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PlanMonthRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(and(RecordType.Name==&apos;Plan Month&apos;,ISBLANK(text( Month_Planned__c ))),true,false)</errorConditionFormula>
+        <errorMessage>Please select the Month</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PlanYearRequired</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(and(RecordType.Name==&apos;Plan Month&apos;,ISBLANK(text( Plan_Year__c ))),true,false)</errorConditionFormula>
+        <errorMessage>Please select the Year</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Planned_Day_Should_not_be_Sunday</fullName>
+        <active>false</active>
+        <description>Planned Day should not be a Sunday.</description>
+        <errorConditionFormula>IF(And( Related_Planning_Month__r.Working_Days_Per_week__c ==6,WEEKDAY(Plan_Date__c)=1,RecordType.Name ==$Label.Cres_Plan_DayRecType),TRUE,FALSE )</errorConditionFormula>
+        <errorMessage>Planned Day Should not be Sunday</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RouteNotAllowed</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(RecordType.Name ==$Label.Cres_Plan_DayRecType,!ISBLANK(Route__c),AND(CONTAINS($Label.Cres_Route_Not_RequiredCPNIndia
+,text(First_Half__c)),CONTAINS($Label.Cres_Route_Not_RequiredCPNIndia
+,text(Second_Half__c))
+)),true,false)</errorConditionFormula>
+        <errorMessage>Please do not enter any Route details for selected Activity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Route_is_Mandatory</fullName>
+        <active>true</active>
+        <errorConditionFormula>if(AND(RecordType.Name ==$Label.Cres_Plan_DayRecType,ISBLANK(Route__c),OR(!CONTAINS($Label.Cres_Route_Not_RequiredCPNIndia
+,text(First_Half__c)),!CONTAINS($Label.Cres_Route_Not_RequiredCPNIndia
+,text(Second_Half__c))
+)),true,false)</errorConditionFormula>
+        <errorMessage>Route is Mandatory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>TargetRequired</fullName>
+        <active>true</active>
+        <description>Target is Required for all users</description>
+        <errorConditionFormula>if(AND(ISBLANK(Target__c),RecordType.Name == $Label.Cres_PlanMonthRecType ),true,false)</errorConditionFormula>
+        <errorMessage>Please select a Territory</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>WorkingDayValidationForApproval</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(ISPICKVAL(Status__c, &apos;Submitted for Approval&apos;),Number_of_Working_Days__c &lt;&gt; Days_Planned__c 
+,RecordType.Name ==$Label.Cres_PlanMonthRecType)</errorConditionFormula>
+        <errorMessage>Planned Days and Working days  should be same for submission</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

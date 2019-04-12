@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>steven.isakson@slalom.com</contactEmail>
+    <label>Jenkins Connected App</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost:7070/OauthRedirect</callbackUrl>
+        <certificate>MIIDkDCCAngCCQD8X61Iu+iC3jANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCVVMxEjAQBgNVBAgMCU1pbm5lc290YTEUMBIGA1UEBwwLTWlubmVhcG9saXMxDzANBgNVBAoMBlNsYWxvbTELMAkGA1UECwwCSVQxDzANBgNVBAMMBlNsYWxvbTEhMB8GCSqGSIb3DQEJARYSc21pc2Frc29AZ21haWwuY29tMB4XDTE5MDExNzAxNDcxOFoXDTIwMDExNzAxNDcxOFowgYkxCzAJBgNVBAYTAlVTMRIwEAYDVQQIDAlNaW5uZXNvdGExFDASBgNVBAcMC01pbm5lYXBvbGlzMQ8wDQYDVQQKDAZTbGFsb20xCzAJBgNVBAsMAklUMQ8wDQYDVQQDDAZTbGFsb20xITAfBgkqhkiG9w0BCQEWEnNtaXNha3NvQGdtYWlsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUnaBozM2YLUHy+4Uptnj636L5FWIwGY1hXxgKLzzXoteeEIeDWv7J0wmh7zTvLTT486oRnpN97/b6sCowQTicZbne/jkH/CKu3NMSkv8mnTNIafDpaWvw5pQrUwL3UrcopL/BUqXox/ktXnWrXiJfAXLUWxSJjixZoIGlEKrkOi3BrIf6bv+43K2CXbIqw0ZM6T1r9DUSM5UIWoeVx8RCXpOJvMN1PQEvJBW4OJSmfFKFH/MP3dKgKYunNuziMRD02lSk7cqUMnVSDi0hxgFEcvl+0kV6RQgEIChyjzSCufYnw9tx0oG+HJmd8H0VXXBDXDHC1UoHznuBENMxTvi0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAAoHddNFyOfqgi7T9mAyEcTS1nL4IAm5IeYpiKM2CEFDe6IXrU/ePHNNWcbt57u5FNzm/ivYVQ278y9CcyzaOhR5ogmMuaiueVyxnY8qM3rvR5YYYSTh68ReRS6grVkD5kEx7/mEx2p/qpAJTCo9K52qmv7u6tl9ZOKcDY06DlTl/halh9Cg74ZgIZTqdiVaNYYYXrwn7P3BnTpomX8f2b6rUYMuPfIPGXABiDw4+E/rH5SHROGw5jq+u7wiDxNUDZ6Lp5na3tgZMFHUGy+ME24t1jPRlcA0+zaNHD/sVFvzFcuOphoUAW4YCEaOJHuvjFkOX0kkD9DhM2P+7Xi8BmA==</certificate>
+        <consumerKey>3MVG9PerJEe9i8iICQ8qavfYTX199UZejmT2IqPPI4zX8yfNWu3UZWQ0_MWPuOVlsYneUDPDGwt2bBiI_3PqH</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

@@ -1,0 +1,11 @@
+Hello {!uf__User_Status__c.uf__User__c}, 
+<br/><br/>
+
+This is an automated email notification from Salesforce (Crescendo). <br />
+You have not logged into Salesforce.com in 60 days.Your account will be disabled soon.
+<br/><br/>
+If your access is needed please login to Salesforce.com immediately. 
+<a href="https://cargill18.my.salesforce.com/{!uf__User_Status__c.Id}">https://cargill18.my.salesforce.com/{!uf__User_Status__c.Id}<a>
+<br/><br/>
+You may request your account to be reactivated by using the helpdesk form below:
+<a href="http://helpdesk.cargill.com/SubmitTicket.aspx?id=2401">http://helpdesk.cargill.com/SubmitTicket.aspx?id=2401</a>

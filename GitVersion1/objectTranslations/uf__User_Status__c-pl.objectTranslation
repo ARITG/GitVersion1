@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Status użytkownika</value>
+    </caseValues>
+    <fields>
+        <label>Mistrz adopcji</label>
+        <name>uf__Adoption_Champion__c</name>
+        <relationshipLabel>Status użytkownika (Czempion)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Koszt braku aktywności</label>
+        <name>uf__Cost_of_Inactivity__c</name>
+    </fields>
+    <fields>
+        <label>Koszt licencji SFDC</label>
+        <name>uf__Cost_per_Salesforce_License__c</name>
+    </fields>
+    <fields>
+        <label>Data ostatniego logowania</label>
+        <name>uf__Date_of_Last_Login__c</name>
+    </fields>
+    <fields>
+        <label>Dni od ostatniego logowania</label>
+        <name>uf__Days_Since_Login__c</name>
+    </fields>
+    <fields>
+        <label>Wyjaśnienie braku logowania</label>
+        <name>uf__Inactivity_Explanation__c</name>
+    </fields>
+    <fields>
+        <label>Menadżer</label>
+        <name>uf__Manager__c</name>
+        <relationshipLabel>Status użytkownika (Menadżer)</relationshipLabel>
+    </fields>
+    <fields>
+        <help>Do wypełnienia przez nieaktywnego użytkownika</help>
+        <label>Powód braku aktywności</label>
+        <name>uf__Reason_for_Inactivity__c</name>
+        <picklistValues>
+            <masterLabel>Approved Absence</masterLabel>
+            <translation><!-- Approved Absence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Travel</masterLabel>
+            <translation><!-- Business Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday / Vacation</masterLabel>
+            <translation><!-- Holiday / Vacation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer Need Salesforce</masterLabel>
+            <translation><!-- No Longer Need Salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Typ statusu</label>
+        <name>uf__Status_Type__c</name>
+        <picklistValues>
+            <masterLabel>Inactivity</masterLabel>
+            <translation><!-- Inactivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never Logged In</masterLabel>
+            <translation><!-- Never Logged In --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Hey! Nie logowałeś się przez dłuższy czas. Odwiedź nas ponownie https://cargill18.my.salesforce.com/</help>
+        <label>Wiadomość Chatter użytkownika</label>
+        <name>uf__User_Chatter_Message__c</name>
+    </fields>
+    <fields>
+        <label>Email użytkownika</label>
+        <name>uf__User_Email__c</name>
+    </fields>
+    <fields>
+        <label>Użytkownik</label>
+        <name>uf__User__c</name>
+        <relationshipLabel>Status użytkownika (Użytkownik)</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Status ID --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Create_Task_for_User --></label>
+        <name>uf__Create_Task_for_User</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deactivate_User --></label>
+        <name>uf__Deactivate_User</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_User --></label>
+        <name>uf__Email_User</name>
+    </webLinks>
+    <workflowTasks>
+        <name>uf__Explain_the_60_days_of_inactivity</name>
+        <subject>Nie logowałeś się przez 60 dni. Twoje konto zostanie dezaktywowane. Proszę o informację o przyczynie braku logowania.</subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>uf__Please_Login_to_Salesforce_com</name>
+        <subject>Zaloguj się do Crescendo https://cargill18.my.salesforce.com</subject>
+    </workflowTasks>
+</CustomObjectTranslation>

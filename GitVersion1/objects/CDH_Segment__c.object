@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Used to track Segments in the Data Hub</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>CDH_Account__c</fullName>
+        <description>Links the CDH Segment record to the CDH Account record.  This record will denote the segments on the Salesforce Account record linked to the CDH Account record</description>
+        <externalId>false</externalId>
+        <label>CDH Account</label>
+        <referenceTo>CDH_Account__c</referenceTo>
+        <relationshipLabel>CDH Segments</relationshipLabel>
+        <relationshipName>CDH_Segments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>CDH_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Denotes the Primary Segment</description>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CDH_Segment_Step_1__c</fullName>
+        <externalId>false</externalId>
+        <label>CDH Segment (Step 1)</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Aiden</fullName>
+                    <default>false</default>
+                    <label>Aiden</label>
+                </value>
+                <value>
+                    <fullName>Baxter</fullName>
+                    <default>false</default>
+                    <label>Baxter</label>
+                </value>
+                <value>
+                    <fullName>Dennis</fullName>
+                    <default>false</default>
+                    <label>Dennis</label>
+                </value>
+                <value>
+                    <fullName>Kobe</fullName>
+                    <default>false</default>
+                    <label>Kobe</label>
+                </value>
+                <value>
+                    <fullName>Mila</fullName>
+                    <default>false</default>
+                    <label>Mila</label>
+                </value>
+                <value>
+                    <fullName>Noah</fullName>
+                    <default>false</default>
+                    <label>Noah</label>
+                </value>
+                <value>
+                    <fullName>Sonya</fullName>
+                    <default>false</default>
+                    <label>Sonya</label>
+                </value>
+                <value>
+                    <fullName>Spence</fullName>
+                    <default>false</default>
+                    <label>Spence</label>
+                </value>
+                <value>
+                    <fullName>Walton</fullName>
+                    <default>false</default>
+                    <label>Walton</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CDH_Step_2__c</fullName>
+        <externalId>false</externalId>
+        <label>CDH Step 2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>--Not Defined--</fullName>
+                    <default>false</default>
+                    <label>--Not Defined--</label>
+                </value>
+                <value>
+                    <fullName>1 - Large/Extensive</fullName>
+                    <default>false</default>
+                    <label>1 - Large/Extensive</label>
+                </value>
+                <value>
+                    <fullName>2 - Medium/Extensive</fullName>
+                    <default>false</default>
+                    <label>2 - Medium/Extensive</label>
+                </value>
+                <value>
+                    <fullName>3 - Large/Selected</fullName>
+                    <default>false</default>
+                    <label>3 - Large/Selected</label>
+                </value>
+                <value>
+                    <fullName>4 - Medium/Selected</fullName>
+                    <default>false</default>
+                    <label>4 - Medium/Selected</label>
+                </value>
+                <value>
+                    <fullName>5 - Large/Limited</fullName>
+                    <default>false</default>
+                    <label>5 - Large/Limited</label>
+                </value>
+                <value>
+                    <fullName>6 - Medium/Limited</fullName>
+                    <default>false</default>
+                    <label>6 - Medium/Limited</label>
+                </value>
+                <value>
+                    <fullName>7 - Small/Extensive</fullName>
+                    <default>false</default>
+                    <label>7 - Small/Extensive</label>
+                </value>
+                <value>
+                    <fullName>8 - Small/Selected</fullName>
+                    <default>false</default>
+                    <label>8 - Small/Selected</label>
+                </value>
+                <value>
+                    <fullName>9 - Small/Limited</fullName>
+                    <default>false</default>
+                    <label>9 - Small/Limited</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>CDH Segment</label>
+    <nameField>
+        <displayFormat>CDHS-{0000}</displayFormat>
+        <label>CDH Segment #</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CDH Segments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

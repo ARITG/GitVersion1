@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ankieta Segmentacyjna</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Ankiety Segmentacyjne</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ankieta Segmentacyjna</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Ankiety Segmentacyjne</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Ankieta Segmentacyjna</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Ankiet Segmentacyjnych</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Ankiecie Segmentacyjnej</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Ankietom Segmentacyjnym</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Ankietą Segmentacyjną</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Ankietami Segmentacyjnymi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Ankiecie Segmentacyjnej</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Ankietach Segmentacyjnych</value>
+    </caseValues>
+    <fields>
+        <label>Jeśli trzeba - daje rabaty i kredytuje</label>
+        <name>AlignedOfferYes__c</name>
+    </fields>
+    <fields>
+        <label>Posiada 1 punkt sprzedaży</label>
+        <name>BaxterPOS_1__c</name>
+    </fields>
+    <fields>
+        <label>Posiada 4 i więcej punktów sprzedaży</label>
+        <name>BaxterPOS_4orMore__c</name>
+    </fields>
+    <fields>
+        <label>Punkt paszowy dostępny sezonowo</label>
+        <name>BaxterSeasonal__c</name>
+    </fields>
+    <fields>
+        <label>Punkt paszowy dostępny cały rok</label>
+        <name>BaxterWholeYear__c</name>
+    </fields>
+    <fields>
+        <label>Sprzedaż trafia do dużych (&gt;20 hod bezp)</label>
+        <name>BiggerConsumersYes__c</name>
+    </fields>
+    <fields>
+        <label>Aktywny, otwarty na zmiany, sam zabiega</label>
+        <name>ChangeProactive__c</name>
+    </fields>
+    <fields>
+        <label>Niechętny zmianom, unika ryzyka</label>
+        <name>ChangeResistant__c</name>
+    </fields>
+    <fields>
+        <label>Komentarz</label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label>Nie wyklucza zmian, ale sprawdzonych</label>
+        <name>ConsiderChanges__c</name>
+    </fields>
+    <fields>
+        <label>Rola w Crescendo</label>
+        <name>Created_by_User_role__c</name>
+    </fields>
+    <fields>
+        <label>Układanie dawek - nie dotyczy</label>
+        <name>CreatingFormulas_NotApplicable__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydło basemix Cargill</label>
+        <name>DairyCGL_Basemix__c</name>
+    </fields>
+    <fields>
+        <label>P. Pasze dla bydła /krowy i opasy/ Cgl</label>
+        <name>DairyCGL_Beef_Complete_Feed__c</name>
+    </fields>
+    <fields>
+        <label>P. Koncentr. bydło /krowy i opasy/ Cgl</label>
+        <name>DairyCGL_Beef_Concentrates__c</name>
+    </fields>
+    <fields>
+        <label>P. Produkty dla cieląt Cargill</label>
+        <name>DairyCGL_Calfs__c</name>
+    </fields>
+    <fields>
+        <label>P. Preparaty mlekozastępcze Cargill</label>
+        <name>DairyCGL_Milk_Replacers__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydło basemix Total</label>
+        <name>DairyTOT_Basemix__c</name>
+    </fields>
+    <fields>
+        <label>P. Pasze dla bydła /krowy i opasy/ Total</label>
+        <name>DairyTOT_Beef_Complete_Feed__c</name>
+    </fields>
+    <fields>
+        <label>P. Koncentr. bydło /krowy i opasy/ Total</label>
+        <name>DairyTOT_Beef_Concentrates__c</name>
+    </fields>
+    <fields>
+        <label>P. Produkty dla cieląt Total</label>
+        <name>DairyTOT_Calfs__c</name>
+    </fields>
+    <fields>
+        <label>P. Preparaty mlekozastępcze Total</label>
+        <name>DairyTOT_Milk_Replacers__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydło basemix Konk</label>
+        <name>Dairy_Basemix__c</name>
+    </fields>
+    <fields>
+        <label>P. Pasze dla bydła /krowy i opasy/ Konk</label>
+        <name>Dairy_Beef_Complete_Feed__c</name>
+    </fields>
+    <fields>
+        <label>P. Koncentr. bydło /krowy i opasy/ Konk</label>
+        <name>Dairy_Beef_Concentrates__c</name>
+    </fields>
+    <fields>
+        <label>P. Produkty dla cieląt Konk</label>
+        <name>Dairy_Calfs__c</name>
+    </fields>
+    <fields>
+        <label>P. Preparaty mlekozastępcze Konk</label>
+        <name>Dairy_Milk_Replacers__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydlęce - ilość konkurentów</label>
+        <name>Dairy_Sales_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4</masterLabel>
+            <translation><!-- 3-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;4</masterLabel>
+            <translation><!-- &gt;4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>P. Bydlęce Share of Wallet</label>
+        <name>Dairy_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydlęce Cargill</label>
+        <name>Dairy_Total_Cargill__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydlęce Konk</label>
+        <name>Dairy_Total_Competitor__c</name>
+    </fields>
+    <fields>
+        <label>P. Bydlęce Total</label>
+        <name>Dairy_Total__c</name>
+    </fields>
+    <fields>
+        <label>Całościowa sprzedaż premiksów &gt;50%</label>
+        <name>DealerSalesLevelAbove50pc__c</name>
+    </fields>
+    <fields>
+        <label>Całościowa sprzedaż premiksów &lt;50%</label>
+        <name>DealerSalesLevelBelow50pc__c</name>
+    </fields>
+    <fields>
+        <label>Nie zatrudn. PH ale chce nowe POSy</label>
+        <name>DontEmployPHbutPOS_Yes__c</name>
+    </fields>
+    <fields>
+        <label>NIe zatrudn. PH i nie chce nowych POS</label>
+        <name>DontEmployPHnorPOS_Yes__c</name>
+    </fields>
+    <fields>
+        <label>Zatrudn PH który jest ważniejszy od POS</label>
+        <name>EmployPHMoreImportantThanPOS_Yes__c</name>
+    </fields>
+    <fields>
+        <label>Kompleks. oferta produkt., warunki h.</label>
+        <name>ExtensiveOfferYes__c</name>
+    </fields>
+    <fields>
+        <label>Dawki żywien. na premiksach i surowcach</label>
+        <name>FeedingFormulas_CompleteFeedAndConcentra__c</name>
+    </fields>
+    <fields>
+        <label>Dawki żywien. w oparciu o - nie dotyczy</label>
+        <name>FeedingFormulas_NotApplicable__c</name>
+    </fields>
+    <fields>
+        <label>Dawki żywien. na premiksach i surowcach</label>
+        <name>FeedingFormulas_PremixAndIngredients__c</name>
+    </fields>
+    <fields>
+        <label>Dopasowana oferta paszowa, polit. cenową</label>
+        <name>HasAlignedOffer__c</name>
+    </fields>
+    <fields>
+        <label>Ma polit. cenową, logistykę, kredytow.</label>
+        <name>HasExtensiveOffer__c</name>
+    </fields>
+    <fields>
+        <label>Nie rabatuje, nie dowozi i nie kredytuje</label>
+        <name>HasSelectiveOffer__c</name>
+    </fields>
+    <fields>
+        <label>Surowce białkowe (wyłącznie) Cargill</label>
+        <name>IngredientsCGL__c</name>
+    </fields>
+    <fields>
+        <label>Surowce białkowe Share of Wallet</label>
+        <name>Ingredients_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>Surowce białkowe (wyłącznie) Total</label>
+        <name>Ingredients_Total__c</name>
+    </fields>
+    <fields>
+        <label>Surowce białkowe (wyłącznie) Konk</label>
+        <name>Ingredients__c</name>
+    </fields>
+    <fields>
+        <label>Dystrybutor układa dawki</label>
+        <name>IsDistributorCreatingFormulasYes__c</name>
+    </fields>
+    <fields>
+        <label>Doradca Żyw. f. pasz. układa dawki</label>
+        <name>IsFeedCompanyCreatingFormulasYes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Liczy się dla niego przede wszystkim dobry wynik hodowlany, koszty są drugorzędne i liczy je orientacyjnie uwzględniając główne pozycje tj. koszt zwierząt, weterynarz, media. --></help>
+        <label>Przede wszystkim dobry wynik hodowlany</label>
+        <name>Is_Cost_Analyst_Med_S__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nie liczy szczegółowo wydatków, liczy się przede wszystkim najniższa cena zakupu paszy. --></help>
+        <label>Liczy się najniższa cena paszy</label>
+        <name>Is_Cost_Analyst_No_L__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tak, analizuje wszystkie koszty w dłuższej perspektywie np. media, koszty pracowników, koszt miejsca tuczowego (amortyzacja budynku), zakup zwierząt, zużycie paszy i koszty weterynaryjne. --></help>
+        <label>Wszystkie koszty w dłuższej perspektywie</label>
+        <name>Is_Cost_Analyst_Yes_E__c</name>
+    </fields>
+    <fields>
+        <label>Czy rola użytk. Noah w Crescendo</label>
+        <name>Is_Noah_active_user__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nie posiada zasobów. --></help>
+        <label>Nie, nie miesza z premiksami</label>
+        <name>Is_Self_Mixing_No__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tylko w niepełnym stopniu tj. ma zboże i posiada suszarnię, ale bez mieszalni. --></help>
+        <label>W niepełnym stopniu miesza z premiksami</label>
+        <name>Is_Self_Mixing_Partially__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tak, posiada własną mieszalnię. --></help>
+        <label>Tak i miesza w oparciu o premiksy</label>
+        <name>Is_Self_Mixing_Yes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Czasami jest otwarty na zmiany, ale oczekuje sprawdzonych rozwiązań, które rozwiążą jego problemy. --></help>
+        <label>Czasami jest otwarty</label>
+        <name>Open_For_Changes_Med_S__c</name>
+    </fields>
+    <fields>
+        <help><!-- Niechętnie przyjmuje zmiany, bowiem liczy się dla niego przede wszystkim bezpieczeństwo i nie lubi ryzykować lub wprowadza zmianę, gdy zmusza go do tego sytuacja. --></help>
+        <label>Niechętnie akceptuje zmiany</label>
+        <name>Open_For_Changes_No_L__c</name>
+    </fields>
+    <fields>
+        <help><!-- Jest otwarty na zmiany, a często sam o nie zabiega. --></help>
+        <label>Jest otwarty na zmiany</label>
+        <name>Open_For_Changes_Yes_E__c</name>
+    </fields>
+    <fields>
+        <label>P. Pet food Ilość Konkurentów</label>
+        <name>PetFood_Sales_Competitors__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4</masterLabel>
+            <translation><!-- 3-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;4</masterLabel>
+            <translation><!-- &gt;4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>P. Pet food (psy i koty) Total</label>
+        <name>Pet_Food_Total__c</name>
+    </fields>
+    <fields>
+        <label>P. Pet food Share of Wallet</label>
+        <name>Pet_Foot_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>P. Pet food (psy i koty) Cargill</label>
+        <name>PetfoodCGL__c</name>
+    </fields>
+    <fields>
+        <label>P. Pet food (psy i koty) Konk</label>
+        <name>Petfood__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda p. porcja lochy/tuczniki Cgl</label>
+        <name>PorkCGL_Complete_Feed_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda koncentraty lochy/tuczniki Cgl</label>
+        <name>PorkCGL_Concentrates_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda produkty dla prosiąt Cgl</label>
+        <name>PorkCGL_Piglets__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda p. porcja lochy/tuczniki Total</label>
+        <name>PorkTOT_Complete_Feed_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda koncentraty lochy/tuczniki Tot</label>
+        <name>PorkTOT_Concentrates_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda produkty dla prosiąt Total</label>
+        <name>PorkTOT_Piglets__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda p. porcja lochy/tuczniki Konk</label>
+        <name>Pork_Complete_Feed_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda koncentraty lochy/tucz Konk</label>
+        <name>Pork_Concentrates_Sows_Hogs__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda produkty dla prosiąt Konk</label>
+        <name>Pork_Piglets__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda - ilość konkurentów</label>
+        <name>Pork_Sales_Competitors__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4</masterLabel>
+            <translation><!-- 3-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;4</masterLabel>
+            <translation><!-- &gt;4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>P. Trzoda Share of Wallet</label>
+        <name>Pork_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda Cargill</label>
+        <name>Pork_Total_Cargill__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda Konk</label>
+        <name>Pork_Total_Competitor__c</name>
+    </fields>
+    <fields>
+        <label>P. Trzoda Total</label>
+        <name>Pork_Total__c</name>
+    </fields>
+    <fields>
+        <label>Oferuje produkty dla drobiu</label>
+        <name>PoultryProducts__c</name>
+    </fields>
+    <fields>
+        <label>P. Drób - ilość konkurentów</label>
+        <name>Poultry_Sales_Competitors__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-4</masterLabel>
+            <translation><!-- 3-4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;4</masterLabel>
+            <translation><!-- &gt;4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>P. Drób przydomowy Share of Wallet</label>
+        <name>Poultry_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>P. Drób przydomowy Total</label>
+        <name>Poultry_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Dywersyfikuje odbiorców, chcąc tym samym zrównoważyć ryzyko. --></help>
+        <label>Dywersyfikuje odbiorców minim. ryzyko</label>
+        <name>Price_Management_Med_S__c</name>
+    </fields>
+    <fields>
+        <help><!-- Często zmienia odbiorców lub działa na wolnym rynku, akceptując związane z tym ryzyko, ale liczy na wyższy zysk. --></help>
+        <label>Sprzedaje na wolnym rynku</label>
+        <name>Price_Management_No_L__c</name>
+    </fields>
+    <fields>
+        <help><!-- Jest lojalny wobec odbiorców z którymi współpracuje na podstawie zawartych umów (tj. ubojnie, odbiorcy jaj itp). Akceptuje niższy zysk, ale dzięki temu ma pewny rynek zbytu i cenę sprzedaży, które pokrywają mu koszty. --></help>
+        <label>Kontraktuje całą sprzedaż</label>
+        <name>Price_Management_Yes_E__c</name>
+    </fields>
+    <fields>
+        <label>Typ ankiety</label>
+        <name>RecordType__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa konta</label>
+        <name>Related_Account_Name__c</name>
+        <relationshipLabel>Ankieta Segmentacyjna</relationshipLabel>
+    </fields>
+    <fields>
+        <label>9-Box wg analizy odpowiedzi</label>
+        <name>Segm_9Box__c</name>
+        <picklistValues>
+            <masterLabel>Advisory Not Needed</masterLabel>
+            <translation>Nie potrzebuje doradztwa (Sonya)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extensive</masterLabel>
+            <translation>Wymagający (E)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited</masterLabel>
+            <translation>Podstawowy (L)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Classified</masterLabel>
+            <translation>Nieklasyfikowany (N/A)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selected</masterLabel>
+            <translation>Średniozaawansowany (S)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Mixing</masterLabel>
+            <translation>Miksuje premiksy (Aiden)</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>9-Box rekomendacja Doradcy (jeśli inna)</label>
+        <name>Segm_9Box_recomm__c</name>
+        <picklistValues>
+            <masterLabel>ASF/A-H1N1, Bird Flu, BSE - no potential</masterLabel>
+            <translation><!-- ASF/A-H1N1, Bird Flu, BSE - no potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advisory Not Needed</masterLabel>
+            <translation>Nie potrzebuje doradztwa (Sonya)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baxter (Podstawowy)</masterLabel>
+            <translation><!-- Baxter (Podstawowy) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baxter (Wymagający)</masterLabel>
+            <translation><!-- Baxter (Wymagający) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baxter (Średniozaawansowany)</masterLabel>
+            <translation><!-- Baxter (Średniozaawansowany) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dennis (Wymagający)</masterLabel>
+            <translation><!-- Dennis (Wymagający) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doubled account - no potential</masterLabel>
+            <translation><!-- Doubled account - no potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extensive</masterLabel>
+            <translation>Wymagający (E)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited</masterLabel>
+            <translation>Podstawowy (L)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Term Integration - no potential</masterLabel>
+            <translation>Integracja długoterminowa - potencjał niedostępny</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selected</masterLabel>
+            <translation>Średniozaawansowany (S)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self Mixing</masterLabel>
+            <translation>Miksuje premiksy (Aiden)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service by Dealer - no potential</masterLabel>
+            <translation>Obługiwany przez Dealera - potencjał niedostępny</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spence</masterLabel>
+            <translation><!-- Spence --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Oś Y</label>
+        <name>Segm_Y_Axis__c</name>
+        <picklistValues>
+            <masterLabel>Large</masterLabel>
+            <translation><!-- Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Classified</masterLabel>
+            <translation><!-- Not Classified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small</masterLabel>
+            <translation><!-- Small --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>75% sprzedaży trafia do małych</label>
+        <name>SmallerConsumersYes__c</name>
+    </fields>
+    <fields>
+        <label>Łączna sprzedaż pasz Cargill</label>
+        <name>Total_Cargill_Sales__c</name>
+    </fields>
+    <fields>
+        <label>Łączna sprzedaż pasz Konkurencja</label>
+        <name>Total_Competitor_Sales__c</name>
+    </fields>
+    <fields>
+        <label>Łączna sprzedaż pasz</label>
+        <name>Total_Feed_Sales__c</name>
+    </fields>
+    <fields>
+        <label>Cargill Share of Wallet</label>
+        <name>Total_Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label>Rola użytkownika w Crescendo</label>
+        <name>User_Role__c</name>
+    </fields>
+    <fields>
+        <help><!-- Ma pomysły na rozwój, ale tylko &quot;w głowie&quot;, wie, że chciałby &quot;coś&quot; osiągnąć, ale nie jest to sprecyzowane (co i kiedy). --></help>
+        <label>Ma pomysły na rozwój - niesprecyzowane</label>
+        <name>Want_To_Invest_Med_S__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nie ma planu, nie chce się rozwijać, a obecna sytuacja jest dla niego wystarczająca. Jeśli planuje zmiany to tylko w odpowiedzi na bieżące problemy, ale nie oczekuje konsultacji w zakresie nowych inwestycji. --></help>
+        <label>Nie chce się rozwijać (pasywny)</label>
+        <name>Want_To_Invest_No_L__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tak, ma szczegółowy plan rozwoju na najbliższe lata i jest otwarty na współprace. --></help>
+        <label>Ma szczegółowy plan na kolejne lata</label>
+        <name>Want_To_Invest_Yes_E__c</name>
+    </fields>
+    <fields>
+        <label>Chce zatrudn. PH i chce nowe POSy</label>
+        <name>WantsEmployPHandPOS_Yes__c</name>
+    </fields>
+    <fields>
+        <label>Numery tygodnia</label>
+        <name>Week_no__c</name>
+    </fields>
+    <fields>
+        <label>Posiada wybraną ofertę paszową</label>
+        <name>WideOfferYes__c</name>
+    </fields>
+    <fields>
+        <label>Rok i Miesiąc</label>
+        <name>Year_Month__c</name>
+    </fields>
+    <fields>
+        <label>Czy potrzebuje doradztwa żywieniowego?</label>
+        <name>sc_Advisory_Needed_Answers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premix vs Concentrates --></label>
+        <name>sc_DealerSalesLevel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Czy hodowca prowadząc biznes analizuje szczegółowo koszty? --></help>
+        <label>Czy analizuje szczegółowo koszty?</label>
+        <name>sc_Is_Cost_Analyst_Answers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Czy hodowca jest otwarty na zmiany w zakresie nowych produktów i usług? --></help>
+        <label>Czy jest otwarty na zmiany?</label>
+        <name>sc_Is_Open_For_Changes_Answers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Czy hodowca posiada zasoby, aby samodzielnie mieszać paszę z premiksów (sam produkuje pasze pełnop.)?
+Bydło - chodzi o produkcję w gospod. w mieszalniku (nie wozie paszowym) mieszanki składającej się ze zbóż, śrut białkowych czy innych źródeł białka. --></help>
+        <label>Czy sam miesza paszę z premiksów?</label>
+        <name>sc_Is_Self_Mixing_Answers__c</name>
+    </fields>
+    <fields>
+        <help><!-- W jaki sposób hodowca zarządza ceną sprzedaży? (nie dotyczy bydła - w przypadku kolegów / koleżanek z działu bydlęcego proszę zaznaczyć I opcję - cała sprzedaż zakontraktowana) --></help>
+        <label>W jaki sposób zarządza ceną sprzedaży?</label>
+        <name>sc_Price_Management_Answers__c</name>
+    </fields>
+    <fields>
+        <label>Czy kupuje bezpośrednio przez Dealer&apos;a?</label>
+        <name>sc_Via_Dealer_Answers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Czy hodowca wyraża chęć rozwoju i inwestowania w swój biznes? --></help>
+        <label>Czy wyraża chęć rozwoju i inwestowania?</label>
+        <name>sc_Want_To_Invest_Answers__c</name>
+    </fields>
+    <fields>
+        <label>P. Drób przydomowy Cargill</label>
+        <name>val_PoultryCGL_Sales__c</name>
+    </fields>
+    <fields>
+        <label>P. Drób przydomowy Konk</label>
+        <name>val_Poultry_Sales__c</name>
+    </fields>
+    <fields>
+        <label>Posiada od 2 do 3 punktów sprzedaży</label>
+        <name>var_BaxterPOS_2_3__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Survey Direct Layout</layout>
+        <sections>
+            <label>Dodatkowe Informacje</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Podstawowa Segmentacja Step-1</label>
+            <section>Step-1 Basic Segmentation</section>
+        </sections>
+        <sections>
+            <label>Subsegmentacja Step-2 9-Box</label>
+            <section>Step-2 Subsegmentation 9-Box</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Survey Distribution Layout</layout>
+        <sections>
+            <label>Dodatkowe Informacje</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Potencjał w ujęciu rocznym</label>
+            <section>Potential</section>
+        </sections>
+        <sections>
+            <label>Subsegmentacja Step-2 9-Box</label>
+            <section>Step-2 Baxter</section>
+        </sections>
+        <sections>
+            <label>Subsegmentacja Step-2 9-Box</label>
+            <section>Step-2 Dennis</section>
+        </sections>
+        <sections>
+            <label>Podstawowa Segmentacja Step-1</label>
+            <section>Step-2 Spence</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Survey Segmentation Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- For Noah --></description>
+        <label><!-- Direct --></label>
+        <name>Direct</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- For Baxter, Dennis --></description>
+        <label><!-- Distribution --></label>
+        <name>Distribution</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Zaznacz jedną z trzech odpowiedzi czy hodowca analizuje szczegółowo koszty (przynajmniej jedną i nie więcej niż jedną odpowiedź). --></errorMessage>
+        <name>Does_analyze_costs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zaznacz jedną z trzech odpowiedzi czy hodowca wyraża chęć rozwoju i inwestowania w swój biznes (przynajmniej jedną i nie więcej niż jedną odpowiedź). --></errorMessage>
+        <name>Does_want_to_invest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zaznacz jedną z trzech odpowiedzi czy hodowca jest otwarty za zmiany (przynajmniej jedną i nie więcej niż jedną odpowiedź). --></errorMessage>
+        <name>Is_open_for_changes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zaznacz jedną z trzech odpowiedzi czy hodowca może samodzielnie mieszać paszę z premiksów (przynajmniej jedną i nie więcej niż jedną odpowiedź). --></errorMessage>
+        <name>Is_self_mixing</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zaznacz jedną z trzech odpowiedzi w jaki sposób hodowca zarządza ceną sprzedaży (przynajmniej jedną i nie więcej niż jedną odpowiedź). --></errorMessage>
+        <name>Manage_selling_price</name>
+    </validationRules>
+    <webLinks>
+        <label>Masowe usuwanie</label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label>Ankieta segmentacyjna</label>
+        <name>Segmentation_Survey</name>
+    </webLinks>
+</CustomObjectTranslation>

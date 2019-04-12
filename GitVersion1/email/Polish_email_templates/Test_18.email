@@ -1,0 +1,18 @@
+A Request for has been submitted for approval and action. 
+
+Click on the link to access the Request directly: {!Request__c.Link}
+Here is a link to an account: {!Request__c.Account__c}
+
+Date of Request: {!Request__c.CreatedDate}
+Created By: {!Request__c.CreatedBy}
+
+Data which has changed:
+
+Before: 
+After: Account Name: {!Request__c.Account_Name__c}
+
+Account Legal Name: {!Request__c.Legal_Name__c}
+Account Record Type: {!Request__c.Account_Record_Type__c}
+Account Type: {!Request__c.Account_Type__c}
+Is Active: {!Request__c.Active__c}
+Parent Account: {!Request__c.Parent_Account__c}

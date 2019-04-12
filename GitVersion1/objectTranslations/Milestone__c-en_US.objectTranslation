@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Milestone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Milestones</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Milestones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BigCommerce Order Id --></label>
+        <name>BCOrderId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Flag --></label>
+        <name>Due_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Assigned to --></label>
+        <name>Project_Group_Assigned_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Customer --></label>
+        <name>Project_Group_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Sales Consultant --></label>
+        <name>Project_Group_Sales_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group --></label>
+        <name>Project_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Owner --></label>
+        <name>Project_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Milestones --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed</masterLabel>
+            <translation><!-- Delayed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Milestone Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

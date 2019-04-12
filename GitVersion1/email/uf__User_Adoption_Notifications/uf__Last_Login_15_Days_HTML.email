@@ -1,0 +1,11 @@
+Hello {!uf__User_Status__c.uf__User__c}, <br /><br />
+
+You have not logged into Salesforce.com in 15 days. Is something wrong? Is there something that we can help you with? <br /><br />
+
+Please login to Salesforce.com and visit this link: <br />
+https://na9.salesforce.com/{!uf__User_Status__c.Id} <br /><br />
+
+Please update this record with an explanation of why you have been inactive.<br /><br /> 
+
+Please click this link if you no longer need access to Salesforce.com (be careful): <br />
+<a href="https://usageforce-developer-edition.na9.force.com/uf__noneed?sid={!uf__User_Status__c.Id}">I DO NOT NEED A SALESFORCE LICENSE ANY LONGER</a>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This custom setting stores the no. of days after which the DCR gets locked for a particular REGION defined at user level. Name field corresponds to the User&apos;s REGION and Days field to No. of Days after DCR gets Locked.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Days__c</fullName>
+        <externalId>false</externalId>
+        <label>Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>DCR Locking Days</label>
+    <listViews>
+        <fullName>Region_Wise_Settings</fullName>
+        <columns>NAME</columns>
+        <columns>Days__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Region Wise Settings</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

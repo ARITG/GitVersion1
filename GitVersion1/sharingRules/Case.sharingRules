@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Cases_Poland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Cases Poland</label>
+        <sharedTo>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Super_user_poland</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Super user profile users can  access all cases belongs to the Poland BU cases.</description>
+        <label>Super user poland</label>
+        <sharedTo>
+            <group>Super_Users_Poland</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

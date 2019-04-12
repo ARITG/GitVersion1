@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Growth Metrics</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Growth Metrics</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Growth Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Full Year Tons Goal --></label>
+        <name>Full_Year_Tons_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Growth Metrics --></label>
+        <name>Growth_Metrics__c</name>
+        <relationshipLabel><!-- Growth Metrics --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pace --></label>
+        <name>Pace_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pace --></label>
+        <name>Pace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tons Needed to Hit Goal --></label>
+        <name>Tons_Needed_to_Hit_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Goal --></label>
+        <name>YTD_Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- YTD Tons --></label>
+        <name>YTD_Tons__c</name>
+    </fields>
+    <layouts>
+        <layout>Growth Metrics Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

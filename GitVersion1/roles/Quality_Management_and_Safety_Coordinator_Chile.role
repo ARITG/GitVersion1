@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Quality Management and Safety Coordinator</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Food_Safety_and_Quality_Assurance_Manager_Chile</parentRole>
+</Role>

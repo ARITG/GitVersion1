@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rebate Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rebate Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual session user --></label>
+        <name>Actual_session_user__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Rebate Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payer --></label>
+        <name>CAR_Account__c</name>
+        <relationshipLabel><!-- Rebate Requests (Payer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>CAR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager Approved</masterLabel>
+            <translation><!-- Manager Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please select correct request type --></help>
+        <label><!-- Request Type --></label>
+        <name>Cargill_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Limit</masterLabel>
+            <translation><!-- Credit Limit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate Request</masterLabel>
+            <translation><!-- Rebate Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Health - Actual Margin --></label>
+        <name>Customer_Health_Actual_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Health - Target Margin --></label>
+        <name>Customer_Health_Target_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ERP ID --></label>
+        <name>ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include Payer --></label>
+        <name>Include_Payer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inform Supervisor --></label>
+        <name>Inform_Supervisor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locked --></label>
+        <name>Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Name --></label>
+        <name>Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Role --></label>
+        <name>Manager_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Needs Manager Approval --></label>
+        <name>Needs_Manager_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Rebate Request --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- Rebate Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payer Account Record Type --></label>
+        <name>Payer_Account_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection checkbox --></label>
+        <name>Rejection_checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Req Processing Log --></label>
+        <name>Req_Processing_Log__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Manager Email --></label>
+        <name>Second_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid From --></label>
+        <name>Valid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid To --></label>
+        <name>Valid_To__c</name>
+    </fields>
+    <layouts>
+        <layout>Rebate Request Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot check Inform Supervisor field if Needs Manager field is not checked. --></errorMessage>
+        <name>Inform_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rebate Request Record is Locked. Rebate Request cannot be created, edited, or deleted. --></errorMessage>
+        <name>Rebate_Request_Lock_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rebate Request can be only created for the payer. Your account has parent account. Only parent account is acceptable if it is Buying Group. --></errorMessage>
+        <name>Request_must_be_on_Payer_only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a value --></errorMessage>
+        <name>ValidFromValidation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

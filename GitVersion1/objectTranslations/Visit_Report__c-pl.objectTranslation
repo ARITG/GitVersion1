@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Raport z wizyty</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- US - Noah/Dennis/Aiden - Visit Report --></label>
+        <name>US_Noah_Dennis_Aiden_Visit_Report</name>
+    </fieldSets>
+    <fields>
+        <label>Złożona reklamacja</label>
+        <name>Complaint_Raised__c</name>
+    </fields>
+    <fields>
+        <label>Nr spotkania</label>
+        <name>Event_ID__c</name>
+    </fields>
+    <fields>
+        <label>Notatki zewnętrzne (dla Klienta).</label>
+        <name>External_Call_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Event Id --></label>
+        <name>External_Event_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Notatki wewnętrzne (poufne!)</label>
+        <name>Internal_Call_Notes__c</name>
+    </fields>
+    <fields>
+        <label>Linia produktowa</label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation><!-- Pork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry</masterLabel>
+            <translation><!-- Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruminants</masterLabel>
+            <translation><!-- Ruminants --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Related Spotkanie</label>
+        <name>Related_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>Segment__c</name>
+        <picklistValues>
+            <masterLabel>Baxter</masterLabel>
+            <translation><!-- Baxter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dennis</masterLabel>
+            <translation><!-- Dennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kobe</masterLabel>
+            <translation><!-- Kobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noah</masterLabel>
+            <translation><!-- Noah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonya</masterLabel>
+            <translation><!-- Sonya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spence</masterLabel>
+            <translation><!-- Spence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walton</masterLabel>
+            <translation><!-- Walton --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Szkolenie zaplanowane</label>
+        <name>Training_Scheduled__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel><!-- Visit Report ID --></nameFieldLabel>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

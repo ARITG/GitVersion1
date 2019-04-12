@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>cargill:saml20:idp</issuer>
+    <loginUrl>https://fsso.cargill.com/idp/SSO.saml2</loginUrl>
+    <logoutUrl>http://cargillconnects.cargill.com/Pages/Default.aspx</logoutUrl>
+    <name>Cargill18</name>
+    <oauthTokenEndpoint>https://cargill18--Sprint20.cs30.my.salesforce.com/services/oauth2/token?so=00Dn00000000mwU</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P1f1000000fxxD</requestSigningCertId>
+    <salesforceLoginUrl>https://cargill18--Sprint20.cs30.my.salesforce.com?so=00Dn00000000mwU</salesforceLoginUrl>
+    <samlEntityId>https://cargill18.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIICYDCCAckCAUowDQYJKoZIhvcNAQEEBQAwGzEZMBcGA1UEAxMQSWRNIFNlbGYtU2lnbiBDQTAeFw0xMTA4MDMxMzEyMjlaFw0yMTA3MzExMzEyMjlaMFIxHTAbBgNVBAoTFENhcmdpbGwgSW5jb3Jwb3JhdGVkMRwwGgYDVQQLExNJZGVudGl0eSBNYW5hZ2VtZW50MRMwEQYDVQQDEwpzYWxlc2ZvcmNlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnCgYCCDaPi+h2a5YaMo/Rll4E3oHORys7UDOIXvs6nKiN4Fv3zEMxTDmCAp+xfuC6sGt32QJtsMucd5mExuddCPkuGJPaiQta2o8+yMhZ4mjnJRPMO+51tydAp4JxONn0ihUGWc8UYBZapPXzUUOOrmphXC0pLuL6IJgksuvZWjNEIUMZ+i0AJvG9cKzelbFA+hAMU3Zva08CSUjX/rjwvr0/o8l1NJ+sPAIX3fnm9dPNmY3ltdscF9TUqvU9jdqSUOU1bDMgLM0MAs1nvazycum5OiXNnyjXRs2pYusQAXMV4mIk9BMx8dIfXkHHpLofvjClCPZvwYgKwtNl5RrqQIDAQABMA0GCSqGSIb3DQEBBAUAA4GBAFxVL+kSaOiOTSBCC27OxUdwAVNRaRt7IodYr4Ff3ogG3oEEArBL3pwM3UvmGcJp2KtfkzwHIA0t1mp+6ug/k+dnYmAlZo48S26CEBYKVge10oYrbUEJQUBU6jFD9GJZOO5bGOrGLdNWG7dAiKMnVkOw388biXza7uNcsSywsLHi</validationCert>
+</SamlSsoConfig>

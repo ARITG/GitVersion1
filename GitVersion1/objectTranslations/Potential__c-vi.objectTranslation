@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tiềm năng</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Chu kỳ vật nuôi</label>
+        <name>Animals_cycle__c</name>
+    </fields>
+    <fields>
+        <label>Vật nuôi/ YR</label>
+        <name>Animals_yr__c</name>
+    </fields>
+    <fields>
+        <label>Thức ăn qui đổi hàng năm 2</label>
+        <name>Annual_CFE_CON__c</name>
+    </fields>
+    <fields>
+        <label>Thức ăn qui đổi hàng năm 1</label>
+        <name>Annual_CFE__c</name>
+    </fields>
+    <fields>
+        <label>Sản lượng hàng năm(MT)</label>
+        <name>Annual_Volume_MT__c</name>
+    </fields>
+    <fields>
+        <label>Sản lượng hàng năm</label>
+        <name>Annual_Volume__c</name>
+    </fields>
+    <fields>
+        <label>Phần trăm trong tổng Thức ăn qui đổi</label>
+        <name>CFE_incl__c</name>
+    </fields>
+    <fields>
+        <label>KG / vật nuôi / chu kỳ</label>
+        <name>CFE_kg_animal_cycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- CalculationKey --></label>
+        <name>CalculationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculation Category --></label>
+        <name>Calculation_Category__c</name>
+        <picklistValues>
+            <masterLabel>CFE</masterLabel>
+            <translation><!-- CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume</masterLabel>
+            <translation>sản lượng</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>loại tính toán</label>
+        <name>Calculation_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Key --></label>
+        <name>Competitor_Key__c</name>
+    </fields>
+    <fields>
+        <label>Đối Thủ</label>
+        <name>Competitor__c</name>
+    </fields>
+    <fields>
+        <label>đóng góp</label>
+        <name>Contribution__c</name>
+    </fields>
+    <fields>
+        <label>Năm chu kỳ</label>
+        <name>Cycles_yr__c</name>
+    </fields>
+    <fields>
+        <label>NGÀY CHO ĂN /NĂM</label>
+        <name>Days_Fed_yr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check --></label>
+        <name>Duplicate_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Potential --></label>
+        <name>Master_Potential__c</name>
+        <relationshipLabel><!-- Potentials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Potential Check --></label>
+        <name>Potential_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Function --></label>
+        <name>Product_Function__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tất cả</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boar</masterLabel>
+            <translation>Heo Nọc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeder</masterLabel>
+            <translation>Con Giống</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow Calf</masterLabel>
+            <translation>Thức ăn thay thế sữa mẹ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creep</masterLabel>
+            <translation>trườn</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Cow</masterLabel>
+            <translation>Bò chờ phối giống</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finisher</masterLabel>
+            <translation>Heo Thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower</masterLabel>
+            <translation>Heo giai đoạn tăng trưởng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower/Finisher</masterLabel>
+            <translation>Bò giai đoạn tăng trưởng/Bò thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heifer</masterLabel>
+            <translation>Bê con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactating Meat</masterLabel>
+            <translation>Bò nuôi con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactation</masterLabel>
+            <translation>Nái nuôi con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>Gà đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Sữa thay thế</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Piglet</masterLabel>
+            <translation>Heo con khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Starter</masterLabel>
+            <translation>Heo Choai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pullet</masterLabel>
+            <translation>Gà hậu bị</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow</masterLabel>
+            <translation>Heo Nái</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow Gestation</masterLabel>
+            <translation>Nái Mang Thai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starter</masterLabel>
+            <translation>Heo sau cai sữa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salesperson --></label>
+        <name>Salesperson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share of Wallet --></label>
+        <name>Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species_Formula --></label>
+        <name>Species_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tất cả</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation>Nuôi trồng thủy sản</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation>Thịt bò</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation>Gà thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation>Bò sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Vịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Ngựa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Dê</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation>Thành phần</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layers</masterLabel>
+            <translation>gà đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Sữa thay thế</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation>Gia cầm khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Thức ăn cho thú cưng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation>Thịt heo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Thỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Cừu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Động vật nhai lại nhỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation>Đặc biệt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>gà tây</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <relationshipLabel><!-- Potentials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total consumption complete feed  [MT] --></label>
+        <name>Total_consumption_complete_feed_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- TypeOfCalculation --></label>
+        <name>TypeOfCalculation__c</name>
+        <picklistValues>
+            <masterLabel>Cycle Consumption</masterLabel>
+            <translation>Chu kỳ cho ăn</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycle Consumption - CFE</masterLabel>
+            <translation>Chu kỳ cho ăn - Thức ăn qui đổi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption</masterLabel>
+            <translation>Lượng cho ăn hàng ngày</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption - CFE</masterLabel>
+            <translation>Lượng cho ăn hàng ngày - Thức ăn qui đổi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate</masterLabel>
+            <translation>Ước tính tiềm năng đơn giản</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate - CFE</masterLabel>
+            <translation>Ước tính tiềm năng đơn giản - Thức ăn qui đổi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Basemix</masterLabel>
+            <translation><!-- Basemix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation>Hoàn thành</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concentrate</masterLabel>
+            <translation>đậm đặc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredients</masterLabel>
+            <translation>Nguyên liệu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Defined</masterLabel>
+            <translation>Không xác định</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialties</masterLabel>
+            <translation>Các loài khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premix</masterLabel>
+            <translation>Vi Khoáng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protein Treatment</masterLabel>
+            <translation>Điều trị bằng protein</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value / CFE MT --></label>
+        <name>Value_CFE_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value / CFE --></label>
+        <name>Value_CFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value / MT --></label>
+        <name>Value_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCompetitor --></label>
+        <name>isCompetitor__c</name>
+    </fields>
+    <fields>
+        <label>KG / vật nuôi / chu kỳ</label>
+        <name>kg_animal_cycle__c</name>
+    </fields>
+    <fields>
+        <label>KG / HD / Ngày</label>
+        <name>kg_hd_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- overridden --></label>
+        <name>overridden__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentAccount --></label>
+        <name>parentAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentaccountFormula --></label>
+        <name>parentaccountFormula__c</name>
+    </fields>
+    <fields>
+        <label>% Chia sẻ</label>
+        <name>share__c</name>
+    </fields>
+    <nameFieldLabel><!-- Potential  Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Cycle Consumption --></label>
+        <name>Cycle_Consumption</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cycle Consumption - CFE --></label>
+        <name>Cycle_Consumption_CFE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Daily Animal Consumption --></label>
+        <name>Daily_Animal_Consumption</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Daily Animal Consumption - CFE --></label>
+        <name>Daily_Animal_Consumption_CFE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Simple Potential Estimate --></label>
+        <name>Simple_Potential_Estimate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Simple Potential Estimate - CFE --></label>
+        <name>Simple_Potential_Estimate_CFE</name>
+    </recordTypes>
+</CustomObjectTranslation>

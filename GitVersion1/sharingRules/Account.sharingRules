@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Poland_Share_Non_Riva_Accounts</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Non Riva Poland Accounts</description>
+        <label>Poland Share Non Riva Accounts</label>
+        <sharedTo>
+            <group>Poland_Sharing_Rule_Group</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Type</field>
+            <operation>notEqual</operation>
+            <value>Riva</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Competitor_and_Third_Party_Records</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Poland Third Party and Competitor Records of Poland</description>
+        <label>Share Competitor and Third Party Records</label>
+        <sharedTo>
+            <group>Poland_All</group>
+        </sharedTo>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Third Party</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Competitor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Poland_All_Record</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share all records which are owned by Tomasz Dusza</description>
+        <label>Share Poland All Record</label>
+        <sharedTo>
+            <group>Poland_All</group>
+        </sharedTo>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>005j0000000jK11AAE</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Commercial Customer</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Standard</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Marketing_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Marketing Team</label>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Ontario_All_species</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Ontario (All species) records</description>
+        <label>Ontario (All species)</label>
+        <sharedTo>
+            <group>Ontario_All_Species_Share_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Ontario_All_species_Role</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Ontario_Quebec_Dairy</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Ontario_Quebec_Dairy Records</description>
+        <label>Ontario/Quebec Dairy</label>
+        <sharedTo>
+            <group>Ontario_All_Species_Share_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Ontario_Quebec_Dairy_Role</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Ontario_Western_Canada_Dairy_Sharing_Rule</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Ontario/Western Canada (Dairy) records.</description>
+        <label>Ontario/Western Canada (Dairy) Sharing Rule</label>
+        <sharedTo>
+            <group>Ontario_Western_Canada_Dairy_Share_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Ontario_Western_Canada_Dairy_Roles</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Quebec_All_species</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share Quebec (All species) records</description>
+        <label>Quebec (All species)</label>
+        <sharedTo>
+            <group>Quebec_All_Species_Share_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Quebec_All_species_Role</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Western_Canada_All_species</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>Share all records of Western Canada (All species)</description>
+        <label>Western Canada (All species)</label>
+        <sharedTo>
+            <group>Western_Canada_All_Species_Share_User</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Western_Canada_All_species_Role</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

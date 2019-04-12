@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Master Potential --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Master Potential --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Master Potentials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Calculation Category --></label>
+        <name>Calculation_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculation Type --></label>
+        <name>Estimation_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cycle Consumption</masterLabel>
+            <translation>Cycle de consommation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycle Consumption - CFE</masterLabel>
+            <translation><!-- Cycle Consumption - CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption</masterLabel>
+            <translation>Consommation quotidienne d&apos;animaux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption - CFE</masterLabel>
+            <translation><!-- Daily Animal Consumption - CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate</masterLabel>
+            <translation>Estimation potentielle simple</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate - CFE</masterLabel>
+            <translation><!-- Simple Potential Estimate - CFE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overridden Count --></label>
+        <name>Overridden_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saleslogix Account ID --></label>
+        <name>Saleslogix_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tout</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation>Boeuf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation>Poulet à griller</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation>Laitier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Canards</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Équin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Chèvre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation>Ingrédients</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layers</masterLabel>
+            <translation>Pondeuses</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Lait de remplacement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation>Autre Volaille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Nourriture pour chiens et chats</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation>Porc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Lapin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Mouton</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Petits Ruminants</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation>Spécialité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>Dinde</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Annual CFE Con --></label>
+        <name>Total_Annual_CFE_Con__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Annual CFE --></label>
+        <name>Total_Annual_CFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Annual Volume MT --></label>
+        <name>Total_Annual_Volume_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contribution --></label>
+        <name>Total_Contribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Potential --></label>
+        <name>Total_Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Volume --></label>
+        <name>Total_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- share of CFE --></label>
+        <name>share_of_CFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- share of volume --></label>
+        <name>share_of_volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- share of wallet --></label>
+        <name>share_of_wallet__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Master Potential  Name --></nameFieldLabel>
+    <recordTypes>
+        <label>Potentiel</label>
+        <name>Potential</name>
+    </recordTypes>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

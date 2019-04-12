@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>CQN-NA Project Manager-EHS and Project Management</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>CQN-NA Project Manager-EHS and Project Management</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>CQN_NA_Project_Manager</parentRole>
+</Role>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Budget and Actual</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Budgets and Actuals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Manager Id --></label>
+        <name>sc_Approval_Manager_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Manager Name --></label>
+        <name>sc_Approval_Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- BU Type --></label>
+        <name>sc_BU_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Date --></label>
+        <name>sc_Budget_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDH Territory Code Id --></label>
+        <name>sc_CDH_Territory_Code_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDH Territory Code --></label>
+        <name>sc_CDH_Territory_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CDH Territory Name --></label>
+        <name>sc_CDH_Territory_Name__c</name>
+        <relationshipLabel><!-- User Budgets and Actuals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Channel Type --></label>
+        <name>sc_Channel_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM Budget - Actual CY --></label>
+        <name>sc_GM_Budget_Actual_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM Budget - Actual CY flag --></label>
+        <name>sc_GM_Budget_Actual_CY_flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Margin Actual CY --></label>
+        <name>sc_Gross_Margin_Actual_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Margin Budget CY --></label>
+        <name>sc_Gross_Margin_Budget_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Margin Previous CY --></label>
+        <name>sc_Gross_Margin_Previous_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Admin Update --></label>
+        <name>sc_Last_Admin_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Profile Name Id --></label>
+        <name>sc_Manager_Profile_Name_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Profile Name --></label>
+        <name>sc_Manager_Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- New_Principal --></label>
+        <name>sc_New_Principal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>sc_Product_group_budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specie_Advisor --></label>
+        <name>sc_Specie_Advisor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specie --></label>
+        <name>sc_Specie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line --></label>
+        <name>sc_Specie_x__c</name>
+    </fields>
+    <fields>
+        <label><!-- Statutory --></label>
+        <name>sc_Statutory__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>sc_User_Id__c</name>
+        <relationshipLabel><!-- User Budgets and Actuals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- User Name --></label>
+        <name>sc_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol Budget - Actual CY --></label>
+        <name>sc_Vol_Budget_Actual_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vol Budget - Actual CY flag --></label>
+        <name>sc_Vol_Budget_Actual_CY_flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Actual CY --></label>
+        <name>sc_Volume_Actual_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Budget CY --></label>
+        <name>sc_Volume_Budget_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume Previous CY --></label>
+        <name>sc_Volume_Previous_CY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year and Month --></label>
+        <name>sc_Year_and_Month__c</name>
+    </fields>
+    <layouts>
+        <layout>User Budget and Actual Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dane szczegółowe --></label>
+            <section>Dane szczegółowe</section>
+        </sections>
+        <sections>
+            <label><!-- Kanał sprzedaży, linia, gatunek itd. --></label>
+            <section>Kanał sprzedaży, linia, gatunek itd.</section>
+        </sections>
+        <sections>
+            <label><!-- Wolumen i Marża --></label>
+            <section>Wolumen i Marża</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

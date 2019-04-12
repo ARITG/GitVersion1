@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>RBL1-5-SM1-RSM4-SS3-FM/TM</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>RBL1_5_SM1_RSM4_Sales_Supervisor3</parentRole>
+</Role>

@@ -1,0 +1,31 @@
+Wniosek: {!CAR_RebateReqs__c.Name}
+Link: {!CAR_RebateReqs__c.Link}
+Status rekordu: {!CAR_RebateReqs__c.Locked__c}
+
+Czy informować Przełożonego:{!CAR_RebateReqs__c.Needs_Manager_Approval__c}
+Czy informować Dyrektora: {!CAR_RebateReqs__c.Inform_Supervisor__c}
+
+Autor: {!CAR_RebateReqs__c.CreatedBy}
+Telefon: {!CAR_RebateReqs__c.OwnerPhone}
+Data: {!CAR_RebateReqs__c.CreatedDate}
+
+Ostatnio modyfikował: {!CAR_RebateReqs__c.LastModifiedBy}
+Ostatnia aktualizacja: {!CAR_RebateReqs__c.LastModifiedDate}
+
+Przypisany do: {!CAR_RebateReqs__c.Assigned_To__c}
+
+Ważny od: {!CAR_RebateReqs__c.Valid_From__c}
+Ważny do: {!CAR_RebateReqs__c.Valid_To__c}
+
+Płatnik: {!CAR_RebateReqs__c.CAR_Account__c}
+Nr ERP płatnika: {!CAR_RebateReqs__c.ERP_ID__c}
+Czy uwzględnić płatnika: {!CAR_RebateReqs__c.Include_Payer__c}
+
+Komentarz: {!CAR_RebateReqs__c.Comments__c}
+
+Linia: {!Rebate_Request_Line__c.Name}
+Produkt: {!Rebate_Request_Line__c.Product__c}
+Produkt - kod: {!Rebate_Request_Line__c.CAR_Product_Code__c}
+Produkt - ID: {!Rebate_Request_Line__c.CAR_Product_CodeId__c}
+Cena cennikowa: {!Rebate_Request_Line__c.Price__c}
+Cena specjalna: {!Rebate_Request_Line__c.Special_price__c}

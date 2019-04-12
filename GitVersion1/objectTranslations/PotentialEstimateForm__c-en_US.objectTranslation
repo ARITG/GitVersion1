@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential Estimate Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential Estimate Form</value>
+    </caseValues>
+    <fields>
+        <label><!-- Product Function --></label>
+        <name>Product_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+    </fields>
+    <fields>
+        <label><!-- TypeOfCalculation --></label>
+        <name>TypeOfCalculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- % inclusion per CFE --></label>
+        <name>inclusion_per_CFE__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

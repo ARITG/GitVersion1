@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Business EQ Poland</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Business__c</field>
+                <operation>equals</operation>
+                <value>Poland</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>crm_cfmpl@cargill.com</replyToEmail>
+            <senderEmail>tomasz_dusza@cargill.com</senderEmail>
+            <senderName>Crescendo Poland</senderName>
+            <template>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Territory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Territories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Employee Link To --></label>
+        <name>Employee_Link_To__c</name>
+        <relationshipLabel><!-- Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Grand Parent TerritoryId --></label>
+        <name>Grand_Parent_TerritoryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent TerritoryId --></label>
+        <name>Parent_TerritoryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous LinkTo Emp --></label>
+        <name>Previous_LinkTo_Emp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Territory Id --></label>
+        <name>Previous_Territory_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- TerrEmpName --></label>
+        <name>TerrEmpName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Id --></label>
+        <name>Territory_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Target Field --></label>
+        <name>Unique_Target_Field__c</name>
+    </fields>
+    <layouts>
+        <layout>Target Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

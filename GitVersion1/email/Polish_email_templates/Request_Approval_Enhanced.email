@@ -1,0 +1,23 @@
+Wniosek został wysłany, proszę o zapoznanie się i podjęcie stosownych działań.. 
+
+Link do wniosku: {!Request__c.Link}
+Link do konta: {!Request__c.Account__c}
+
+Data wniosku: {!Request__c.CreatedDate}
+Stworzony przez: {!Request__c.CreatedBy}
+
+Dane, które uległy zmianie:
+
+Nazwa konta: {!Request__c.Account_Name__c}
+
+Nazwa prawna: {!Request__c.Legal_Name__c}
+Typ rekordu konta: {!Request__c.Account_Record_Type__c}
+Typ konta: {!Request__c.Account_Type__c}
+Czy podmiot aktywny: {!Request__c.Active__c}
+Konto nadrzędne: {!Request__c.Parent_Account__c}
+
+Telefon firmowy: {!Account.Phone}
+Czy telefon uległ zmianie?: {!Request__c.Phone_Changed__c}
+
+Email firmowy: {!Account.Company_Email__c}
+Czy email uległ zmianie?: {!Request__c.Company_Email_Changed__c}

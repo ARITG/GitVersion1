@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Approval Process Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Approval Process Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Approval Process Label Name --></label>
+        <name>Account_Approval_Process_Label_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Process Name --></label>
+        <name>Approval_Process_Name__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Last Login 60 Days HTML</name>
+    <style>none</style>
+    <subject>60 Days of Salesforce.com Inactivity - Please Login</subject>
+    <textOnly>Hello {!uf__User_Status__c.uf__User__c}, 
+
+You have not logged into Salesforce.com in 60 days. Your manager has been notified and your account will be disabled. 
+
+If your access is needed please login to Salesforce.com immediately. https://cargill18.my.salesforce.com/{!uf__User_Status__c.Id} 
+
+You may request your account to be reactivated by using the helpdesk form below: http://helpdesk.cargill.com/SubmitTicket.aspx?id=2401</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

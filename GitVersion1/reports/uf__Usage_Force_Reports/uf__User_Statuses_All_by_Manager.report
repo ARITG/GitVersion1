@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>uf__User_Status__c.uf__Status_Type__c</field>
+    </columns>
+    <columns>
+        <field>uf__User_Status__c.uf__Days_Since_Login__c</field>
+    </columns>
+    <columns>
+        <field>uf__User_Status__c.uf__Cost_of_Inactivity__c</field>
+    </columns>
+    <columns>
+        <field>uf__User_Status__c.uf__Reason_for_Inactivity__c</field>
+    </columns>
+    <columns>
+        <field>uf__User_Status__c.uf__Inactivity_Explanation__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>uf__User_Status__c.uf__Manager__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>User Statuses - All by Manager</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$uf__User_Status__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>uf__User_Status__c.uf__Date_of_Last_Login__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request for Customer Update Final Approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Visit_Report_Letterhead</letterhead>
+    <name>HTML Global Request Final Approval Template Canada</name>
+    <style>freeForm</style>
+    <subject>Request/Requête  {!Request__c.Name} for/pour  {!Request__c.Request_Type__c} ({!Request__c.Account_Name__c}) - {!Request__c.Approval_Status_Email__c}</subject>
+    <textOnly>A Request for Approval has been/Une requête pour approbation a été  {!Request__c.Approval_Status_Email__c}
+
+Request Details / Détails de la requête:
+Request ID / Numéro de requête: {!Request__c.Name}
+Request Type / Type de requête: {!Request__c.Request_Type__c}
+Approver Comments / Commentaires de l’approbateur: {!ApprovalRequest.Comments}
+Date of Request / Date de la requête: {!Request__c.CreatedDate}
+Created By / Créée par: {!Request__c.CreatedBy}
+
+Click here to access the Request directly/Cliquer ici afin d’accéder directement à la requête
+
+
+Account Details/ Détails du compte:
+Account Name / Nom du compte: {!Request__c.Account_Name__c}
+Account Owner / Propriétaire du compte: {!Request__c.Account_Owner__c}
+Account Legal Name / Nom légal du compte: {!Request__c.Legal_Name_Formula__c}
+Account Record Type / Type d’enregistrement du compte: {!Request__c.Account_Record_Type__c}
+Account Type / Type de compte: {!Request__c.Account_Type_Formula__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

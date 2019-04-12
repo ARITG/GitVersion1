@@ -1,0 +1,5 @@
+Hola {!Opportunity.OwnerFirstName},
+
+Este es un recordatorio para la oportunidad de ventas  {!Opportunity.Name}.La fecha esperada de cierre es {!Opportunity.CloseDate}.
+
+Presione en este vínculo para acceder a la Oportunidad: {!Opportunity.Link}

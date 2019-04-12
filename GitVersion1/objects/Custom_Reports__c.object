@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_System_Report__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To be checked only for external system reports</description>
+        <externalId>false</externalId>
+        <label>External System Report</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Report_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Report Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Report_link__c</fullName>
+        <externalId>false</externalId>
+        <label>Report link</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFDC_System_Report__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>To be checked only for Salesforce system custom reports</description>
+        <externalId>false</externalId>
+        <label>SFDC System Report</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Section_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Section  Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sequence__c</fullName>
+        <externalId>false</externalId>
+        <label>Sequence</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Custom Reports</label>
+    <listViews>
+        <fullName>All_Records</fullName>
+        <columns>NAME</columns>
+        <columns>Report_Name__c</columns>
+        <columns>Business_Unit__c</columns>
+        <columns>External_System_Report__c</columns>
+        <columns>SFDC_System_Report__c</columns>
+        <columns>Report_link__c</columns>
+        <columns>Section_Name__c</columns>
+        <columns>Sequence__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Records</label>
+        <language>en_US</language>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

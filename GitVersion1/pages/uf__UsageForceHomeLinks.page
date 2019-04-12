@@ -1,0 +1,37 @@
+<apex:page showHeader="false" standardController="Account">
+<apex:pageBlock title="AdoptionMax - My Data" >
+   
+<p><span style="font-family: Arial, Helvetica, sans-serif; text-decoration: none; font-size: 12px;">The purpose of these quick links is to prevent you from needlessly clicking around throughout the endless amount of <br />irrelevant report / dashboards that most likely exist.  Find everything you need right here.</span></p><br />
+<apex:panelGrid columns="4" id="theGrid" width="750px" cellspacing="1px" cellpadding="1px"  rowClasses="odd,even" styleClass="tableClass">
+        <apex:outputText value="My Leads" id="theFirst" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 15px; font-weight: bold;"/>
+        <apex:outputText value="My Deals" id="theSecond" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 15px; font-weight: bold;"/>
+        <apex:outputText value="My Customers" id="theThird" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 15px; font-weight: bold;"/>
+        <apex:outputText value="My Performance" id="theFourth" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 15px; font-weight: bold;"/>
+        <apex:outputLink value="/00OE0000000JnWl" id="theLink1" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Lead Activity History</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnUz" id="theLink2" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Upcoming Deals</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnVY" id="theLink3" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Accounts by City</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnUf" id="theLink4" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Won Deals</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnW7" id="theLink5" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Leads by Rating</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnUp" id="theLink6" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Pipeline by Month</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnVT?pv0={!$User.FirstName}+{!$User.LastName}&pv1={!$User.FirstName}+{!$User.LastName}" id="theLink7" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Customer Contacts</apex:outputLink>
+        <apex:outputLink value="/00OE0000000JnS3" id="theLink8" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Lost Deals</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnTd" id="theLink9" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Pipeline by Stage</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnUa" id="theLink10" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Neglected Deals</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnUu" id="theLink11" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My High Probability Deals</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnXo?pv0={!$User.FirstName}+{!$User.LastName}&pv1={!$User.FirstName}+{!$User.LastName}" id="theLink12" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Tasks Assigned to Others</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnV4" id="theLink13" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Open Deals All</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JneM?pv0={!$User.FirstName}+{!$User.LastName}" id="theLink14" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Inactivity</apex:outputLink>
+        <apex:outputText value=""/>
+        <apex:outputText value=""/>
+        <apex:outputText value=""/>
+        <apex:outputLink value="/00OE0000000JnfT?pv0={!$User.FirstName}+{!$User.LastName}" id="theLink15" target="_top" style="font-family: Arial, Helvetica, sans-serif; text-decoration: underline; font-size: 12px;">My Employee's Inactivity</apex:outputLink>
+    </apex:panelGrid>
+<br />
+</apex:pageBlock>
+</apex:page>

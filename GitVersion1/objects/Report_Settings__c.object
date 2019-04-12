@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Store Analytics Report Chart Required Details</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BI_Link_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>BI Link - Sales</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <label>Report Settings</label>
+    <visibility>Protected</visibility>
+</CustomObject>

@@ -1,0 +1,3048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Customer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Project Groups</relationshipLabel>
+        <relationshipName>Project_Groups</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Assigned_To_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assigned_To__r.Email</formula>
+        <label>Assigned To : Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To_FirstName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assigned_To__r.FirstName</formula>
+        <label>Assigned To : FirstName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To_LastName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Assigned_To__r.LastName</formula>
+        <label>Assigned To : LastName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Groups1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Attn_Project_Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>&quot;Attn :&quot;&amp;&quot;&quot;&amp; Name</formula>
+        <label>Attn : Project Group Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BCOrderId__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>BIG ORDER NUMBER</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>BC_Customer_Group__c</fullName>
+        <description>Created for marketing users</description>
+        <externalId>false</externalId>
+        <label>CFR EXPERIENCE GROUP</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BC_Order_Product_ID__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>BC Order Product ID</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Base_Handling_Cost__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Base Handling Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Base_Shipping_Cost__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Base Shipping Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Budget_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Designate_Payment_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>CFR Bus Bldr</fullName>
+                    <default>false</default>
+                    <label>Business Builder</label>
+                </value>
+                <value>
+                    <fullName>CFR BX Reg SPN</fullName>
+                    <default>false</default>
+                    <label>BX Regional Sponsorship</label>
+                </value>
+                <value>
+                    <fullName>CFR BX Reg TS</fullName>
+                    <default>false</default>
+                    <label>BX Regional Tradeshow</label>
+                </value>
+                <value>
+                    <fullName>CFR Int BX</fullName>
+                    <default>false</default>
+                    <label>Cargill Budget- Internal Use ONLY- BX</label>
+                </value>
+                <value>
+                    <fullName>CFR Int SY</fullName>
+                    <default>false</default>
+                    <label>Cargill Budget- Internal USE ONLY- SY</label>
+                </value>
+                <value>
+                    <fullName>CFR GEM</fullName>
+                    <default>false</default>
+                    <label>GEM</label>
+                </value>
+                <value>
+                    <fullName>CFR Ntl SPN</fullName>
+                    <default>false</default>
+                    <label>National Sponsorship</label>
+                </value>
+                <value>
+                    <fullName>CFR Ntl TS</fullName>
+                    <default>false</default>
+                    <label>National Tradeshow</label>
+                </value>
+                <value>
+                    <fullName>CFR Orscheln</fullName>
+                    <default>false</default>
+                    <label>Orscheln Marketing Fund</label>
+                </value>
+                <value>
+                    <fullName>CFR Rural King</fullName>
+                    <default>false</default>
+                    <label>Rural King Marketing Fund</label>
+                </value>
+                <value>
+                    <fullName>CFR Show</fullName>
+                    <default>false</default>
+                    <label>Show</label>
+                </value>
+                <value>
+                    <fullName>CFR SY Chan SPN</fullName>
+                    <default>false</default>
+                    <label>SY Channel Sponsorship</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Bus Bldr</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR BX Reg SPN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR BX Reg TS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Int BX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Int SY</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR GEM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Ntl SPN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Ntl TS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Orscheln</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Rural King</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Budget</controllingFieldValue>
+                <controllingFieldValue>BudgetAccount</controllingFieldValue>
+                <valueName>CFR SY Chan SPN</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Budget_Total__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign_Owner_Email_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Owner Email Id</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Campaign__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Campaign</label>
+        <referenceTo>Campaign</referenceTo>
+        <relationshipLabel>Project Groups</relationshipLabel>
+        <relationshipName>Project_Groups</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Campaign__r.Type)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cargill_Customer_Contact__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available</inlineHelpText>
+        <label>Cargill Customer Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cargill_Customer_Number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available</inlineHelpText>
+        <label>Cargill Customer Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Shipping City</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Consultant_Email_Adress__c</fullName>
+        <externalId>false</externalId>
+        <label>Consultant Email Adress</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Consultant_Requesting__c</fullName>
+        <description>Identifies when a Sales Consultant is creating an Order on behalf of a Customer from the Billme Code in BC</description>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.” Identifies when a Sales Consultant is creating an Order on behalf of a Customer from the Bill me Code in BC.</inlineHelpText>
+        <label>Consultant Requesting</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Country</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Albania</fullName>
+                    <default>false</default>
+                    <label>Albania</label>
+                </value>
+                <value>
+                    <fullName>Algeria</fullName>
+                    <default>false</default>
+                    <label>Algeria</label>
+                </value>
+                <value>
+                    <fullName>Andorra</fullName>
+                    <default>false</default>
+                    <label>Andorra</label>
+                </value>
+                <value>
+                    <fullName>Angola</fullName>
+                    <default>false</default>
+                    <label>Angola</label>
+                </value>
+                <value>
+                    <fullName>Antigua &amp; Deps</fullName>
+                    <default>false</default>
+                    <label>Antigua &amp; Deps</label>
+                </value>
+                <value>
+                    <fullName>Argentina</fullName>
+                    <default>false</default>
+                    <label>Argentina</label>
+                </value>
+                <value>
+                    <fullName>Armenia</fullName>
+                    <default>false</default>
+                    <label>Armenia</label>
+                </value>
+                <value>
+                    <fullName>Australia</fullName>
+                    <default>false</default>
+                    <label>Australia</label>
+                </value>
+                <value>
+                    <fullName>Austria</fullName>
+                    <default>false</default>
+                    <label>Austria</label>
+                </value>
+                <value>
+                    <fullName>Azerbaijan</fullName>
+                    <default>false</default>
+                    <label>Azerbaijan</label>
+                </value>
+                <value>
+                    <fullName>Bahamas</fullName>
+                    <default>false</default>
+                    <label>Bahamas</label>
+                </value>
+                <value>
+                    <fullName>Bahrain</fullName>
+                    <default>false</default>
+                    <label>Bahrain</label>
+                </value>
+                <value>
+                    <fullName>Bangladesh</fullName>
+                    <default>false</default>
+                    <label>Bangladesh</label>
+                </value>
+                <value>
+                    <fullName>Barbados</fullName>
+                    <default>false</default>
+                    <label>Barbados</label>
+                </value>
+                <value>
+                    <fullName>Belarus</fullName>
+                    <default>false</default>
+                    <label>Belarus</label>
+                </value>
+                <value>
+                    <fullName>Belgium</fullName>
+                    <default>false</default>
+                    <label>Belgium</label>
+                </value>
+                <value>
+                    <fullName>Belize</fullName>
+                    <default>false</default>
+                    <label>Belize</label>
+                </value>
+                <value>
+                    <fullName>Benin</fullName>
+                    <default>false</default>
+                    <label>Benin</label>
+                </value>
+                <value>
+                    <fullName>Bhutan</fullName>
+                    <default>false</default>
+                    <label>Bhutan</label>
+                </value>
+                <value>
+                    <fullName>Bolivia</fullName>
+                    <default>false</default>
+                    <label>Bolivia</label>
+                </value>
+                <value>
+                    <fullName>Bosnia Herzegovina</fullName>
+                    <default>false</default>
+                    <label>Bosnia Herzegovina</label>
+                </value>
+                <value>
+                    <fullName>Botswana</fullName>
+                    <default>false</default>
+                    <label>Botswana</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Brunei</fullName>
+                    <default>false</default>
+                    <label>Brunei</label>
+                </value>
+                <value>
+                    <fullName>Bulgaria</fullName>
+                    <default>false</default>
+                    <label>Bulgaria</label>
+                </value>
+                <value>
+                    <fullName>Burkina</fullName>
+                    <default>false</default>
+                    <label>Burkina</label>
+                </value>
+                <value>
+                    <fullName>Burundi</fullName>
+                    <default>false</default>
+                    <label>Burundi</label>
+                </value>
+                <value>
+                    <fullName>Cambodia</fullName>
+                    <default>false</default>
+                    <label>Cambodia</label>
+                </value>
+                <value>
+                    <fullName>Cameroon</fullName>
+                    <default>false</default>
+                    <label>Cameroon</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Cape Verde</fullName>
+                    <default>false</default>
+                    <label>Cape Verde</label>
+                </value>
+                <value>
+                    <fullName>Central African Rep</fullName>
+                    <default>false</default>
+                    <label>Central African Rep</label>
+                </value>
+                <value>
+                    <fullName>Chad</fullName>
+                    <default>false</default>
+                    <label>Chad</label>
+                </value>
+                <value>
+                    <fullName>Chile</fullName>
+                    <default>false</default>
+                    <label>Chile</label>
+                </value>
+                <value>
+                    <fullName>China</fullName>
+                    <default>false</default>
+                    <label>China</label>
+                </value>
+                <value>
+                    <fullName>Colombia</fullName>
+                    <default>false</default>
+                    <label>Colombia</label>
+                </value>
+                <value>
+                    <fullName>Comoros</fullName>
+                    <default>false</default>
+                    <label>Comoros</label>
+                </value>
+                <value>
+                    <fullName>Congo</fullName>
+                    <default>false</default>
+                    <label>Congo</label>
+                </value>
+                <value>
+                    <fullName>Congo {Democratic Rep}</fullName>
+                    <default>false</default>
+                    <label>Congo {Democratic Rep}</label>
+                </value>
+                <value>
+                    <fullName>Costa Rica</fullName>
+                    <default>false</default>
+                    <label>Costa Rica</label>
+                </value>
+                <value>
+                    <fullName>Croatia</fullName>
+                    <default>false</default>
+                    <label>Croatia</label>
+                </value>
+                <value>
+                    <fullName>Cuba</fullName>
+                    <default>false</default>
+                    <label>Cuba</label>
+                </value>
+                <value>
+                    <fullName>Cyprus</fullName>
+                    <default>false</default>
+                    <label>Cyprus</label>
+                </value>
+                <value>
+                    <fullName>Czech Republic</fullName>
+                    <default>false</default>
+                    <label>Czech Republic</label>
+                </value>
+                <value>
+                    <fullName>Denmark</fullName>
+                    <default>false</default>
+                    <label>Denmark</label>
+                </value>
+                <value>
+                    <fullName>Djibouti</fullName>
+                    <default>false</default>
+                    <label>Djibouti</label>
+                </value>
+                <value>
+                    <fullName>Dominica</fullName>
+                    <default>false</default>
+                    <label>Dominica</label>
+                </value>
+                <value>
+                    <fullName>Dominican Republic</fullName>
+                    <default>false</default>
+                    <label>Dominican Republic</label>
+                </value>
+                <value>
+                    <fullName>East Timor</fullName>
+                    <default>false</default>
+                    <label>East Timor</label>
+                </value>
+                <value>
+                    <fullName>Ecuador</fullName>
+                    <default>false</default>
+                    <label>Ecuador</label>
+                </value>
+                <value>
+                    <fullName>Egypt</fullName>
+                    <default>false</default>
+                    <label>Egypt</label>
+                </value>
+                <value>
+                    <fullName>El Salvador</fullName>
+                    <default>false</default>
+                    <label>El Salvador</label>
+                </value>
+                <value>
+                    <fullName>Equatorial Guinea</fullName>
+                    <default>false</default>
+                    <label>Equatorial Guinea</label>
+                </value>
+                <value>
+                    <fullName>Eritrea</fullName>
+                    <default>false</default>
+                    <label>Eritrea</label>
+                </value>
+                <value>
+                    <fullName>Estonia</fullName>
+                    <default>false</default>
+                    <label>Estonia</label>
+                </value>
+                <value>
+                    <fullName>Ethiopia</fullName>
+                    <default>false</default>
+                    <label>Ethiopia</label>
+                </value>
+                <value>
+                    <fullName>Fiji</fullName>
+                    <default>false</default>
+                    <label>Fiji</label>
+                </value>
+                <value>
+                    <fullName>Finland</fullName>
+                    <default>false</default>
+                    <label>Finland</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Gabon</fullName>
+                    <default>false</default>
+                    <label>Gabon</label>
+                </value>
+                <value>
+                    <fullName>Gambia</fullName>
+                    <default>false</default>
+                    <label>Gambia</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Germany</fullName>
+                    <default>false</default>
+                    <label>Germany</label>
+                </value>
+                <value>
+                    <fullName>Ghana</fullName>
+                    <default>false</default>
+                    <label>Ghana</label>
+                </value>
+                <value>
+                    <fullName>Greece</fullName>
+                    <default>false</default>
+                    <label>Greece</label>
+                </value>
+                <value>
+                    <fullName>Grenada</fullName>
+                    <default>false</default>
+                    <label>Grenada</label>
+                </value>
+                <value>
+                    <fullName>Guatemala</fullName>
+                    <default>false</default>
+                    <label>Guatemala</label>
+                </value>
+                <value>
+                    <fullName>Guinea</fullName>
+                    <default>false</default>
+                    <label>Guinea</label>
+                </value>
+                <value>
+                    <fullName>Guinea-Bissau</fullName>
+                    <default>false</default>
+                    <label>Guinea-Bissau</label>
+                </value>
+                <value>
+                    <fullName>Guyana</fullName>
+                    <default>false</default>
+                    <label>Guyana</label>
+                </value>
+                <value>
+                    <fullName>Haiti</fullName>
+                    <default>false</default>
+                    <label>Haiti</label>
+                </value>
+                <value>
+                    <fullName>Honduras</fullName>
+                    <default>false</default>
+                    <label>Honduras</label>
+                </value>
+                <value>
+                    <fullName>Hungary</fullName>
+                    <default>false</default>
+                    <label>Hungary</label>
+                </value>
+                <value>
+                    <fullName>Iceland</fullName>
+                    <default>false</default>
+                    <label>Iceland</label>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Indonesia</fullName>
+                    <default>false</default>
+                    <label>Indonesia</label>
+                </value>
+                <value>
+                    <fullName>Iran</fullName>
+                    <default>false</default>
+                    <label>Iran</label>
+                </value>
+                <value>
+                    <fullName>Iraq</fullName>
+                    <default>false</default>
+                    <label>Iraq</label>
+                </value>
+                <value>
+                    <fullName>Ireland {Republic}</fullName>
+                    <default>false</default>
+                    <label>Ireland {Republic}</label>
+                </value>
+                <value>
+                    <fullName>Israel</fullName>
+                    <default>false</default>
+                    <label>Israel</label>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                    <label>Italy</label>
+                </value>
+                <value>
+                    <fullName>Ivory Coast</fullName>
+                    <default>false</default>
+                    <label>Ivory Coast</label>
+                </value>
+                <value>
+                    <fullName>Jamaica</fullName>
+                    <default>false</default>
+                    <label>Jamaica</label>
+                </value>
+                <value>
+                    <fullName>Japan</fullName>
+                    <default>false</default>
+                    <label>Japan</label>
+                </value>
+                <value>
+                    <fullName>Jordan</fullName>
+                    <default>false</default>
+                    <label>Jordan</label>
+                </value>
+                <value>
+                    <fullName>Kazakhstan</fullName>
+                    <default>false</default>
+                    <label>Kazakhstan</label>
+                </value>
+                <value>
+                    <fullName>Kenya</fullName>
+                    <default>false</default>
+                    <label>Kenya</label>
+                </value>
+                <value>
+                    <fullName>Kiribati</fullName>
+                    <default>false</default>
+                    <label>Kiribati</label>
+                </value>
+                <value>
+                    <fullName>Korea North</fullName>
+                    <default>false</default>
+                    <label>Korea North</label>
+                </value>
+                <value>
+                    <fullName>Korea South</fullName>
+                    <default>false</default>
+                    <label>Korea South</label>
+                </value>
+                <value>
+                    <fullName>Kosovo</fullName>
+                    <default>false</default>
+                    <label>Kosovo</label>
+                </value>
+                <value>
+                    <fullName>Kuwait</fullName>
+                    <default>false</default>
+                    <label>Kuwait</label>
+                </value>
+                <value>
+                    <fullName>Kyrgyzstan</fullName>
+                    <default>false</default>
+                    <label>Kyrgyzstan</label>
+                </value>
+                <value>
+                    <fullName>Laos</fullName>
+                    <default>false</default>
+                    <label>Laos</label>
+                </value>
+                <value>
+                    <fullName>Latvia</fullName>
+                    <default>false</default>
+                    <label>Latvia</label>
+                </value>
+                <value>
+                    <fullName>Lebanon</fullName>
+                    <default>false</default>
+                    <label>Lebanon</label>
+                </value>
+                <value>
+                    <fullName>Lesotho</fullName>
+                    <default>false</default>
+                    <label>Lesotho</label>
+                </value>
+                <value>
+                    <fullName>Liberia</fullName>
+                    <default>false</default>
+                    <label>Liberia</label>
+                </value>
+                <value>
+                    <fullName>Libya</fullName>
+                    <default>false</default>
+                    <label>Libya</label>
+                </value>
+                <value>
+                    <fullName>Liechtenstein</fullName>
+                    <default>false</default>
+                    <label>Liechtenstein</label>
+                </value>
+                <value>
+                    <fullName>Lithuania</fullName>
+                    <default>false</default>
+                    <label>Lithuania</label>
+                </value>
+                <value>
+                    <fullName>Luxembourg</fullName>
+                    <default>false</default>
+                    <label>Luxembourg</label>
+                </value>
+                <value>
+                    <fullName>Macedonia</fullName>
+                    <default>false</default>
+                    <label>Macedonia</label>
+                </value>
+                <value>
+                    <fullName>Madagascar</fullName>
+                    <default>false</default>
+                    <label>Madagascar</label>
+                </value>
+                <value>
+                    <fullName>Malawi</fullName>
+                    <default>false</default>
+                    <label>Malawi</label>
+                </value>
+                <value>
+                    <fullName>Malaysia</fullName>
+                    <default>false</default>
+                    <label>Malaysia</label>
+                </value>
+                <value>
+                    <fullName>Maldives</fullName>
+                    <default>false</default>
+                    <label>Maldives</label>
+                </value>
+                <value>
+                    <fullName>Mali</fullName>
+                    <default>false</default>
+                    <label>Mali</label>
+                </value>
+                <value>
+                    <fullName>Malta</fullName>
+                    <default>false</default>
+                    <label>Malta</label>
+                </value>
+                <value>
+                    <fullName>Marshall Islands</fullName>
+                    <default>false</default>
+                    <label>Marshall Islands</label>
+                </value>
+                <value>
+                    <fullName>Mauritania</fullName>
+                    <default>false</default>
+                    <label>Mauritania</label>
+                </value>
+                <value>
+                    <fullName>Mauritius</fullName>
+                    <default>false</default>
+                    <label>Mauritius</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>Micronesia</fullName>
+                    <default>false</default>
+                    <label>Micronesia</label>
+                </value>
+                <value>
+                    <fullName>Moldova</fullName>
+                    <default>false</default>
+                    <label>Moldova</label>
+                </value>
+                <value>
+                    <fullName>Monaco</fullName>
+                    <default>false</default>
+                    <label>Monaco</label>
+                </value>
+                <value>
+                    <fullName>Mongolia</fullName>
+                    <default>false</default>
+                    <label>Mongolia</label>
+                </value>
+                <value>
+                    <fullName>Montenegro</fullName>
+                    <default>false</default>
+                    <label>Montenegro</label>
+                </value>
+                <value>
+                    <fullName>Morocco</fullName>
+                    <default>false</default>
+                    <label>Morocco</label>
+                </value>
+                <value>
+                    <fullName>Mozambique</fullName>
+                    <default>false</default>
+                    <label>Mozambique</label>
+                </value>
+                <value>
+                    <fullName>Myanmar, {Burma}</fullName>
+                    <default>false</default>
+                    <label>Myanmar, {Burma}</label>
+                </value>
+                <value>
+                    <fullName>Namibia</fullName>
+                    <default>false</default>
+                    <label>Namibia</label>
+                </value>
+                <value>
+                    <fullName>Nauru</fullName>
+                    <default>false</default>
+                    <label>Nauru</label>
+                </value>
+                <value>
+                    <fullName>Nepal</fullName>
+                    <default>false</default>
+                    <label>Nepal</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>New Zealand</fullName>
+                    <default>false</default>
+                    <label>New Zealand</label>
+                </value>
+                <value>
+                    <fullName>Nicaragua</fullName>
+                    <default>false</default>
+                    <label>Nicaragua</label>
+                </value>
+                <value>
+                    <fullName>Niger</fullName>
+                    <default>false</default>
+                    <label>Niger</label>
+                </value>
+                <value>
+                    <fullName>Nigeria</fullName>
+                    <default>false</default>
+                    <label>Nigeria</label>
+                </value>
+                <value>
+                    <fullName>Norway</fullName>
+                    <default>false</default>
+                    <label>Norway</label>
+                </value>
+                <value>
+                    <fullName>Oman</fullName>
+                    <default>false</default>
+                    <label>Oman</label>
+                </value>
+                <value>
+                    <fullName>Pakistan</fullName>
+                    <default>false</default>
+                    <label>Pakistan</label>
+                </value>
+                <value>
+                    <fullName>Palau</fullName>
+                    <default>false</default>
+                    <label>Palau</label>
+                </value>
+                <value>
+                    <fullName>Panama</fullName>
+                    <default>false</default>
+                    <label>Panama</label>
+                </value>
+                <value>
+                    <fullName>Papua New Guinea</fullName>
+                    <default>false</default>
+                    <label>Papua New Guinea</label>
+                </value>
+                <value>
+                    <fullName>Paraguay</fullName>
+                    <default>false</default>
+                    <label>Paraguay</label>
+                </value>
+                <value>
+                    <fullName>Peru</fullName>
+                    <default>false</default>
+                    <label>Peru</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>Portugal</fullName>
+                    <default>false</default>
+                    <label>Portugal</label>
+                </value>
+                <value>
+                    <fullName>Qatar</fullName>
+                    <default>false</default>
+                    <label>Qatar</label>
+                </value>
+                <value>
+                    <fullName>Romania</fullName>
+                    <default>false</default>
+                    <label>Romania</label>
+                </value>
+                <value>
+                    <fullName>Russian Federation</fullName>
+                    <default>false</default>
+                    <label>Russian Federation</label>
+                </value>
+                <value>
+                    <fullName>Rwanda</fullName>
+                    <default>false</default>
+                    <label>Rwanda</label>
+                </value>
+                <value>
+                    <fullName>Saint Vincent &amp; the Grenadines</fullName>
+                    <default>false</default>
+                    <label>Saint Vincent &amp; the Grenadines</label>
+                </value>
+                <value>
+                    <fullName>Samoa</fullName>
+                    <default>false</default>
+                    <label>Samoa</label>
+                </value>
+                <value>
+                    <fullName>San Marino</fullName>
+                    <default>false</default>
+                    <label>San Marino</label>
+                </value>
+                <value>
+                    <fullName>Sao Tome &amp; Principe</fullName>
+                    <default>false</default>
+                    <label>Sao Tome &amp; Principe</label>
+                </value>
+                <value>
+                    <fullName>Saudi Arabia</fullName>
+                    <default>false</default>
+                    <label>Saudi Arabia</label>
+                </value>
+                <value>
+                    <fullName>Senegal</fullName>
+                    <default>false</default>
+                    <label>Senegal</label>
+                </value>
+                <value>
+                    <fullName>Serbia</fullName>
+                    <default>false</default>
+                    <label>Serbia</label>
+                </value>
+                <value>
+                    <fullName>Seychelles</fullName>
+                    <default>false</default>
+                    <label>Seychelles</label>
+                </value>
+                <value>
+                    <fullName>Sierra Leone</fullName>
+                    <default>false</default>
+                    <label>Sierra Leone</label>
+                </value>
+                <value>
+                    <fullName>Singapore</fullName>
+                    <default>false</default>
+                    <label>Singapore</label>
+                </value>
+                <value>
+                    <fullName>Slovakia</fullName>
+                    <default>false</default>
+                    <label>Slovakia</label>
+                </value>
+                <value>
+                    <fullName>Slovenia</fullName>
+                    <default>false</default>
+                    <label>Slovenia</label>
+                </value>
+                <value>
+                    <fullName>Solomon Islands</fullName>
+                    <default>false</default>
+                    <label>Solomon Islands</label>
+                </value>
+                <value>
+                    <fullName>Somalia</fullName>
+                    <default>false</default>
+                    <label>Somalia</label>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                    <label>South Africa</label>
+                </value>
+                <value>
+                    <fullName>South Sudan</fullName>
+                    <default>false</default>
+                    <label>South Sudan</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>Sri Lanka</fullName>
+                    <default>false</default>
+                    <label>Sri Lanka</label>
+                </value>
+                <value>
+                    <fullName>St Kitts &amp; Nevis</fullName>
+                    <default>false</default>
+                    <label>St Kitts &amp; Nevis</label>
+                </value>
+                <value>
+                    <fullName>St Lucia</fullName>
+                    <default>false</default>
+                    <label>St Lucia</label>
+                </value>
+                <value>
+                    <fullName>Sudan</fullName>
+                    <default>false</default>
+                    <label>Sudan</label>
+                </value>
+                <value>
+                    <fullName>Suriname</fullName>
+                    <default>false</default>
+                    <label>Suriname</label>
+                </value>
+                <value>
+                    <fullName>Swaziland</fullName>
+                    <default>false</default>
+                    <label>Swaziland</label>
+                </value>
+                <value>
+                    <fullName>Sweden</fullName>
+                    <default>false</default>
+                    <label>Sweden</label>
+                </value>
+                <value>
+                    <fullName>Switzerland</fullName>
+                    <default>false</default>
+                    <label>Switzerland</label>
+                </value>
+                <value>
+                    <fullName>Syria</fullName>
+                    <default>false</default>
+                    <label>Syria</label>
+                </value>
+                <value>
+                    <fullName>Taiwan</fullName>
+                    <default>false</default>
+                    <label>Taiwan</label>
+                </value>
+                <value>
+                    <fullName>Tajikistan</fullName>
+                    <default>false</default>
+                    <label>Tajikistan</label>
+                </value>
+                <value>
+                    <fullName>Tanzania</fullName>
+                    <default>false</default>
+                    <label>Tanzania</label>
+                </value>
+                <value>
+                    <fullName>Thailand</fullName>
+                    <default>false</default>
+                    <label>Thailand</label>
+                </value>
+                <value>
+                    <fullName>Togo</fullName>
+                    <default>false</default>
+                    <label>Togo</label>
+                </value>
+                <value>
+                    <fullName>Tonga</fullName>
+                    <default>false</default>
+                    <label>Tonga</label>
+                </value>
+                <value>
+                    <fullName>Trinidad &amp; Tobago</fullName>
+                    <default>false</default>
+                    <label>Trinidad &amp; Tobago</label>
+                </value>
+                <value>
+                    <fullName>Tunisia</fullName>
+                    <default>false</default>
+                    <label>Tunisia</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Turkmenistan</fullName>
+                    <default>false</default>
+                    <label>Turkmenistan</label>
+                </value>
+                <value>
+                    <fullName>Tuvalu</fullName>
+                    <default>false</default>
+                    <label>Tuvalu</label>
+                </value>
+                <value>
+                    <fullName>Uganda</fullName>
+                    <default>false</default>
+                    <label>Uganda</label>
+                </value>
+                <value>
+                    <fullName>Ukraine</fullName>
+                    <default>false</default>
+                    <label>Ukraine</label>
+                </value>
+                <value>
+                    <fullName>United Arab Emirates</fullName>
+                    <default>false</default>
+                    <label>United Arab Emirates</label>
+                </value>
+                <value>
+                    <fullName>United Kingdom</fullName>
+                    <default>false</default>
+                    <label>United Kingdom</label>
+                </value>
+                <value>
+                    <fullName>United States</fullName>
+                    <default>true</default>
+                    <label>United States</label>
+                </value>
+                <value>
+                    <fullName>Uruguay</fullName>
+                    <default>false</default>
+                    <label>Uruguay</label>
+                </value>
+                <value>
+                    <fullName>Uzbekistan</fullName>
+                    <default>false</default>
+                    <label>Uzbekistan</label>
+                </value>
+                <value>
+                    <fullName>Vanuatu</fullName>
+                    <default>false</default>
+                    <label>Vanuatu</label>
+                </value>
+                <value>
+                    <fullName>Vatican City</fullName>
+                    <default>false</default>
+                    <label>Vatican City</label>
+                </value>
+                <value>
+                    <fullName>Venezuela</fullName>
+                    <default>false</default>
+                    <label>Venezuela</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+                <value>
+                    <fullName>Yemen</fullName>
+                    <default>false</default>
+                    <label>Yemen</label>
+                </value>
+                <value>
+                    <fullName>Zambia</fullName>
+                    <default>false</default>
+                    <label>Zambia</label>
+                </value>
+                <value>
+                    <fullName>Zimbabwe</fullName>
+                    <default>false</default>
+                    <label>Zimbabwe</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Coupon_Discount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Coupon Discount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Credit_MemoPL__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Memo Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>22997160</fullName>
+                    <default>true</default>
+                    <label>22997160</label>
+                </value>
+                <value>
+                    <fullName>22997161</fullName>
+                    <default>false</default>
+                    <label>22997161</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Credit_Memo_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Memo Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Memo__c</fullName>
+        <description>Credit Memo # (22997160)</description>
+        <externalId>false</externalId>
+        <label>Credit Memo #</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Customer_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This Contact could be a Customer Contact or a Cargill Sales Consultant making an Order</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Project Groups</relationshipLabel>
+        <relationshipName>Project_GroupsCC</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Message</label>
+        <length>131072</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Customer_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260))+Account__r.Owner.Id, Account__r.Owner.FirstName+&apos; &apos;+Account__r.Owner.LastName)</formula>
+        <label>Customer Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Open__c</fullName>
+        <description>Number of Days a Project Group has been open based on kick off date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Days a Project Group has been open</inlineHelpText>
+        <label>Project Group Days Open</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Debit_MemoPL__c</fullName>
+        <externalId>false</externalId>
+        <label>Debit Memo Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>64010113</fullName>
+                    <default>true</default>
+                    <label>64010113</label>
+                </value>
+                <value>
+                    <fullName>640101127</fullName>
+                    <default>false</default>
+                    <label>640101127</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Debit_Memo__c</fullName>
+        <description>Debit Memo # (64010113)</description>
+        <externalId>false</externalId>
+        <label>Debit Memo#</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Designate_Payment_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CreditCard</fullName>
+                    <default>false</default>
+                    <label>Credit Card</label>
+                </value>
+                <value>
+                    <fullName>Budget</fullName>
+                    <default>false</default>
+                    <label>Budget</label>
+                </value>
+                <value>
+                    <fullName>PurchaseOrder</fullName>
+                    <default>false</default>
+                    <label>Purchase Order</label>
+                </value>
+                <value>
+                    <fullName>BudgetAccount</fullName>
+                    <default>false</default>
+                    <label>Budget Account</label>
+                </value>
+                <value>
+                    <fullName>Bill Cargill (Consultant Use Only)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Bill Cargill (Consultant Use Only)</label>
+                </value>
+                <value>
+                    <fullName>Business Builder</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Business Builder</label>
+                </value>
+                <value>
+                    <fullName>GEM</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>GEM</label>
+                </value>
+                <value>
+                    <fullName>Invoice Retailer</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Invoice Retailer</label>
+                </value>
+                <value>
+                    <fullName>Sales Discretionary</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sales Discretionary</label>
+                </value>
+                <value>
+                    <fullName>storecredit</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Store Credit</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Discount_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Discount Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Expense_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Expense Cost</label>
+        <summarizedField>Expense__c.Cost__c</summarizedField>
+        <summaryForeignKey>Expense__c.Project_Group_MD__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>External_Tax_Subtotal__c</fullName>
+        <externalId>false</externalId>
+        <label>Subtotal Excluding Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Final_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Final Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Gift_Certificate_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Gift Certificate Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Invoicing_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Invoicing Code</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Designate_Payment_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>555747.640101.27</fullName>
+                    <default>false</default>
+                    <label>555747.640101.27</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Isassignto_loggedinuser__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Assigned_To__c = $User.Id,true,false)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Isassignto loggedinuser</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manufacturer_Part_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Manufacturer Part Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Marketing_comments_to_invoicing__c</fullName>
+        <externalId>false</externalId>
+        <label>Marketing comments to invoicing</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NIS_Customer_Account_Number__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account__r.NIS_Account_Number__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NIS Customer Account Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Address_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Address Id</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Contact_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Contact Info</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Order_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Is_Digital__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Order Is Digital</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Order_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Order_Total__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Payment Method</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pcard_expense__c</fullName>
+        <externalId>false</externalId>
+        <label>Pcard expense?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Plant_location__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Account__r.Default_Cargill_Plant__c)</formula>
+        <label>Plant location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Product ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Delivery_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Kickoff Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Project_End_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Project End Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Consultant_New__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Sales Consultant</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Project_Groups2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Company__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Company</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Shipping_Country_ISO__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>“This field will be populated from a Big Commerce order if available.”</inlineHelpText>
+        <label>Shipping Country ISO</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Shipping_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping First Name</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Shipping_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Last Name</label>
+        <length>3000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Shipping_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Phone</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Street_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Street 1</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Shipping_Street_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Street 2</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Staff_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Staff Notes</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping State</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Country__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alabama</fullName>
+                    <default>false</default>
+                    <label>Alabama</label>
+                </value>
+                <value>
+                    <fullName>Alaska</fullName>
+                    <default>false</default>
+                    <label>Alaska</label>
+                </value>
+                <value>
+                    <fullName>Arizona</fullName>
+                    <default>false</default>
+                    <label>Arizona</label>
+                </value>
+                <value>
+                    <fullName>Arkansas</fullName>
+                    <default>false</default>
+                    <label>Arkansas</label>
+                </value>
+                <value>
+                    <fullName>California</fullName>
+                    <default>false</default>
+                    <label>California</label>
+                </value>
+                <value>
+                    <fullName>Colorado</fullName>
+                    <default>false</default>
+                    <label>Colorado</label>
+                </value>
+                <value>
+                    <fullName>Connecticut</fullName>
+                    <default>false</default>
+                    <label>Connecticut</label>
+                </value>
+                <value>
+                    <fullName>Delaware</fullName>
+                    <default>false</default>
+                    <label>Delaware</label>
+                </value>
+                <value>
+                    <fullName>Florida</fullName>
+                    <default>false</default>
+                    <label>Florida</label>
+                </value>
+                <value>
+                    <fullName>Georgia</fullName>
+                    <default>false</default>
+                    <label>Georgia</label>
+                </value>
+                <value>
+                    <fullName>Hawaii</fullName>
+                    <default>false</default>
+                    <label>Hawaii</label>
+                </value>
+                <value>
+                    <fullName>Idaho</fullName>
+                    <default>false</default>
+                    <label>Idaho</label>
+                </value>
+                <value>
+                    <fullName>Illinois</fullName>
+                    <default>false</default>
+                    <label>Illinois</label>
+                </value>
+                <value>
+                    <fullName>Indiana</fullName>
+                    <default>false</default>
+                    <label>Indiana</label>
+                </value>
+                <value>
+                    <fullName>Iowa</fullName>
+                    <default>false</default>
+                    <label>Iowa</label>
+                </value>
+                <value>
+                    <fullName>Kansas</fullName>
+                    <default>false</default>
+                    <label>Kansas</label>
+                </value>
+                <value>
+                    <fullName>Kentucky</fullName>
+                    <default>false</default>
+                    <label>Kentucky</label>
+                </value>
+                <value>
+                    <fullName>Louisiana</fullName>
+                    <default>false</default>
+                    <label>Louisiana</label>
+                </value>
+                <value>
+                    <fullName>Maine</fullName>
+                    <default>false</default>
+                    <label>Maine</label>
+                </value>
+                <value>
+                    <fullName>Maryland</fullName>
+                    <default>false</default>
+                    <label>Maryland</label>
+                </value>
+                <value>
+                    <fullName>Massachusetts</fullName>
+                    <default>false</default>
+                    <label>Massachusetts</label>
+                </value>
+                <value>
+                    <fullName>Michigan</fullName>
+                    <default>false</default>
+                    <label>Michigan</label>
+                </value>
+                <value>
+                    <fullName>Minnesota</fullName>
+                    <default>false</default>
+                    <label>Minnesota</label>
+                </value>
+                <value>
+                    <fullName>Mississippi</fullName>
+                    <default>false</default>
+                    <label>Mississippi</label>
+                </value>
+                <value>
+                    <fullName>Missouri</fullName>
+                    <default>false</default>
+                    <label>Missouri</label>
+                </value>
+                <value>
+                    <fullName>Montana</fullName>
+                    <default>false</default>
+                    <label>Montana</label>
+                </value>
+                <value>
+                    <fullName>Nebraska</fullName>
+                    <default>false</default>
+                    <label>Nebraska</label>
+                </value>
+                <value>
+                    <fullName>Nevada</fullName>
+                    <default>false</default>
+                    <label>Nevada</label>
+                </value>
+                <value>
+                    <fullName>New Hampshire</fullName>
+                    <default>false</default>
+                    <label>New Hampshire</label>
+                </value>
+                <value>
+                    <fullName>New Jersey</fullName>
+                    <default>false</default>
+                    <label>New Jersey</label>
+                </value>
+                <value>
+                    <fullName>New Mexico</fullName>
+                    <default>false</default>
+                    <label>New Mexico</label>
+                </value>
+                <value>
+                    <fullName>New York</fullName>
+                    <default>false</default>
+                    <label>New York</label>
+                </value>
+                <value>
+                    <fullName>North Carolina</fullName>
+                    <default>false</default>
+                    <label>North Carolina</label>
+                </value>
+                <value>
+                    <fullName>North Dakota</fullName>
+                    <default>false</default>
+                    <label>North Dakota</label>
+                </value>
+                <value>
+                    <fullName>Ohio</fullName>
+                    <default>false</default>
+                    <label>Ohio</label>
+                </value>
+                <value>
+                    <fullName>Oklahoma</fullName>
+                    <default>false</default>
+                    <label>Oklahoma</label>
+                </value>
+                <value>
+                    <fullName>Oregon</fullName>
+                    <default>false</default>
+                    <label>Oregon</label>
+                </value>
+                <value>
+                    <fullName>Pennsylvania</fullName>
+                    <default>false</default>
+                    <label>Pennsylvania</label>
+                </value>
+                <value>
+                    <fullName>Rhode Island</fullName>
+                    <default>false</default>
+                    <label>Rhode Island</label>
+                </value>
+                <value>
+                    <fullName>South Carolina</fullName>
+                    <default>false</default>
+                    <label>South Carolina</label>
+                </value>
+                <value>
+                    <fullName>South Dakota</fullName>
+                    <default>false</default>
+                    <label>South Dakota</label>
+                </value>
+                <value>
+                    <fullName>Tennessee</fullName>
+                    <default>false</default>
+                    <label>Tennessee</label>
+                </value>
+                <value>
+                    <fullName>Texas</fullName>
+                    <default>false</default>
+                    <label>Texas</label>
+                </value>
+                <value>
+                    <fullName>Utah</fullName>
+                    <default>false</default>
+                    <label>Utah</label>
+                </value>
+                <value>
+                    <fullName>Vermont</fullName>
+                    <default>false</default>
+                    <label>Vermont</label>
+                </value>
+                <value>
+                    <fullName>Virginia</fullName>
+                    <default>false</default>
+                    <label>Virginia</label>
+                </value>
+                <value>
+                    <fullName>Washington</fullName>
+                    <default>false</default>
+                    <label>Washington</label>
+                </value>
+                <value>
+                    <fullName>West Virginia</fullName>
+                    <default>false</default>
+                    <label>West Virginia</label>
+                </value>
+                <value>
+                    <fullName>Wisconsin</fullName>
+                    <default>false</default>
+                    <label>Wisconsin</label>
+                </value>
+                <value>
+                    <fullName>Wyoming</fullName>
+                    <default>false</default>
+                    <label>Wyoming</label>
+                </value>
+                <value>
+                    <fullName>Alberta</fullName>
+                    <default>false</default>
+                    <label>Alberta</label>
+                </value>
+                <value>
+                    <fullName>British Columbia</fullName>
+                    <default>false</default>
+                    <label>British Columbia</label>
+                </value>
+                <value>
+                    <fullName>Labrador</fullName>
+                    <default>false</default>
+                    <label>Labrador</label>
+                </value>
+                <value>
+                    <fullName>Manitoba</fullName>
+                    <default>false</default>
+                    <label>Manitoba</label>
+                </value>
+                <value>
+                    <fullName>New Brunswick</fullName>
+                    <default>false</default>
+                    <label>New Brunswick</label>
+                </value>
+                <value>
+                    <fullName>Newfoundland</fullName>
+                    <default>false</default>
+                    <label>Newfoundland</label>
+                </value>
+                <value>
+                    <fullName>Nova Scotia</fullName>
+                    <default>false</default>
+                    <label>Nova Scotia</label>
+                </value>
+                <value>
+                    <fullName>Nunavut</fullName>
+                    <default>false</default>
+                    <label>Nunavut</label>
+                </value>
+                <value>
+                    <fullName>North West Territory</fullName>
+                    <default>false</default>
+                    <label>North West Territory</label>
+                </value>
+                <value>
+                    <fullName>Ontario</fullName>
+                    <default>false</default>
+                    <label>Ontario</label>
+                </value>
+                <value>
+                    <fullName>Prince Edward Island</fullName>
+                    <default>false</default>
+                    <label>Prince Edward Island</label>
+                </value>
+                <value>
+                    <fullName>Quebec</fullName>
+                    <default>false</default>
+                    <label>Quebec</label>
+                </value>
+                <value>
+                    <fullName>Saskatchewen</fullName>
+                    <default>false</default>
+                    <label>Saskatchewen</label>
+                </value>
+                <value>
+                    <fullName>Yukon</fullName>
+                    <default>false</default>
+                    <label>Yukon</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Alberta</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>British Columbia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Labrador</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Manitoba</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>New Brunswick</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Newfoundland</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Nova Scotia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Nunavut</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>North West Territory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Ontario</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Prince Edward Island</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Quebec</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Saskatchewen</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <valueName>Yukon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Alabama</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Alaska</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Arizona</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Arkansas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>California</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Colorado</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Connecticut</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Delaware</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Florida</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Georgia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Hawaii</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Idaho</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Illinois</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Indiana</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Iowa</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Kansas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Kentucky</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Louisiana</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Maine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Maryland</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Massachusetts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Michigan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Minnesota</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Mississippi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Missouri</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Montana</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Nebraska</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Nevada</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>New Hampshire</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>New Jersey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>New Mexico</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>New York</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>North Carolina</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>North Dakota</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Ohio</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Oklahoma</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Oregon</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Pennsylvania</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Rhode Island</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>South Carolina</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>South Dakota</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Tennessee</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Texas</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Utah</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Vermont</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Virginia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Washington</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>West Virginia</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Wisconsin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>United States</controllingFieldValue>
+                <valueName>Wyoming</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>PG Status</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>true</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Delayed</fullName>
+                    <default>false</default>
+                    <label>Delayed</label>
+                </value>
+                <value>
+                    <fullName>Delivered (Invoicing)</fullName>
+                    <default>false</default>
+                    <label>Delivered (Invoicing)</label>
+                </value>
+                <value>
+                    <fullName>Billing Complete</fullName>
+                    <default>false</default>
+                    <label>Billing Complete</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Work Complete</fullName>
+                    <default>false</default>
+                    <label>Work Complete</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Store_Credit_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Store Credit Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Including_Tax__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Including Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Total_Tax__c</fullName>
+        <externalId>false</externalId>
+        <label>Total  Tax</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>X9_Box_Step_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text (Account__r.X9_Box_Step_2__c)</formula>
+        <label>9-Box (Step 2)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zip_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Zip</label>
+        <length>8</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Project Group</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All  Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Billing_Complete_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Billing Complete</value>
+        </filters>
+        <label>Billing Complete Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cancelled_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <label>Cancelled Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Closed_Project_Groups_Assigned_to_Me</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Plant_location__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Isassignto_loggedinuser__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Billing Complete,Cancelled,Work Complete</value>
+        </filters>
+        <label>Closed Project Groups Assigned to Me</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Delayed_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Delayed</value>
+        </filters>
+        <label>Delayed Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>In_Progress_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </filters>
+        <label>In Progress Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Plant_location__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Assigned_To__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Not_Started_Project_Groups</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started</value>
+        </filters>
+        <label>Not Started Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Project_Group_Status_Delivered</fullName>
+        <columns>Account__c</columns>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Plant_location__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Marketing_comments_to_invoicing__c</columns>
+        <columns>Final_Cost__c</columns>
+        <columns>NIS_Customer_Account_Number__c</columns>
+        <columns>Credit_MemoPL__c</columns>
+        <columns>Credit_Memo__c</columns>
+        <columns>Debit_MemoPL__c</columns>
+        <columns>Debit_Memo__c</columns>
+        <columns>Credit_Memo_Date__c</columns>
+        <columns>Designate_Payment_Type__c</columns>
+        <columns>Invoicing_Code__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Delivered (Invoicing)</value>
+        </filters>
+        <label>Delivered Project Groups</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>Marketing_Team_Public_Group</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Project_Groups_Assigned_to_Me</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Plant_location__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Assigned_To__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Isassignto_loggedinuser__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Started,In Progress,Delayed</value>
+        </filters>
+        <label>Project Groups Assigned to Me</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Work_Complete_Project_Groups_Assigned_To</fullName>
+        <columns>NAME</columns>
+        <columns>Assigned_To__c</columns>
+        <columns>Account__c</columns>
+        <columns>BCOrderId__c</columns>
+        <columns>Customer_Contact__c</columns>
+        <columns>Project_Delivery_Date__c</columns>
+        <columns>Sales_Consultant_New__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Work Complete</value>
+        </filters>
+        <filters>
+            <field>Isassignto_loggedinuser__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Work Complete Project Groups Assigned To</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>PG-{0000000}</displayFormat>
+        <label>Project Group Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Project Groups</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Plant_location__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Project_Delivery_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Campaign__c</customTabListAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Project_Group_Status_Validation</fullName>
+        <active>true</active>
+        <description>Error message on modification of Project Group Status. If Payment Type is Bill Cargill (Consultant Use Only) or Store Credit then show an error on changing the Status to Delivered</description>
+        <errorConditionFormula>IF( AND(  ISPICKVAL(Status__c,&apos;Delivered&apos;),OR(  ISPICKVAL(Designate_Payment_Type__c,&apos;Bill Cargill (Consultant Use Only)&apos;),ISPICKVAL(Designate_Payment_Type__c,&apos;storecredit&apos;))) , true,false)</errorConditionFormula>
+        <errorDisplayField>Status__c</errorDisplayField>
+        <errorMessage>Project Groups with Payment Type &quot;Bill Cargill (Consultant Use Only)&quot; or &quot;Store Credit&quot; cannot be Status &quot;Delivered&quot;, if the Project Group is Complete, set status to &quot;Billing Complete&quot;</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Expense_Total</fullName>
+        <availability>online</availability>
+        <description>Link to Total Expenses by Cost Center and Tactic</description>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>400</height>
+        <isResizable>false</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Expense Total</masterLabel>
+        <openType>newWindow</openType>
+        <position>topLeft</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>/00Oj0000004tzSm?pv0={!Project_Group__c.Id}</url>
+        <width>600</width>
+    </webLinks>
+    <webLinks>
+        <fullName>Update_Sales_Consultant</fullName>
+        <availability>online</availability>
+        <description>Flow button to update Sales Consultant</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Update Sales Consultant</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/flow/Update_Project_Group_Sales_Consultant?varAccountId={!Project_Group__c.AccountId__c}&amp;varProjectGroupId={!Project_Group__c.Id}&amp;retURL=/{!Project_Group__c.Id}</url>
+    </webLinks>
+</CustomObject>

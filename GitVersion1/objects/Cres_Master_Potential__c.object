@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Master Potentials</relationshipLabel>
+        <relationshipName>Master_Potentials</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Calculation_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(OR(ISPICKVAL(Estimation_Type__c,&apos;Simple Potential Estimate&apos;),ISPICKVAL(Estimation_Type__c,&apos;Cycle Consumption&apos;),
+ISPICKVAL(Estimation_Type__c,&apos;Daily Animal Consumption&apos;)),&apos;Volume&apos;,
+if(OR(ISPICKVAL(Estimation_Type__c,&apos;Simple Potential Estimate - CFE&apos;),ISPICKVAL(Estimation_Type__c,&apos;Cycle Consumption - CFE&apos;),
+ISPICKVAL(Estimation_Type__c,&apos;Daily Animal Consumption - CFE&apos;)),&apos;CFE&apos;,&apos;Unknown&apos;))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Calculation Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimation_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Calculation Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Simple Potential Estimate</fullName>
+                    <default>false</default>
+                    <label>Simple Potential Estimate</label>
+                </value>
+                <value>
+                    <fullName>Cycle Consumption</fullName>
+                    <default>false</default>
+                    <label>Cycle Consumption</label>
+                </value>
+                <value>
+                    <fullName>Daily Animal Consumption</fullName>
+                    <default>false</default>
+                    <label>Daily Animal Consumption</label>
+                </value>
+                <value>
+                    <fullName>Simple Potential Estimate - CFE</fullName>
+                    <default>false</default>
+                    <label>Simple Potential Estimate - CFE</label>
+                </value>
+                <value>
+                    <fullName>Cycle Consumption - CFE</fullName>
+                    <default>false</default>
+                    <label>Cycle Consumption - CFE</label>
+                </value>
+                <value>
+                    <fullName>Daily Animal Consumption - CFE</fullName>
+                    <default>false</default>
+                    <label>Daily Animal Consumption - CFE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Overridden_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Overridden Count</label>
+        <summaryFilterItems>
+            <field>Potential__c.overridden__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Saleslogix_Account_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Saleslogix Account ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Species__c</fullName>
+        <externalId>false</externalId>
+        <label>Species</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pork</fullName>
+                    <default>false</default>
+                    <label>Pork</label>
+                </value>
+                <value>
+                    <fullName>Dairy</fullName>
+                    <default>false</default>
+                    <label>Dairy</label>
+                </value>
+                <value>
+                    <fullName>Beef</fullName>
+                    <default>false</default>
+                    <label>Beef</label>
+                </value>
+                <value>
+                    <fullName>Small Ruminants</fullName>
+                    <default>false</default>
+                    <label>Small Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Sheep</fullName>
+                    <default>false</default>
+                    <label>Sheep</label>
+                </value>
+                <value>
+                    <fullName>Goat</fullName>
+                    <default>false</default>
+                    <label>Goat</label>
+                </value>
+                <value>
+                    <fullName>Broiler</fullName>
+                    <default>false</default>
+                    <label>Broiler</label>
+                </value>
+                <value>
+                    <fullName>Layers</fullName>
+                    <default>false</default>
+                    <label>Layers</label>
+                </value>
+                <value>
+                    <fullName>Other Poultry</fullName>
+                    <default>false</default>
+                    <label>Other Poultry</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Ducks</fullName>
+                    <default>false</default>
+                    <label>Ducks</label>
+                </value>
+                <value>
+                    <fullName>Equine</fullName>
+                    <default>false</default>
+                    <label>Equine</label>
+                </value>
+                <value>
+                    <fullName>Rabbit</fullName>
+                    <default>false</default>
+                    <label>Rabbit</label>
+                </value>
+                <value>
+                    <fullName>Pet Food</fullName>
+                    <default>false</default>
+                    <label>Pet Food</label>
+                </value>
+                <value>
+                    <fullName>Aquaculture</fullName>
+                    <default>false</default>
+                    <label>Aquaculture</label>
+                </value>
+                <value>
+                    <fullName>Specialty</fullName>
+                    <default>false</default>
+                    <label>Specialty</label>
+                </value>
+                <value>
+                    <fullName>Ingredient</fullName>
+                    <default>false</default>
+                    <label>Ingredient</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Milk replacers</fullName>
+                    <default>false</default>
+                    <label>Milk replacers</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Annual_CFE_Con__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Annual CFE Con</label>
+        <summarizedField>Potential__c.Annual_CFE_CON__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Annual_CFE__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Annual CFE</label>
+        <summarizedField>Potential__c.Annual_CFE__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Annual_Volume_MT__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Annual Volume MT</label>
+        <summarizedField>Potential__c.Annual_Volume_MT__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Contribution__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Contribution</label>
+        <summarizedField>Potential__c.Contribution__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Potential__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Potential</label>
+        <summarizedField>Potential__c.Total__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Total_Volume__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Volume</label>
+        <summarizedField>Potential__c.Volume__c</summarizedField>
+        <summaryFilterItems>
+            <field>Potential__c.Competitor__c</field>
+            <operation>equals</operation>
+            <value>Cargill</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Potential__c.Master_Potential__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>share_of_CFE__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Total_Annual_CFE_Con__c  /  Total_Annual_CFE__c )</formula>
+        <label>share of CFE</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>share_of_volume__c</fullName>
+        <externalId>false</externalId>
+        <formula>( Total_Volume__c  /  Total_Annual_Volume_MT__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>share of volume</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>share_of_wallet__c</fullName>
+        <externalId>false</externalId>
+        <formula>(   Total_Contribution__c  /   Total_Potential__c   )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>share of wallet</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Master Potential</label>
+    <nameField>
+        <label>Master Potential  Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Master Potentials</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Potential</fullName>
+        <active>true</active>
+        <label>Potential</label>
+        <picklistValues>
+            <picklist>Estimation_Type__c</picklist>
+            <values>
+                <fullName>Cycle Consumption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cycle Consumption - CFE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Animal Consumption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Daily Animal Consumption - CFE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Simple Potential Estimate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Simple Potential Estimate - CFE</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Species__c</picklist>
+            <values>
+                <fullName>All</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aquaculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Beef</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Broiler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dairy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ducks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equine</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Goat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ingredient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Layers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Milk replacers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Poultry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pet Food</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pork</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rabbit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sheep</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small Ruminants</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specialty</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turkey</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <help><!-- Please provide the additional details that are specific to the Project. (for example, date/time, specific to substrate, customer has own email database, etc.) --></help>
+        <label><!-- Additional Details --></label>
+        <name>Additional_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- (Black, White, or Specify Other) --></help>
+        <label><!-- Apparel Color --></label>
+        <name>Apparel_Color__c</name>
+    </fields>
+    <fields>
+        <help><!-- Small, Med, Large, XL, XXL --></help>
+        <label><!-- Apparel Size --></label>
+        <name>Apparel_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BigCommerce Order Id --></label>
+        <name>BCOrderId__c</name>
+    </fields>
+    <fields>
+        <label><!-- BC Customer Group --></label>
+        <name>BC_Customer_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- BC Order Product External ID --></label>
+        <name>BC_Order_Product_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BC Order Product ID --></label>
+        <name>BC_Order_Product_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Price --></label>
+        <name>Base_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand(s) to Include --></label>
+        <name>Brand_s_to_Include__c</name>
+        <picklistValues>
+            <masterLabel>Cargill</masterLabel>
+            <translation><!-- Cargill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Country Feeds</masterLabel>
+            <translation><!-- Country Feeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Empower</masterLabel>
+            <translation><!-- Empower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyall</masterLabel>
+            <translation><!-- Loyall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loyall Life</masterLabel>
+            <translation><!-- Loyall Life --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nature Smart</masterLabel>
+            <translation><!-- Nature Smart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NatureWise</masterLabel>
+            <translation><!-- NatureWise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NutreBeef</masterLabel>
+            <translation><!-- NutreBeef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrena</masterLabel>
+            <translation><!-- Nutrena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProForce</masterLabel>
+            <translation><!-- ProForce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progressive</masterLabel>
+            <translation><!-- Progressive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Record Rack</masterLabel>
+            <translation><!-- Record Rack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right Now Mineral</masterLabel>
+            <translation><!-- Right Now Mineral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>River Run</masterLabel>
+            <translation><!-- River Run --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SafeChoice</masterLabel>
+            <translation><!-- SafeChoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show Edge</masterLabel>
+            <translation><!-- Show Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sportsman Choice</masterLabel>
+            <translation><!-- Sportsman Choice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock &amp; Stable</masterLabel>
+            <translation><!-- Stock &amp; Stable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunglo</masterLabel>
+            <translation><!-- Sunglo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Triumph</masterLabel>
+            <translation><!-- Triumph --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed Milestones (%) --></label>
+        <name>Completed_Milestones__c</name>
+    </fields>
+    <fields>
+        <help><!-- When creating on our own: Event Date/Time, Location, Special Details, Size of Piece, Coupon Expiration, Ad Dimensions, --></help>
+        <label><!-- Configurable Fields --></label>
+        <name>Configurable_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Design Option --></label>
+        <name>Design_Option__c</name>
+    </fields>
+    <fields>
+        <label><!-- Designer --></label>
+        <name>Designer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flex Fit Size --></label>
+        <name>Flex_Fit_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fulfillment Item --></label>
+        <name>Fulfillment_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal of Piece --></label>
+        <name>Goal_of_the_POS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary of results --></label>
+        <name>How_to_approach_the_target_audience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Option --></label>
+        <name>Image_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- Where do the Brand, Retailer Logo, and Imprint Text go- (left chest, right chest, sleeve, back, etc) --></help>
+        <label><!-- Imprint Placement --></label>
+        <name>Imprint_Placement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any Text that needs to appear (not logos) --></help>
+        <label><!-- Imprint Text --></label>
+        <name>Imprint_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Embroided, Screen Print, Iron-on, Embroidered Patch --></help>
+        <label><!-- Imprint Type --></label>
+        <name>Imprint_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-Hands Date Requested --></label>
+        <name>In_Hands_Date_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Isassignto loggedinuser --></label>
+        <name>Isassignto_loggedinuser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer Part Number --></label>
+        <name>Manufacturer_Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Address Id --></label>
+        <name>Order_Address_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Shipping Address --></label>
+        <name>Order_Shipping_Address__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Price Range per Item --></label>
+        <name>Price_Range_per_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product File Upload --></label>
+        <name>Product_File_Upload_Link_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product File Upload --></label>
+        <name>Product_File_Upload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product ID --></label>
+        <name>Product_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Tax Code --></label>
+        <name>Product_Tax_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProjectGroup Assigned To Email --></label>
+        <name>ProjectGroup_Assigned_To_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Delivery Date --></label>
+        <name>Project_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project End Date --></label>
+        <name>Project_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Assigned to --></label>
+        <name>Project_Group_Assigned_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Campaign --></label>
+        <name>Project_Group_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group Status --></label>
+        <name>Project_Group_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group --></label>
+        <name>Project_Group__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Kickoff Date --></label>
+        <name>Project_Kickoff_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Sub-Type --></label>
+        <name>Project_Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Coupon</masterLabel>
+            <translation><!-- Coupon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Creative</masterLabel>
+            <translation><!-- Custom Creative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fulfillment</masterLabel>
+            <translation><!-- Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preorder</masterLabel>
+            <translation><!-- Preorder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsorship</masterLabel>
+            <translation><!-- Sponsorship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Template Creative</masterLabel>
+            <translation><!-- Template Creative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation><!-- Tradeshow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proof Date Requested --></label>
+        <name>Proof_Date_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- If creating project, attach file on project record, not in edit mode --></help>
+        <label><!-- Retailer Logo to Include --></label>
+        <name>Retailer_Logo_to_Include__c</name>
+    </fields>
+    <fields>
+        <label><!-- SKU --></label>
+        <name>SKU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Consultant --></label>
+        <name>Sales_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipment Tracking Number --></label>
+        <name>Shipment_Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Size Option --></label>
+        <name>Size_Option__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mens, Womens, Youth, Unisex --></help>
+        <label><!-- Size Type --></label>
+        <name>Size_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Call to Action --></label>
+        <name>Special_Call_to_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation><!-- Beef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horse</masterLabel>
+            <translation><!-- Horse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrena Full Farm</masterLabel>
+            <translation><!-- Nutrena Full Farm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet</masterLabel>
+            <translation><!-- Pet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry</masterLabel>
+            <translation><!-- Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show</masterLabel>
+            <translation><!-- Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wildlife</masterLabel>
+            <translation><!-- Wildlife --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- P Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delayed</masterLabel>
+            <translation><!-- Delayed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Substrate --></label>
+        <name>Substrate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Audience/Segment --></label>
+        <name>Target_Audience_Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Excluding Tax --></label>
+        <name>Total_Excluding_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Milestones Complete --></label>
+        <name>Total_Milestones_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Milestones --></label>
+        <name>Total_Milestones__c</name>
+    </fields>
+    <fields>
+        <help><!-- Performance T-Shirt, Cotton Poly T-Shirt, Performance Polo, Cotton Polo, Long Sleeve Button Down, Short Sleeve Button Down, Vest, Hooded Sweatshirt, Pullover, Heavy Outwerar, Windbreaker, Shoft Shell Jacket --></help>
+        <label><!-- Type of Apparel --></label>
+        <name>Type_of_Apparel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flex Fit Unstructured, Cotton Mesh Structured, Cotton Mesh Unstructured, Cotton Twill Structured, Cotton Twill Unstructured, Soft Mesh Trucker Structured, Soft Mesh Trucker Unstructured --></help>
+        <label><!-- Type of Hat --></label>
+        <name>Type_of_Hat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weight --></label>
+        <name>Weight__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up questions --></label>
+        <name>What_do_we_want_the_audience_to_do__c</name>
+    </fields>
+    <fields>
+        <label><!-- What is the competition doing? --></label>
+        <name>What_is_the_competition_doing__c</name>
+    </fields>
+    <fields>
+        <label><!-- What products are we selling? --></label>
+        <name>What_products_are_we_selling__c</name>
+    </fields>
+    <layouts>
+        <layout>Custom Project Page Layout</layout>
+        <sections>
+            <label><!-- Custom Apparel Information --></label>
+            <section>Custom Apparel Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Creative Information --></label>
+            <section>Custom Creative Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Information --></label>
+            <section>Custom Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Use this Record Type when creating new Custom type Projects(Custom Creative, Coupon) --></description>
+        <label><!-- Custom --></label>
+        <name>Custom</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record type when creating a new Event Project (such as Tradeshow,Sponsorship, Meeting) --></description>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record Type when creating new Standard type Projects (Fulfillment, Template Creative, Tradeshow) --></description>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Project and Order shipping address should be belong to same Project Group --></errorMessage>
+        <name>Project_Group_should_be_same</name>
+    </validationRules>
+</CustomObjectTranslation>

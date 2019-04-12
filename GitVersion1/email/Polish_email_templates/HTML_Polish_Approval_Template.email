@@ -1,0 +1,12 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><div style=""><font face="Arial, Helvetica, sans-serif" size="2" style="color: rgb(0, 0, 0); font-family: arial;">A Request for approval has been&nbsp;</font><font face="Arial, Helvetica, sans-serif" size="2">{!Request__c.Status__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">Szczegóły wniosku:</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">ID wniosku: {!Request__c.Name}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">Typ wniosku: {!Request__c.Request_Type__c}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">Komentarz: {!ApprovalRequest.Comments}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">Data wniosku: {!Request__c.CreatedDate}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font face="Arial, Helvetica, sans-serif" size="2">Utworzony przez : {!Request__c.CreatedBy}</font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font size="2"><br></font></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font size="2"><a href="{!Request__c.Link}">Kliknij tutaj</a><span style="font-family: Arial, Helvetica, sans-serif;">&nbsp;by uzyskać bezpośredni dostęp do wniosku</span></font></div></div><div style="color: rgb(0, 0, 0); font-family: arial;"><font size="2" style=""><br style="font-family: Arial, Helvetica, sans-serif;"><span style="font-family: Arial, sans-serif;">Szczegóły
+konta:<br>
+Nazwa konta: {!Request__c.Account_Name__c}<br>
+Właściciel konta: {!Request__c.Account_Owner__c}<br>
+Nazwa prawna konta: {!Request__c.Legal_Name_Formula__c}<br>
+Typ rekordu konta: {!Request__c.Account_Record_Type__c}<br>
+Typ konta: {!Request__c.Account_Type_Formula__c}</span></font></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Route</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Routes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Category --></label>
+        <name>Account_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Diamond</masterLabel>
+            <translation><!-- Diamond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Route Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASM Notification --></label>
+        <name>Approver1__c</name>
+        <relationshipLabel><!-- Routes (ASM Notification) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RSM Approval --></label>
+        <name>Approver2__c</name>
+        <relationshipLabel><!-- Routes (RSM Approval) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- KM --></label>
+        <name>KM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Diamond Customers --></label>
+        <name>Number_Of_Diamond_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Gold Customers --></label>
+        <name>Number_Of_Gold_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Of Platinum Customers --></label>
+        <name>Number_Of_Platinum_Customers__c</name>
+    </fields>
+    <fields>
+        <label><!-- OwnerProfileName --></label>
+        <name>OwnerProfileName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Route --></label>
+        <name>Related_Route__c</name>
+        <relationshipLabel><!-- Route Customers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RouteAccount --></label>
+        <name>RouteAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- RouteCustUniqueKey --></label>
+        <name>RouteCustUniqueKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Territory Id --></label>
+        <name>Standard_Territory_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discontinued</masterLabel>
+            <translation><!-- Discontinued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit for Approval</masterLabel>
+            <translation><!-- Submit for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submitted For Approval --></label>
+        <name>Submitted_For_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terrritory --></label>
+        <name>Territory__c</name>
+        <relationshipLabel><!-- Routes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total No of Customers on Route --></label>
+        <name>Total_No_of_Customers_on_Route__c</name>
+    </fields>
+    <fields>
+        <label><!-- Towns Covered --></label>
+        <name>Towns_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueRouteName --></label>
+        <name>UniqueRouteName__c</name>
+    </fields>
+    <fields>
+        <label><!-- UniqueRouteNo --></label>
+        <name>UniqueRouteNo__c</name>
+    </fields>
+    <layouts>
+        <layout>Route Customer</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Route Layout</layout>
+        <sections>
+            <label><!-- Account Category --></label>
+            <section>Account Category</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Stores Route Details --></description>
+        <label><!-- Route --></label>
+        <name>Route</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Stores Route Customer Details --></description>
+        <label><!-- Route Customer --></label>
+        <name>Route_Customer</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Status can only be New on creation of new Route --></errorMessage>
+        <name>New_Route_status_should_be_New_only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Route Number already exists in the system. --></errorMessage>
+        <name>Route_Unique_Name</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Owner should select &quot;Submit for Approval&quot; option from status field --></errorMessage>
+        <name>SP_users_select_only_Submit_for_approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add at least One Route Customer before Submitting for Approval. --></errorMessage>
+        <name>Total_Number_of_customer_Check</name>
+    </validationRules>
+</CustomObjectTranslation>

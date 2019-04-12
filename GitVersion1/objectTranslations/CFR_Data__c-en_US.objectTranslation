@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CFR Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CFR Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address Line 1 --></label>
+        <name>Address_Line_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Line 2 --></label>
+        <name>Address_Line_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BDM --></label>
+        <name>BDM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cargill Product Converted To --></label>
+        <name>Cargill_Product_Converted_To__c</name>
+        <picklistValues>
+            <masterLabel>Value 1</masterLabel>
+            <translation><!-- Value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value2</masterLabel>
+            <translation><!-- Value2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Brand Displaced --></label>
+        <name>Competitive_Brand_Displaced__c</name>
+        <picklistValues>
+            <masterLabel>Value 1</masterLabel>
+            <translation><!-- Value 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value 2</masterLabel>
+            <translation><!-- Value 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events Attendance-Beef --></label>
+        <name>Consumer_Events_Attendance_Beef__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events Attendance-Equine --></label>
+        <name>Consumer_Events_Attendance_Equine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events Attendance-Pet --></label>
+        <name>Consumer_Events_Attendance_Pet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events Attendance -Poultry --></label>
+        <name>Consumer_Events_Attendance_Poultry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events Attendance-Wildlife --></label>
+        <name>Consumer_Events_Attendance_Wildlife__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events-Beef --></label>
+        <name>Consumer_Events_Beef__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events-Equine --></label>
+        <name>Consumer_Events_Equine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events-Poultry --></label>
+        <name>Consumer_Events_Poultry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Events-Wildlife --></label>
+        <name>Consumer_Events_Wildlife__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Center Number --></label>
+        <name>Cost_Center_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Business Plan Meetings --></label>
+        <name>Dealer_Business_Plan_Meetings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Meetings Held --></label>
+        <name>Dealer_Meetings_Held__c</name>
+    </fields>
+    <fields>
+        <label><!-- Farm Calls --></label>
+        <name>Farm_Calls__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month/Year --></label>
+        <name>Month_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- New D Proposal Landed --></label>
+        <name>New_D_Proposal_Landed__c</name>
+    </fields>
+    <fields>
+        <label><!-- New D Proposals Given --></label>
+        <name>New_D_Proposals_Given__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Skus Added --></label>
+        <name>New_Skus_Added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Dealers Attended Meetings --></label>
+        <name>Number_of_Dealers_Attended_Meetings__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Of Horses Converted To --></label>
+        <name>Of_Horses_Converted_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organic Proposals Given --></label>
+        <name>Organic_Proposals_Given__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organic Proposals Landed --></label>
+        <name>Organic_Proposals_Landed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Due date --></label>
+        <name>Payment_Due_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Method --></label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Business Builder &amp; Cost center</masterLabel>
+            <translation><!-- Business Builder &amp; Cost center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discretionary Fund</masterLabel>
+            <translation><!-- Discretionary Fund --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Phone Number --></label>
+        <name>Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Check Amount --></label>
+        <name>Referral_Check_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred By --></label>
+        <name>Referred_By__c</name>
+        <relationshipLabel><!-- CFR Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred Farm Name --></label>
+        <name>Referred_Farm_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Approved --></label>
+        <name>Request_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Retailer Name Where Purchasing Feed --></label>
+        <name>Retailer_Name_Where_Purchasing_Feed__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit for Approval</masterLabel>
+            <translation><!-- Submit for Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vendor Name --></label>
+        <name>Vendor_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>CFR Sponsorship Referral Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Monthly Data Collection</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Monthly Data Collection --></label>
+        <name>Monthly_Data_Collection</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- CFR Pay Invoice request --></description>
+        <label><!-- Pay Invoice request --></label>
+        <name>Pay_Invoice_request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sponsorship Referral --></label>
+        <name>Sponsorship_Referral</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cost Center Number is requires if payment method is Business Builder &amp; Cost center --></errorMessage>
+        <name>CCN_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill all the fields to submit the form --></errorMessage>
+        <name>CFR_Monthly_Data_Required_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter all fields to save the record. --></errorMessage>
+        <name>Sponsorship_Referral_Fields_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

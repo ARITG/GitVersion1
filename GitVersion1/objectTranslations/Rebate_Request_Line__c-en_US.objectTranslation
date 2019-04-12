@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rebate Request Line</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rebate Request Lines</value>
+    </caseValues>
+    <fields>
+        <help><!-- Wypełnienie pola &quot;Upust %&quot; blokuje z automatu pozostałe pola. W przypadku rabatu procent. zawsze zaznaczy się pole „Zastosuj upust logistyczny”. Pole to dotyczy dystrybutorów, gdzie rabat logistyczny nalicza się zawsze gdy spełnione są warunki tonażowe. --></help>
+        <label><!-- Apply logistic discounts --></label>
+        <name>Apply_logistic_discounts__c</name>
+    </fields>
+    <fields>
+        <help><!-- W przypadku rabatów dodatkowych konieczne jest również zaznaczenie pola „Dodatkowo zastosuj standardowe rabaty”. Dotyczy to zwłaszcza dystrybucji gdzie oprócz rabatów dodatkowych są stosowane rabaty wynikające z umowy. --></help>
+        <label><!-- Apply permanent discounts --></label>
+        <name>Apply_permanent_discounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount in Currency --></label>
+        <name>CAR_Amount_in_Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Limit --></label>
+        <name>CAR_Credit_Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Discount --></label>
+        <name>CAR_Current_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Percentage 1 --></label>
+        <name>CAR_Discount_Percentage_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Type --></label>
+        <name>CAR_Discount_Type__c</name>
+        <picklistValues>
+            <masterLabel>Customer Level</masterLabel>
+            <translation><!-- Customer Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line Level</masterLabel>
+            <translation><!-- Line Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Value Based</masterLabel>
+            <translation><!-- Total Value Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Volume Based</masterLabel>
+            <translation><!-- Total Volume Based --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Find Next Flag --></label>
+        <name>CAR_Find_Next_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Type --></label>
+        <name>CAR_Item_Type__c</name>
+        <picklistValues>
+            <masterLabel>Payer</masterLabel>
+            <translation><!-- Payer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ship To</masterLabel>
+            <translation><!-- Ship To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value</masterLabel>
+            <translation><!-- Value --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Only For Payment Terms --></label>
+        <name>CAR_Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DATA</masterLabel>
+            <translation><!-- DATA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF03</masterLabel>
+            <translation><!-- PF03 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF05</masterLabel>
+            <translation><!-- PF05 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF07</masterLabel>
+            <translation><!-- PF07 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF10</masterLabel>
+            <translation><!-- PF10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF120</masterLabel>
+            <translation><!-- PF120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF130</masterLabel>
+            <translation><!-- PF130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF14</masterLabel>
+            <translation><!-- PF14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF21</masterLabel>
+            <translation><!-- PF21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF28</masterLabel>
+            <translation><!-- PF28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF30</masterLabel>
+            <translation><!-- PF30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF35</masterLabel>
+            <translation><!-- PF35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF40</masterLabel>
+            <translation><!-- PF40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF42</masterLabel>
+            <translation><!-- PF42 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF45</masterLabel>
+            <translation><!-- PF45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF50</masterLabel>
+            <translation><!-- PF50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF55</masterLabel>
+            <translation><!-- PF55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF60</masterLabel>
+            <translation><!-- PF60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF70</masterLabel>
+            <translation><!-- PF70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF75</masterLabel>
+            <translation><!-- PF75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF80</masterLabel>
+            <translation><!-- PF80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PF90</masterLabel>
+            <translation><!-- PF90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZBRO</masterLabel>
+            <translation><!-- RZBRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZGĘŚ</masterLabel>
+            <translation><!-- RZGĘŚ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZIND</masterLabel>
+            <translation><!-- RZIND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZKACZKA</masterLabel>
+            <translation><!-- RZKACZKA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZNIO</masterLabel>
+            <translation><!-- RZNIO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RZTRZ</masterLabel>
+            <translation><!-- RZTRZ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>CAR_Product_Code__c</name>
+        <relationshipLabel><!-- Rebate Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rebate Request --></label>
+        <name>CAR_Rebate_Request__c</name>
+        <relationshipLabel><!-- Rebate Request Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Valid From --></label>
+        <name>CAR_Valid_From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid To --></label>
+        <name>CAR_Valid_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wypełnienie pola &quot;Upust %&quot; blokuje z automatu pozostałe pola. W przypadku rabatu procent. zawsze zaznaczy się pole „Zastosuj upust logistyczny”. Pole to dotyczy dystrybutorów, gdzie rabat logistyczny nalicza się zawsze gdy spełnione są warunki tonażowe. --></help>
+        <label><!-- Discount % --></label>
+        <name>Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Value --></label>
+        <name>Discount_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Only For Packaging --></label>
+        <name>Packaging__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special price --></label>
+        <name>Special_price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Only For Form --></label>
+        <name>Standard_form__c</name>
+        <picklistValues>
+            <masterLabel>Bag</masterLabel>
+            <translation><!-- Bag --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bulk</masterLabel>
+            <translation><!-- Bulk --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Rebate Request Line Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Should be marked --></errorMessage>
+        <name>ApplyLogisticDiscountMarkRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only one field can be populated for fields Discount %, Discount value and Special price --></errorMessage>
+        <name>CheckDiscountsAndValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a Product and either a Discount %, Value or Special price. --></errorMessage>
+        <name>No_Product_and_discount_price</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rebate Request Record is Locked. Rebate Lines cannot be created or edited. --></errorMessage>
+        <name>Rebate_Line_Lock_Check</name>
+    </validationRules>
+</CustomObjectTranslation>

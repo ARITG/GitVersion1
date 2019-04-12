@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>CAN GAT</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>Expected_Expense__c</fieldNames>
+        <fieldNames>NextStep</fieldNames>
+        <fieldNames>Won_Lost__c</fieldNames>
+        <fieldNames>Won_Lost_Reason_Code__c</fieldNames>
+        <info>&lt;strong&gt;Plan&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Develop a negotiating plan&lt;/li&gt;&lt;li&gt;Develop a closing plan&lt;/li&gt;&lt;li&gt;Share the closing plan with the customer&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Negotiate&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Negotiate value versus cost &lt;/li&gt;&lt;li&gt;Obtain commitments to next steps&lt;/li&gt;&lt;li&gt;Finalize the offer and actively close the sale &lt;/li&gt;&lt;li&gt;Review final agreements to close &lt;/li&gt;&lt;li&gt;Engage critical resources within Cargill and customer to implement solution&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Review external closing plan with the customer and obtain feedback&lt;/li&gt;&lt;li&gt;Secure commitment from customer&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Close</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;strong&gt;Refine&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Create differentiation with competitive insight&lt;/li&gt;&lt;li&gt;Define Solutions to create distinctive value&lt;/li&gt;&lt;li&gt;Validate ability to deliver distinctive solution&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Validate&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Gain access to senior decision makers&lt;/li&gt;&lt;li&gt;Define the solution, including business case&lt;/li&gt;&lt;li&gt;Link needs, benefits and value to solution option&lt;/li&gt;&lt;li&gt;Review the solution with Customer Coach&lt;/li&gt;&lt;li&gt;Define success measures in customer terms&lt;/li&gt;&lt;li&gt;Revise the solution and prepare final pricing&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Verbal feedback from customer coach&lt;/li&gt;&lt;li&gt;Customer commits resources&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Create</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;strong&gt;Understand&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Identify business goals and objectives&lt;/li&gt;&lt;li&gt;Determine Current Satisfaction Level&lt;/li&gt;&lt;li&gt;Align with Customer&amp;#39;s competitive strategy in their market&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Identify&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Isolate and prioritize the compelling need&lt;/li&gt;&lt;li&gt;Identify Customer Buying Cycle and Criteria&lt;/li&gt;&lt;li&gt;Position Cargill against competitive options&lt;/li&gt;&lt;li&gt;Explore Solution Options with Customer&lt;/li&gt;&lt;li&gt;Identify how customer differentiates&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Validation Communication&lt;/li&gt;&lt;li&gt;Go/No Go Decision by Checklist&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Discover</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Description</fieldNames>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>Type</fieldNames>
+        <fieldNames>LeadSource</fieldNames>
+        <info>&lt;strong&gt;Research&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Research customer business, strategy and brand position&lt;/li&gt;&lt;li&gt;Identify executive level target contact&lt;/li&gt;&lt;li&gt;Leverage Cargill contacts for access&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt;&lt;strong&gt;Uncover&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Understand buying style&lt;/li&gt;&lt;li&gt;Develop ideas to generate interest&lt;/li&gt;&lt;li&gt;Develop objection handling/probing strategy&lt;/li&gt;&lt;li&gt;Develop Cargill Value Proposition&lt;/li&gt;&lt;li&gt;Customer/Cargill alignment - Go/No Go decision&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Gain the appointment with established criteria&lt;/li&gt;&lt;li&gt;Review preliminary zippering strategy with internal stakeholders&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Explore</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>CloseDate</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;strong&gt;Develop&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Engage the presentation team&lt;/li&gt;&lt;li&gt;Validate the attendee list with customer&lt;/li&gt;&lt;li&gt;Taylor the presentation(s) to key stakeholder groups&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Deliver&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Ensure the solution is ready to present&lt;/li&gt;&lt;li&gt;Verify decision criteria and process with sponsor (MA Buying Process)&lt;/li&gt;&lt;li&gt;Perform dry run with all resources&lt;/li&gt;&lt;li&gt;Present the Cargill value proposition&lt;/li&gt;&lt;li&gt;Gain feedback from the internal customer sponsor&lt;/li&gt;&lt;li&gt;Debrief with the presentation team&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;&lt;br&gt;Obtain customer feedback and agreement on next steps from internal sponsor/customer executives</info>
+        <picklistValueName>Present</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>NextStep</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <info>&lt;strong&gt;Confirm&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Check with customer to ensure satisfaction&lt;/li&gt;&lt;li&gt;Validate solution meets customer needs&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Expand&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Provide ongoing value&lt;/li&gt;&lt;li&gt;Continue to validate needs and challenges&lt;/li&gt;&lt;li&gt;Conduct regular planning meetings to receive feedback on Cargill value&lt;/li&gt;&lt;li&gt;Seek active internal/external referrals from the customer&lt;/li&gt;&lt;li&gt;Give/seek referrals from inside Cargill&lt;/li&gt;&lt;/ul&gt;
+&lt;strong&gt;Measures of Success&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Customer requirements are met&lt;/li&gt;&lt;li&gt;Referral Obtained&lt;/li&gt;&lt;li&gt;New opportunities identified&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Strengthen &amp; Expand</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Opportunity</recordTypeName>
+</PathAssistant>

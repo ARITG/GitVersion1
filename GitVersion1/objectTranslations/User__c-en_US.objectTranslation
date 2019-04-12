@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Users</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instance Id E2E --></label>
+        <name>Instance_Id_E2E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- License Type --></label>
+        <name>License_Type__c</name>
+        <picklistValues>
+            <masterLabel>Chatter External</masterLabel>
+            <translation><!-- Chatter External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatter Free</masterLabel>
+            <translation><!-- Chatter Free --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company Communities</masterLabel>
+            <translation><!-- Company Communities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Community</masterLabel>
+            <translation><!-- Customer Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Community Plus</masterLabel>
+            <translation><!-- Customer Community Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Force.com - App Subscription</masterLabel>
+            <translation><!-- Force.com - App Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Force.com Full Sandbox</masterLabel>
+            <translation><!-- Force.com Full Sandbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guest User License</masterLabel>
+            <translation><!-- Guest User License --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I2V</masterLabel>
+            <translation><!-- I2V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Cloud</masterLabel>
+            <translation><!-- Sales Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Cloud Full Sandbox</masterLabel>
+            <translation><!-- Sales Cloud Full Sandbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Cloud Platform</masterLabel>
+            <translation><!-- Sales Cloud Platform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Platform --></label>
+        <name>Platform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Name --></label>
+        <name>Profile_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- SAML Federation ID --></label>
+        <name>SAML_Federation_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- userid --></label>
+        <name>userid__c</name>
+    </fields>
+    <layouts>
+        <layout>User Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request submitted for approval and action</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Visit_Report_Letterhead</letterhead>
+    <name>HTML Global Request Initial Submission Vietnam</name>
+    <style>freeForm</style>
+    <subject>Yêu cầu {!Request__c.Name} for {!Request__c.Request_Type__c} ({!Request__c.Account_Name__c}) -  Đã gửi</subject>
+    <textOnly>Yêu cầu đã được gửi để phê duyệt và hành động.
+
+Yêu cầu chi tiết:
+
+Mã số yêu cầu : {!Request__c.Name}
+Loại yêu cầu : {!Request__c.Request_Type__c}
+Ngày yêu cầu : {!Request__c.CreatedDate}
+Được tạo bởi : {!Request__c.CreatedBy}
+
+Click here Nhấp vào đây để truy cập Yêu cầu trực tiếp
+
+
+Chi tiết khách hàng :
+Tên khách hàng : {!Request__c.Account_Name__c}
+Chủ sở hữu khách hàng : {!Request__c.Account_Owner__c}
+Tên đăng ký khách hàng : {!Request__c.Legal_Name_Formula__c}
+Kiểu ghi chép khách hàng : {!Request__c.Account_Record_Type__c}
+Kiểu khách hàng : {!Request__c.Account_Type_Formula__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

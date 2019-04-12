@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Project_Groups__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Project_Groups__r$Sales_Consultant_New__c</field>
+    </columns>
+    <columns>
+        <field>Account$X9_Box_Step_2__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <currency>USD</currency>
+    <description>status of project groups.</description>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.Project_Groups__r$Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <name>Project Groups by Customer Channel</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_with_Project_Groups__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURY</interval>
+    </timeFrameFilter>
+</Report>

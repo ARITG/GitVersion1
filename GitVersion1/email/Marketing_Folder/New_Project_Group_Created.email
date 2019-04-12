@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><font face="arial">A Project Group has been created:</font></div><div><font face="arial"><br></font></div><div><font face="arial">Project Group Name: {!Project_Group__c.Name}</font></div><div><font face="arial">Account: {!Project_Group__c.Account__c}</font></div><div><font face="arial">Project Delivery Date: {!Project_Group__c.Project_Delivery_Date__c}</font></div><div><font face="arial">Project End Date: {!Project_Group__c.Project_End_Date__c}</font></div><div><font face="arial"><br></font></div><div><font face="arial"><br></font></div><div><font face="arial">Click this <a href="{!Project_Group__c.Link}">link </a>to access the Project Group directly&nbsp;</font></div>]]></td>
+</tr>
+</table>

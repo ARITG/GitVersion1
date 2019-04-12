@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>81838 Email template - When case is Received- Crescendo - CQN - Autoresponse template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Cargill_Standard_Letterhead</letterhead>
+    <name>Crescendo - CQN - Autoresponse template</name>
+    <style>freeForm</style>
+    <subject>Case Number {!Case.CaseNumber} - “{!Case.Subject}” - notification that case has been received</subject>
+    <textOnly>We have received your email and Case Number   “Email Subject” has been created and assigned to our Sales and Customer support team. Please save your Case Number for reference.
+
+We strive to get back to our customers within 24 hours if your request is received on a weekday. In case you have sent the request on a weekend or during a public holiday, we will try our best to respond by the first working day.
+
+If you wish to add additional information to your request, or wish to follow up, please reply to this email and leave the subject line unchanged.
+
+
+Thank You
+
+Sales and Customer Support Team
+
+Cargill Aqua Nutrition North America
+
+{!Case.Thread_Id}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

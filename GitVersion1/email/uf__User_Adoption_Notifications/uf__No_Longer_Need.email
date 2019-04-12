@@ -1,0 +1,5 @@
+{!uf__User_Status__c.uf__User__c} stated that they no longer need a license to Salesforce.com.
+
+You can access their record here to deactivate it:  https://na9.salesforce.com/{!uf__User_Status__c.uf__UserId__c}
+
+View their user inactivity record where they specified that they no longer need access here:  https://na9.salesforce.com/{!uf__User_Status__c.Id}

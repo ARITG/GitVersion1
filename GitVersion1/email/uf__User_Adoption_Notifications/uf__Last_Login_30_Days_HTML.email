@@ -1,0 +1,12 @@
+Hello {!uf__User_Status__c.uf__User__c}, <br /><br />
+
+This is an automated email notification from Salesforce (Crescendo). <br />
+You have not logged into Salesforce.com in 30 days. <br /><br />
+
+Login to Salesforce.com and visit this link: <br />
+https://cargill18.my.salesforce.com/{!uf__User_Status__c.Id}  <br /><br />
+
+Please update this record with an explanation of why you have been inactive. Within this record, you can specify if you still need access to Salesforce.com.<br /><br /> 
+
+Please click this link if you no longer need access to Salesforce.com (be careful): <br />
+<a href="https://cargill18--uf.na29.visual.force.com/apex/noneed?sid={!uf__User_Status__c.Id}">I DO NOT NEED A SALESFORCE LICENSE ANY LONGER</a>

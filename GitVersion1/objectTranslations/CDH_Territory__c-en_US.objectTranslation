@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CDH Territory - To be Removed</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CDH Territories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Unit --></label>
+        <name>CDH_Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>CDH_Business__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAN Business --></label>
+        <name>CDH_CAN_Business__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFN</masterLabel>
+            <translation><!-- CFN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN</masterLabel>
+            <translation><!-- CPN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External Territory ID --></label>
+        <name>CDH_External_Territory_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary --></label>
+        <name>CDH_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Name --></label>
+        <name>CDH_Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner --></label>
+        <name>CDH_Territory_Owner__c</name>
+        <relationshipLabel><!-- CDH Territories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Owner Active User --></label>
+        <name>Is_Owner_Active_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner Formula --></label>
+        <name>Territory_Owner_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Owner Full Name --></label>
+        <name>Territory_Owner_Full_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>CDH Territory Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

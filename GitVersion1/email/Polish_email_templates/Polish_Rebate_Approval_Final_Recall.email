@@ -1,0 +1,91 @@
+<messaging:emailTemplate recipientType="User"
+    relatedToType="CAR_RebateReqs__c"
+    subject="Rebate Request #{!Relatedto.Name} - {!Relatedto.CAR_Account__r.Name}, Status: >> Wycofany przez Wnioskodawcę <<"
+    replyTo="{!Relatedto.Owner.Email}">
+
+    <messaging:htmlEmailBody >
+<html> 
+     <body> 
+
+     <font face="arial" size="2.2">
+          
+     Niniejszy email dotyczy wniosku rabatowego #{!Relatedto.Name}. <br/>
+     Szczegóły znajdują się pod załączonym linkiem:
+     <a href="https://cargill18.lightning.force.com/lightning/r/CAR_RebateReqs__c/{!RelatedTo.Id}/view"> link do wniosku</a> <br/><br/>
+     Właściciel:  {!Relatedto.Owner.Name} <br/>
+     
+      <br/> ################################################################### <br/>
+     Status:  {!Relatedto.CAR_Status__c} <br/> 
+     ################################################################### <br/> <br/>  
+     
+     </font>
+     <font face="arial" size="2.2">
+          
+     Płatnik:  {!Relatedto.CAR_Account__r.Name} <br/>
+     Nr płatnika ERP ID:  {!Relatedto.ERP_ID__c} <br/>   
+     Czy uwzględnić Płatnika: {!Relatedto.Include_Payer__c} <br/> <br/>
+
+     </font>
+     <font face="arial" size="2.2">
+
+     Czy wymaga akceptacji menadżera: {!Relatedto.Needs_Manager_Approval__c} <br/>
+     Czy informować Dyrektora (powyżej limitu akceptacji):  {!Relatedto.Inform_Supervisor__c} <br/> <br/>  
+     
+     Ważne od: <apex:outputText value=" {0,date,yyyy'-'MM'-'dd}">
+     <apex:param value="{!Relatedto.Valid_From__c}" /> 
+     </apex:outputText> <br/>
+     Ważne do: <apex:outputText value=" {0,date,yyyy'-'MM'-'dd}">
+     <apex:param value="{!Relatedto.Valid_To__c}" /> 
+     </apex:outputText> <br/> <br/>  
+
+
+     </font>
+     <font face="arial" size="2.2">
+    
+     Komentarz ogólny do wniosku: {!Relatedto.Comments__c} <br/><br/>
+     </font>
+
+     <STYLE type="text/css">
+        TH {font-size: 11px; font-face: arial;background: #CCCCCC; border-width: 1;  text-align: center }
+        TD  {font-size: 11px; font-face: verdana }
+        TABLE {font-size: 11px; font-face: arial; border: solid #CCCCCC; border-width: 1}
+        TR {font-size: 11px; border: solid #CCCCCC; border-width: 1}
+     </style>
+     <font face="arial" size="2.2">
+      <c:RebateLineList RebId="{!relatedTo.Id}" /><br/><br/>
+     </font>
+     <p><b>Approval History:</b></p>
+    
+    <STYLE type="text/css">
+        TH {font-size: 10px; font-face: arial;background: #CCCCCC; border-width: 1;  text-align: left }
+        TD  {font-size: 10px; font-face: verdana }
+        TABLE {font-size: 10px; font-face: arial; border: solid #CCCCCC; border-width: 1}
+        TR {font-size: 10px; border: solid #CCCCCC; border-width: 1}
+     </style>
+     <font face="arial" size="2.2">
+     <c:RebateCustomApproval RebId="{!relatedTo.Id}" /><br/><br/>
+     </font> 
+    <p />
+    
+     <STYLE type="text/css">
+        TH {font-size: 10px; font-face: arial;background: #CCCCCC; border-width: 1;  text-align: left }
+        TD  {font-size: 10px; font-face: verdana }
+        TABLE {font-size: 10px; font-face: arial; border: solid #CCCCCC; border-width: 1}
+        TR {font-size: 10px; border: solid #CCCCCC; border-width: 1}
+     </style>
+     <font face="arial" size="2.2">
+     <c:RebateShiptos RebId="{!relatedTo.Id}" /><br/><br/>
+     </font>
+
+     <font face="arial" size="1">
+   
+<p>================================================================ </p>
+<p>1. By zatwierdzić lub odrzucić poprzez email wpisz słowo APPROVE lub REJECT w pierwszej linii odpowiedzi </p>
+<p>2. Wpisz wszelkie dodatkowe uwagi w drugim wierszu odpowiedzi </p>
+<p></p>
+     </font>
+<br></br>
+</body>
+</html> 
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

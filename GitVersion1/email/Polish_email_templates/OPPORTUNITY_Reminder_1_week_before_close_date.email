@@ -1,0 +1,5 @@
+Hi {!Opportunity.OwnerFirstName},
+
+This is a reminder that the Estimated Close Date for {!Opportunity.Name} is within 1 week.
+
+Click on this link to access the record: {!Opportunity.Link}

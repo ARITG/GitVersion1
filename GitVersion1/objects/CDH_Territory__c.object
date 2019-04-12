@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <description>To be Removed - Used to align external territories with records in SFDC</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fields>
+        <fullName>CDH_Business_Unit__c</fullName>
+        <description>Business Unit / Country of the territory (allows the same territory name / number to be used by different BU&apos;s</description>
+        <externalId>false</externalId>
+        <label>Business Unit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CDH_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Business</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CDH_CAN_Business__c</fullName>
+        <description>Business Unit / Country of the territory (allows the same territory name / number to be used by different BU&apos;s</description>
+        <externalId>false</externalId>
+        <label>CAN Business</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Both</fullName>
+                    <default>false</default>
+                    <label>Both</label>
+                </value>
+                <value>
+                    <fullName>CFN</fullName>
+                    <default>false</default>
+                    <label>CFN</label>
+                </value>
+                <value>
+                    <fullName>CPN</fullName>
+                    <default>false</default>
+                    <label>CPN</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CDH_External_Territory_ID__c</fullName>
+        <description>Stores external ID for territory</description>
+        <externalId>true</externalId>
+        <label>External Territory ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CDH_Primary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Primary</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CDH_Territory_Name__c</fullName>
+        <description>Territory Name / Description</description>
+        <externalId>false</externalId>
+        <label>Territory Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CDH_Territory_Owner__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Links the Territory to a specific user to model the external territory model</description>
+        <externalId>false</externalId>
+        <label>Territory Owner</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>CDH_Territories</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Owner_Active_User__c</fullName>
+        <description>For list view to quickly find out which territories has outdated assigned user. All users should be Active only.</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.IsActive</formula>
+        <label>Is Owner Active User</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Territory_Owner_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>CDH_Territory_Owner__r.FirstName + &apos; &apos; + CDH_Territory_Owner__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Territory Owner Formula</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Territory_Owner_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Territory Owner Full Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>CDH Territory - To be Removed</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_Business_Unit__c</columns>
+        <columns>CDH_CAN_Business__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Poland</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Is_Owner_Active_User__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_Business_Unit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CDH_Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </filters>
+        <label>All Poland</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Poland_Inactive_Users_only</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Is_Owner_Active_User__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_Business_Unit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CDH_Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </filters>
+        <filters>
+            <field>Is_Owner_Active_User__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Poland Inactive Users only</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Poland_Primary_only</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Is_Owner_Active_User__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_CAN_Business__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CDH_Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </filters>
+        <filters>
+            <field>CDH_Primary__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Poland Primary only</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Poland_not_Primary</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Is_Owner_Active_User__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_Business_Unit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CDH_Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </filters>
+        <filters>
+            <field>CDH_Primary__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Poland not Primary</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Poland_owner_not_TD</fullName>
+        <columns>NAME</columns>
+        <columns>CDH_External_Territory_ID__c</columns>
+        <columns>CDH_Primary__c</columns>
+        <columns>CDH_Territory_Name__c</columns>
+        <columns>CDH_Territory_Owner__c</columns>
+        <columns>Is_Owner_Active_User__c</columns>
+        <columns>Territory_Owner_Full_Name__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CDH_Business__c</columns>
+        <columns>CDH_Business_Unit__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CDH_Business__c</field>
+            <operation>equals</operation>
+            <value>Poland</value>
+        </filters>
+        <filters>
+            <field>OWNER.LAST_NAME</field>
+            <operation>notContain</operation>
+            <value>dusza</value>
+        </filters>
+        <label>All Poland owner&lt;&gt;TD</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>CDHT-{000000}</displayFormat>
+        <label>CDH Territory #</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>CDH Territories</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CDH_External_Territory_ID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CDH_Territory_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CDH_Territory_Owner__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CDH_Business__c</customTabListAdditionalFields>
+        <listViewButtons>Mass_Delete</listViewButtons>
+        <lookupDialogsAdditionalFields>CDH_External_Territory_ID__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CDH_Territory_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Territory_Owner_Full_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CDH_Business__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CDH_CAN_Business__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CDH_Primary__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>CDH_External_Territory_ID__c</searchFilterFields>
+        <searchFilterFields>CDH_Territory_Name__c</searchFilterFields>
+        <searchFilterFields>CDH_Territory_Owner__c</searchFilterFields>
+        <searchFilterFields>CDH_Business__c</searchFilterFields>
+        <searchFilterFields>CDH_Primary__c</searchFilterFields>
+        <searchResultsAdditionalFields>CDH_External_Territory_ID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CDH_Territory_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CDH_Territory_Owner__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Territory_Owner_Formula__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Territory_Owner_Full_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CDH_Business__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.CDH_Territory__c )}; 
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Budget and Actual data from scorecard - for dashboard and monitoring of budget realization (Poland custom object)</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>sc_Approval_Manager_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_User_Id__r.Manager.Id_18_long__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Manager Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Approval_Manager_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_User_Id__r.Manager.FirstName + &apos; &apos; + sc_User_Id__r.Manager.LastName</formula>
+        <label>Approval Manager Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_BU_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>BU Type</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Budget_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>sc_CDH_Territory_Code_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_CDH_Territory_Name__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CDH Territory Code Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_CDH_Territory_Code__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_CDH_Territory_Name__r.CDH_External_Territory_ID__c</formula>
+        <label>CDH Territory Code</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_CDH_Territory_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>= CDH Territory</description>
+        <externalId>false</externalId>
+        <label>CDH Territory Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>CDH_Territory__c.CDH_Primary__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>CDH_Territory__c</referenceTo>
+        <relationshipLabel>User Budgets and Actuals</relationshipLabel>
+        <relationshipName>User_Budgets_and_Actuals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sc_Channel_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel Type</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_GM_Budget_Actual_CY__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_Gross_Margin_Budget_CY__c-sc_Gross_Margin_Actual_CY__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GM Budget - Actual CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>sc_GM_Budget_Actual_CY_flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( IF( sc_GM_Budget_Actual_CY__c &gt;0, &quot;/img/samples/light_red.gif&quot;, &quot;/img/samples/light_green.gif&quot;) , &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>GM Budget - Actual CY flag</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Gross_Margin_Actual_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Gross Margin Actual CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>sc_Gross_Margin_Budget_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Gross Margin Budget CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>sc_Gross_Margin_Previous_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Gross Margin Previous CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>sc_Last_Admin_Update__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Admin Update</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>sc_Manager_Profile_Name_Id__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_User_Id__r.Manager.Profile_Name__c</formula>
+        <label>Manager Profile Name Id</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Manager_Profile_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.Manager.Role_Name__c</formula>
+        <label>Manager Profile Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_New_Principal__c</fullName>
+        <externalId>false</externalId>
+        <label>New_Principal</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Product_group_budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Specie_Advisor__c</fullName>
+        <externalId>false</externalId>
+        <label>Specie_Advisor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Specie__c</fullName>
+        <externalId>false</externalId>
+        <label>Specie</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Specie_x__c</fullName>
+        <externalId>false</externalId>
+        <label>Line</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Statutory__c</fullName>
+        <externalId>false</externalId>
+        <label>Statutory</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_User_Id__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User Id</label>
+        <lookupFilter>
+            <active>true</active>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>User_Budgets_and_Actuals</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>sc_User_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_User_Id__r.FirstName + &apos; &apos; + sc_User_Id__r.LastName</formula>
+        <label>User Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Vol_Budget_Actual_CY__c</fullName>
+        <externalId>false</externalId>
+        <formula>sc_Volume_Budget_CY__c-sc_Volume_Actual_CY__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vol Budget - Actual CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Vol_Budget_Actual_CY_flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( IF( sc_Vol_Budget_Actual_CY__c &gt;0, &quot;/img/samples/light_red.gif&quot;, &quot;/img/samples/light_green.gif&quot;) , &quot;&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vol Budget - Actual CY flag</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Volume_Actual_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Volume Actual CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Volume_Budget_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Volume Budget CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Volume_Previous_CY__c</fullName>
+        <externalId>false</externalId>
+        <label>Volume Previous CY</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>sc_Year_and_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>DATE(YEAR(sc_Budget_Date__c),MONTH(sc_Budget_Date__c),1)</formula>
+        <label>Year and Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <label>User Budget and Actual</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>sc_BU_Type__c</columns>
+        <columns>sc_CDH_Territory_Code__c</columns>
+        <columns>sc_Year_and_Month__c</columns>
+        <columns>sc_Volume_Budget_CY__c</columns>
+        <columns>sc_Gross_Margin_Budget_CY__c</columns>
+        <columns>sc_Specie_x__c</columns>
+        <columns>sc_Specie__c</columns>
+        <columns>sc_Product_group_budget__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>sc_Manager_Profile_Name__c</columns>
+        <columns>sc_Last_Admin_Update__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_2015</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>sc_BU_Type__c</columns>
+        <columns>sc_CDH_Territory_Code__c</columns>
+        <columns>sc_Year_and_Month__c</columns>
+        <columns>sc_Volume_Budget_CY__c</columns>
+        <columns>sc_Gross_Margin_Budget_CY__c</columns>
+        <columns>sc_Specie_x__c</columns>
+        <columns>sc_Specie__c</columns>
+        <columns>sc_Product_group_budget__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>sc_Manager_Profile_Name__c</columns>
+        <columns>sc_Last_Admin_Update__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>sc_Budget_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>6/1/2015</value>
+        </filters>
+        <filters>
+            <field>sc_Budget_Date__c</field>
+            <operation>lessOrEqual</operation>
+            <value>5/31/2016</value>
+        </filters>
+        <label>All 2015</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_2016</fullName>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>sc_BU_Type__c</columns>
+        <columns>sc_CDH_Territory_Code__c</columns>
+        <columns>sc_Year_and_Month__c</columns>
+        <columns>sc_Volume_Budget_CY__c</columns>
+        <columns>sc_Gross_Margin_Budget_CY__c</columns>
+        <columns>sc_Specie_x__c</columns>
+        <columns>sc_Specie__c</columns>
+        <columns>sc_Product_group_budget__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>sc_Manager_Profile_Name__c</columns>
+        <columns>sc_Last_Admin_Update__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>sc_Budget_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>6/1/2016</value>
+        </filters>
+        <filters>
+            <field>sc_Budget_Date__c</field>
+            <operation>lessOrEqual</operation>
+            <value>5/31/2017</value>
+        </filters>
+        <label>All 2016</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_specific</fullName>
+        <columns>NAME</columns>
+        <columns>sc_BU_Type__c</columns>
+        <columns>sc_CDH_Territory_Code__c</columns>
+        <columns>sc_Year_and_Month__c</columns>
+        <columns>sc_Volume_Budget_CY__c</columns>
+        <columns>sc_Gross_Margin_Budget_CY__c</columns>
+        <columns>sc_Specie_x__c</columns>
+        <columns>sc_Specie__c</columns>
+        <columns>sc_Product_group_budget__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>sc_Manager_Profile_Name__c</columns>
+        <columns>sc_Last_Admin_Update__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>sc_Last_Admin_Update__c</field>
+            <operation>equals</operation>
+            <value>9/30/2016 12:00 AM</value>
+        </filters>
+        <label>All specific</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>SC-{YYYY}.{MM}.{DD}-{000000}</displayFormat>
+        <label>User Budget Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>User Budgets and Actuals</pluralLabel>
+    <searchLayouts>
+        <listViewButtons>Mass_Delete</listViewButtons>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.User_Budget_and_Actual__c )}; 
+
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

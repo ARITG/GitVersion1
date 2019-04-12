@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Zatwierdzony</label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label>Priorytet</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>Over 180 Days</masterLabel>
+            <translation>Powyżej 180 dni</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Within 180 Days</masterLabel>
+            <translation>W ciągu 180 dni</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Within 30 Days</masterLabel>
+            <translation>W ciągu 30 dni</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Within 90 Days</masterLabel>
+            <translation>W ciągu 90 dni</translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Idea Layout</layout>
+        <sections>
+            <label>Załączniki</label>
+            <section>Attachements</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Schemat Idei</label>
+            <section>Idea Theme</section>
+        </sections>
+        <sections>
+            <label>Status</label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Record Type used to associate ideas with a specific community --></description>
+        <label><!-- Ideas Poland: Idea Record Type --></label>
+        <name>InternalIdeasIdeaRecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type used to associate Idea with a specific zone --></description>
+        <label><!-- Canada: Idea Record Type --></label>
+        <name>Record_type_for_community_09aj0000000CcuFAAS_entity_Idea</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Kategoria nie może być pusta. Wybierz przynajmniej jedną kategorię.</errorMessage>
+        <name>CategoryCannotBeBlank</name>
+    </validationRules>
+</CustomObjectTranslation>

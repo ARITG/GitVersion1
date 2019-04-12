@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Rebate Ship-To</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Rebate Ship-Tos</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Rebate Requests (Ship-To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ERP ID --></label>
+        <name>ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account Name --></label>
+        <name>Parent_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent ERP ID --></label>
+        <name>Parent_ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rebate Request --></label>
+        <name>Rebate_Request__c</name>
+        <relationshipLabel><!-- Rebate Ship-Tos --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ship-To Account Name --></label>
+        <name>Ship_To_Account_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Rebate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

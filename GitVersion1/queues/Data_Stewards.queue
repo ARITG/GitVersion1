@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>kartoteki_cfn@cargill.com</email>
+    <name>Data Stewards - Poland</name>
+    <queueMembers>
+        <users>
+            <user>daniela_wojtalik-migdalska@cargill.com.cargill18</user>
+            <user>izabela_sieg@cargill.com.cargill18</user>
+            <user>karolina_mikrut@cargill.com.cargill18</user>
+            <user>krzysztof_pawlowski@cargill.com.cargill18</user>
+            <user>magdalena_wroblewska@cargill.com.cargill18</user>
+            <user>ceny@cargill.com.cargill18</user>
+            <user>regina_kozlowska@cargill.com.cargill18</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Request__c</sobjectType>
+    </queueSobject>
+</Queue>

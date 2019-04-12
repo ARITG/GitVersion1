@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Template --></value>
+    </caseValues>
+    <fields>
+        <label>Opis</label>
+        <name>APXTConga4__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Conga Mail Merge Label Templates Only.  This setting indicates to use ReportData (or QueryData) as the data source for Labels --></help>
+        <label>Etykieta szablonu: użyj szczegół. danych</label>
+        <name>APXTConga4__Label_Template_Use_Detail_Data__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the API field name, an equals sign, and the value to set (with spaces replaced with plus signs). 
+
+Examples: 
+Status__c=Completed 
+Status_Date__c=Today 
+Stage__c=In Progress --></help>
+        <label>Główne pole ustawione na 1</label>
+        <name>APXTConga4__Master_Field_to_Set_1__c</name>
+    </fields>
+    <fields>
+        <label>Główne pole ustawione na 2</label>
+        <name>APXTConga4__Master_Field_to_Set_2__c</name>
+    </fields>
+    <fields>
+        <label>Główne pole ustawione na 3</label>
+        <name>APXTConga4__Master_Field_to_Set_3__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa</label>
+        <name>APXTConga4__Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identify the group name to which this template belongs. Used in conjunction with the &quot;&amp;TemplateGroup=&quot; parameter in PointMerge. --></help>
+        <label>Grupa szablonów</label>
+        <name>APXTConga4__Template_Group__c</name>
+    </fields>
+    <fields>
+        <label>Typ szablonu</label>
+        <name>APXTConga4__Template_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation>Dokument</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envelope</masterLabel>
+            <translation>Koperta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Label</masterLabel>
+            <translation>Etykieta</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Template Name --></nameFieldLabel>
+</CustomObjectTranslation>

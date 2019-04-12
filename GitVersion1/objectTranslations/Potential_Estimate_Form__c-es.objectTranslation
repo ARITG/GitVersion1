@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Potential Estimate Form --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Potential Estimate Form --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Is CFE Incl % locked? --></label>
+        <name>Is_CFE_Incl_locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Value MT/CFE locked? --></label>
+        <name>Is_Value_MT_CFE_locked__c</name>
+    </fields>
+    <fields>
+        <label>FUNCIÓN DEL PRODUCTO</label>
+        <name>Product_Function__c</name>
+    </fields>
+    <fields>
+        <label>ESPECIES</label>
+        <name>Species__c</name>
+    </fields>
+    <fields>
+        <label><!-- TypeOfCalculation --></label>
+        <name>TypeOfCalculation__c</name>
+    </fields>
+    <fields>
+        <label>TIPO</label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Business --></label>
+        <name>User_Business__c</name>
+    </fields>
+    <fields>
+        <label>Valor</label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- % inclusion per CFE --></label>
+        <name>inclusion_per_CFE__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

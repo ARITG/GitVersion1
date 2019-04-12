@@ -1,0 +1,13 @@
+<apex:page Controller="uf.noneedController" showheader="false" sidebar="false">
+
+<apex:form >
+      <apex:pageBlock title="No Longer Need Login Access to Salesforce.com">
+         If you no longer need access to Salesforce.com, because of a change in positions, lack of interest, lack of ability to update, or some other reason, click "I Confirm" to request that your license be deactivated to free up the license for someone else to use.<br /><br />
+         Your manager and adoption champion (if applicable) will be notified to deactivate the license.
+         <apex:pageBlockButtons >
+            <apex:commandButton value="I Confirm" action="{!update_status}"/>
+         </apex:pageBlockButtons>
+      </apex:pageBlock>
+   </apex:form>
+   
+</apex:page>

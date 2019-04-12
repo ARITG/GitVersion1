@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Business EQ Poland</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Poland_Case_Support_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Business__c</field>
+                <operation>equals</operation>
+                <value>Poland</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CQN_NA_Surrey_Franklinton</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Business__c</field>
+                <operation>equals</operation>
+                <value>Surrey,Franklinton,Other</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

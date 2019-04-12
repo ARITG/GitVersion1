@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Animals / Cycle --></label>
+        <name>Animals_cycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Animals / yr --></label>
+        <name>Animals_yr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual CFE 2 --></label>
+        <name>Annual_CFE_CON__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual CFE 1 --></label>
+        <name>Annual_CFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Volume (MT) --></label>
+        <name>Annual_Volume_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Volume --></label>
+        <name>Annual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- CFE incl % --></label>
+        <name>CFE_incl__c</name>
+    </fields>
+    <fields>
+        <label><!-- CFE kg / animal / cycle --></label>
+        <name>CFE_kg_animal_cycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- CalculationKey --></label>
+        <name>CalculationKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculation Category --></label>
+        <name>Calculation_Category__c</name>
+        <picklistValues>
+            <masterLabel>CFE</masterLabel>
+            <translation><!-- CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume</masterLabel>
+            <translation><!-- Volume --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Calculation type --></label>
+        <name>Calculation_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Key --></label>
+        <name>Competitor_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution --></label>
+        <name>Contribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cycles / yr --></label>
+        <name>Cycles_yr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Fed / yr --></label>
+        <name>Days_Fed_yr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check --></label>
+        <name>Duplicate_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Potential --></label>
+        <name>Master_Potential__c</name>
+        <relationshipLabel><!-- Potentials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Potential Check --></label>
+        <name>Potential_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Function --></label>
+        <name>Product_Function__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boar</masterLabel>
+            <translation><!-- Boar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeder</masterLabel>
+            <translation><!-- Breeder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow Calf</masterLabel>
+            <translation><!-- Cow Calf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creep</masterLabel>
+            <translation><!-- Creep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Cow</masterLabel>
+            <translation><!-- Dry Cow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finisher</masterLabel>
+            <translation><!-- Finisher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower</masterLabel>
+            <translation><!-- Grower --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower/Finisher</masterLabel>
+            <translation><!-- Grower/Finisher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heifer</masterLabel>
+            <translation><!-- Heifer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactating Meat</masterLabel>
+            <translation><!-- Lactating Meat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactation</masterLabel>
+            <translation><!-- Lactation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation><!-- Layer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation><!-- Milk replacers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Piglet</masterLabel>
+            <translation><!-- Other Piglet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Starter</masterLabel>
+            <translation><!-- Pre-Starter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pullet</masterLabel>
+            <translation><!-- Pullet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow</masterLabel>
+            <translation><!-- Sow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow Gestation</masterLabel>
+            <translation><!-- Sow Gestation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starter</masterLabel>
+            <translation><!-- Starter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Salesperson --></label>
+        <name>Salesperson__c</name>
+    </fields>
+    <fields>
+        <label><!-- Share of Wallet --></label>
+        <name>Share_of_Wallet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species_Formula --></label>
+        <name>Species_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation><!-- Beef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation><!-- Broiler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation><!-- Dairy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation><!-- Ducks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation><!-- Equine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation><!-- Goat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation><!-- Ingredient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layers</masterLabel>
+            <translation><!-- Layers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation><!-- Milk replacers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation><!-- Other Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation><!-- Pet Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation><!-- Pork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation><!-- Rabbit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation><!-- Sheep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation><!-- Small Ruminants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation><!-- Specialty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <relationshipLabel><!-- Potentials --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total consumption complete feed  [MT] --></label>
+        <name>Total_consumption_complete_feed_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- TypeOfCalculation --></label>
+        <name>TypeOfCalculation__c</name>
+        <picklistValues>
+            <masterLabel>Cycle Consumption</masterLabel>
+            <translation><!-- Cycle Consumption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cycle Consumption - CFE</masterLabel>
+            <translation><!-- Cycle Consumption - CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption</masterLabel>
+            <translation><!-- Daily Animal Consumption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daily Animal Consumption - CFE</masterLabel>
+            <translation><!-- Daily Animal Consumption - CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate</masterLabel>
+            <translation><!-- Simple Potential Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple Potential Estimate - CFE</masterLabel>
+            <translation><!-- Simple Potential Estimate - CFE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Basemix</masterLabel>
+            <translation><!-- Basemix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concentrate</masterLabel>
+            <translation><!-- Concentrate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredients</masterLabel>
+            <translation><!-- Ingredients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Defined</masterLabel>
+            <translation><!-- Not Defined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Specialties</masterLabel>
+            <translation><!-- Other Specialties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premix</masterLabel>
+            <translation><!-- Premix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protein Treatment</masterLabel>
+            <translation><!-- Protein Treatment --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value / CFE MT --></label>
+        <name>Value_CFE_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value / CFE --></label>
+        <name>Value_CFE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value / MT --></label>
+        <name>Value_MT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- isCompetitor --></label>
+        <name>isCompetitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- kg / animal / cycle --></label>
+        <name>kg_animal_cycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- kg / hd / day --></label>
+        <name>kg_hd_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- overridden --></label>
+        <name>overridden__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentAccount --></label>
+        <name>parentAccount__c</name>
+    </fields>
+    <fields>
+        <label><!-- parentaccountFormula --></label>
+        <name>parentaccountFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- % share --></label>
+        <name>share__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Cycle Consumption --></label>
+        <name>Cycle_Consumption</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Cycle Consumption - CFE --></label>
+        <name>Cycle_Consumption_CFE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Daily Animal Consumption --></label>
+        <name>Daily_Animal_Consumption</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Daily Animal Consumption - CFE --></label>
+        <name>Daily_Animal_Consumption_CFE</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Simple Potential Estimate --></label>
+        <name>Simple_Potential_Estimate</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Simple Potential Estimate - CFE --></label>
+        <name>Simple_Potential_Estimate_CFE</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

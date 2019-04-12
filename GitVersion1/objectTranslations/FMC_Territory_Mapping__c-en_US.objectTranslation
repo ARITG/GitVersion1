@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FMC Territory Mapping</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FMC Territory Mapping</value>
+    </caseValues>
+    <fields>
+        <label><!-- FMC User ID --></label>
+        <name>FMC_User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- FMC User Name --></label>
+        <name>FMC_User_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Territory Name --></label>
+        <name>Parent_Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory ID --></label>
+        <name>Territory_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

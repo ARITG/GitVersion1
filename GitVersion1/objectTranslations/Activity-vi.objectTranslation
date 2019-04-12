@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Customer Status --></label>
+        <name>Account_Customer_Status__c</name>
+    </fields>
+    <fields>
+        <label>Tên khách hàng</label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Kiểu khách hàng</label>
+        <name>Account_Type__c</name>
+    </fields>
+    <fields>
+        <label>Khách hàng</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activity End date --></label>
+        <name>Activity_End_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Start Date --></label>
+        <name>Activity_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Số của yêu cầu phê duyệt</label>
+        <name>Approval_Request_No__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Trạng thái phê duyệt</label>
+        <name>Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label>Đã phê duyệt</label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label>Kinh doanh</label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFN - China</masterLabel>
+            <translation><!-- CFN - China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - France</masterLabel>
+            <translation>CPN – Pháp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - India</masterLabel>
+            <translation><!-- CPN - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Poland</masterLabel>
+            <translation><!-- CPN - Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation>CQN  - Mỹ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation>Pháp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation>Ấn Độ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation>Ý</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation>Hàn Quốc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>Hà Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>Ba Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation>Nga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation>Nam Phi</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation>Tây Ban Nha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain Mila</masterLabel>
+            <translation><!-- Spain Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>Mỹ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>Việt Nam</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ghi chú cuộc gọi đã được cập nhật</label>
+        <name>Call_Notes_Updated__c</name>
+    </fields>
+    <fields>
+        <label>Hủy</label>
+        <name>Cancelled__c</name>
+    </fields>
+    <fields>
+        <label>Yêu cầu / khiếu nại</label>
+        <name>Claim_Complaint__c</name>
+    </fields>
+    <fields>
+        <label>Lớp</label>
+        <name>Class__c</name>
+        <picklistValues>
+            <masterLabel>All Dairy</masterLabel>
+            <translation>Tất cả sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Equine</masterLabel>
+            <translation>Tất cả ngựa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Multispecies</masterLabel>
+            <translation>Tất cả các loài</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Piglets</masterLabel>
+            <translation>Tất cả heo con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All Rabbit</masterLabel>
+            <translation>Tất cả Thỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeding Herd</masterLabel>
+            <translation>Đàn giống</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicken</masterLabel>
+            <translation>Gà</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicken Layers</masterLabel>
+            <translation>Gà đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow/calf</masterLabel>
+            <translation>Bò / bê</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dog</masterLabel>
+            <translation>Chó</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Vịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feedlot</masterLabel>
+            <translation>Nơi vỗ béo con vật</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Con dê</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hogs</masterLabel>
+            <translation>Heo Thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Ruminants</masterLabel>
+            <translation>Các động vật nhai lại khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Cừu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkeys</masterLabel>
+            <translation>Gà tây</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ngày hoàn thành</label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact External Id --></label>
+        <name>Contact_External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Kiểu hoạt động DB</label>
+        <name>DB_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label>Cảnh báo hết hạn</label>
+        <name>Due_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Update Field1 --></label>
+        <name>Dummy_Update_Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Related To Accounts --></label>
+        <name>Event_Related_To_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalRecurrenceActivityId --></label>
+        <name>ExternalRecurrenceActivityId__c</name>
+    </fields>
+    <fields>
+        <label>Mã số khách hàng bên ngoài</label>
+        <name>External_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label>ID ngoài</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Nhóm</label>
+        <name>Group__c</name>
+        <picklistValues>
+            <masterLabel>Cattle - Beef</masterLabel>
+            <translation>Gia súc - Bò</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cattle - Dairy</masterLabel>
+            <translation>Gia súc - Bò sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Ngựa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fish</masterLabel>
+            <translation>Cá</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layers</masterLabel>
+            <translation>Gà đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meat Poultry</masterLabel>
+            <translation>Gia cầm thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multispecies</masterLabel>
+            <translation>Nhiều loài</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Thức ăn cho thú cưng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piglets</masterLabel>
+            <translation>Heo con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Con thỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Động vật nhai lại nhỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow &amp; Hogs</masterLabel>
+            <translation>Heo Nái và heo thịt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Sẵn sàng phê duyệt</label>
+        <name>Is_Ready_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile First --></label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label>Vai trò của Chủ</label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label>Chức danh chủ quản lý</label>
+        <name>Owner_s_Manager_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label>Chức năng sản xuất</label>
+        <name>Product_Function__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation>Tất cả</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boar</masterLabel>
+            <translation>Heo Nọc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breeder</masterLabel>
+            <translation>Con giống</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cow Calf</masterLabel>
+            <translation>Bê con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creep</masterLabel>
+            <translation>Tập ăn</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Cow</masterLabel>
+            <translation>Bò chờ phối giống</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finisher</masterLabel>
+            <translation>Bò thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower</masterLabel>
+            <translation>Bò giai đoạn tăng trưởng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grower/Finisher</masterLabel>
+            <translation>Bò giai đoạn tăng trưởng / Bò thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heifer</masterLabel>
+            <translation>Bê con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactating Meat</masterLabel>
+            <translation>Bò nuôi con</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactation</masterLabel>
+            <translation><!-- Lactation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>bò đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk Replacer</masterLabel>
+            <translation>Thay thế sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Các thay thế sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Piglet</masterLabel>
+            <translation>Heo con khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Starter</masterLabel>
+            <translation>Heo choai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pullet</masterLabel>
+            <translation>Gà hậu bị</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow</masterLabel>
+            <translation>Heo Nái</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sow Gestation</masterLabel>
+            <translation>Nái mang thai</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starter</masterLabel>
+            <translation>Heo sau cai sữa</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation>Nuôi trồng thủy sản</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation>Thịt bò</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation>Gà thịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation>Bò sữa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Vịt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Ngựa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Dê</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation>Nguyên liệu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>gà đẻ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk replacers</masterLabel>
+            <translation>Sữa thay thế</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation>Gia cầm khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Thức ăn cho thú cưng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation>Thịt heo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Con thỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Cừu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Động vật nhai lại nhỏ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation>Đặc biệt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>gà tây</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nhắc lịch theo dõi</label>
+        <name>Reminder_to_Schedule_Follow_Up__c</name>
+    </fields>
+    <fields>
+        <label>Liên kết báo cáo</label>
+        <name>Report_Link__c</name>
+    </fields>
+    <fields>
+        <label>Bán hàng</label>
+        <name>Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saleslogic Id --></label>
+        <name>Saleslogic_Id__c</name>
+    </fields>
+    <fields>
+        <label>Phân khúc (Bước 1)</label>
+        <name>Segment__c</name>
+        <picklistValues>
+            <masterLabel>Aiden</masterLabel>
+            <translation><!-- Aiden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baxter</masterLabel>
+            <translation><!-- Baxter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dennis</masterLabel>
+            <translation><!-- Dennis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kobe</masterLabel>
+            <translation><!-- Kobe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mila</masterLabel>
+            <translation><!-- Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noah</masterLabel>
+            <translation><!-- Noah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonya</masterLabel>
+            <translation><!-- Sonya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spence</masterLabel>
+            <translation><!-- Spence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walton</masterLabel>
+            <translation><!-- Walton --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Dịch vụ</label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label>Hệ thống nguồn</label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label>Loại sự kiện</label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Interaction</masterLabel>
+            <translation>Tương tác người tiêu dùng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Preparation</masterLabel>
+            <translation>Chuẩn bị sự kiện</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation>Hội chợ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office</masterLabel>
+            <translation>văn phòng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>Gọi điện</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect visit</masterLabel>
+            <translation>chuyến thăm tiềm năng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Bán hàng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team Meeting</masterLabel>
+            <translation>Họp nhóm bán hàng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation>Hội thảo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>Dịch vụ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation>Truy cập trang web</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation>Triển lãm thương mại</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>Đào tạo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Thời gian thực hiện (giờ)</label>
+        <name>Time_Taken_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Interaction</masterLabel>
+            <translation>Tương tác người tiêu dùng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Preparation</masterLabel>
+            <translation>Chuẩn bị sự kiện</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation>Hội chợ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Khác</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Call</masterLabel>
+            <translation>Gọi điện</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Bán hàng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team Meeting</masterLabel>
+            <translation>Họp nhóm bán hàng</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation>Hội thảo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>Dịch vụ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation>Truy cập trang web</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade show</masterLabel>
+            <translation>Triển lãm thương mại</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>Đào tạo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Báo cáo thăm viếng</label>
+        <name>Visit_Report__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Week no --></label>
+        <name>Week_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Month --></label>
+        <name>Year_Month__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- New_Event --></label>
+        <name>New_Event</name>
+    </webLinks>
+</CustomObjectTranslation>

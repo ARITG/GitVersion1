@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>B2B_Poultry_Meat_Product_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>B2B Poultry Meat Product Manager</label>
+        <sharedTo>
+            <group>Product_Manager_Poultry_Meat_Poland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>B2B_Poultry_Meat_Poland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>B2C_Dairy_Product_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>B2C Dairy Product Manager</label>
+        <sharedTo>
+            <group>Product_Manager_Dairy_Poland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>B2C_Dairy_Poland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Distribution_and_Pork</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Distribution and Pork</label>
+        <sharedTo>
+            <group>Product_Manager_Distrib_Pork_Poland</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>B2C_Distrib_B2C_Pork_B2B_Pork_Poland</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>RR_Glod_Bilski</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>RR Glod Bilski</label>
+        <sharedTo>
+            <managers>tomasz_bilski@cargill.com.cargill18</managers>
+        </sharedTo>
+        <sharedFrom>
+            <managerSubordinates>sebastian_glod@cargill.com.cargill18</managerSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Requests_with_Credit_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Requests with Credit Team</label>
+        <sharedTo>
+            <role>Credit_Team_Poland</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Requests_with_Customer_Service</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Requests with Customer Service</label>
+        <sharedTo>
+            <role>Customer_Service_Poland</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Requests_with_SMT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Requests with SMT</label>
+        <sharedTo>
+            <role>Country_Level</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Poland_MasterData_DataSteward</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

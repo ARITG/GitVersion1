@@ -1,0 +1,12 @@
+Hello {!Opportunity.OwnerFirstName},
+
+This is a reminder for the sales opportunity {!Opportunity.Name}. The expected date of closure is {!Opportunity.CloseDate}.
+
+Click on this link to access Opportunity: {!Opportunity.Link}
+_______________________________________________________________________
+
+Bonjour  {!Opportunity.OwnerFirstName},
+
+Ceci un rappel relativement à l'opportunité de ventes  {!Opportunity.Name}.  La date estimée de clôture est le {!Opportunity.CloseDate}.
+
+Cliquer sur ce lien afin d'accéder à l'opportunité: {!Opportunity.Link}

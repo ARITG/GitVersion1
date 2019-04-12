@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Expense</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Expenses</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>Cost_Center__c</name>
+        <picklistValues>
+            <masterLabel>Beef Sales 555861</masterLabel>
+            <translation><!-- Beef Sales 555861 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Marketing 555810</masterLabel>
+            <translation><!-- Commercial Marketing 555810 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy Sales 555863</masterLabel>
+            <translation><!-- Dairy Sales 555863 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Go To Market 555747</masterLabel>
+            <translation><!-- Go To Market 555747 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation/NPSS 555800</masterLabel>
+            <translation><!-- Innovation/NPSS 555800 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarComms 551745</masterLabel>
+            <translation><!-- MarComms 551745 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midstates 551748</masterLabel>
+            <translation><!-- Midstates 551748 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSC Marketing 561810</masterLabel>
+            <translation><!-- SSC Marketing 561810 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show-Sunglo 551741</masterLabel>
+            <translation><!-- Show-Sunglo 551741 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show/Pet Sales 555901</masterLabel>
+            <translation><!-- Show/Pet Sales 555901 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tractor Supply 551746</masterLabel>
+            <translation><!-- Tractor Supply 551746 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Baxter Sales 555855</masterLabel>
+            <translation><!-- US Baxter Sales 555855 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Sonya Sales 555850</masterLabel>
+            <translation><!-- US Sonya Sales 555850 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Amount --></label>
+        <name>Expense_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Date --></label>
+        <name>Expense_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group --></label>
+        <name>Project_Group_MD__c</name>
+        <relationshipLabel><!-- Expenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Expenses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tactic Code --></label>
+        <name>Tactic_Code__c</name>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135.EQ</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135.EQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135.FF</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135.FF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135.MS</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135.MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135.PY</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135.PY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Mgmt &amp; Support 640101.135.WD</masterLabel>
+            <translation><!-- Account Mgmt &amp; Support 640101.135.WD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adhoc sponsorships 640101.250</masterLabel>
+            <translation><!-- Adhoc sponsorships 640101.250 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aluminum Signage 640101.153</masterLabel>
+            <translation><!-- Aluminum Signage 640101.153 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef Marketing (not for new items/projects) 640101.87</masterLabel>
+            <translation><!-- Beef Marketing (not for new items/projects) 640101.87 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Builder 640101.13</masterLabel>
+            <translation><!-- Business Builder 640101.13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFR.com (Limited Use) 640101.204</masterLabel>
+            <translation><!-- CFR.com (Limited Use) 640101.204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CFR.com description 640101.204</masterLabel>
+            <translation><!-- CFR.com description 640101.204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carper/Callicutt D-Funds 640101.204</masterLabel>
+            <translation><!-- Carper/Callicutt D-Funds 640101.204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Equine Specialist/Consultant Program 640101.96</masterLabel>
+            <translation><!-- Certified Equine Specialist/Consultant Program 640101.96 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Specific Promo 640101.204</masterLabel>
+            <translation><!-- Channel Specific Promo 640101.204 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Sponsorship 640101.149</masterLabel>
+            <translation><!-- Channel Sponsorship 640101.149 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Club Master Program 640101.89</masterLabel>
+            <translation><!-- Club Master Program 640101.89 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130</masterLabel>
+            <translation><!-- Creative Support 640101.130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130.EQ</masterLabel>
+            <translation><!-- Creative Support 640101.130.EQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130.FF</masterLabel>
+            <translation><!-- Creative Support 640101.130.FF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130.MS</masterLabel>
+            <translation><!-- Creative Support 640101.130.MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130.PY</masterLabel>
+            <translation><!-- Creative Support 640101.130.PY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creative Support 640101.130.WD</masterLabel>
+            <translation><!-- Creative Support 640101.130.WD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Projects 640101.201</masterLabel>
+            <translation><!-- Custom Projects 640101.201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Wearables 640101.290</masterLabel>
+            <translation><!-- Custom Wearables 640101.290 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Expense (club rewards, dealer events, etc) 640101.200</masterLabel>
+            <translation><!-- Customer Expense (club rewards, dealer events, etc) 640101.200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Purchased Mkg 640101.270</masterLabel>
+            <translation><!-- Customer Purchased Mkg 640101.270 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer tradeshow 640101.261</masterLabel>
+            <translation><!-- Customer tradeshow 640101.261 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy Marketing 640101.97</masterLabel>
+            <translation><!-- Dairy Marketing 640101.97 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dealer/Regional Sales Mtgs 640101.208</masterLabel>
+            <translation><!-- Dealer/Regional Sales Mtgs 640101.208 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed Literature reprints 640101.55</masterLabel>
+            <translation><!-- Feed Literature reprints 640101.55 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FeedMaster 640101.90</masterLabel>
+            <translation><!-- FeedMaster 640101.90 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEM Fund 640101.95</masterLabel>
+            <translation><!-- GEM Fund 640101.95 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Livestock/Equine Events/Promo Items (Feed Consultant-related sponsorships) 640101.88</masterLabel>
+            <translation><!-- Livestock/Equine Events/Promo Items (Feed Consultant-related sponsorships) 640101.88 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116</masterLabel>
+            <translation><!-- Market Research 640101.116 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116.EQ</masterLabel>
+            <translation><!-- Market Research 640101.116.EQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116.FF</masterLabel>
+            <translation><!-- Market Research 640101.116.FF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116.MS</masterLabel>
+            <translation><!-- Market Research 640101.116.MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116.PY</masterLabel>
+            <translation><!-- Market Research 640101.116.PY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Research 640101.116.WD</masterLabel>
+            <translation><!-- Market Research 640101.116.WD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114</masterLabel>
+            <translation><!-- Media/PR 640101.114 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114.EQ</masterLabel>
+            <translation><!-- Media/PR 640101.114.EQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114.FF</masterLabel>
+            <translation><!-- Media/PR 640101.114.FF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114.MS</masterLabel>
+            <translation><!-- Media/PR 640101.114.MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114.PY</masterLabel>
+            <translation><!-- Media/PR 640101.114.PY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media/PR 640101.114.WD</masterLabel>
+            <translation><!-- Media/PR 640101.114.WD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Sponsorships 640101.150</masterLabel>
+            <translation><!-- National Sponsorships 640101.150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Tradeshows 640101.118</masterLabel>
+            <translation><!-- National Tradeshows 640101.118 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry Marketing 640101.54</masterLabel>
+            <translation><!-- Poultry Marketing 640101.54 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Production 640101.140</masterLabel>
+            <translation><!-- Print Production 640101.140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Tradeshows 640101.260</masterLabel>
+            <translation><!-- Regional Tradeshows 640101.260 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rider/Trainer Sponsorships 640101.44</masterLabel>
+            <translation><!-- Rider/Trainer Sponsorships 640101.44 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rural King Marketing fund 640101.153</masterLabel>
+            <translation><!-- Rural King Marketing fund 640101.153 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHOW Program 640101.86</masterLabel>
+            <translation><!-- SHOW Program 640101.86 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Print - Imagine 640101.140</masterLabel>
+            <translation><!-- Stock Print - Imagine 640101.140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Print/production 640101.140</masterLabel>
+            <translation><!-- Stock Print/production 640101.140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Promotional Items 640101.151.WD</masterLabel>
+            <translation><!-- Stock Promotional Items 640101.151.WD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Wearable - Staples 640101.151</masterLabel>
+            <translation><!-- Stock Wearable - Staples 640101.151 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock Wearables 640101.151</masterLabel>
+            <translation><!-- Stock Wearables 640101.151 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vet Clinic/Riding Program Incentive Program 640101.29</masterLabel>
+            <translation><!-- Vet Clinic/Riding Program Incentive Program 640101.29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale Feed Incentive Program (GEM) 640101.95</masterLabel>
+            <translation><!-- Wholesale Feed Incentive Program (GEM) 640101.95 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Including Tax --></label>
+        <name>Total_Including_Tax__c</name>
+    </fields>
+    <layouts>
+        <layout>Expense Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Selected Project should be of same Project Group. --></errorMessage>
+        <name>Project_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

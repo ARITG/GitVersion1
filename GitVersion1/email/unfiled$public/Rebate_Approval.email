@@ -1,0 +1,43 @@
+<messaging:emailTemplate recipientType="User"
+    relatedToType="CAR_RebateReqs__c"
+    subject="Rebate Request - {!Relatedto.CAR_Account__r.Name}"
+    replyTo="{!Relatedto.Owner.Email}">
+
+    <messaging:htmlEmailBody >
+<html> 
+     <body> 
+     A Rebate Request has been submitted for your approval. Details are below:<br/><br/>
+     <a href="https://cargill18--gatproto1--c.cs17.visual.force.com/apex/RebateRequestView?id={!RelatedTo.Id}&sfdc.override=1"> Record Link </a> <br/>
+     Owner :{!Relatedto.Owner.Email} <br/> <br/>
+     
+     Payer :{!Relatedto.CAR_Account__r.Name} <br/>
+     ERP ID :{!Relatedto.ERP_ID__c} <br/> <br/>
+     
+     Status :{!Relatedto.CAR_Status__c} <br/>
+     Include Payer :{!Relatedto.Include_Payer__c} <br/>
+     Inform Supervisor: {!Relatedto.Inform_Supervisor__c} <br/> <br/>
+     
+     Valid From : <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+    <apex:param value="{!Relatedto.Valid_From__c}" /> 
+    </apex:outputText> <br/>
+     Valid To : <apex:outputText value="{0,date,dd'/'MM'/'yyyy}">
+    <apex:param value="{!Relatedto.Valid_To__c}" /> 
+    </apex:outputText> <br/>
+     Comments :{!Relatedto.Comments__c} <br/><br/>
+     <c:RebateLineList RebId="{!relatedTo.Id}" /><br/><br/>
+     <c:RebateShiptos RebId="{!relatedTo.Id}" /><br/><br/>
+     
+<br></br>
+<p>================================================================ </p>
+<p>You can approve or reject this request through replying to this email:</p> 
+<p>1. Click the Reply button </p>
+<p>2. Type the word APPROVE or REJECT in the first line of the reply </p>
+<p>3. Type any additional comments in the second line of the reply </p>
+<p>4. Click Send</p> 
+<p>================================================================ </p>
+<p></p>
+<br></br>
+</body>
+</html> 
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

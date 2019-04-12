@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Conga Email Template --></value>
+    </caseValues>
+    <fields>
+        <label>Opis</label>
+        <name>APXTConga4__Description__c</name>
+    </fields>
+    <fields>
+        <label>Treść wiadomości HTML</label>
+        <name>APXTConga4__HTMLBody__c</name>
+    </fields>
+    <fields>
+        <help>Kiedy parametr włączony, Conga Composer przechowuje tekst szablonu HTML jako załącznik, a nie jako pola Rich Text.</help>
+        <label>Użyj załącznika w treści wiadomości</label>
+        <name>APXTConga4__Is_Body_Attachment__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa</label>
+        <name>APXTConga4__Name__c</name>
+    </fields>
+    <fields>
+        <label>Temat</label>
+        <name>APXTConga4__Subject__c</name>
+    </fields>
+    <fields>
+        <label>Grupa szablonów</label>
+        <name>APXTConga4__Template_Group__c</name>
+    </fields>
+    <fields>
+        <label>Treść wiadomości</label>
+        <name>APXTConga4__TextBody__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Email Template Name --></nameFieldLabel>
+    <webLinks>
+        <label>Zaawansowana edycja</label>
+        <name>APXTConga4__Advanced_Editor</name>
+    </webLinks>
+</CustomObjectTranslation>

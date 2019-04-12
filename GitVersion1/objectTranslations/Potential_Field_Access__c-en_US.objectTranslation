@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential Field Access</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential Field Access</value>
+    </caseValues>
+    <fields>
+        <label><!-- CC Annual Volume MT Access --></label>
+        <name>CC_Annual_Volume_MT_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-CFE Annual CFE1 Access --></label>
+        <name>CC_CFE_Annual_CFE1_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-CFE-Annual CFE2 Access --></label>
+        <name>CC_CFE_Annual_CFE2_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-CFE-Annual Volume --></label>
+        <name>CC_CFE_Annual_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-CFE-Contribution Access --></label>
+        <name>CC_CFE_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-CFE-Total Access --></label>
+        <name>CC_CFE_Total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-Contribution Access --></label>
+        <name>CC_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC Total Access --></label>
+        <name>CC_Total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- CC-Volume Access --></label>
+        <name>CC_Volume_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC Annual Volume MT Access --></label>
+        <name>DAC_Annual_Volume_MT_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-CFE-Annual CFE1 Access --></label>
+        <name>DAC_CFE_Annual_CFE1_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-CFE-Annual CFE2 Access --></label>
+        <name>DAC_CFE_Annual_CFE2_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-CFE-Annual Volume Access --></label>
+        <name>DAC_CFE_Annual_Volume_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-CFE Contribution Access --></label>
+        <name>DAC_CFE_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-CFE Total Access --></label>
+        <name>DAC_CFE_Total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-Contribution Access --></label>
+        <name>DAC_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-Volume Access --></label>
+        <name>DAC_Volume_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- DAC-total Access --></label>
+        <name>DAC_total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-CFE-Annual CFE2 --></label>
+        <name>SPE_CFE_Annual_CFE2__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-CFE Annual Volume Access --></label>
+        <name>SPE_CFE_Annual_Volume_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-CFE Contribution Access --></label>
+        <name>SPE_CFE_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-CFE Total Access --></label>
+        <name>SPE_CFE_Total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-Contribution Access --></label>
+        <name>SPE_Contribution_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-Total Access --></label>
+        <name>SPE_Total_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- SPE-Volume Access --></label>
+        <name>SPE_Volume_Access__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

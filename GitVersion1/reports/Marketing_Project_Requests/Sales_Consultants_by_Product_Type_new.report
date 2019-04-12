@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Project_Group__c$Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c$Account__c</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c$Project_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c$Name</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c.Projects__r$Name</field>
+    </columns>
+    <columns>
+        <field>Project_Group__c.Projects__r$Project_Sub_Type__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Sales Consultants by Product Type</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Project_Group__c$Sales_Consultant_New__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Project_Group__c$Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Project_Group__c.Projects__r$Product_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Sales Consultants by Product Type</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Project_Groups_By_Projects__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>false</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Project_Group__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

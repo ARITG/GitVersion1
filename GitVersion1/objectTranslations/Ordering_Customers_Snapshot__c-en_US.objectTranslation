@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ordering Customers Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ordering Customers Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Annual Revenue (Converted) --></label>
+        <name>Annual_Revenue_Converted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Revenue --></label>
+        <name>Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Value --></label>
+        <name>Potential_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Volume --></label>
+        <name>Potential_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subtype --></label>
+        <name>Subtype__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

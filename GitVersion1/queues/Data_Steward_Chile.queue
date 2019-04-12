@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Data Steward - Chile</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Data_Steward_Chile</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Request__c</sobjectType>
+    </queueSobject>
+</Queue>

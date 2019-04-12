@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Customer Status --></label>
+        <name>Account_Customer_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Type --></label>
+        <name>Account_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activity End date --></label>
+        <name>Activity_End_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Start Date --></label>
+        <name>Activity_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Request No --></label>
+        <name>Approval_Request_No__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>Business_Unit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Notes Updated --></label>
+        <name>Call_Notes_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancelled --></label>
+        <name>Cancelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim/Complaint --></label>
+        <name>Claim_Complaint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact External Id --></label>
+        <name>Contact_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Activity Type --></label>
+        <name>DB_Activity_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Flag --></label>
+        <name>Due_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummy Update Field1 --></label>
+        <name>Dummy_Update_Field1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Related To Accounts --></label>
+        <name>Event_Related_To_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExternalRecurrenceActivityId --></label>
+        <name>ExternalRecurrenceActivityId__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Account Id --></label>
+        <name>External_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready for Approval --></label>
+        <name>Is_Ready_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile First --></label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner&apos;s Manager Role Name --></label>
+        <name>Owner_s_Manager_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Function --></label>
+        <name>Product_Function__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Product_Line__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reminder to Schedule Follow-Up --></label>
+        <name>Reminder_to_Schedule_Follow_Up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report LInk --></label>
+        <name>Report_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales --></label>
+        <name>Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saleslogic Id --></label>
+        <name>Saleslogic_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment (Step 1) --></label>
+        <name>Segment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source System --></label>
+        <name>Source_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type --></label>
+        <name>Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Taken (Hours) --></label>
+        <name>Time_Taken_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Report --></label>
+        <name>Visit_Report__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Week no --></label>
+        <name>Week_no__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year Month --></label>
+        <name>Year_Month__c</name>
+    </fields>
+    <layouts>
+        <layout>Call Layout</layout>
+        <sections>
+            <label><!-- Approval Process --></label>
+            <section>Approval Process</section>
+        </sections>
+        <sections>
+            <label><!-- Call Purpose --></label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Call Layout (Global)</layout>
+        <sections>
+            <label>Propósito de la llamada</label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label>enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informe de visita</label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event CFN</layout>
+        <sections>
+            <label><!-- Call Purpose --></label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout CPN India</layout>
+        <sections>
+            <label><!-- Call Purpose --></label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout(Canada)</layout>
+        <sections>
+            <label><!-- Call Purpose --></label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Layout(Poland)</layout>
+        <sections>
+            <label><!-- Approval Process --></label>
+            <section>Approval Process</section>
+        </sections>
+        <sections>
+            <label><!-- Call Purpose --></label>
+            <section>Call Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Report --></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- This is the record type for call activities. --></description>
+        <label>Llamada</label>
+        <name>Call</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type for call preparation activities. --></description>
+        <label>Preparación de llamada</label>
+        <name>Call_Preparation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Event type Record Type Created For CFN Canada --></description>
+        <label><!-- Event --></label>
+        <name>Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type for activities related to External Events. --></description>
+        <label>Evento externo</label>
+        <name>External_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type for activities related to Admin and Other Cargill Activities. --></description>
+        <label>No ventas</label>
+        <name>Non_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type for activities related to Sales team meetings. --></description>
+        <label>Reunión del equipo de ventas</label>
+        <name>Sales_Team_Meeting</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- This is the record type for training activities. --></description>
+        <label>Entrenamiento</label>
+        <name>Training</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please select a Call Purpose --></errorMessage>
+        <name>Call_Purpose_Must_Be_Chosen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subject, Location, Date (excluding hours) or Approval Request No cannot be changed for events already approved by manager. --></errorMessage>
+        <name>Fields_cannot_be_changed_if_approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Business Unit must match current user&apos;s Business Unit. --></errorMessage>
+        <name>Match_Business_Unit_of_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit Mobile First flag. --></errorMessage>
+        <name>Mobile_First_Flag_Cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Contact record for Name field. --></errorMessage>
+        <name>Name_Condition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Review all your errors to correct your data / Review errors on the page. --></errorMessage>
+        <name>Non_Private_Validation_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Private event cannot be linked with an Account or an Opportunity --></errorMessage>
+        <name>Private_Event_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Related To can only be either Account or Opportunity --></errorMessage>
+        <name>Related_To_Condition</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Visit_Report --></label>
+        <name>Create_Visit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Visit_Report --></label>
+        <name>Email_Visit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Call_Visit_Report --></label>
+        <name>Generate_Call_Visit_Report</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <workflowTasks>
+        <name>For_Follow_Up_Call_Activity</name>
+        <subject><!-- For Follow Up: Call Activity --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>For_Follow_Up_Event</name>
+        <subject><!-- For Follow Up: Call Activity --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

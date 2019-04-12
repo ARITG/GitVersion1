@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Override Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer 360 Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Active Field ID --></label>
+        <name>Account_Active_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Auto Validate Field Id --></label>
+        <name>Account_Auto_Validate_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Business Unit Field ID --></label>
+        <name>Account_Business_Unit_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account CAN Business Field ID --></label>
+        <name>Account_CAN_Business_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Correspondence Country Field ID --></label>
+        <name>Account_Correspondence_Country_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ID Field ID --></label>
+        <name>Account_ID_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Mobile First Field Id --></label>
+        <name>Account_Mobile_First_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name Field ID --></label>
+        <name>Account_Name_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Physical Country Field ID --></label>
+        <name>Account_Physical_Country_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Team Delete RecordTypeID --></label>
+        <name>Account_Team_Delete_RecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Mobile First Field Id --></label>
+        <name>Activity_Mobile_First_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Customer Record Type --></label>
+        <name>Commercial_Customer_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Customer Update Record TypeID --></label>
+        <name>Commercial_Customer_Update_Record_TypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commercial Customer Update Record Type --></label>
+        <name>Commercial_Customer_Update_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Record Type --></label>
+        <name>Competitor_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Update Record Type --></label>
+        <name>Competitor_Update_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Validation RecordTypeId --></label>
+        <name>Competitor_Validation_RecordTypeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Validation Record Type --></label>
+        <name>Competitor_Validation_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Record Type --></label>
+        <name>Consumer_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Update Request RecordType Id --></label>
+        <name>Consumer_Update_Request_RecordType_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Update Request Type --></label>
+        <name>Consumer_Update_Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Validation RecordType ID --></label>
+        <name>Consumer_Validation_RecordType_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Validation Record Type --></label>
+        <name>Consumer_Validation_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consumer Validation Request RecordTypeID --></label>
+        <name>Consumer_Validation_Request_RecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Business Unit Field ID --></label>
+        <name>Contact_Business_Unit_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Mailing Country Field ID --></label>
+        <name>Contact_Mailing_Country_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Mobile First Field Id --></label>
+        <name>Contact_Mobile_First_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Other Country Field ID --></label>
+        <name>Contact_Other_Country_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Primary Language Field ID --></label>
+        <name>Contact_Primary_Language_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Role Account Field ID --></label>
+        <name>Contact_Role_Account_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Role Product Line Field ID --></label>
+        <name>Contact_Role_Product_Line_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Role Segment Field ID --></label>
+        <name>Contact_Role_Segment_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Business Unit Field ID --></label>
+        <name>Event_Business_Unit_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Business Unit Field ID --></label>
+        <name>Opportunity_Business_Unit_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Currency Field Id --></label>
+        <name>Opportunity_Currency_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Mobile First Field Id --></label>
+        <name>Opportunity_Mobile_First_Field_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Item Field ID --></label>
+        <name>Product_Line_Item_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line Lookup Field ID --></label>
+        <name>Product_Line_Lookup_Field_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prospect Conversion RecordTypeID --></label>
+        <name>Prospect_Conversion_RecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prospect Conversion Record Type --></label>
+        <name>Prospect_Conversion_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prospect Validation Record Type --></label>
+        <name>Prospect_Validation_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prospect Validation Request RecordTypeID --></label>
+        <name>Prospect_Validation_Request_RecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Accounts Canada Report Id --></label>
+        <name>Related_Accounts_Canada_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Accounts Poland Report Id --></label>
+        <name>Related_Accounts_Poland_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Accounts Report Id --></label>
+        <name>Related_Accounts_Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request LineItem ReportID --></label>
+        <name>Request_LineItem_ReportID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Standard Record Type --></label>
+        <name>Standard_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Record Type CPN INDIA --></label>
+        <name>Third_Party_Record_Type_CPN_INDIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Record Type ID CPN INDIA --></label>
+        <name>Third_Party_Record_Type_ID_CPN_INDIA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Record Type ID --></label>
+        <name>Third_Party_Record_Type_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Record Type --></label>
+        <name>Third_Party_Record_Type__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

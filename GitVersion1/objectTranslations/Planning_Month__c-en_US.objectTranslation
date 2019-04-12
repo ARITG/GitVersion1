@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Planning Month</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Planning Months</value>
+    </caseValues>
+    <fields>
+        <label><!-- ASM JFW --></label>
+        <name>ASM_JFW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity_End_Date --></label>
+        <name>Activity_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver 1 --></label>
+        <name>Approver_1__c</name>
+        <relationshipLabel><!-- Planning Months (Approver 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approver 2 --></label>
+        <name>Approver_2__c</name>
+        <relationshipLabel><!-- Planning Months (Approver 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Planned --></label>
+        <name>Days_Planned__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Half --></label>
+        <name>First_Half__c</name>
+        <picklistValues>
+            <masterLabel>Branch Visit</masterLabel>
+            <translation><!-- Branch Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Visit</masterLabel>
+            <translation><!-- Customer Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dog Show</masterLabel>
+            <translation><!-- Dog Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Meeting,</masterLabel>
+            <translation><!-- Group Meeting, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday</masterLabel>
+            <translation><!-- Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Office</masterLabel>
+            <translation><!-- Regional Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation><!-- Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit</masterLabel>
+            <translation><!-- Transit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Individual Comments --></label>
+        <name>Individual_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Of Business --></label>
+        <name>Line_Of_Business__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month End Date --></label>
+        <name>Month_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month Index --></label>
+        <name>Month_Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month Planned --></label>
+        <name>Month_Planned__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Month Start Date --></label>
+        <name>Month_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of days missed --></label>
+        <name>No_of_days_missed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Working Days --></label>
+        <name>Number_of_Working_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other JFW --></label>
+        <name>Other_JFW__c</name>
+    </fields>
+    <fields>
+        <label><!-- PlanDay_UniqueKey --></label>
+        <name>PlanDay_UniqueKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Date --></label>
+        <name>Plan_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Day Unique Key For DupRule --></label>
+        <name>Plan_Day_Unique_Key_For_DupRule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Month Unique Key --></label>
+        <name>Plan_Month_Unique_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plan Year --></label>
+        <name>Plan_Year__c</name>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RSM_JFW --></label>
+        <name>RSM_JFW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Planning Month --></label>
+        <name>Related_Planning_Month__c</name>
+        <relationshipLabel><!-- Planned Days --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Route --></label>
+        <name>Route__c</name>
+        <relationshipLabel><!-- Planning Months --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Second Half --></label>
+        <name>Second_Half__c</name>
+        <picklistValues>
+            <masterLabel>Branch Visit</masterLabel>
+            <translation><!-- Branch Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Visit</masterLabel>
+            <translation><!-- Customer Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dog Show</masterLabel>
+            <translation><!-- Dog Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exhibition</masterLabel>
+            <translation><!-- Exhibition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Group Meeting</masterLabel>
+            <translation><!-- Group Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday</masterLabel>
+            <translation><!-- Holiday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Office</masterLabel>
+            <translation><!-- Regional Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation><!-- Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transit</masterLabel>
+            <translation><!-- Transit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted for Approval</masterLabel>
+            <translation><!-- Submitted for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supervisor&apos;s Comments --></label>
+        <name>Supervisor_s_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory --></label>
+        <name>Target__c</name>
+        <relationshipLabel><!-- Planning Months --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TerritoryId --></label>
+        <name>TerritoryId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Territory Name --></label>
+        <name>Territory_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Type --></label>
+        <name>User_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- VSA_JFW --></label>
+        <name>VSA_JFW__c</name>
+    </fields>
+    <fields>
+        <label><!-- Working Days Per week --></label>
+        <name>Working_Days_Per_week__c</name>
+    </fields>
+    <fields>
+        <label><!-- isReadOnly --></label>
+        <name>isReadOnly__c</name>
+    </fields>
+    <layouts>
+        <layout>Planning Month Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Record Type for Plan Day which are related to Plan Month --></description>
+        <label><!-- Plan Day --></label>
+        <name>Plan_Day</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Parent Record of Plan Day --></description>
+        <label><!-- Plan Month --></label>
+        <name>Plan_Month</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Activity End Date should be greater than Date --></errorMessage>
+        <name>ActivityEndDateLessThanStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity End Date is allowed only if both first half and second half is either Leave/Training --></errorMessage>
+        <name>ActivityEndDateNotAllowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity End Date should be within the planning month --></errorMessage>
+        <name>ActivityEndDateOutsideMonth</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity End Date Cannot be edited for Leave/Training. --></errorMessage>
+        <name>ActivityEndDateReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Activity End Date is mandatory for Leave/Training Activities. --></errorMessage>
+        <name>ActivityEndDateRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select First Half and Second Half Activities. --></errorMessage>
+        <name>ActivityRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- ASM Notification and RSM Approval should be selected for submission --></errorMessage>
+        <name>ApproverMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Year or Month Selected. Please select current month or next month for planning. --></errorMessage>
+        <name>Invalid_Plan_Month</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Create a Plan on Weekends --></errorMessage>
+        <name>PlanDayCannotBeWeekends</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a date within the planning month --></errorMessage>
+        <name>PlanDayOutsideMonth</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Day --></errorMessage>
+        <name>PlanDayRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Month --></errorMessage>
+        <name>PlanMonthRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the Year --></errorMessage>
+        <name>PlanYearRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Planned Day Should not be Sunday --></errorMessage>
+        <name>Planned_Day_Should_not_be_Sunday</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please do not enter any Route details for selected Activity. --></errorMessage>
+        <name>RouteNotAllowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Route is Mandatory --></errorMessage>
+        <name>Route_is_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Territory --></errorMessage>
+        <name>TargetRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Planned Days and Working days  should be same for submission --></errorMessage>
+        <name>WorkingDayValidationForApproval</name>
+    </validationRules>
+</CustomObjectTranslation>

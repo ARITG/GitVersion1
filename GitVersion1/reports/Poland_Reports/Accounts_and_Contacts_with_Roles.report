@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Top_Country__c</field>
+    </columns>
+    <columns>
+        <field>Account$Daily_Animal_Processing__c</field>
+    </columns>
+    <columns>
+        <field>Account$Phone</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts.Contact_Roles__r$Role__c</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$MobilePhone</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Phone</field>
+    </columns>
+    <columns>
+        <field>Account.Contacts$Title</field>
+    </columns>
+    <currency>PLN</currency>
+    <description>Konta i kontakty z rolami - filtr na ubojnie</description>
+    <filter>
+        <criteriaItems>
+            <column>Account$Type</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Slaughterhouse - Broiler,Slaughterhouse - Broiler &amp; Turkey,Slaughterhouse - Ducks,Slaughterhouse -  Geese,Slaughterhouse - Turkey,Slaughterhouse - Waterfowl,Slaughterhouse - Multi Specie</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Type</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Accounts and Contacts with Roles</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_and_Contacts_with_Roles__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

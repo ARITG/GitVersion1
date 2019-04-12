@@ -1,0 +1,2970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ASM_Not_Assigned</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ASM Not Assigned</shortDescription>
+        <value>No ASM assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>AXPTA_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AXPTA Label</shortDescription>
+        <value>AXPTA</value>
+    </labels>
+    <labels>
+        <fullName>Account_ID_Object</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account ID Object</shortDescription>
+        <value>CF00Nj000000Afn0J_lkid</value>
+    </labels>
+    <labels>
+        <fullName>Actual_Consumption</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Actual Consumption</shortDescription>
+        <value>Actual consumption / total feed potential [CF MT]</value>
+    </labels>
+    <labels>
+        <fullName>Add_Action_Value_on_Request_Line_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Add Action Value on Request Line Item</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Approved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approved</shortDescription>
+        <value>Approved</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Current_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Current URL</shortDescription>
+        <value>/sfc/#workspaces</value>
+    </labels>
+    <labels>
+        <fullName>B2B_Previous_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2B Previous URL</shortDescription>
+        <value>/sfc/#workspaces</value>
+    </labels>
+    <labels>
+        <fullName>B2C_Current_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2C Current URL</shortDescription>
+        <value>/sfc/#workspaces</value>
+    </labels>
+    <labels>
+        <fullName>B2C_Previous_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>B2C Previous URL</shortDescription>
+        <value>/sfc/#workspaces</value>
+    </labels>
+    <labels>
+        <fullName>Business_Unit_Poland</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Unit Poland</shortDescription>
+        <value>Poland</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Error_Competitor_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Error - Competitor Required</shortDescription>
+        <value>Competitor is required for Supplier.</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Error_Not_in_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Error - Not in List</shortDescription>
+        <value>not found in list</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Error_Type_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Error - Type Required</shortDescription>
+        <value>Type is required for all Product Lines, please check that each row has a Type.</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Freestall</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Freestall</shortDescription>
+        <value>Freestall</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_NA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - NA</shortDescription>
+        <value>N/A</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Pasture</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Pasture</shortDescription>
+        <value>Pasture</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Teestall</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Teestall</shortDescription>
+        <value>Teestall</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type 1</shortDescription>
+        <value>Type 1</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type 2</shortDescription>
+        <value>Type 2</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type3</shortDescription>
+        <value>Type 3</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type4</shortDescription>
+        <value>Type 4</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type5</shortDescription>
+        <value>Type 5</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_OP_Type_Type6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - OP Type - Type6</shortDescription>
+        <value>Type 6</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Basemix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Basemix</shortDescription>
+        <value>Basemix</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Complete</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Concentrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Concentrate</shortDescription>
+        <value>Concentrate</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Other_Specialties</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Other Specialties</shortDescription>
+        <value>Other Specialties</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Premix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Premix</shortDescription>
+        <value>Premix</value>
+    </labels>
+    <labels>
+        <fullName>C360_Potential_Calc_Type_Protein_Treatment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>C360 - Potential Calc - Type - Protein Treatment</shortDescription>
+        <value>Protein Treatment</value>
+    </labels>
+    <labels>
+        <fullName>CDH_Primary_Territory</fullName>
+        <categories>CDH</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CDH Primary Territory</shortDescription>
+        <value>There is already a Primary Territory for this account. For updating Primary Territory, please select a new value on the field &quot;Territory&quot; on the CDH Account record.</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Baxter</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Segment value used in Project Group trigger handler</shortDescription>
+        <value>Baxter</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Budget</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Payment Type value</shortDescription>
+        <value>Budget</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Business_Builder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Budget Name</shortDescription>
+        <value>CFR Bus Bldr</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Cargill_Budget_Internal_USE_ONLY_SY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Budget Name value</shortDescription>
+        <value>CFR Int SY</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Commercial_Customer_Baxter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR</shortDescription>
+        <value>Commercial Customer_Baxter</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Commercial_Customer_Non_Baxter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR</shortDescription>
+        <value>Commercial Customer_NonBaxter</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Commercial_Customer_TradeShow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR</shortDescription>
+        <value>CFR Commercial Customer TradeShow</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Consumer_Baxter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom setting vlue</shortDescription>
+        <value>Consumer_Baxter</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Consumer_Non_Baxter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR</shortDescription>
+        <value>Consumer_NonBaxter</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Contact_Approval_Process</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR Contact Approval Process</shortDescription>
+        <value>CFR_Contact_Approval_Process</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Contact_Request_Process_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR Contact Request Process Name</shortDescription>
+        <value>CFR_Contact_Approval</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Contact_Request_in_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR Contact Request in Progress</shortDescription>
+        <value>Contact Request is submitted successfully</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Coupon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Sub Type Value</shortDescription>
+        <value>Coupon</value>
+    </labels>
+    <labels>
+        <fullName>CFR_CouponPodQueueID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queue Id used in Project Trigger</shortDescription>
+        <value>00Gf1000002DwjhEAC</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Credit_Card</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Payment Type value</shortDescription>
+        <value>CreditCard</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Custom_Creative</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Sup Type value</shortDescription>
+        <value>Custom Creative</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Delivered_Invoicing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Group Status value</shortDescription>
+        <value>Delivered (Invoicing)</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Fulfillment</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>It is a Project SubType picklist value</shortDescription>
+        <value>Fulfillment</value>
+    </labels>
+    <labels>
+        <fullName>CFR_GEM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Budget Name value</shortDescription>
+        <value>CFR GEM</value>
+    </labels>
+    <labels>
+        <fullName>CFR_In_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Group Status value</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Marketing_Coordinator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used in test class project Grout</shortDescription>
+        <value>Marketing Coordinator</value>
+    </labels>
+    <labels>
+        <fullName>CFR_MonthlyDataRecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR_MonthlyDataRecordType</shortDescription>
+        <value>Monthly_Data_Collection</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Monthly_Data_Collection_Queue</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Monthly Data Collection queue</shortDescription>
+        <value>CFR_Monthly_Data_Collection_Requests</value>
+    </labels>
+    <labels>
+        <fullName>CFR_NotStarted</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Status Value</shortDescription>
+        <value>Not Started</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Orscheln_Marketing_Fund</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Budget Name value</shortDescription>
+        <value>CFR Orscheln</value>
+    </labels>
+    <labels>
+        <fullName>CFR_PayInvoicerequestRecordType</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PayInvoiceRequest</shortDescription>
+        <value>Pay_Invoice_request</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Pay_Invoice_Queue</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PayInvoiceRequest</shortDescription>
+        <value>CFR_Pay_Invoice_Requests</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Project_Status_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used for Project Status field</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Purchase_Order</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Payment Type value</shortDescription>
+        <value>PurchaseOrder</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Request_In_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR Request In Progress</shortDescription>
+        <value>The Contact has request which is already in submission</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Request_RecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR_Request RecordTypeId</shortDescription>
+        <value>0122100000096rjAAA</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Request_RecordTypeName</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CFR Request Record Type Name</shortDescription>
+        <value>CFR Request</value>
+    </labels>
+    <labels>
+        <fullName>CFR_SponsorshipReferralRecordType</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SponsorshipReferralRecordType</shortDescription>
+        <value>Sponsorship_Referral</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Sponsorship_Referral_Queue</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sponsorship Referral</shortDescription>
+        <value>CFR_Sponsorship_Referral_Requests</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Template_Creative</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>It a Project SubType picklist value</shortDescription>
+        <value>Template Creative</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Tradeshow</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>It is a Project SubType picklist value</shortDescription>
+        <value>Tradeshow</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Tradeshow_UserID</fullName>
+        <categories>CFR</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>User ID</shortDescription>
+        <value>005j000000GDfOS</value>
+    </labels>
+    <labels>
+        <fullName>CFR_Work_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Project Group Status value</shortDescription>
+        <value>Work Complete</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360</shortDescription>
+        <value>Customer 360</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360AccountName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360AccountName</shortDescription>
+        <value>Account Name:</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360BU</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360BU</shortDescription>
+        <value>Business Unit:</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360Brand</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360Brand</shortDescription>
+        <value>Brand:</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360Step1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360Step1</shortDescription>
+        <value>Segment (Step 1):</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360Step2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360Step2</shortDescription>
+        <value>9 box (Step 2):</value>
+    </labels>
+    <labels>
+        <fullName>CS_Customer360SubBrand</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Customer360SubBrand</shortDescription>
+        <value>Sub-Brand:</value>
+    </labels>
+    <labels>
+        <fullName>CS_FieldSetError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_FieldSetError</shortDescription>
+        <value>No fields to display.</value>
+    </labels>
+    <labels>
+        <fullName>CS_NewCustomer360</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_NewCustomer360</shortDescription>
+        <value>New Customer 360</value>
+    </labels>
+    <labels>
+        <fullName>CS_ProductGroup</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_ProductGroup</shortDescription>
+        <value>Product Group</value>
+    </labels>
+    <labels>
+        <fullName>CS_Segmentation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_Segmentation</shortDescription>
+        <value>Segmentation</value>
+    </labels>
+    <labels>
+        <fullName>CS_SpeciesProductLine</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CS_SpeciesProductLine</shortDescription>
+        <value>Species/Product Line</value>
+    </labels>
+    <labels>
+        <fullName>Calculate_ShareError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calculate%ShareError</shortDescription>
+        <value>Error : Sum of % Share is greater than 100.</value>
+    </labels>
+    <labels>
+        <fullName>Calculate_ShareSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calculate%ShareSuccess</shortDescription>
+        <value>Success : Sum of % Share is lesser than 100.</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cargill</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill</shortDescription>
+        <value>Cargill</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Account_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill Account Id</shortDescription>
+        <value>001j0000015xmCJ</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Document_Type_Display</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Document_Type_Display</shortDescription>
+        <value>Display</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Document_Type_Events</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Document_Type_Events</shortDescription>
+        <value>Events</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Document_Type_ProspectList</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Document_Type_ProspectList</shortDescription>
+        <value>Prospect Lists and Activities</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Document_Type_TrainingData</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Document_Type_TrainingData</shortDescription>
+        <value>For Training</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Type_Display</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Type_Display</shortDescription>
+        <value>Pictures (Extension Supported png,jpg,jpeg,tif,tiff,gif,bmp)</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Type_Events</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Type_Events</shortDescription>
+        <value>PDF, Doc or snapshot image</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Type_Prospects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Type_Prospects</shortDescription>
+        <value>Spreadsheet 
+(Extension Supported xlsx,xlsm,xlsb,xltx,xltm,xls,xlt,xlm,xlam,xla,xlw,xlr,csv)</value>
+    </labels>
+    <labels>
+        <fullName>Cargill_Type_Training</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cargill_Type_Training</shortDescription>
+        <value>Training Materials</value>
+    </labels>
+    <labels>
+        <fullName>Commercial_Customer_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commercial Customer Record Type</shortDescription>
+        <value>Commercial Customer</value>
+    </labels>
+    <labels>
+        <fullName>Commercial_Customer_Update_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Commercial Customer Update Record Type</shortDescription>
+        <value>Commercial Customer Update</value>
+    </labels>
+    <labels>
+        <fullName>Competitor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Competitor</shortDescription>
+        <value>Competitor</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Read_Only_Acc_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer Read Only Acc Type</shortDescription>
+        <value>Consumer Read Only</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Read_Only_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer Read Only</shortDescription>
+        <value>Consumer Read Only CPN India</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer Record Type</shortDescription>
+        <value>Consumer</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Update_Approval_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer_Update_Approval_Request</shortDescription>
+        <value>Consumer_Update_Approval_Request</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Update_CPN_INDIA_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer Update CPN INDIA</shortDescription>
+        <value>Consumer Update</value>
+    </labels>
+    <labels>
+        <fullName>Consumer_Validation_CPN_INDIA</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consumer Validation CPN INDIA, record type is used for CPN INDIA users</shortDescription>
+        <value>Consumer Validation</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Role_Object_Prefix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Role Object Prefix</shortDescription>
+        <value>a01</value>
+    </labels>
+    <labels>
+        <fullName>Coupon_POD_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Coupon POD Queue Id</shortDescription>
+        <value>00Gj0000002Zte8</value>
+    </labels>
+    <labels>
+        <fullName>Creative_POD_Queue_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Creative POD Queue ID</shortDescription>
+        <value>00Gj0000002Zte9</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRAlreadyExist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRAlreadyExist</shortDescription>
+        <value>DCR Record Already Exist</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRCustRecTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRCustRecTypeId</shortDescription>
+        <value>012f1000000LJQVAA4</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRDayRecTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRDayRecTypeId</shortDescription>
+        <value>012f1000000LJQWAA4</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRFirstSecMandatory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRFirstSecMandatory</shortDescription>
+        <value>First Half and Second Half are mandatory</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRLockedCompleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRLockedCompleted</shortDescription>
+        <value>DCR is Locked and no customer can be added. Please contact your Data Steward to unlock the DCR.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRNo_Visit_Details</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRNo_Visit_Details</shortDescription>
+        <value>No Visit Details available. Please click on &apos;Add Customer&apos; button</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCRNotFound</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCRNotFound</shortDescription>
+        <value>No DCR Record Found</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCR_All_Mandatory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCR_All_Mandatory</shortDescription>
+        <value>Error: All Fields are Mandatory</value>
+    </labels>
+    <labels>
+        <fullName>Cres_DCR_Approval_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_DCR_Approval_Error</shortDescription>
+        <value>No Approved Planned Month found for the selected date. Please contact your Manager to Approve</value>
+    </labels>
+    <labels>
+        <fullName>Cres_LockedDCRError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_LockedDCRError</shortDescription>
+        <value>DCR is locked. Please contact your Data Steward to unlock the DCR.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_PlanMonthRecType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_PlanMonthRecType</shortDescription>
+        <value>Plan Month</value>
+    </labels>
+    <labels>
+        <fullName>Cres_PlanMonthRecTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_PlanMonthRecTypeId</shortDescription>
+        <value>012f1000000LJQYAA4</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Plan_DayRecType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Plan_DayRecType</shortDescription>
+        <value>Plan Day</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Plan_DayRecTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Plan_DayRecTypeId</shortDescription>
+        <value>012f1000000LJQXAA4</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_IncorrectBH</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_IncorrectBH</shortDescription>
+        <value>Please select correct BH. Both ASM NOTIFICATION and RSM APPROVAL should be same</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_Incorrect_ASM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_Incorrect_ASM</shortDescription>
+        <value>Please select correct ASM</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_Incorrect_RSM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_Incorrect_RSM</shortDescription>
+        <value>Please select correct RSM</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_NOBH</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_NOBH</shortDescription>
+        <value>No BH assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_NoASM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_NoASM</shortDescription>
+        <value>No ASM assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_NoASM_RSM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_NoASM_RSM</shortDescription>
+        <value>No ASM and RSM assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_NoCustomers</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_NoCustomers</shortDescription>
+        <value>No Customers in the selected Route</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_NoRSM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_NoRSM</shortDescription>
+        <value>No RSM assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_RoutePlan_RSMIncorrect</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_RoutePlan_RSMIncorrect</shortDescription>
+        <value>Please select correct RSM. Both ASM NOTIFICATION and RSM APPROVAL should be same.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Route_AddRowError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Route_AddRowError</shortDescription>
+        <value>Please save the record before adding a new record</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Route_Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres Route Delete</shortDescription>
+        <value>This record cannot be deleted.</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Route_Not_RequiredCPNIndia</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Route_Not_RequiredCPNIndia</shortDescription>
+        <value>Leave;Holiday;Training;Meeting;Dog Show;Seminar,:Branch Visit;Regional Office;	Exhibition;Transit</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Route_SelectPlanMonth</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Route_SelectPlanMonth</shortDescription>
+        <value>Please select a Plan Month</value>
+    </labels>
+    <labels>
+        <fullName>Cres_Visit_Detail_Mandatory</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cres_Visit_Detail_Mandatory</shortDescription>
+        <value>Please Add Visit Details to Complete the DCR</value>
+    </labels>
+    <labels>
+        <fullName>Customer360Account_Section</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer360Account_Section</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>Customer360LineItem_Section</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer360LineItem_Section</shortDescription>
+        <value>Customer 360 Line Item</value>
+    </labels>
+    <labels>
+        <fullName>Customer360Potential_Market_Share_Section</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer360Potential_Section</shortDescription>
+        <value>Potential / Market Share</value>
+    </labels>
+    <labels>
+        <fullName>Customer360_Section</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer360_Section</shortDescription>
+        <value>Customer360</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Add</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Add_Competitor</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Add Competitor</shortDescription>
+        <value>Add New Competitor</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Add_Contact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 Button Add Contact</shortDescription>
+        <value>Contact Role</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Add_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Add Opportunity</shortDescription>
+        <value>Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Add_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Add Potential</shortDescription>
+        <value>Add Type</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Calculate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Calculate</shortDescription>
+        <value>Save &amp; Calculate</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Cancel</shortDescription>
+        <value>Wróć do konta</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Delete_Customer_360</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Delete Customer 360</shortDescription>
+        <value>Delete Customer 360</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Next</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Save</shortDescription>
+        <value>Save Customer 360</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Save_Potentials</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Save Potentials</shortDescription>
+        <value>Save Potentials</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Save_Product_lines</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Save Product lines</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Save_and_Update_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Save and Update Potential</shortDescription>
+        <value>Save and Update Potential</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Update_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Update Potential</shortDescription>
+        <value>Update Potential</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Update_Product_Groups</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Update Product Groups</shortDescription>
+        <value>Update Product Groups</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Button_Update_Product_Lines</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Button - Update Product Lines</shortDescription>
+        <value>Update Product Lines</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_CC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - CC</shortDescription>
+        <value>Cycle Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_CC_NT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - CC - No Translation</shortDescription>
+        <value>Cycle Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_CSVE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - CSVE</shortDescription>
+        <value>Sales Volume Estimate (Simplified)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_CSVE_NT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - CSVE - No Translation</shortDescription>
+        <value>Sales Volume Estimate (Simplified)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_DAP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - DAP</shortDescription>
+        <value>Daily Animal Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_DAP_NT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - DAP - No Translation</shortDescription>
+        <value>Daily Animal Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_SPE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - SPE</shortDescription>
+        <value>Simple Potential Estimate</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_SPE_NT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - SPE - No Translation</shortDescription>
+        <value>Simple Potential Estimate</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_SVE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - SVE</shortDescription>
+        <value>Sales Volume Estimate (# Animals Fed)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Calc_Method_SVE_NT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Calc Method - SVE - No Translation</shortDescription>
+        <value>Sales Volume Estimate (# Animals Fed)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Cant_Remove_Primary_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Cant Remove  Primary Potential</shortDescription>
+        <value>Can&apos;t delete primary Potential.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Duplicate_Potentials</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Duplicate Potentials</shortDescription>
+        <value>Potential data contain duplicate Types. Please review inputted data.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Existing_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Existing Potential</shortDescription>
+        <value>This Potential combination has already been created for the selected Customer360.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Existing_Segment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Existing Segment</shortDescription>
+        <value>This Product Line(Species) has already been created for this Segment.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Max_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Max Potential</shortDescription>
+        <value>Max number of Potentials for this Product Line have been reached.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_No_Business_Unit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - No Business Unit</shortDescription>
+        <value>Current user must have a Business Unit.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Error_Save_Potential_No_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Error - Save Potential - No Potential</shortDescription>
+        <value>Please add a Potential Type.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Header_Customer_360_Add</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Header - Customer 360 Add</shortDescription>
+        <value>Customer 360 Add</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Header_Customer_360_Edit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Header - Customer 360 Edit</shortDescription>
+        <value>Customer 360 Edit</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Header_Customer_360_View</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Header - Customer 360 View</shortDescription>
+        <value>Customer 360 View</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Header_Delete_Segment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Header - Delete Segment</shortDescription>
+        <value>Delete Segment</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Info_Save_360</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Info - Save 360</shortDescription>
+        <value>Customer 360 record has been updated.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Info_Saved_Potentials</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Info - Saved Potentials</shortDescription>
+        <value>Potential data for this Segment - Product Line have been updated.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Action</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Activities</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 Inline - Activities</shortDescription>
+        <value>Activities</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Button_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Button - New</shortDescription>
+        <value>Create New Customer 360</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Dashboard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Dashboard</shortDescription>
+        <value>Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Market_Share_Dahsboard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Market Share Dahsboard</shortDescription>
+        <value>Market Share Dashboard</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_No_Records</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - No Records</shortDescription>
+        <value>No records to display</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Opportunities</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Opportunities</shortDescription>
+        <value>Opportunities</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Report_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Report Id</shortDescription>
+        <value>00Oj0000000j2B5</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Report_Links</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Report Links</shortDescription>
+        <value>Metrics/Report Links</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Segments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Segments</shortDescription>
+        <value>Segmentation/Potential</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Inline_Total_Potential_Report_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Inline - Total Potential Report Id</shortDescription>
+        <value>00Oj0000004KgJY</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Calculation_Method</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Calculation Method</shortDescription>
+        <value>Calculation Method</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Loading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Loading</shortDescription>
+        <value>Loading...</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Primary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Primary</shortDescription>
+        <value>Primary:</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Product_Class</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Product Class</shortDescription>
+        <value>Product Class</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Product_Function</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Product Function</shortDescription>
+        <value>Product Function</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Product_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Product Group</shortDescription>
+        <value>Product Group</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Product_Line</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Product Line</shortDescription>
+        <value>Product Line</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Secondary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Secondary</shortDescription>
+        <value>Secondary:</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Step_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Step 1</shortDescription>
+        <value>Segment (Step 1)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Label_Step_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Label - Step 2</shortDescription>
+        <value>9 box (Step 2)</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Message_Are_you_sure_you_want_to_delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Message - Are you sure you want to delete</shortDescription>
+        <value>Are you sure you want to delete this Customer 360 record?</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Message_No_Product_lines_available</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Message - No Product lines available</shortDescription>
+        <value>No Product lines available.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Message_Note_Successfully_updated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Message - Note: Successfully updated</shortDescription>
+        <value>Successfully updated selected product lines.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Message_Note_Uncheck_corresponding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Message - Note: Uncheck corresponding</shortDescription>
+        <value>***Note: Uncheck corresponding checkboxes to delete all or delete a specific product line record.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Potential_Type_Complete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Potential - Type - Complete</shortDescription>
+        <value>Complete</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Potential_Type_Concentrate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Potential - Type - Concentrate</shortDescription>
+        <value>Concentrate</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Potential_Type_Premix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Potential - Type - Premix</shortDescription>
+        <value>Premix</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Product_Class</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Product Class</shortDescription>
+        <value>Class</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Product_Function</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Product Function</shortDescription>
+        <value>Function</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Product_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Product Group</shortDescription>
+        <value>Group</value>
+    </labels>
+    <labels>
+        <fullName>Customer_360_Status_Loading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer 360 - Status - Loading</shortDescription>
+        <value>Loading Customer360</value>
+    </labels>
+    <labels>
+        <fullName>CycleConsumption_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CC_CFE_Name</shortDescription>
+        <value>Cycle Consumption - CFE</value>
+    </labels>
+    <labels>
+        <fullName>Cycle_Consumption</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cycle Consumption</shortDescription>
+        <value>Cycle Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Cycle_Consumption_CFE_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cycle Consumption_CFE_RecordType</shortDescription>
+        <value>Cycle_Consumption_CFE</value>
+    </labels>
+    <labels>
+        <fullName>Cycle_Consumption_RecordType</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Cycle_Consumption</shortDescription>
+        <value>Cycle_Consumption</value>
+    </labels>
+    <labels>
+        <fullName>DCR_Customer_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCR Customer Record Type</shortDescription>
+        <value>DCR_Customer</value>
+    </labels>
+    <labels>
+        <fullName>DCR_Customer_Visit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCR Customer Visit</shortDescription>
+        <value>Customer Visit</value>
+    </labels>
+    <labels>
+        <fullName>DCR_Day_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCR Day RecordType</shortDescription>
+        <value>DCR_Day</value>
+    </labels>
+    <labels>
+        <fullName>DCR_Error_Future_Date</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCR Error Future Date</shortDescription>
+        <value>DCR Search and Creation are not allowed for Future Dates.</value>
+    </labels>
+    <labels>
+        <fullName>DCR_InProgressStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DCR_InProgressStatus</shortDescription>
+        <value>In Progress</value>
+    </labels>
+    <labels>
+        <fullName>DailyAnimalConsumption_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DAC_CFE_Name</shortDescription>
+        <value>Daily Animal Consumption - CFE</value>
+    </labels>
+    <labels>
+        <fullName>Daily_Animal_Consumption</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Daily Animal Consumption</shortDescription>
+        <value>Daily Animal Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Daily_Animal_Consumption_CFE_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Daily Animal Consumption CFE RecordType</shortDescription>
+        <value>Daily_Animal_Consumption_CFE</value>
+    </labels>
+    <labels>
+        <fullName>Daily_Animal_Consumption_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Daily_Animal_Consumption</shortDescription>
+        <value>Daily_Animal_Consumption</value>
+    </labels>
+    <labels>
+        <fullName>Data_Steward_CPN_India</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Steward CPN India</shortDescription>
+        <value>Data Steward CPN India</value>
+    </labels>
+    <labels>
+        <fullName>Data_Steward_Canada</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Steward - Canada</shortDescription>
+        <value>Data Steward - Canada</value>
+    </labels>
+    <labels>
+        <fullName>Data_Steward_Global_US</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Steward - Global (US)</shortDescription>
+        <value>Data Steward - Global (US)</value>
+    </labels>
+    <labels>
+        <fullName>Data_Steward_Poland</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Steward - Poland</shortDescription>
+        <value>Data Steward - Poland</value>
+    </labels>
+    <labels>
+        <fullName>Data_Steward_Profile</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Data Steward</shortDescription>
+        <value>Data Steward</value>
+    </labels>
+    <labels>
+        <fullName>Date_Difference_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Difference Error Message</shortDescription>
+        <value>Date difference can not be greater than 3 months.</value>
+    </labels>
+    <labels>
+        <fullName>Date_Difference_Message_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date Difference Message Header</shortDescription>
+        <value>Date difference between from and to date should not be greater than 90 days</value>
+    </labels>
+    <labels>
+        <fullName>Description</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Description</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>E2E_Cargill18_Insatnce_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>E2E Cargill18 Insatnce ID</shortDescription>
+        <value>a1X34000002E92m</value>
+    </labels>
+    <labels>
+        <fullName>Edit_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Request</shortDescription>
+        <value>Edit Request</value>
+    </labels>
+    <labels>
+        <fullName>Error_Cannot_Submit_Already_in_Process</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Cannot Submit Already in Process</shortDescription>
+        <value>Cannot Submit, Request has already been approved.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Create_Customer_Please_Complete_Fields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Customer 360 Create Customer Please Complete Fields</shortDescription>
+        <value>Please complete all fields to save Customer 360.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Create_Customer_Please_Complete_Fields_Potential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Customer 360 Create Customer Please Complete Fields Potential</shortDescription>
+        <value>Please complete all fields to save Potential.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Create_Segment_With_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Customer 360 Create Segment With Account</shortDescription>
+        <value>This segment has already been created for this account.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Create_Segment_Without_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Customer 360 Create Segment Without Account</shortDescription>
+        <value>You cannot create a segment without account. Assign an account first.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Duplicate_Calculation_Method</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error - Customer 360 - Duplicate Calculation Method</shortDescription>
+        <value>Product Line must have only one Calculation method.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Group_Function_NV</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error - Customer 360 - Group / Function not valid</shortDescription>
+        <value>Product Group-Function combination is not allowed. Please review selected Product Lines.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_No_Goup_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error_Customer 360 - No Goup Selected</shortDescription>
+        <value>Please select at least one Product group per Product Line selected.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Product_Line_must_be_selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error - Customer 360 - Product Line must be selected</shortDescription>
+        <value>Product Line must be selected for segment.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Customer_360_Select_Calculation_Method</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error - Customer 360 - Select Calculation Method</shortDescription>
+        <value>Product Line must have a Calculation method.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Manager_not_defined</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Manager not defined</shortDescription>
+        <value>Current User has no Manager Defined</value>
+    </labels>
+    <labels>
+        <fullName>Existing_Territory_Error_Msg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Existing Territory Error Msg</shortDescription>
+        <value>This Territory Already Exists.  Please Review the current Territories</value>
+    </labels>
+    <labels>
+        <fullName>Existing_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Existing Value</shortDescription>
+        <value>Existing Value</value>
+    </labels>
+    <labels>
+        <fullName>External</fullName>
+        <categories>Visit Report Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used for External template</shortDescription>
+        <value>External</value>
+    </labels>
+    <labels>
+        <fullName>Field_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field Name</shortDescription>
+        <value>Field Name</value>
+    </labels>
+    <labels>
+        <fullName>Field_Set_Error_No_Specified_Fieldset</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Field Set - Error - No Specified Fieldset</shortDescription>
+        <value>No fields to display.</value>
+    </labels>
+    <labels>
+        <fullName>Fulfillment_Pod_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Fulfillment Pod Queue Id</shortDescription>
+        <value>00Gj0000002ZteA</value>
+    </labels>
+    <labels>
+        <fullName>Global_Account_Approval_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Global_Account_Approval_Request</shortDescription>
+        <value>Global_Account_Approval_Request</value>
+    </labels>
+    <labels>
+        <fullName>Incorrect_ASM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Incorrect ASM</shortDescription>
+        <value>Please select correct ASM from your hierarchy .</value>
+    </labels>
+    <labels>
+        <fullName>Incorrect_RSM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Incorrect RSM</shortDescription>
+        <value>Please select correct RSM from your hierarchy .</value>
+    </labels>
+    <labels>
+        <fullName>Inline_Edit_No_Product_Line_Selected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inline Edit No Product Line Selected</shortDescription>
+        <value>No selected  Product Line.</value>
+    </labels>
+    <labels>
+        <fullName>Integrationuserid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Integrationuserid</shortDescription>
+        <value>005f100000GFKrTAAX</value>
+    </labels>
+    <labels>
+        <fullName>Internal</fullName>
+        <categories>Visit Report Template</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used for Internal Template</shortDescription>
+        <value>Internal</value>
+    </labels>
+    <labels>
+        <fullName>MailBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MailBody</shortDescription>
+        <value>&lt;html&gt;&lt;body&gt;A duplicate prospect is created in the system. Please visit below link to review the duplicate prospect  &lt;br&gt;&lt;br&gt;</value>
+    </labels>
+    <labels>
+        <fullName>MailBodyDupAccLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MailBodyDupAccLink</shortDescription>
+        <value>&lt;a href=&quot;https://cargill18.my.salesforce.com/</value>
+    </labels>
+    <labels>
+        <fullName>MailBodyDuplicateAcoount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MailBodyDuplicateAcoount</shortDescription>
+        <value>&quot;&gt;Duplicate Prospect&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Master_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Used in suspended account method for Account Trigger handler</shortDescription>
+        <value>Master</value>
+    </labels>
+    <labels>
+        <fullName>Master_Potential_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Master_Potential</shortDescription>
+        <value>Potential</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_ASM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple ASM</shortDescription>
+        <value>You have multiple ASM assigned to your territory.Please select an ASM.</value>
+    </labels>
+    <labels>
+        <fullName>Multiple_RSM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Multiple RSM</shortDescription>
+        <value>You have multiple RSM assigned to your territory.Please select a RSM.</value>
+    </labels>
+    <labels>
+        <fullName>NIS_Label</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NIS Label</shortDescription>
+        <value>NIS</value>
+    </labels>
+    <labels>
+        <fullName>New_request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>New request</shortDescription>
+        <value>New Request</value>
+    </labels>
+    <labels>
+        <fullName>Not_Defined</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Not Defined</shortDescription>
+        <value>Not Defined</value>
+    </labels>
+    <labels>
+        <fullName>POTENTIAL_INSUFFICIENT_ACCESS_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Potential No Access</shortDescription>
+        <value>POTENTIAL_INSUFFICIENT_ACCESS_ERROR</value>
+    </labels>
+    <labels>
+        <fullName>POT_ADD_COMPETITOR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ADD_COMPETITOR</shortDescription>
+        <value>Add Competitor</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANIMALS_CYCLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANIMALS_CYCLE</shortDescription>
+        <value>ANIMALS CYCLE</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANIMALS_CYCLE_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANIMALS_CYCLE_NL</shortDescription>
+        <value>ANIMALS&lt;br/&gt;
+/ CYCLE</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANIMALS_YR_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANIMALS_YR_NL</shortDescription>
+        <value>ANIMALS&lt;br/&gt;
+/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANIMAL_YR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT ANIMAL YR</shortDescription>
+        <value>ANIMALS/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANNUAL_VOLUME_MT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANNUAL_VOLUME_MT</shortDescription>
+        <value>ANNUAL VOLUME(MT)</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANNUAL_VOLUME_MT_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANNUAL_VOLUME_MT_NL</shortDescription>
+        <value>ANNUAL&lt;br/&gt;
+VOLUME(MT)</value>
+    </labels>
+    <labels>
+        <fullName>POT_ANNUAL_VOLUME_MT_NL_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_ANNUAL_VOLUME_MT_NL_NL</shortDescription>
+        <value>ANNUAL&lt;br/&gt;
+VOLUME &lt;br/&gt;
+&amp;nbsp (MT)</value>
+    </labels>
+    <labels>
+        <fullName>POT_Account_Locked_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Account_Locked_Error</shortDescription>
+        <value>Account is Locked. You Cannot Add/Edit Potential When Account is Locked.</value>
+    </labels>
+    <labels>
+        <fullName>POT_Add_Product_Function</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Add_Product_Function</shortDescription>
+        <value>Add Product Function</value>
+    </labels>
+    <labels>
+        <fullName>POT_Annual_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Annual CFE</shortDescription>
+        <value>Annual CFE</value>
+    </labels>
+    <labels>
+        <fullName>POT_Annual_CFE_2_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT Annual CFE 2 NL</shortDescription>
+        <value>Annual/&lt;br/&gt;
+CFE 2</value>
+    </labels>
+    <labels>
+        <fullName>POT_Annual_CFE_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT Annual CFE NL</shortDescription>
+        <value>Annual&lt;br/&gt;
+CFE</value>
+    </labels>
+    <labels>
+        <fullName>POT_Annual_Volume</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT Annual Volume</shortDescription>
+        <value>Annual Volume</value>
+    </labels>
+    <labels>
+        <fullName>POT_Annual_Volume_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Annual_Volume_NL</shortDescription>
+        <value>Annual&lt;br/&gt;
+Volume</value>
+    </labels>
+    <labels>
+        <fullName>POT_Back_to_Potential_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Back_to_Potential_List</shortDescription>
+        <value>Back to Potential List</value>
+    </labels>
+    <labels>
+        <fullName>POT_CARGILL_COMPETITOR_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CARGILL_COMPETITOR_ERROR</shortDescription>
+        <value>Competitors cannot be Cargill</value>
+    </labels>
+    <labels>
+        <fullName>POT_CFE_INCL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CFE_INCL</shortDescription>
+        <value>CFE incl %</value>
+    </labels>
+    <labels>
+        <fullName>POT_CFE_INCL_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT CFE INCL NL</shortDescription>
+        <value>CFE&lt;br/&gt;
+INCL%</value>
+    </labels>
+    <labels>
+        <fullName>POT_CHANGECONFIR_MSG</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CHANGECONFIR_MSG</shortDescription>
+        <value>Changes will be lost unless the record is saved. Do you want to continue?</value>
+    </labels>
+    <labels>
+        <fullName>POT_COMPETITOR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_COMPETITOR</shortDescription>
+        <value>COMPETITOR</value>
+    </labels>
+    <labels>
+        <fullName>POT_COMPETITOR_NA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_COMPETITOR_NA</shortDescription>
+        <value>COMPE-&lt;br/&gt;
+TITOR</value>
+    </labels>
+    <labels>
+        <fullName>POT_CONFIRMATION_TITLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT CONFIRMATION TITLE</shortDescription>
+        <value>Confirmation</value>
+    </labels>
+    <labels>
+        <fullName>POT_CONTRIBUTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CONTRIBUTION</shortDescription>
+        <value>CONTRIBUTION</value>
+    </labels>
+    <labels>
+        <fullName>POT_CONTRIBUTION_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CONTRIBUTION_NL</shortDescription>
+        <value>CONTRI-&lt;br/&gt;
+BUTION</value>
+    </labels>
+    <labels>
+        <fullName>POT_CYCLES_YR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CYCLES_YR</shortDescription>
+        <value>CYCLES YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_CYCLES_YR_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_CYCLES_YR_NL</shortDescription>
+        <value>CYCLES&lt;br/&gt;
+/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_Calculation_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Calculation_Type</shortDescription>
+        <value>CALCULATION TYPE</value>
+    </labels>
+    <labels>
+        <fullName>POT_Convert_Validated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Convert_Validated</shortDescription>
+        <value>This Prospect needs to be validated first</value>
+    </labels>
+    <labels>
+        <fullName>POT_Convert_alreadycreated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Convert_alreadycreated</shortDescription>
+        <value>Request is already created ..</value>
+    </labels>
+    <labels>
+        <fullName>POT_Converttocustomer_successfully</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Converttocustomer_successfully</shortDescription>
+        <value>Request is created successfully</value>
+    </labels>
+    <labels>
+        <fullName>POT_DAYS_FED_YR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT DAYS FED YR</shortDescription>
+        <value>DAY FED/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_DAYS_FED_YR_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_DAYS_FED_YR_NL</shortDescription>
+        <value>DAYS FED&lt;br/&gt;
+/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_DAYS_FED_YR_NL_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_DAYS_FED_YR_NL_NL</shortDescription>
+        <value>DAY FED&lt;br/&gt;
+/YR</value>
+    </labels>
+    <labels>
+        <fullName>POT_DELETE_CONFIRMATION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_DELETE_CONFIRMATION</shortDescription>
+        <value>Are you sure do you want to delete the record?</value>
+    </labels>
+    <labels>
+        <fullName>POT_DUPLICATE_COMPETITOR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_DUPLICATE_COMPETITOR</shortDescription>
+        <value>Duplicate Competitors are not allowed for a product function</value>
+    </labels>
+    <labels>
+        <fullName>POT_DUPLICATE_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT DUPLICATE ERROR</shortDescription>
+        <value>Calculation Type {0} for Species {1} already exist. Please Edit the Same</value>
+    </labels>
+    <labels>
+        <fullName>POT_Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>POT_Duplicate_Prod_Function_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Duplicate Prod Function Type</shortDescription>
+        <value>Duplicate Product Function and Type are not allowed</value>
+    </labels>
+    <labels>
+        <fullName>POT_EDIT_POTENTIAL_ESTIMATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_EDIT_POTENTIAL_ESTIMATE</shortDescription>
+        <value>EDIT POTENTIAL ESTIMATE</value>
+    </labels>
+    <labels>
+        <fullName>POT_Edit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>POT_INSUFFICIENT_ACCESS_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_INSUFFICIENT_ACCESS_ERROR</shortDescription>
+        <value>You do not have access to Create/Edit the Record. Please Contact Admin</value>
+    </labels>
+    <labels>
+        <fullName>POT_KG_ANIMAL_CYCLE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT KG ANIMAL CYCLE</shortDescription>
+        <value>KG/ANIMAL/CYCLE</value>
+    </labels>
+    <labels>
+        <fullName>POT_KG_ANIMAL_CYCLE_NL_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_KG_ANIMAL_CYCLE_NL_NL</shortDescription>
+        <value>KG/&lt;br/&gt;
+ANIMAL&lt;br/&gt;
+/CYCLE</value>
+    </labels>
+    <labels>
+        <fullName>POT_KG_HD_DAY</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT KG HD DAY</shortDescription>
+        <value>KG/HD/DAY</value>
+    </labels>
+    <labels>
+        <fullName>POT_KG_HD_DAY_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_KG_HD_DAY_NL</shortDescription>
+        <value>KG/HD&lt;br/&gt;
+/DAY</value>
+    </labels>
+    <labels>
+        <fullName>POT_MANDATORY_FIELD_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_MANDATORY FIELD ERROR</shortDescription>
+        <value>Following Fields are mandatory</value>
+    </labels>
+    <labels>
+        <fullName>POT_NEW_POTENTIAL_ESTIMATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_NEW_POTENTIAL_ESTIMATE</shortDescription>
+        <value>NEW POTENTIAL ESTIMATE</value>
+    </labels>
+    <labels>
+        <fullName>POT_NO</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_NO</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>POT_NO_POTENTIAL_ACCESS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_NO_POTENTIAL ACCESS</shortDescription>
+        <value>You do not have access to potential</value>
+    </labels>
+    <labels>
+        <fullName>POT_NUMBER_LENGTH_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_NUMBER_LENGTH_ERROR</shortDescription>
+        <value>Number of Digits should not exceed 14</value>
+    </labels>
+    <labels>
+        <fullName>POT_NUMBER_OUTSIDE_VALID_RANGE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_NUMBER_OUTSIDE_VALID_RANGE</shortDescription>
+        <value>Number exceeded the limit</value>
+    </labels>
+    <labels>
+        <fullName>POT_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>POT_No_Product_Function</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_No_Product_Function</shortDescription>
+        <value>No Product Functions Added. Please click on &apos;Add Product Function&apos;</value>
+    </labels>
+    <labels>
+        <fullName>POT_Number_Negative_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Number_Negative_Error</shortDescription>
+        <value>Number cannot be less than zero</value>
+    </labels>
+    <labels>
+        <fullName>POT_OF_SHARE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_OF_SHARE</shortDescription>
+        <value>% OF&lt;br/&gt;
+SHARE</value>
+    </labels>
+    <labels>
+        <fullName>POT_OF_SHARE_FIELD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_OF_SHARE_FIELD</shortDescription>
+        <value>% OF SHARE</value>
+    </labels>
+    <labels>
+        <fullName>POT_PERCENT_OF_SHARE_ERROR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT PERCENT OF SHARE ERROR</shortDescription>
+        <value>Sum of Percentage of share should not exceed 100 for a product function</value>
+    </labels>
+    <labels>
+        <fullName>POT_POTENTIAL_ESTIMATES</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_POTENTIAL_ESTIMATES</shortDescription>
+        <value>POTENTIAL ESTIMATES</value>
+    </labels>
+    <labels>
+        <fullName>POT_PRODUCT_FUNCTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_PRODUCT_FUNCTION</shortDescription>
+        <value>PRODUCT&lt;br/&gt;
+FUNCTION</value>
+    </labels>
+    <labels>
+        <fullName>POT_PRODUCT_FUNCTION_FIELD</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT PRODUCT FUNCTION FIELD</shortDescription>
+        <value>PRODUCT FUNCTION</value>
+    </labels>
+    <labels>
+        <fullName>POT_SALESPERSON</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT SALESPERSON</shortDescription>
+        <value>SALESPERSON</value>
+    </labels>
+    <labels>
+        <fullName>POT_SALES_PERSON</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SALES_PERSON</shortDescription>
+        <value>SALES&lt;br/&gt;
+PERSON</value>
+    </labels>
+    <labels>
+        <fullName>POT_SHARE_OF_VOLUME</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SHARE_OF_VOLUME</shortDescription>
+        <value>SHARE OF VOLUME(%)</value>
+    </labels>
+    <labels>
+        <fullName>POT_SHARE_OF_WALLET</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SHARE_OF_WALLET</shortDescription>
+        <value>SHARE OF WALLET(%)</value>
+    </labels>
+    <labels>
+        <fullName>POT_STD_EXCEPTION</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_STD_EXCEPTION</shortDescription>
+        <value>Oops!! An Unknown error has occurred. Please Contact Admin.</value>
+    </labels>
+    <labels>
+        <fullName>POT_SUCCESS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SUCCESS</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>POT_SUCCESS_CREATE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SUCCESS_CREATE</shortDescription>
+        <value>Record Successfully Created</value>
+    </labels>
+    <labels>
+        <fullName>POT_SUCCESS_DELETE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SUCCESS_DELETE</shortDescription>
+        <value>Record Successfully Deleted</value>
+    </labels>
+    <labels>
+        <fullName>POT_SUCCESS_SAVE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_SUCCESS_SAVE</shortDescription>
+        <value>Record Successfully Saved</value>
+    </labels>
+    <labels>
+        <fullName>POT_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>POT_Share_of_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Share_of_CFE</shortDescription>
+        <value>SHARE OF CFE (%)</value>
+    </labels>
+    <labels>
+        <fullName>POT_Share_of_CFE_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Share_of_CFE_NL</shortDescription>
+        <value>SHARE OF&lt;br/&gt;
+CFE(%)</value>
+    </labels>
+    <labels>
+        <fullName>POT_Species</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Species</shortDescription>
+        <value>SPECIES</value>
+    </labels>
+    <labels>
+        <fullName>POT_TOTAL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_TOTAL</shortDescription>
+        <value>TOTAL</value>
+    </labels>
+    <labels>
+        <fullName>POT_TOTAL_POTENTIAL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_TOTAL_POTENTIAL</shortDescription>
+        <value>TOTAL POTENTIAL</value>
+    </labels>
+    <labels>
+        <fullName>POT_TYPE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_TYPE</shortDescription>
+        <value>TYPE</value>
+    </labels>
+    <labels>
+        <fullName>POT_VALUE_MT</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_VALUE_MT</shortDescription>
+        <value>VALUE/MT</value>
+    </labels>
+    <labels>
+        <fullName>POT_VALUE_MT_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_VALUE_MT_NL</shortDescription>
+        <value>VALUE/ &lt;br/&gt;
+MT</value>
+    </labels>
+    <labels>
+        <fullName>POT_VOLUME</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_VOLUME</shortDescription>
+        <value>VOLUME</value>
+    </labels>
+    <labels>
+        <fullName>POT_VOLUME_NL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_VOLUME_NL</shortDescription>
+        <value>Volume</value>
+    </labels>
+    <labels>
+        <fullName>POT_Value_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Value_CFE</shortDescription>
+        <value>Value/CFE</value>
+    </labels>
+    <labels>
+        <fullName>POT_Value_CFE_NL</fullName>
+        <categories>POT_Value_CFE_NL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_Value_CFE_NL</shortDescription>
+        <value>Value/&lt;br/&gt;
+CFE</value>
+    </labels>
+    <labels>
+        <fullName>POT_View</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>POT_YES</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_YES</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>POT_percent_of_share</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>POT_percent_of_share</shortDescription>
+        <value>% OF SHARE</value>
+    </labels>
+    <labels>
+        <fullName>Patty_Young_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patty Young Id</shortDescription>
+        <value>005j000000GDfM5</value>
+    </labels>
+    <labels>
+        <fullName>Phone_Call</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Phone Call</shortDescription>
+        <value>Phone Call</value>
+    </labels>
+    <labels>
+        <fullName>Potential_History_Report</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Potential History Report</shortDescription>
+        <value>No Potential History Available</value>
+    </labels>
+    <labels>
+        <fullName>Prospect_Conversion_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Prospect Conversion Record Type</shortDescription>
+        <value>Prospect Conversion</value>
+    </labels>
+    <labels>
+        <fullName>Protected_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Protected Information</shortDescription>
+        <value>Protected Information</value>
+    </labels>
+    <labels>
+        <fullName>RSM_Not_Assigned</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RSM Not Assigned</shortDescription>
+        <value>No RSM assigned. Please contact your Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Rebate_Request_Draft_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rebate Request Draft Status</shortDescription>
+        <value>Draft</value>
+    </labels>
+    <labels>
+        <fullName>Remove_Action_Value_on_Request_Line_Item</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Remove Action Value on Request Line Item</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Request_Acc_Status_Competitor_New_Invalid</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Acc Status Competitor New Invalid</shortDescription>
+        <value>This Competitor is already Validated. Please select another Competitor record.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Acc_Status_Consumer_New_Invalid</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Acc Status Consumer New Invalid</shortDescription>
+        <value>This Consumer is already Validated. Please select another Consumer record.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Acc_Status_Prospect_New_Invalid</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Acc Status Prospect New Invalid</shortDescription>
+        <value>This Prospect is already Validated. Please select another Standard record.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Acc_Status_Prospect_Validated</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Acc Status Prospect Validated</shortDescription>
+        <value>This Prospect needs to be Validated before conversion</value>
+    </labels>
+    <labels>
+        <fullName>Request_Commercial_Request_Record_Type_Error_Message</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Commercial Request Record Type Error Message</shortDescription>
+        <value>Please select a Commercial Customer record</value>
+    </labels>
+    <labels>
+        <fullName>Request_Competitor_Record_Type</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Competitor Record Type</shortDescription>
+        <value>Please select a Competitor Record. Competitor are records with Competitor Account Record Type.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Competitor_Update</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Competitor Update</shortDescription>
+        <value>Competitor needs to be validated first.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Consumer_Record_Type</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Consumer Record Type</shortDescription>
+        <value>Please select a Consumer Record. Consumer are records with Consumer Account Record Type.</value>
+    </labels>
+    <labels>
+        <fullName>Request_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Information</shortDescription>
+        <value>Request Information</value>
+    </labels>
+    <labels>
+        <fullName>Request_Prospect_Record_Type</fullName>
+        <categories>NewRequest VF Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request Prospect Record Type</shortDescription>
+        <value>Please select a Prospect Record. Prospects are records with Standard Account Record Type.</value>
+    </labels>
+    <labels>
+        <fullName>Request_already_Created</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request already Created</shortDescription>
+        <value>Request has already been submitted for validation and it is not approved.</value>
+    </labels>
+    <labels>
+        <fullName>Requested_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Requested Value</shortDescription>
+        <value>Requested Value</value>
+    </labels>
+    <labels>
+        <fullName>Route_Customer_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Route Customer Record Type</shortDescription>
+        <value>Route Customer</value>
+    </labels>
+    <labels>
+        <fullName>Route_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Route Record Type</shortDescription>
+        <value>Route</value>
+    </labels>
+    <labels>
+        <fullName>SFA_ObjectAPIName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SFA_ObjectAPIName</shortDescription>
+        <value>Account_Attachments__c</value>
+    </labels>
+    <labels>
+        <fullName>SVE_CFE_Shipments</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SVE - CFE Shipments</shortDescription>
+        <value>CFE equivalent [MT ]</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Professional_CPN_India_Profile</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Professional CPN India</shortDescription>
+        <value>Sales Professional CPN India</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Professional_CanadaProfile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Professional - CanadaProfile Name</shortDescription>
+        <value>Sales Professional - Canada</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Professional_PolandProfile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Professional - PolandProfile Name</shortDescription>
+        <value>Sales Professional - Poland</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Professional_USProfile_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Professional - USProfile Name</shortDescription>
+        <value>Sales Professional - Global (US)</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SimplePotentialEstimate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SPE_NAME</shortDescription>
+        <value>Simple Potential Estimate</value>
+    </labels>
+    <labels>
+        <fullName>SimplePotentialEstimate_CFE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SPE_CFE_Name</shortDescription>
+        <value>Simple Potential Estimate - CFE</value>
+    </labels>
+    <labels>
+        <fullName>Simple_Potential_Estimate_CFE_RecordType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Simple_Potential_Estimate_CFE_RecordType</shortDescription>
+        <value>Simple_Potential_Estimate_CFE</value>
+    </labels>
+    <labels>
+        <fullName>Simple_Potential_Estimate_RecordType</fullName>
+        <language>fr</language>
+        <protected>false</protected>
+        <shortDescription>Simple Potential Estimate</shortDescription>
+        <value>Simple_Potential_Estimate</value>
+    </labels>
+    <labels>
+        <fullName>Site_Visit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Site Visit</shortDescription>
+        <value>Site Visit</value>
+    </labels>
+    <labels>
+        <fullName>Standard_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Standard Record Type</shortDescription>
+        <value>Standard</value>
+    </labels>
+    <labels>
+        <fullName>Submitted_for_Approval</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submitted for Approval</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>Suspended</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales status of account</shortDescription>
+        <value>Suspended</value>
+    </labels>
+    <labels>
+        <fullName>System_Administrator_Profile</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Administrator</shortDescription>
+        <value>System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>TargetTerritoryMappingIncorrect</fullName>
+        <categories>CPNINDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TargetTerritoryMappingIncorrect</shortDescription>
+        <value>Your target territory mapping is not correct. Please contact your CRM admin.</value>
+    </labels>
+    <labels>
+        <fullName>Target_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Target Error</shortDescription>
+        <value>The entered Territory does not exists. Please enter an existing Territory Name</value>
+    </labels>
+    <labels>
+        <fullName>Temporary_Message_for_Del</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Temporary Message for Delete</shortDescription>
+        <value>Existing Potentials were identified for deletion. Do you want to delete these Potentials?</value>
+    </labels>
+    <labels>
+        <fullName>Temporary_Message_for_Save_Potentials</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Temporary Message for Save Potentials</shortDescription>
+        <value>Existing Potentials were identified for deletion. Do you still want to proceed on saving?</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party_Acc_Record_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third Party Acc ReadOnly Record Type</shortDescription>
+        <value>Third Party Read Only</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party_Read_Only_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third Party Read Only Record Type</shortDescription>
+        <value>Third Party Read Only CPN India</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party_Update_Approval_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third_Party_Update_Approval_Request</shortDescription>
+        <value>Third_Party_Update_Approval_Request</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party_Update_Record_Type</fullName>
+        <categories>CPN INDIA</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third Party Update</shortDescription>
+        <value>Third Party Update</value>
+    </labels>
+    <labels>
+        <fullName>Third_Party_Validation_Request_RecordTypeId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Third Party Validation Request RecordTypeId</shortDescription>
+        <value>012f1000000LJQmAAO</value>
+    </labels>
+    <labels>
+        <fullName>Tradeshow_POD_Queue_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Tradeshow POD Queue Id</shortDescription>
+        <value>00Gj0000002ZteB</value>
+    </labels>
+    <labels>
+        <fullName>VF_Add</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Add</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>VF_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>VF_Clone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Clone</shortDescription>
+        <value>Clone</value>
+    </labels>
+    <labels>
+        <fullName>VF_Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>VF_Deselect_All</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Deselect All</shortDescription>
+        <value>Deselect All</value>
+    </labels>
+    <labels>
+        <fullName>VF_Edit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>VF_Include_Payer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Include Payer</shortDescription>
+        <value>Include Payer</value>
+    </labels>
+    <labels>
+        <fullName>VF_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>VF_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>VF_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>VF_Select_All</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF Select All</shortDescription>
+        <value>Select All</value>
+    </labels>
+    <labels>
+        <fullName>VF_View_Pricelist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>VF View Pricelist</shortDescription>
+        <value>View Pricelist</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Report_Additional_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Report Additional Information</shortDescription>
+        <value>Additional Information</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Report_External_Call_Notes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Report External Call Notes</shortDescription>
+        <value>External Call Notes</value>
+    </labels>
+    <labels>
+        <fullName>Visit_Report_Internal_Call_Notes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Visit Report Internal Call Notes</shortDescription>
+        <value>Internal Call Notes</value>
+    </labels>
+</CustomLabels>

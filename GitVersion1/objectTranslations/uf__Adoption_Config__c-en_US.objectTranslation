@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Config Instructions --></label>
+        <name>uf__Config_Instructions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the amount that your organization pays per license to assist with calculating wasted costs. --></help>
+        <label><!-- Cost per Salesforce License (year) --></label>
+        <name>uf__Cost_per_Salesforce_License__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inactivity User Status records will be created after users have not logged in for the number of days selected here.  From these records, tasks/emails/workflows can be triggered to notify the user/management/fellow users. --></help>
+        <label><!-- Days to Send Inactivity Notices --></label>
+        <name>uf__Days_to_Send_Inactivity_Notices__c</name>
+        <picklistValues>
+            <masterLabel>120</masterLabel>
+            <translation><!-- 120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <webLinks>
+        <label><!-- Start_Schedule --></label>
+        <name>uf__Start_Schedule</name>
+    </webLinks>
+</CustomObjectTranslation>

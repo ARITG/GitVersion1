@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional Needs --></label>
+        <name>Additional_Needs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address --></label>
+        <name>Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- B2B or B2C --></label>
+        <name>B2B_or_B2C__c</name>
+        <picklistValues>
+            <masterLabel>B2B</masterLabel>
+            <translation><!-- B2B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2C</masterLabel>
+            <translation><!-- B2C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Breakout Rooms Required --></label>
+        <name>Breakout_Rooms_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breakout Rooms Requirements --></label>
+        <name>Breakout_Rooms_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget --></label>
+        <name>Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carpet Quantity --></label>
+        <name>Carpet_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Chairs Quantity --></label>
+        <name>Chairs_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closest Retailer --></label>
+        <name>Closest_Retailer__c</name>
+        <relationshipLabel><!-- Campaigns (Closest Retailer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Closest retailer participating in the event? --></help>
+        <label><!-- Closest retailer participating in the ev --></label>
+        <name>Closest_retailer_participating_in_the_ev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coat Hanger Quantity --></label>
+        <name>Coat_Hanger_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contestant Prizes --></label>
+        <name>Contestant_Prizes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coupon details --></label>
+        <name>Coupon_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Campaign Tactic --></label>
+        <name>DB_Campaign_Tactic__c</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Seminars</masterLabel>
+            <translation><!-- Employment Seminars --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Website</masterLabel>
+            <translation><!-- Internal Website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunches</masterLabel>
+            <translation><!-- Lunches --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Banners/Ads</masterLabel>
+            <translation><!-- Online Banners/Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners</masterLabel>
+            <translation><!-- Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Advertisement</masterLabel>
+            <translation><!-- Print Advertisement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation><!-- Public Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Call Down</masterLabel>
+            <translation><!-- Sales Call Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinars</masterLabel>
+            <translation><!-- Webinars --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Displaying Product --></label>
+        <name>Displaying_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electrical Quantity --></label>
+        <name>Electrical_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Start Date --></label>
+        <name>Event_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event End Date --></label>
+        <name>Event_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feed Credit details --></label>
+        <name>Feed_Credit_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hotel Preference --></label>
+        <name>Hotel_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Best Availible</masterLabel>
+            <translation><!-- Best Availible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Embassy</masterLabel>
+            <translation><!-- Embassy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hilton</masterLabel>
+            <translation><!-- Hilton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Holiday Inn</masterLabel>
+            <translation><!-- Holiday Inn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marriot</masterLabel>
+            <translation><!-- Marriot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hotel Required --></label>
+        <name>Hotel_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- If feed will be provided for this event, list product names and quantities --></help>
+        <label><!-- If feed will be provided for this event, --></label>
+        <name>If_feed_will_be_provided_for_this_event__c</name>
+    </fields>
+    <fields>
+        <help><!-- If there is a prize drawing indicate details --></help>
+        <label><!-- If there is a prize drawing indicate det --></label>
+        <name>If_there_is_a_prize_drawing_indicate_det__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Invite --></label>
+        <name>Meeting_Invite__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Room Requirements --></label>
+        <name>Meeting_Room_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meeting Type --></label>
+        <name>Meeting_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dealer</masterLabel>
+            <translation><!-- Dealer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elk River</masterLabel>
+            <translation><!-- Elk River --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Only</masterLabel>
+            <translation><!-- Sales Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name Tags --></label>
+        <name>Name_Tags__c</name>
+        <picklistValues>
+            <masterLabel>Adhesive</masterLabel>
+            <translation><!-- Adhesive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clip on</masterLabel>
+            <translation><!-- Clip on --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lanyard</masterLabel>
+            <translation><!-- Lanyard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Number of Meeting Attendees --></label>
+        <name>Number_of_Meeting_Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Meeting Rooms Required --></label>
+        <name>Number_of_Meeting_Rooms_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Padding Quantity --></label>
+        <name>Padding_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Premium Giveaways --></label>
+        <name>Premium_Giveaways__c</name>
+    </fields>
+    <fields>
+        <label><!-- Print Ad --></label>
+        <name>Print_Ad__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Group --></label>
+        <name>Project_Group__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Promotion details --></label>
+        <name>Promotion_details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public Service Announcement --></label>
+        <name>Public_Service_Announcement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Check Payment --></label>
+        <name>Request_Check_Payment__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sleeping Rooms Required --></label>
+        <name>Sleeping_Rooms_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation><!-- Beef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horse</masterLabel>
+            <translation><!-- Horse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrena Full Farm</masterLabel>
+            <translation><!-- Nutrena Full Farm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet</masterLabel>
+            <translation><!-- Pet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry</masterLabel>
+            <translation><!-- Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show</masterLabel>
+            <translation><!-- Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wildlife</masterLabel>
+            <translation><!-- Wildlife --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sponsorship Approved --></label>
+        <name>Sponsorship_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sponsorship Benefit --></label>
+        <name>Sponsorship_Benefit__c</name>
+        <picklistValues>
+            <masterLabel>Coupon</masterLabel>
+            <translation><!-- Coupon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feed Credit</masterLabel>
+            <translation><!-- Feed Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotion</masterLabel>
+            <translation><!-- Promotion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sponsorship Level --></label>
+        <name>Sponsorship_Level__c</name>
+        <picklistValues>
+            <masterLabel>Baxter</masterLabel>
+            <translation><!-- Baxter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonya</masterLabel>
+            <translation><!-- Sonya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern States</masterLabel>
+            <translation><!-- Southern States --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sponsorship Name --></label>
+        <name>Sponsorship_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staff Needed per day --></label>
+        <name>Staff_Needed_per_day__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dealer</masterLabel>
+            <translation><!-- Dealer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elk River</masterLabel>
+            <translation><!-- Elk River --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local</masterLabel>
+            <translation><!-- Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization</masterLabel>
+            <translation><!-- Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Only</masterLabel>
+            <translation><!-- Sales Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tables Quantity --></label>
+        <name>Tables_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Address --></label>
+        <name>Tradeshow_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Approved? --></label>
+        <name>Tradeshow_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Contact Email --></label>
+        <name>Tradeshow_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Contact Name --></label>
+        <name>Tradeshow_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Contact Phone --></label>
+        <name>Tradeshow_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Tote Bags --></label>
+        <name>Tradeshow_Tote_Bags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tradeshow Type --></label>
+        <name>Tradeshow_Type__c</name>
+        <picklistValues>
+            <masterLabel>Local</masterLabel>
+            <translation><!-- Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National</masterLabel>
+            <translation><!-- National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Video Screen Commercial --></label>
+        <name>Video_Screen_Commercial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip --></label>
+        <name>Zip__c</name>
+    </fields>
+    <layouts>
+        <layout>Meeting Campaign Layout</layout>
+        <sections>
+            <label><!-- Meeting Cost --></label>
+            <section>Meeting Cost</section>
+        </sections>
+        <sections>
+            <label><!-- Meeting Information --></label>
+            <section>Meeting Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sponsorship Campaign Layout</layout>
+        <sections>
+            <label><!-- Sponsorship Budget --></label>
+            <section>Sponsorship Budget</section>
+        </sections>
+        <sections>
+            <label><!-- Sponsorship Information --></label>
+            <section>Sponsorship Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tradeshow Campaign Layout</layout>
+        <sections>
+            <label><!-- Prize Information --></label>
+            <section>Prize Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sponsorship Information --></label>
+            <section>Sponsorship Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tradeshow Budget --></label>
+            <section>Tradeshow Budget</section>
+        </sections>
+        <sections>
+            <label><!-- Tradeshow Information --></label>
+            <section>Tradeshow Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Use this Record Type to create a Meeting type of Campaign --></description>
+        <label><!-- Meeting --></label>
+        <name>Meeting</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record Type to create a Sponsorship type of Campaign --></description>
+        <label><!-- Sponsorship --></label>
+        <name>Sponsorship</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Record Type to create a Tradeshow type of Campaign --></description>
+        <label><!-- Tradeshow --></label>
+        <name>Tradeshow</name>
+    </recordTypes>
+    <webLinks>
+        <label>Wszyscy uczestnicy kampanii marketingowej</label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label>Raport oddziaływania kampanii marketingowej</label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+</CustomObjectTranslation>

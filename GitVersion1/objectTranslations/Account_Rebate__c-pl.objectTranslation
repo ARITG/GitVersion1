@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy - podpunkty</value>
+    </caseValues>
+    <fields>
+        <label>Konto</label>
+        <name>Account__c</name>
+        <relationshipLabel>Wniosek rabatowy (odbiorca)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nr płatnika w Axapcie</label>
+        <name>ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa płatnika</label>
+        <name>Parent_Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nr płatnika w Axapcie</label>
+        <name>Parent_ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label>Wniosek rabatowy</label>
+        <name>Rebate_Request__c</name>
+        <relationshipLabel>Wniosek rabatowy (odbiorca)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nr odbiorcy w Axapcie</label>
+        <name>Ship_To_Account_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Account Rebate Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Account Rebate Name --></nameFieldLabel>
+</CustomObjectTranslation>

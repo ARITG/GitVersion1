@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>US_Noah_Dennis_Aiden_Visit_Report</fullName>
+        <description>Defines the fields needed for the US (Noah/Dennis/Aiden) Visit Report.</description>
+        <displayedFields>
+            <field>Training_Scheduled__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Complaint_Raised__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>US - Noah/Dennis/Aiden - Visit Report</label>
+    </fieldSets>
+    <fields>
+        <fullName>Complaint_Raised__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Complaint Raised</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Event ID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Call_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>External Call Notes</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>External_Event_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Event Id</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Internal_Call_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Call Notes</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Line__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Line</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aquaculture</fullName>
+                    <default>false</default>
+                    <label>Aquaculture</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pork</fullName>
+                    <default>false</default>
+                    <label>Pork</label>
+                </value>
+                <value>
+                    <fullName>Poultry</fullName>
+                    <default>false</default>
+                    <label>Poultry</label>
+                </value>
+                <value>
+                    <fullName>Ruminants</fullName>
+                    <default>false</default>
+                    <label>Ruminants</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Related_Event__c</fullName>
+        <externalId>false</externalId>
+        <label>Related Event</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Segment</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Noah</fullName>
+                    <default>false</default>
+                    <label>Noah</label>
+                </value>
+                <value>
+                    <fullName>Baxter</fullName>
+                    <default>false</default>
+                    <label>Baxter</label>
+                </value>
+                <value>
+                    <fullName>Dennis</fullName>
+                    <default>false</default>
+                    <label>Dennis</label>
+                </value>
+                <value>
+                    <fullName>Sonya</fullName>
+                    <default>false</default>
+                    <label>Sonya</label>
+                </value>
+                <value>
+                    <fullName>Kobe</fullName>
+                    <default>false</default>
+                    <label>Kobe</label>
+                </value>
+                <value>
+                    <fullName>Walton</fullName>
+                    <default>false</default>
+                    <label>Walton</label>
+                </value>
+                <value>
+                    <fullName>Spence</fullName>
+                    <default>false</default>
+                    <label>Spence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Training_Scheduled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Training Scheduled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Visit Report</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Event_ID__c</columns>
+        <columns>Related_Event__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>External_Call_Notes__c</columns>
+        <columns>Internal_Call_Notes__c</columns>
+        <columns>Product_Line__c</columns>
+        <columns>Segment__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Product_Line__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Doug - External Event Id</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>All_Integration_Mobile</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Event_ID__c</columns>
+        <columns>Related_Event__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>External_Call_Notes__c</columns>
+        <columns>Internal_Call_Notes__c</columns>
+        <columns>External_Event_Id__c</columns>
+        <columns>External_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Integration Mobile</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>My</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>Event_ID__c</columns>
+        <columns>Related_Event__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>External_Call_Notes__c</columns>
+        <columns>Internal_Call_Notes__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>VR-{0000}</displayFormat>
+        <label>Visit Report ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Visit Reports</pluralLabel>
+    <searchLayouts>
+        <listViewButtons>Mass_Delete</listViewButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Mass_Delete</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Mass Delete</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/9.0/connection.js&quot;)} 
+
+var records = {!GETRECORDIDS( $ObjectType.Visit_Report__c )}; 
+
+
+if (records[0] == null) { 
+alert(&quot;Please select at least one record.&quot;) } 
+else { 
+
+var errors = []; 
+var result = sforce.connection.deleteIds(records); 
+if (result &amp;&amp; result.length){ 
+var numFailed = 0; 
+var numSucceeded = 0; 
+for (var i = 0; i &lt; result.length; i++){ 
+var res = result[i]; 
+if (res &amp;&amp; res.success == &apos;true&apos;){ 
+numSucceeded++; 
+} else { 
+var es = res.getArray(&quot;errors&quot;); 
+if (es.length &gt; 0) { 
+errors.push(es[0].message); 
+} 
+numFailed++; 
+} 
+} 
+if (numFailed &gt; 0){ 
+alert(&quot;Failed: &quot; + numFailed + &quot;\nSucceeded: &quot; + numSucceeded + &quot; \n Due to: &quot; + errors.join(&quot;\n&quot;)); 
+} else { 
+alert(&quot;Number of records deleted: &quot; + numSucceeded); 
+} 
+} 
+window.location.reload(); 
+}</url>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1 week before estimated closed date for opportunity (Chile)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Chile Opportunity Email Alert</name>
+    <style>none</style>
+    <subject>1 semana antes de la fecha estimada de cierre</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

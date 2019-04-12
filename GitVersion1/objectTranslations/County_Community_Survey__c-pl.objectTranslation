@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Ankieta segm. Powiaty</value>
+    </caseValues>
+    <fields>
+        <label>Powiązanie z ankietą (nie edytować)</label>
+        <name>Community_of_Account_Activity_Area__c</name>
+        <relationshipLabel><!-- County-Community-Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nazwa powiązanej gminy</label>
+        <name>Related_Community_Name__c</name>
+    </fields>
+    <fields>
+        <label>Wyszukaj gminę</label>
+        <name>Related_Community__c</name>
+        <relationshipLabel>Powiązanie z gminami</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Nazwa powiązanego powiatu</label>
+        <name>Related_County_Name__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa powiązanego województwa</label>
+        <name>Related_District_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>County-Community-Survey Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- County-Survey Name --></nameFieldLabel>
+</CustomObjectTranslation>

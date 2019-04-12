@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Business</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Philippines</fullName>
+                    <default>false</default>
+                    <label>Philippines</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Channel__c</fullName>
+        <externalId>false</externalId>
+        <label>Channel</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Business__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>B2C</fullName>
+                    <default>false</default>
+                    <label>B2C</label>
+                </value>
+                <value>
+                    <fullName>B2B</fullName>
+                    <default>false</default>
+                    <label>B2B</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Dossche</fullName>
+                    <default>false</default>
+                    <label>Dossche</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Brazil</controllingFieldValue>
+                <controllingFieldValue>Canada</controllingFieldValue>
+                <controllingFieldValue>France</controllingFieldValue>
+                <controllingFieldValue>Netherlands</controllingFieldValue>
+                <controllingFieldValue>Philippines</controllingFieldValue>
+                <controllingFieldValue>Poland</controllingFieldValue>
+                <controllingFieldValue>US</controllingFieldValue>
+                <controllingFieldValue>Vietnam</controllingFieldValue>
+                <valueName>N/A</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poland</controllingFieldValue>
+                <valueName>B2C</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poland</controllingFieldValue>
+                <valueName>B2B</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poland</controllingFieldValue>
+                <valueName>All</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContentSize</fullName>
+    </fields>
+    <fields>
+        <fullName>CurrencyIsoCode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>FileExtension</fullName>
+    </fields>
+    <fields>
+        <fullName>FileType</fullName>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product_Line_Species__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cattle - Beef</fullName>
+                    <default>false</default>
+                    <label>Cattle - Beef</label>
+                </value>
+                <value>
+                    <fullName>Equine</fullName>
+                    <default>false</default>
+                    <label>Equine</label>
+                </value>
+                <value>
+                    <fullName>Fish</fullName>
+                    <default>false</default>
+                    <label>Fish</label>
+                </value>
+                <value>
+                    <fullName>Game Animals</fullName>
+                    <default>false</default>
+                    <label>Game Animals</label>
+                </value>
+                <value>
+                    <fullName>Layers</fullName>
+                    <default>false</default>
+                    <label>Layers</label>
+                </value>
+                <value>
+                    <fullName>Meat Poultry</fullName>
+                    <default>false</default>
+                    <label>Meat Poultry</label>
+                </value>
+                <value>
+                    <fullName>Multi-Species</fullName>
+                    <default>false</default>
+                    <label>Multi-Species</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other - Aqua</fullName>
+                    <default>false</default>
+                    <label>Other - Aqua</label>
+                </value>
+                <value>
+                    <fullName>Pet Food</fullName>
+                    <default>false</default>
+                    <label>Pet Food</label>
+                </value>
+                <value>
+                    <fullName>Piglets</fullName>
+                    <default>false</default>
+                    <label>Piglets</label>
+                </value>
+                <value>
+                    <fullName>Rabbit</fullName>
+                    <default>false</default>
+                    <label>Rabbit</label>
+                </value>
+                <value>
+                    <fullName>Shrimp</fullName>
+                    <default>false</default>
+                    <label>Shrimp</label>
+                </value>
+                <value>
+                    <fullName>Small Ruminants</fullName>
+                    <default>false</default>
+                    <label>Small Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Sows &amp; Hogs</fullName>
+                    <default>false</default>
+                    <label>Sows &amp; Hogs</label>
+                </value>
+                <value>
+                    <fullName>Cattle - Dairy</fullName>
+                    <default>false</default>
+                    <label>Cattle - Dairy</label>
+                </value>
+                <value>
+                    <fullName>Common Wheat</fullName>
+                    <default>false</default>
+                    <label>Common Wheat</label>
+                </value>
+                <value>
+                    <fullName>Rye</fullName>
+                    <default>false</default>
+                    <label>Rye</label>
+                </value>
+                <value>
+                    <fullName>Durum Wheat</fullName>
+                    <default>false</default>
+                    <label>Durum Wheat</label>
+                </value>
+                <value>
+                    <fullName>Other NHM</fullName>
+                    <default>false</default>
+                    <label>Other NHM</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Pork</controllingFieldValue>
+                <valueName>Piglets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pork</controllingFieldValue>
+                <valueName>Sows &amp; Hogs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry</controllingFieldValue>
+                <valueName>Layers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry</controllingFieldValue>
+                <valueName>Meat Poultry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poultry</controllingFieldValue>
+                <controllingFieldValue>Other Species</controllingFieldValue>
+                <controllingFieldValue>Leisure</controllingFieldValue>
+                <controllingFieldValue>Non Feed</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminants</controllingFieldValue>
+                <valueName>Cattle - Beef</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminants</controllingFieldValue>
+                <valueName>Small Ruminants</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ruminants</controllingFieldValue>
+                <valueName>Cattle - Dairy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Species</controllingFieldValue>
+                <valueName>Equine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Species</controllingFieldValue>
+                <valueName>Game Animals</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Species</controllingFieldValue>
+                <valueName>Pet Food</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Species</controllingFieldValue>
+                <valueName>Rabbit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Multi - Species</controllingFieldValue>
+                <valueName>Multi-Species</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aquaculture</controllingFieldValue>
+                <valueName>Fish</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aquaculture</controllingFieldValue>
+                <valueName>Other - Aqua</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aquaculture</controllingFieldValue>
+                <valueName>Shrimp</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human</controllingFieldValue>
+                <valueName>Common Wheat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human</controllingFieldValue>
+                <valueName>Rye</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human</controllingFieldValue>
+                <valueName>Durum Wheat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human</controllingFieldValue>
+                <valueName>Other NHM</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsAssetEnabled</fullName>
+    </fields>
+    <fields>
+        <fullName>Language</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Line_Species__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Line (Species)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pork</fullName>
+                    <default>false</default>
+                    <label>Pork</label>
+                </value>
+                <value>
+                    <fullName>Poultry</fullName>
+                    <default>false</default>
+                    <label>Poultry</label>
+                </value>
+                <value>
+                    <fullName>Ruminants</fullName>
+                    <default>false</default>
+                    <label>Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Other Species</fullName>
+                    <default>false</default>
+                    <label>Other Species</label>
+                </value>
+                <value>
+                    <fullName>Multi - Species</fullName>
+                    <default>false</default>
+                    <label>Multi - Species</label>
+                </value>
+                <value>
+                    <fullName>Aquaculture</fullName>
+                    <default>false</default>
+                    <label>Aquaculture</label>
+                </value>
+                <value>
+                    <fullName>Leisure</fullName>
+                    <default>false</default>
+                    <label>Leisure</label>
+                </value>
+                <value>
+                    <fullName>Human</fullName>
+                    <default>false</default>
+                    <label>Human</label>
+                </value>
+                <value>
+                    <fullName>Non Feed</fullName>
+                    <default>false</default>
+                    <label>Non Feed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Promotion__c</fullName>
+        <description>If a content is related to a promotion, please select one from the list.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>To add a promotion to the list, please contact your Crescendo administrator.</inlineHelpText>
+        <label>Promotion</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Extender 2016.03 (Poland)</fullName>
+                    <default>false</default>
+                    <label>Extender 2016.03 (Poland)</label>
+                </value>
+                <value>
+                    <fullName>PF Favorit 2016.04.27</fullName>
+                    <default>false</default>
+                    <label>PF Favorit 2016.04.27</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SharingOption</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>SharingPrivacy</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TagCsv</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <searchLayouts>
+        <searchResultsAdditionalFields>VERSION.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.CONTENT_SIZE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.FILE_EXTENSION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>VERSION.OWNER</searchResultsAdditionalFields>
+    </searchLayouts>
+</CustomObject>

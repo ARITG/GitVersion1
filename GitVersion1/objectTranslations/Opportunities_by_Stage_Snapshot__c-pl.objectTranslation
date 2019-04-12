@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Opportunities by Stage Snapshot --></value>
+    </caseValues>
+    <fields>
+        <label>Nazwa konta</label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label>Data zamknięcia</label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa okazji biznesowej</label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label>Właściciel</label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <label>Etap</label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label>Wartość</label>
+        <name>Value__c</name>
+    </fields>
+    <fields>
+        <label>Wolumen</label>
+        <name>Volume__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <nameFieldLabel><!-- Opportunities by Stage Snapshot Name --></nameFieldLabel>
+</CustomObjectTranslation>

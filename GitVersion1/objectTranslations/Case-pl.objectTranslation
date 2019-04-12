@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Zgłoszenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Zgłoszenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Zgłoszenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Zgłoszenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Zgłoszenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Zgłoszenia</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Zgłoszeniu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Zgloszeniom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Zgłoszeniem</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Zgłoszeniami</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Zgłoszeniu</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Zgłoszeniom</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Vocative</caseType>
+        <plural>false</plural>
+        <value>Zgłoszenie</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Vocative</caseType>
+        <plural>true</plural>
+        <value>Zgłoszenia</value>
+    </caseValues>
+    <fields>
+        <label>Zgłaszający użytkownik</label>
+        <name>Author__c</name>
+        <relationshipLabel>Zgłaszający użytkownik</relationshipLabel>
+    </fields>
+    <fields>
+        <label>BU</label>
+        <name>Business__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - India</masterLabel>
+            <translation><!-- CPN - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franklinton</masterLabel>
+            <translation><!-- Franklinton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Case (All Countries)</masterLabel>
+            <translation><!-- Global Case (All Countries) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surrey</masterLabel>
+            <translation><!-- Surrey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Case Age in Hrs --></label>
+        <name>Case_Age_in_Hrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Close Reason --></label>
+        <name>Case_Close_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Logistics Complaint</masterLabel>
+            <translation><!-- Logistics Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer PO</masterLabel>
+            <translation><!-- New Customer PO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Complaint</masterLabel>
+            <translation><!-- Other Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PO Follow Up</masterLabel>
+            <translation><!-- PO Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Quality Complaint</masterLabel>
+            <translation><!-- Product Quality Complaint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product or Price Inquiry</masterLabel>
+            <translation><!-- Product or Price Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Support</masterLabel>
+            <translation><!-- Technical Support --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kategoria</label>
+        <name>Categories__c</name>
+        <picklistValues>
+            <masterLabel>Account</masterLabel>
+            <translation>Konta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activities</masterLabel>
+            <translation>Aktywności</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BI Reports</masterLabel>
+            <translation>Raporty BI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatter</masterLabel>
+            <translation>Chatter</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contacts</masterLabel>
+            <translation>Kontakty</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer 360</masterLabel>
+            <translation>Widok 360</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Device</masterLabel>
+            <translation>Smarftfon</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New User | Change | Roles etc.</masterLabel>
+            <translation>Nowy użytkownik | Zmiana | Role etc.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity</masterLabel>
+            <translation>Okazje Biznesowe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Pozostałe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC Outlook | Riva</masterLabel>
+            <translation>PC Outlook | Riva Synchr.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports &amp; Dasboards</masterLabel>
+            <translation>Raporty i Pulpity</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requests</masterLabel>
+            <translation>Wnioski</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFDC Admin Tools | Work Org</masterLabel>
+            <translation>Narzędzia SFDC dla Admin. | Organizacja pracy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce1 (Mobile)</masterLabel>
+            <translation>Salesforce1 na Smartfonie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation>Bezpieczeństwo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Settings | Configuration</masterLabel>
+            <translation>Ustawienia | Konfiguracja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>Szkolenia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translation</masterLabel>
+            <translation>Tłumaczenia</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Widok 360</label>
+        <name>Customer_360__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Address --></label>
+        <name>Email_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Reason --></label>
+        <name>Other_Reason__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <quickActions>
+        <label><!-- Change Status --></label>
+        <name>Change_Status</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- CQN NA --></label>
+        <name>CQN_NA</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please select reason. --></errorMessage>
+        <name>CaseClsoeReasonRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter Other Reason --></errorMessage>
+        <name>Other_Reason_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select your BU = &quot;Poland&quot;. Proszę wybrać BU równy &quot;Poland&quot;. --></errorMessage>
+        <name>Polish_Profile_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field is updated only when Case close reason is selected as Other. --></errorMessage>
+        <name>Restrict_Other_Reason</name>
+    </validationRules>
+    <webLinks>
+        <label>Aplikacja Conga</label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label>Aplikacja Conga</label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

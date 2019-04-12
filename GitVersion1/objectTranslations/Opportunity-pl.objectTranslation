@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Okazja biznesowa</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Okazje biznesowe</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Okazją biznesową</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Okazje biznesowe</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Okazji biznesowej</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Okazji biznesowych</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Okazji biznesowej</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Okazjom biznesowym</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Okazją biznesową</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Okazjami biznesowymi</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Okazji biznesowej</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Okazjach biznesowych</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Vocative</caseType>
+        <plural>false</plural>
+        <value>Szansa sprzedażowa</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Vocative</caseType>
+        <plural>true</plural>
+        <value>Szanse sprzedażowe</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Opportunity_FS_C360 --></label>
+        <name>Opportunity_FS_C360</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>false</plural>
+            <value>Właściciela okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Accusative</caseType>
+            <plural>true</plural>
+            <value>Właścicieli okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>false</plural>
+            <value>Właściciela okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Genitive</caseType>
+            <plural>true</plural>
+            <value>Właścicieli okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>false</plural>
+            <value>Właścicielem okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Instrumental</caseType>
+            <plural>true</plural>
+            <value>Właścicielami okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Locative</caseType>
+            <plural>false</plural>
+            <value>Właścicielu okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Locative</caseType>
+            <plural>true</plural>
+            <value>Właścicielach okazji biznesowej</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>false</plural>
+            <value>Wiek okazji biznesowej (dni)</value>
+        </caseValues>
+        <caseValues>
+            <caseType>Nominative</caseType>
+            <plural>true</plural>
+            <value>Wiek okazji biznesowej (dni)</value>
+        </caseValues>
+        <gender>AnimateMasculine</gender>
+        <name>opportunity_owner</name>
+    </fields>
+    <fields>
+        <label>Informacje dodatkowe</label>
+        <name>Additional_Information__c</name>
+    </fields>
+    <fields>
+        <label>Data początku alarmu</label>
+        <name>Alert_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label>Rozwiązanie biznesowe</label>
+        <name>Business_Solution__c</name>
+    </fields>
+    <fields>
+        <label>BU</label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation>Brazylia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation>Kanada</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation>CPN - Francja</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation>Holandia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation>Filipiny</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation>Polska</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>Stany Zjednoczone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation>Wietnam</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question St. 1 --></label>
+        <name>CSEF_Question_St_1_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 1</label>
+        <name>CSEF_Question_St_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 2 --></label>
+        <name>CSEF_Question_St_2_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 2</label>
+        <name>CSEF_Question_St_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 3 --></label>
+        <name>CSEF_Question_St_3_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 3</label>
+        <name>CSEF_Question_St_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 4 --></label>
+        <name>CSEF_Question_St_4_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 4</label>
+        <name>CSEF_Question_St_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 5 --></label>
+        <name>CSEF_Question_St_5_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 5</label>
+        <name>CSEF_Question_St_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 6 --></label>
+        <name>CSEF_Question_St_6_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Pytanie Etap 6</label>
+        <name>CSEF_Question_St_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 1 --></label>
+        <name>CSEF_Success_Factor_St_1_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 1</label>
+        <name>CSEF_Success_Factor_St_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 2 --></label>
+        <name>CSEF_Success_Factor_St_2_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 2</label>
+        <name>CSEF_Success_Factor_St_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 3 --></label>
+        <name>CSEF_Success_Factor_St_3_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 3</label>
+        <name>CSEF_Success_Factor_St_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 4 --></label>
+        <name>CSEF_Success_Factor_St_4_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 4</label>
+        <name>CSEF_Success_Factor_St_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 5 --></label>
+        <name>CSEF_Success_Factor_St_5_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 5</label>
+        <name>CSEF_Success_Factor_St_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 6 --></label>
+        <name>CSEF_Success_Factor_St_6_Eng__c</name>
+    </fields>
+    <fields>
+        <label>CSEF Czynniki sukcesu Etap 6</label>
+        <name>CSEF_Success_Factor_St_6__c</name>
+    </fields>
+    <fields>
+        <label>Faktyczna data zamknięcia</label>
+        <name>Close_Date_Actual__c</name>
+    </fields>
+    <fields>
+        <label>Flaga daty zamknięcia</label>
+        <name>Close_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label>Warunki</label>
+        <name>Conditions__c</name>
+    </fields>
+    <fields>
+        <label>Kwota na tonę</label>
+        <name>Contribution__c</name>
+    </fields>
+    <fields>
+        <label>Warunki kredytowe | finansowania</label>
+        <name>Credit__c</name>
+    </fields>
+    <fields>
+        <label>Baza Konkurentów</label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation>Konkurent A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation>Konkurent B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation>Konkurent C</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Data ostatniego przypomnienia emailowego</label>
+        <name>Date_of_last_email_reminder__c</name>
+    </fields>
+    <fields>
+        <label>Dni pomiędzy alertami emailowymi</label>
+        <name>Days_Between_Email_Alerts__c</name>
+    </fields>
+    <fields>
+        <label>Dni pozostałych do zamknięcia</label>
+        <name>Days_remaining_until_close_date__c</name>
+    </fields>
+    <fields>
+        <label>Za i przeciw</label>
+        <name>Do_s_Don_ts__c</name>
+    </fields>
+    <fields>
+        <label>Czy wysyłać alert emailowy?</label>
+        <name>Email_reminder_sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event End DateTime --></label>
+        <name>Event_End_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event External Notes --></label>
+        <name>Event_External_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Internal Notes --></label>
+        <name>Event_Internal_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Start DateTime --></label>
+        <name>Event_Start_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Subject --></label>
+        <name>Event_Subject__c</name>
+    </fields>
+    <fields>
+        <label>Koszty szansy [całkowite, cykliczne]</label>
+        <name>Expected_Expense__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label>Cel</label>
+        <name>Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- IOMC --></label>
+        <name>IOMC__c</name>
+    </fields>
+    <fields>
+        <label><!-- IOMM --></label>
+        <name>IOMM__c</name>
+    </fields>
+    <fields>
+        <label>Opis metody</label>
+        <name>Method_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile First --></label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label>Liczba zwierząt</label>
+        <name>Number_of_Animals__c</name>
+    </fields>
+    <fields>
+        <label>Wiek okazji biznesowej (dni)</label>
+        <name>Opportunity_Age__c</name>
+    </fields>
+    <fields>
+        <label>Analiza szansy - pytania</label>
+        <name>Opportunity_Assessment_Questions__c</name>
+    </fields>
+    <fields>
+        <label>Inne potrzebne zasoby</label>
+        <name>Other_Resources_Needed__c</name>
+    </fields>
+    <fields>
+        <label>Inne</label>
+        <name>Other_won_lost_reason__c</name>
+    </fields>
+    <fields>
+        <label>Rola właściciela</label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label>Rola menadżera właściciela</label>
+        <name>Owner_s_Manager_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label>Wyniki</label>
+        <name>Performance__c</name>
+    </fields>
+    <fields>
+        <label>Cena</label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label>Oferta produktowa</label>
+        <name>Product_Portfolio__c</name>
+    </fields>
+    <fields>
+        <label>Jakość</label>
+        <name>Quality__c</name>
+    </fields>
+    <fields>
+        <label>Szukaj klienta</label>
+        <name>Search_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment (Step 1) --></label>
+        <name>Segment_Step_1__c</name>
+    </fields>
+    <fields>
+        <label>Obsługa klienta</label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation>Aquaculture</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation>Bydło mięsne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation>Broiler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation>Krowy Mleczne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation>Kaczki</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation>Konie Rekreacyjne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation>Kozy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation>Surowce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation>Nioska Konsumpcyjna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk Replacers</masterLabel>
+            <translation>Preparaty Mlekozastępcze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Pozostałe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation>Drób</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation>Pet Food</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation>Trzoda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation>Króliki</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation>Owce</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation>Małe Przeżuwacze</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation>Dodatki Specjalistyczne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation>Indyiki</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Łączna Marża Brutto [PLN]</label>
+        <name>Total_Margin__c</name>
+    </fields>
+    <fields>
+        <label>Jednostki miary (wolumen)</label>
+        <name>UOM_Volume__c</name>
+        <picklistValues>
+            <masterLabel>CFE</masterLabel>
+            <translation><!-- CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Items</masterLabel>
+            <translation>Sztuki</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tons</masterLabel>
+            <translation>Tony</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Jednostki miary (marża)</label>
+        <name>Unit_of_Measure_Margin__c</name>
+        <picklistValues>
+            <masterLabel>CCOM</masterLabel>
+            <translation><!-- CCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GM</masterLabel>
+            <translation>GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOMC</masterLabel>
+            <translation><!-- IOMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points</masterLabel>
+            <translation><!-- Points --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Kluczowe elementy wartości</label>
+        <name>Value_Driver__c</name>
+        <picklistValues>
+            <masterLabel>CCOM</masterLabel>
+            <translation>CCOM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOMC</masterLabel>
+            <translation>IOMC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume</masterLabel>
+            <translation>Wolumen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Wolumen | m-c [MT]</label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <label>Powód Pozyskania | Utracenia</label>
+        <name>Won_Lost_Reason_Code__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Warunki kredytowe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Pozostałe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation>Wyniki produkcyjne</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Warunki cenowe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation>Jakość produktu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>Obsługa klienta</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Komentarz Pozyskania | Utracenia</label>
+        <name>Won_Lost_Reason_Comment__c</name>
+    </fields>
+    <fields>
+        <label>Pozyskana | Utracona</label>
+        <name>Won_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation>Utracona</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation>Pozyskana</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 9-Box (Step 2) --></label>
+        <name>X9_Box_Step_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>uf__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label>Status dostawy/montażu</label>
+        <name>uf__DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Ukończony</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation>W trakcie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation>Instalacja zaraz się rozpocznie</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>uf__MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>uf__OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>uf__TrackingNumber__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label>Wartość okazji na 1 miesiąc [pole &quot;Kwota&quot;=marża na tonę]</label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label>Powód pozyskania / utraty okazji biznesowej</label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout English</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Effectiveness Framework --></label>
+            <section>Sales Effectiveness Framework</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout Old</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Effectiveness Framework --></label>
+            <section>Sales Effectiveness Framework</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout(CN)</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout(Global)</layout>
+        <sections>
+            <label>Informacje dodatkowe</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Pola</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Wartość okazji biznesowej [ujęcie miesięczne]</label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label>Segmentacja</label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label>Informacje systemowe</label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label>Powody Pozyskania | Utraty okazji biznesowej</label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>Okazje biznesowe</label>
+        <name>Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Szacowana data zamknięcia szansy nie może być z przeszłości</errorMessage>
+        <name>Closed_date_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ten etap nie może być użyty w Polsce.</errorMessage>
+        <name>Do_not_use_Strengthen_stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- External Id cannot be changed. --></errorMessage>
+        <name>External_ID_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Popraw pole BIZNES - trzeba wybrać wartość &quot;Polska&quot; (tymczasowo wartość nie wybiera się automatycznie).</errorMessage>
+        <name>Match_Business_Unit_of_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nie możesz edytować tego pola.</errorMessage>
+        <name>Polish_Profile_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Najniższa wartość to 0.</errorMessage>
+        <name>Reminder_frequency_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Powód Pozyskania | Utraty jest zaznaczony, ale nie zaznaczony czy Pozyskano bądź Utracono okazję.</errorMessage>
+        <name>Won_Lost_PickList_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Musisz wybrać powód pozyskania / utraty szansy sprzedażowej.</errorMessage>
+        <name>Won_Lost_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label>Aplikacja Conga</label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label>Aplikacja Conga</label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label>Proces sprzedażowy Sales Effectiveness PL</label>
+        <name>Cargill_Sales_Framework_Polish</name>
+    </webLinks>
+    <webLinks>
+        <label>Stwórz raport podsumowujący</label>
+        <name>Conga_It</name>
+    </webLinks>
+    <webLinks>
+        <label>Kasuj wiele</label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label>Proces Sprzedaży Cargill SEF</label>
+        <name>Sales_Effectiveness_Framework</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Effectiveness_Framework_French --></label>
+        <name>Sales_Effectiveness_Framework_French</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Close_Date_Reminder</name>
+        <subject><!-- Close Date Reminder --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Estimated_Closed_date_reminder</name>
+        <subject>Przypomnienie o zliżającej się dacie zamknięcia okazji biznesowej.</subject>
+    </workflowTasks>
+</CustomObjectTranslation>

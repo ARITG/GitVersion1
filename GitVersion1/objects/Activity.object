@@ -1,0 +1,2010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ComposeGmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LogCall</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MailMerge</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SendEmail</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ViewAll</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Customer_Status__c</fullName>
+        <description>Value is stamped via Event Trigger</description>
+        <externalId>false</externalId>
+        <label>Account Customer Status</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <description>Account name is stamped via Event Trigger</description>
+        <externalId>false</externalId>
+        <label>Account Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Type__c</fullName>
+        <description>Value Stamped via Event Trigger</description>
+        <externalId>false</externalId>
+        <label>Account Type</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to be populated from event and Account triggers for Weekly Sales Report</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Activity_End_date__c</fullName>
+        <description>This formula is used to fetch end date of an event. It is used in custom report type</description>
+        <externalId>false</externalId>
+        <formula>ActivityDate + ( DurationInMinutes /1440)</formula>
+        <label>Activity End date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Activity_Start_Date__c</fullName>
+        <description>This formula is to fetch the start date of an event. It is used in custom report type</description>
+        <externalId>false</externalId>
+        <formula>ActivityDate</formula>
+        <label>Activity Start Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Request_No__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Approval Request No</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>1 AND 2 AND 3</booleanFilter>
+            <filterItems>
+                <field>Events_for_Approval__c.OwnerId</field>
+                <operation>equals</operation>
+                <valueField>$Source.OwnerId</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Events_for_Approval__c.From__c</field>
+                <operation>lessOrEqual</operation>
+                <valueField>$Source.ActivityDate</valueField>
+            </filterItems>
+            <filterItems>
+                <field>Events_for_Approval__c.To__c</field>
+                <operation>greaterOrEqual</operation>
+                <valueField>$Source.ActivityDate</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Events_for_Approval__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Approval_Request_No__r.Status__c)</formula>
+        <label>Approval Status</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For approval process - state when approved by manager.</description>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Business_Unit__c</fullName>
+        <externalId>false</externalId>
+        <label>Business</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CPN - France</fullName>
+                    <default>false</default>
+                    <label>CPN - France</label>
+                </value>
+                <value>
+                    <fullName>Brazil</fullName>
+                    <default>false</default>
+                    <label>Brazil</label>
+                </value>
+                <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
+                    <fullName>Canada</fullName>
+                    <default>false</default>
+                    <label>Canada</label>
+                </value>
+                <value>
+                    <fullName>Netherlands</fullName>
+                    <default>false</default>
+                    <label>Netherlands</label>
+                </value>
+                <value>
+                    <fullName>Poland</fullName>
+                    <default>false</default>
+                    <label>Poland</label>
+                </value>
+                <value>
+                    <fullName>France</fullName>
+                    <default>false</default>
+                    <label>France</label>
+                </value>
+                <value>
+                    <fullName>India</fullName>
+                    <default>false</default>
+                    <label>India</label>
+                </value>
+                <value>
+                    <fullName>Mexico</fullName>
+                    <default>false</default>
+                    <label>Mexico</label>
+                </value>
+                <value>
+                    <fullName>Russia</fullName>
+                    <default>false</default>
+                    <label>Russia</label>
+                </value>
+                <value>
+                    <fullName>South Africa</fullName>
+                    <default>false</default>
+                    <label>South Africa</label>
+                </value>
+                <value>
+                    <fullName>Italy</fullName>
+                    <default>false</default>
+                    <label>Italy</label>
+                </value>
+                <value>
+                    <fullName>Spain</fullName>
+                    <default>false</default>
+                    <label>Spain</label>
+                </value>
+                <value>
+                    <fullName>Korea</fullName>
+                    <default>false</default>
+                    <label>Korea</label>
+                </value>
+                <value>
+                    <fullName>CQN - Canada</fullName>
+                    <default>false</default>
+                    <label>CQN - Canada</label>
+                </value>
+                <value>
+                    <fullName>CQN - US</fullName>
+                    <default>false</default>
+                    <label>CQN - US</label>
+                </value>
+                <value>
+                    <fullName>Spain Mila</fullName>
+                    <default>false</default>
+                    <label>Spain Mila</label>
+                </value>
+                <value>
+                    <fullName>CPN - India</fullName>
+                    <default>false</default>
+                    <label>CPN - India</label>
+                </value>
+                <value>
+                    <fullName>CPN - Poland</fullName>
+                    <default>false</default>
+                    <label>CPN - Poland</label>
+                </value>
+                <value>
+                    <fullName>CFN - China</fullName>
+                    <default>false</default>
+                    <label>CFN - China</label>
+                </value>
+                <value>
+                    <fullName>Vietnam</fullName>
+                    <default>false</default>
+                    <label>Vietnam</label>
+                </value>
+                <value>
+                    <fullName>Chile</fullName>
+                    <default>false</default>
+                    <label>Chile</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Call_Notes_Updated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Call Notes Updated</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cancelled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cancelled</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Claim_Complaint__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Claim/Complaint</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Class</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Group__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>All Piglets</fullName>
+                    <default>false</default>
+                    <label>All Piglets</label>
+                </value>
+                <value>
+                    <fullName>Breeding Herd</fullName>
+                    <default>false</default>
+                    <label>Breeding Herd</label>
+                </value>
+                <value>
+                    <fullName>Chicken</fullName>
+                    <default>false</default>
+                    <label>Chicken</label>
+                </value>
+                <value>
+                    <fullName>All Dairy</fullName>
+                    <default>false</default>
+                    <label>All Dairy</label>
+                </value>
+                <value>
+                    <fullName>Dog</fullName>
+                    <default>false</default>
+                    <label>Dog</label>
+                </value>
+                <value>
+                    <fullName>Ducks</fullName>
+                    <default>false</default>
+                    <label>Ducks</label>
+                </value>
+                <value>
+                    <fullName>All Equine</fullName>
+                    <default>false</default>
+                    <label>All Equine</label>
+                </value>
+                <value>
+                    <fullName>Feedlot</fullName>
+                    <default>false</default>
+                    <label>Feedlot</label>
+                </value>
+                <value>
+                    <fullName>Hogs</fullName>
+                    <default>false</default>
+                    <label>Hogs</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>All Rabbit</fullName>
+                    <default>false</default>
+                    <label>All Rabbit</label>
+                </value>
+                <value>
+                    <fullName>Sheep</fullName>
+                    <default>false</default>
+                    <label>Sheep</label>
+                </value>
+                <value>
+                    <fullName>Turkeys</fullName>
+                    <default>false</default>
+                    <label>Turkeys</label>
+                </value>
+                <value>
+                    <fullName>Chicken Layers</fullName>
+                    <default>false</default>
+                    <label>Chicken Layers</label>
+                </value>
+                <value>
+                    <fullName>Other Ruminants</fullName>
+                    <default>false</default>
+                    <label>Other Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Goat</fullName>
+                    <default>false</default>
+                    <label>Goat</label>
+                </value>
+                <value>
+                    <fullName>Cow/calf</fullName>
+                    <default>false</default>
+                    <label>Cow/calf</label>
+                </value>
+                <value>
+                    <fullName>All Multispecies</fullName>
+                    <default>false</default>
+                    <label>All Multispecies</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Piglets</controllingFieldValue>
+                <valueName>All Piglets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sow &amp; Hogs</controllingFieldValue>
+                <valueName>Breeding Herd</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sow &amp; Hogs</controllingFieldValue>
+                <valueName>Hogs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sow &amp; Hogs</controllingFieldValue>
+                <controllingFieldValue>Fish</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rabbit</controllingFieldValue>
+                <valueName>All Rabbit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Multispecies</controllingFieldValue>
+                <valueName>All Multispecies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Ruminants</controllingFieldValue>
+                <valueName>Sheep</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Ruminants</controllingFieldValue>
+                <valueName>Other Ruminants</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Ruminants</controllingFieldValue>
+                <valueName>Goat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cattle - Dairy</controllingFieldValue>
+                <valueName>All Dairy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cattle - Beef</controllingFieldValue>
+                <valueName>Feedlot</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cattle - Beef</controllingFieldValue>
+                <valueName>Cow/calf</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Equine</controllingFieldValue>
+                <valueName>All Equine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Layers</controllingFieldValue>
+                <valueName>Chicken Layers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Meat Poultry</controllingFieldValue>
+                <valueName>Chicken</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Meat Poultry</controllingFieldValue>
+                <valueName>Ducks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Meat Poultry</controllingFieldValue>
+                <valueName>Turkeys</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pet Food</controllingFieldValue>
+                <valueName>Dog</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contact_External_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact External Id</label>
+        <length>30</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DB_Activity_Type__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package.  If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>IF(CONTAINS( Subject , &quot;Email&quot;), &quot;Email&quot;, IF(CONTAINS( Subject , &quot;Cold Call&quot;), &quot;Cold Call&quot;, IF(CONTAINS( Subject , &quot;Call&quot;), &quot;Call&quot;, IF(CONTAINS( Subject , &quot;Meeting&quot;), &quot;Meeting&quot;, IF(CONTAINS( Subject , &quot;On Site Visit&quot;), &quot;Site Visit&quot;, IF(CONTAINS( Subject , &quot;Quote&quot;), &quot;Send Letter/Quote&quot;, &quot;Other&quot;))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Activity Type</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Due_Date_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( AND(ActivityDate &lt; Today(), IsTask = TRUE, TEXT(Status) &lt;&gt; &apos;Completed&apos;),IMAGE(&quot;/img/samples/light_red.gif&quot;,&quot;Red&quot;),
+
+IF( AND(ActivityDate &lt; Today(), IsTask = TRUE, TEXT(Status) == &apos;Completed&apos;), IMAGE(&quot;/img/samples/light_yellow.gif&quot;,&quot;Amber&quot;),
+
+IMAGE(&quot;/img/samples/light_green.gif&quot;,&quot;Green&quot;)))</formula>
+        <label>Due Date Flag</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Dummy_Update_Field1__c</fullName>
+        <externalId>false</externalId>
+        <label>Dummy Update Field1</label>
+        <length>100</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Event_Related_To_Accounts__c</fullName>
+        <description>Default value is set to word &quot;Account&quot;</description>
+        <externalId>false</externalId>
+        <label>Event Related To Accounts</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ExternalRecurrenceActivityId__c</fullName>
+        <description>This field is created to hold the Parent Activity Id in case of recurrence Task/Event</description>
+        <externalId>true</externalId>
+        <label>ExternalRecurrenceActivityId</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Account_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Account Id</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Id__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Product_Line__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Cattle - Beef</fullName>
+                    <default>false</default>
+                    <label>Cattle - Beef</label>
+                </value>
+                <value>
+                    <fullName>Equine</fullName>
+                    <default>false</default>
+                    <label>Equine</label>
+                </value>
+                <value>
+                    <fullName>Fish</fullName>
+                    <default>false</default>
+                    <label>Fish</label>
+                </value>
+                <value>
+                    <fullName>Layers</fullName>
+                    <default>false</default>
+                    <label>Layers</label>
+                </value>
+                <value>
+                    <fullName>Meat Poultry</fullName>
+                    <default>false</default>
+                    <label>Meat Poultry</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pet Food</fullName>
+                    <default>false</default>
+                    <label>Pet Food</label>
+                </value>
+                <value>
+                    <fullName>Piglets</fullName>
+                    <default>false</default>
+                    <label>Piglets</label>
+                </value>
+                <value>
+                    <fullName>Rabbit</fullName>
+                    <default>false</default>
+                    <label>Rabbit</label>
+                </value>
+                <value>
+                    <fullName>Small Ruminants</fullName>
+                    <default>false</default>
+                    <label>Small Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Cattle - Dairy</fullName>
+                    <default>false</default>
+                    <label>Cattle - Dairy</label>
+                </value>
+                <value>
+                    <fullName>Sow &amp; Hogs</fullName>
+                    <default>false</default>
+                    <label>Sow &amp; Hogs</label>
+                </value>
+                <value>
+                    <fullName>Multispecies</fullName>
+                    <default>false</default>
+                    <label>Multispecies</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Multispecies</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Small Ruminants</controllingFieldValue>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <controllingFieldValue>Goat</controllingFieldValue>
+                <valueName>Small Ruminants</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Other Poultry</controllingFieldValue>
+                <controllingFieldValue>Specialty</controllingFieldValue>
+                <controllingFieldValue>Ingredient</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Milk replacers</controllingFieldValue>
+                <controllingFieldValue>Pork</controllingFieldValue>
+                <valueName>Piglets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Beef</controllingFieldValue>
+                <valueName>Cattle - Beef</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Dairy</controllingFieldValue>
+                <valueName>Cattle - Dairy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Broiler</controllingFieldValue>
+                <controllingFieldValue>Turkey</controllingFieldValue>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <valueName>Meat Poultry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Layer</controllingFieldValue>
+                <valueName>Layers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Equine</controllingFieldValue>
+                <valueName>Equine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aquaculture</controllingFieldValue>
+                <valueName>Fish</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pork</controllingFieldValue>
+                <valueName>Sow &amp; Hogs</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Rabbit</controllingFieldValue>
+                <valueName>Rabbit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Pet Food</controllingFieldValue>
+                <valueName>Pet Food</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Is_Ready_for_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field to create approval workflow for events.</description>
+        <externalId>false</externalId>
+        <label>Ready for Approval</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_First__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Labyrinth Mobile Sync</description>
+        <externalId>false</externalId>
+        <label>Mobile First</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Role__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Role_Name__c</formula>
+        <label>Owner Role</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_s_Manager_Role_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Manager.Role_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner&apos;s Manager Role Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Function__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Function</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <controllingField>Class__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Breeder</fullName>
+                    <default>false</default>
+                    <label>Breeder</label>
+                </value>
+                <value>
+                    <fullName>Creep</fullName>
+                    <default>false</default>
+                    <label>Creep</label>
+                </value>
+                <value>
+                    <fullName>Dry Cow</fullName>
+                    <default>false</default>
+                    <label>Dry Cow</label>
+                </value>
+                <value>
+                    <fullName>Finisher</fullName>
+                    <default>false</default>
+                    <label>Finisher</label>
+                </value>
+                <value>
+                    <fullName>Grower</fullName>
+                    <default>false</default>
+                    <label>Grower</label>
+                </value>
+                <value>
+                    <fullName>Heifer</fullName>
+                    <default>false</default>
+                    <label>Heifer</label>
+                </value>
+                <value>
+                    <fullName>Lactating Meat</fullName>
+                    <default>false</default>
+                    <label>Lactating Meat</label>
+                </value>
+                <value>
+                    <fullName>Lactation</fullName>
+                    <default>false</default>
+                    <label>Lactation</label>
+                </value>
+                <value>
+                    <fullName>Layer</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pre-Starter</fullName>
+                    <default>false</default>
+                    <label>Pre-Starter</label>
+                </value>
+                <value>
+                    <fullName>Pullet</fullName>
+                    <default>false</default>
+                    <label>Pullet</label>
+                </value>
+                <value>
+                    <fullName>Sow</fullName>
+                    <default>false</default>
+                    <label>Sow</label>
+                </value>
+                <value>
+                    <fullName>Sow Gestation</fullName>
+                    <default>false</default>
+                    <label>Sow Gestation</label>
+                </value>
+                <value>
+                    <fullName>Starter</fullName>
+                    <default>false</default>
+                    <label>Starter</label>
+                </value>
+                <value>
+                    <fullName>Boar</fullName>
+                    <default>false</default>
+                    <label>Boar</label>
+                </value>
+                <value>
+                    <fullName>Milk Replacer</fullName>
+                    <default>false</default>
+                    <label>Milk Replacer</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Grower/Finisher</fullName>
+                    <default>false</default>
+                    <label>Grower/Finisher</label>
+                </value>
+                <value>
+                    <fullName>Milk replacers</fullName>
+                    <default>false</default>
+                    <label>Milk replacers</label>
+                </value>
+                <value>
+                    <fullName>Other Piglet</fullName>
+                    <default>false</default>
+                    <label>Other Piglet</label>
+                </value>
+                <value>
+                    <fullName>Cow Calf</fullName>
+                    <default>false</default>
+                    <label>Cow Calf</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <valueName>Dry Cow</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <controllingFieldValue>Cow/calf</controllingFieldValue>
+                <controllingFieldValue>Hogs</controllingFieldValue>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <controllingFieldValue>Goat</controllingFieldValue>
+                <valueName>Grower</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <valueName>Heifer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <controllingFieldValue>Breeding Herd</controllingFieldValue>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <valueName>Lactation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <controllingFieldValue>Feedlot</controllingFieldValue>
+                <controllingFieldValue>Chicken</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <controllingFieldValue>Turkeys</controllingFieldValue>
+                <controllingFieldValue>Chicken Layers</controllingFieldValue>
+                <controllingFieldValue>Goat</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Dairy</controllingFieldValue>
+                <controllingFieldValue>Cow/calf</controllingFieldValue>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <controllingFieldValue>All Piglets</controllingFieldValue>
+                <controllingFieldValue>Chicken</controllingFieldValue>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <controllingFieldValue>Turkeys</controllingFieldValue>
+                <controllingFieldValue>Goat</controllingFieldValue>
+                <valueName>Starter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Cow/calf</controllingFieldValue>
+                <valueName>Cow Calf</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Multispecies</controllingFieldValue>
+                <controllingFieldValue>Dog</controllingFieldValue>
+                <controllingFieldValue>All Equine</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>All Rabbit</controllingFieldValue>
+                <controllingFieldValue>Other Ruminants</controllingFieldValue>
+                <valueName>All</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <controllingFieldValue>Chicken</controllingFieldValue>
+                <controllingFieldValue>Turkeys</controllingFieldValue>
+                <controllingFieldValue>Chicken Layers</controllingFieldValue>
+                <controllingFieldValue>Goat</controllingFieldValue>
+                <valueName>Breeder</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <controllingFieldValue>All Piglets</controllingFieldValue>
+                <controllingFieldValue>Chicken</controllingFieldValue>
+                <controllingFieldValue>Turkeys</controllingFieldValue>
+                <controllingFieldValue>Chicken Layers</controllingFieldValue>
+                <valueName>Pre-Starter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ducks</controllingFieldValue>
+                <controllingFieldValue>Chicken</controllingFieldValue>
+                <controllingFieldValue>Turkeys</controllingFieldValue>
+                <valueName>Grower/Finisher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Feedlot</controllingFieldValue>
+                <controllingFieldValue>Hogs</controllingFieldValue>
+                <valueName>Finisher</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Piglets</controllingFieldValue>
+                <valueName>Creep</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>All Piglets</controllingFieldValue>
+                <valueName>Milk replacers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Breeding Herd</controllingFieldValue>
+                <valueName>Sow</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Breeding Herd</controllingFieldValue>
+                <valueName>Sow Gestation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Breeding Herd</controllingFieldValue>
+                <valueName>Boar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Breeding Herd</controllingFieldValue>
+                <valueName>Other Piglet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sheep</controllingFieldValue>
+                <valueName>Lactating Meat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chicken Layers</controllingFieldValue>
+                <valueName>Layer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Chicken Layers</controllingFieldValue>
+                <valueName>Pullet</valueName>
+            </valueSettings>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Product_Line__c</fullName>
+        <externalId>false</externalId>
+        <label>Species</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Segment__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pork</fullName>
+                    <default>false</default>
+                    <label>Pork</label>
+                </value>
+                <value>
+                    <fullName>Beef</fullName>
+                    <default>false</default>
+                    <label>Beef</label>
+                </value>
+                <value>
+                    <fullName>Dairy</fullName>
+                    <default>false</default>
+                    <label>Dairy</label>
+                </value>
+                <value>
+                    <fullName>Sheep</fullName>
+                    <default>false</default>
+                    <label>Sheep</label>
+                </value>
+                <value>
+                    <fullName>Goat</fullName>
+                    <default>false</default>
+                    <label>Goat</label>
+                </value>
+                <value>
+                    <fullName>Broiler</fullName>
+                    <default>false</default>
+                    <label>Broiler</label>
+                </value>
+                <value>
+                    <fullName>Layer</fullName>
+                    <default>false</default>
+                    <label>Layer</label>
+                </value>
+                <value>
+                    <fullName>Turkey</fullName>
+                    <default>false</default>
+                    <label>Turkey</label>
+                </value>
+                <value>
+                    <fullName>Ducks</fullName>
+                    <default>false</default>
+                    <label>Ducks</label>
+                </value>
+                <value>
+                    <fullName>Equine</fullName>
+                    <default>false</default>
+                    <label>Equine</label>
+                </value>
+                <value>
+                    <fullName>Rabbit</fullName>
+                    <default>false</default>
+                    <label>Rabbit</label>
+                </value>
+                <value>
+                    <fullName>Pet Food</fullName>
+                    <default>false</default>
+                    <label>Pet Food</label>
+                </value>
+                <value>
+                    <fullName>Aquaculture</fullName>
+                    <default>false</default>
+                    <label>Aquaculture</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Small Ruminants</fullName>
+                    <default>false</default>
+                    <label>Small Ruminants</label>
+                </value>
+                <value>
+                    <fullName>Other Poultry</fullName>
+                    <default>false</default>
+                    <label>Other Poultry</label>
+                </value>
+                <value>
+                    <fullName>Specialty</fullName>
+                    <default>false</default>
+                    <label>Specialty</label>
+                </value>
+                <value>
+                    <fullName>Ingredient</fullName>
+                    <default>false</default>
+                    <label>Ingredient</label>
+                </value>
+                <value>
+                    <fullName>Milk replacers</fullName>
+                    <default>false</default>
+                    <label>Milk replacers</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Pork</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Beef</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Dairy</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Sheep</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Goat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Broiler</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Layer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Turkey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Ducks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Equine</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Rabbit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Pet Food</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Aquaculture</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Small Ruminants</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Other Poultry</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Specialty</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Ingredient</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Aiden</controllingFieldValue>
+                <controllingFieldValue>Baxter</controllingFieldValue>
+                <controllingFieldValue>Dennis</controllingFieldValue>
+                <controllingFieldValue>Kobe</controllingFieldValue>
+                <controllingFieldValue>Mila</controllingFieldValue>
+                <controllingFieldValue>Noah</controllingFieldValue>
+                <controllingFieldValue>Sonya</controllingFieldValue>
+                <controllingFieldValue>Spence</controllingFieldValue>
+                <controllingFieldValue>Walton</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>Milk replacers</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Reminder_to_Schedule_Follow_Up__c</fullName>
+        <externalId>false</externalId>
+        <label>Reminder to Schedule Follow-Up</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Report_Link__c</fullName>
+        <externalId>false</externalId>
+        <label>Report LInk</label>
+        <required>false</required>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Sales__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sales</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Saleslogic_Id__c</fullName>
+        <externalId>false</externalId>
+        <label>Saleslogic Id</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Segment__c</fullName>
+        <externalId>false</externalId>
+        <label>Segment (Step 1)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Aiden</fullName>
+                    <default>false</default>
+                    <label>Aiden</label>
+                </value>
+                <value>
+                    <fullName>Baxter</fullName>
+                    <default>false</default>
+                    <label>Baxter</label>
+                </value>
+                <value>
+                    <fullName>Dennis</fullName>
+                    <default>false</default>
+                    <label>Dennis</label>
+                </value>
+                <value>
+                    <fullName>Kobe</fullName>
+                    <default>false</default>
+                    <label>Kobe</label>
+                </value>
+                <value>
+                    <fullName>Mila</fullName>
+                    <default>false</default>
+                    <label>Mila</label>
+                </value>
+                <value>
+                    <fullName>Noah</fullName>
+                    <default>false</default>
+                    <label>Noah</label>
+                </value>
+                <value>
+                    <fullName>Sonya</fullName>
+                    <default>false</default>
+                    <label>Sonya</label>
+                </value>
+                <value>
+                    <fullName>Spence</fullName>
+                    <default>false</default>
+                    <label>Spence</label>
+                </value>
+                <value>
+                    <fullName>Walton</fullName>
+                    <default>false</default>
+                    <label>Walton</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Service</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Source_System__c</fullName>
+        <externalId>false</externalId>
+        <label>Source System</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Event Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Site Visit</fullName>
+                    <default>false</default>
+                    <label>Site Visit</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Phone Call</fullName>
+                    <default>false</default>
+                    <label>Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Consumer Interaction</fullName>
+                    <default>false</default>
+                    <label>Consumer Interaction</label>
+                </value>
+                <value>
+                    <fullName>Tradeshow</fullName>
+                    <default>false</default>
+                    <label>Tradeshow</label>
+                </value>
+                <value>
+                    <fullName>Fair</fullName>
+                    <default>false</default>
+                    <label>Fair</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Sales Team Meeting</fullName>
+                    <default>false</default>
+                    <label>Sales Team Meeting</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Event Preparation</fullName>
+                    <default>false</default>
+                    <label>Event Preparation</label>
+                </value>
+                <value>
+                    <fullName>Prospect visit</fullName>
+                    <default>false</default>
+                    <label>Prospect visit</label>
+                </value>
+                <value>
+                    <fullName>Office</fullName>
+                    <default>false</default>
+                    <label>Office</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Time_Taken_Hours__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Taken (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Site Visit</fullName>
+                    <default>false</default>
+                    <label>Site Visit</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Phone Call</fullName>
+                    <default>false</default>
+                    <label>Phone Call</label>
+                </value>
+                <value>
+                    <fullName>Event Preparation</fullName>
+                    <default>false</default>
+                    <label>Event Preparation</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Sales Team Meeting</fullName>
+                    <default>false</default>
+                    <label>Sales Team Meeting</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Trade show</fullName>
+                    <default>false</default>
+                    <label>Trade show</label>
+                </value>
+                <value>
+                    <fullName>Consumer Interaction</fullName>
+                    <default>false</default>
+                    <label>Consumer Interaction</label>
+                </value>
+                <value>
+                    <fullName>Fair</fullName>
+                    <default>false</default>
+                    <label>Fair</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Visit_Report__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>This field will be used to link to the Activity report from Events.</description>
+        <externalId>false</externalId>
+        <label>Visit Report</label>
+        <referenceTo>Visit_Report__c</referenceTo>
+        <relationshipLabel>Activities</relationshipLabel>
+        <relationshipName>Activities</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Week_no__c</fullName>
+        <externalId>false</externalId>
+        <formula>MOD(FLOOR( ( ActivityDate - DATE(2016,01,01))/7),52)+1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Week no</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Year_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(YEAR(ActivityDate))&amp;&quot;.&quot;&amp;LPAD(text(MONTH(ActivityDate)), 2, &apos;0&apos; )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year Month</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All_Future_Meetings</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>EVENT.START_DATE_TIME</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>All Future Meetings</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Future_Meetings_vietnam</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>EVENT.START_DATE_TIME</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Tất cả cuộc họp trong tương lai</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vietnam</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Meetings</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>Reminder_to_Schedule_Follow_Up__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>notEqual</operation>
+            <value>rinte</value>
+        </filters>
+        <label>All Meetings</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Meetings_vietnam</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>Reminder_to_Schedule_Follow_Up__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>notEqual</operation>
+            <value>rinte</value>
+        </filters>
+        <label>Tất cả các cuộc họp</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vietnam</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Tasks</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Tasks_vietnam</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>tất cả các nhiệm vụ</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vietnam</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyActivities</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Activities</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyDelegatedActivities</fullName>
+        <filterScope>Delegated</filterScope>
+        <label>My Delegated Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>MyTeamsActivities</fullName>
+        <filterScope>Team</filterScope>
+        <label>My Team&apos;s Activities</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Meetings</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Approval_Request_No__c</columns>
+        <columns>Approval_Status__c</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Meetings</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Meetings_vietnam</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>EVENT.START_DATE_TIME</columns>
+        <columns>EVENT.END_DATE_TIME</columns>
+        <columns>EVENT.DURATION</columns>
+        <columns>Sub_Type__c</columns>
+        <columns>EVENT.LOCATION</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>Approval_Request_No__c</columns>
+        <columns>Approval_Status__c</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>TASK.CREATED_DATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Các cuộc họp của tôi</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vietnam</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Tasks</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Tasks</label>
+        <language>en_US</language>
+        <sharedTo>
+            <group>All_Users</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>My_Tasks_vietnam</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Completed_Date__c</columns>
+        <columns>TASK.STATUS</columns>
+        <columns>TASK.PRIORITY</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>TASK.LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Các nhiệm vụ của tôi</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vietnam</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>TodaysTasks</fullName>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>TASK.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>lessThan</operation>
+            <value>TOMORROW</value>
+        </filters>
+        <label>Today&apos;s Tasks</label>
+    </listViews>
+    <listViews>
+        <fullName>UpcomingEvents</fullName>
+        <columns>TASK.SUBJECT</columns>
+        <columns>TASK.WHO_NAME</columns>
+        <columns>TASK.TYPE</columns>
+        <columns>TASK.RECORDTYPE</columns>
+        <columns>TASK.WHAT_NAME</columns>
+        <columns>TASK.DUE_DATE</columns>
+        <columns>Approval_Request_No__c</columns>
+        <columns>Approval_Status__c</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACTIVITY.TASK</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>TASK.DUE_DATE</field>
+            <operation>greaterThan</operation>
+            <value>YESTERDAY</value>
+        </filters>
+        <label>Upcoming Events</label>
+        <language>en_US</language>
+    </listViews>
+    <searchLayouts>
+        <listViewButtons>Mass_Delete</listViewButtons>
+        <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>TASK.DUE_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>New_Event</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Event</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!URLFOR($Action.Event.NewEvent)}</url>
+    </webLinks>
+</CustomObject>

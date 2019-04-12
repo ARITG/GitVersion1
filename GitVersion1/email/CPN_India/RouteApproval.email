@@ -1,0 +1,3 @@
+Hi {!Route__c.Approver2__c},
+
+ {!Route__c.Name__c} has been submitted for approval

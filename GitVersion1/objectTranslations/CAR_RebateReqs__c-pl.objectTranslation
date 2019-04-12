@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Wniosek Rabatowy</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual session user --></label>
+        <name>Actual_session_user__c</name>
+    </fields>
+    <fields>
+        <label>Przypisany do</label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel>Wniosek rabatowy / cena specjalna</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Płatnik</label>
+        <name>CAR_Account__c</name>
+        <relationshipLabel>Wniosek rabatowy (płatnik)</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Status</label>
+        <name>CAR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Zatwierdzony</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Roboczy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager Approved</masterLabel>
+            <translation>Zatwierdzony przez menadżera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Odrzucony</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Wysłany</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Proszę wybierz właściwy typ wniosku</help>
+        <label>Typ wniosku</label>
+        <name>Cargill_Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Credit Limit</masterLabel>
+            <translation>Wniosek o limit kredytowy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate Request</masterLabel>
+            <translation>Wniosek o rabat / cenę specjalną</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Komentarz</label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label>Customer Health - aktualna marża</label>
+        <name>Customer_Health_Actual_Margin__c</name>
+    </fields>
+    <fields>
+        <label>Customer Health - targetowana marża</label>
+        <name>Customer_Health_Target_Margin__c</name>
+    </fields>
+    <fields>
+        <label>Nr płatnika w Axapcie</label>
+        <name>ERP_ID__c</name>
+    </fields>
+    <fields>
+        <label>Uwzględnij płatnika</label>
+        <name>Include_Payer__c</name>
+    </fields>
+    <fields>
+        <label>Poinformuj Dyrektora</label>
+        <name>Inform_Supervisor__c</name>
+    </fields>
+    <fields>
+        <label>Zablokowany</label>
+        <name>Locked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Name --></label>
+        <name>Manager_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Role --></label>
+        <name>Manager_Role__c</name>
+    </fields>
+    <fields>
+        <label>Wymaga akceptacji menadżera</label>
+        <name>Needs_Manager_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label>Nadrzędny wniosek rabatowy</label>
+        <name>Parent__c</name>
+        <relationshipLabel>Wniosek rabatowy</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payer Account Record Type --></label>
+        <name>Payer_Account_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejection checkbox --></label>
+        <name>Rejection_checkbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Req Processing Log --></label>
+        <name>Req_Processing_Log__c</name>
+    </fields>
+    <fields>
+        <label>Dodatkowy adres email menadżera</label>
+        <name>Second_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label>Ważny od</label>
+        <name>Valid_From__c</name>
+    </fields>
+    <fields>
+        <label>Ważny do</label>
+        <name>Valid_To__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Rebate Request Layout</layout>
+        <sections>
+            <label>v</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Rebate Request Id --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Nie można zaznaczyć &quot;Poinformuj Dyrektora&quot;, jeśli pole &quot;Wymaga akceptacji Menadżera&quot; nie jest zaznaczone.</errorMessage>
+        <name>Inform_Supervisor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nie można wysłać kolejnego wniosku dopóki poprzedni wniosek nie zostanie przeprocesowany. Prosimy o kontakt z działem Cen i Rabatów.</errorMessage>
+        <name>Rebate_Request_Lock_Check</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Wniosek rabatowy może być założony jedynie na płatniku. To konto ma konto nadrzędne (wyjatek jeśli konto nadrzędne jest grupą zakupową). Stwórz wniosek na płatniku i wskaż odbiorcę.</errorMessage>
+        <name>Request_must_be_on_Payer_only</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Musisz wprowadzić wartość.</errorMessage>
+        <name>ValidFromValidation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+</CustomObjectTranslation>

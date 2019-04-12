@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>CQN NA Surrey &amp; Franklinton</name>
+    <queueMembers>
+        <users>
+            <user>aman_singh@cargill.com.cargill18</user>
+            <user>mahfuz_haque@cargill.com.cargill18</user>
+            <user>melinda_brillinger@cargill.com.cargill18</user>
+            <user>sandra_dsouza@cargill.com.cargill18</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

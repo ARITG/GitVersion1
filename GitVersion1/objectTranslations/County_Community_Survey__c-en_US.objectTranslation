@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>County-Community-Survey</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>County-Community-Surveys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Community of Account Activity Area --></label>
+        <name>Community_of_Account_Activity_Area__c</name>
+        <relationshipLabel><!-- County-Community-Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Community Name --></label>
+        <name>Related_Community_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Community --></label>
+        <name>Related_Community__c</name>
+        <relationshipLabel><!-- County-Community-Surveys --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related County Name --></label>
+        <name>Related_County_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related District Name --></label>
+        <name>Related_District_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>County-Community-Survey Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

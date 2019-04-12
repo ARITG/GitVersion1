@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Opportunity_FS_C360 --></label>
+        <name>Opportunity_FS_C360</name>
+    </fieldSets>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Margin Value</value>
+        </caseValues>
+        <name>amount_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estimated Close Date</value>
+        </caseValues>
+        <name>close_date_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunity External Lead Source</value>
+        </caseValues>
+        <name>opportunity_lead_source</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunity History</value>
+        </caseValues>
+        <name>stage_history_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Additional Information --></label>
+        <name>Additional_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alert Start Date --></label>
+        <name>Alert_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Solution --></label>
+        <name>Business_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business --></label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Question St. 1 --></label>
+        <name>CSEF_Question_St_1_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 1 --></label>
+        <name>CSEF_Question_St_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 2 --></label>
+        <name>CSEF_Question_St_2_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 2 --></label>
+        <name>CSEF_Question_St_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 3 --></label>
+        <name>CSEF_Question_St_3_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 3 --></label>
+        <name>CSEF_Question_St_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 4 --></label>
+        <name>CSEF_Question_St_4_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 4 --></label>
+        <name>CSEF_Question_St_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 5 --></label>
+        <name>CSEF_Question_St_5_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 5 --></label>
+        <name>CSEF_Question_St_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Question St. 6 --></label>
+        <name>CSEF_Question_St_6_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Question St. 6 --></label>
+        <name>CSEF_Question_St_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 1 --></label>
+        <name>CSEF_Success_Factor_St_1_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 1 --></label>
+        <name>CSEF_Success_Factor_St_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 2 --></label>
+        <name>CSEF_Success_Factor_St_2_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 2 --></label>
+        <name>CSEF_Success_Factor_St_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 3 --></label>
+        <name>CSEF_Success_Factor_St_3_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 3 --></label>
+        <name>CSEF_Success_Factor_St_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 4 --></label>
+        <name>CSEF_Success_Factor_St_4_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 4 --></label>
+        <name>CSEF_Success_Factor_St_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 5 --></label>
+        <name>CSEF_Success_Factor_St_5_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 5 --></label>
+        <name>CSEF_Success_Factor_St_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Success Factor St. 6 --></label>
+        <name>CSEF_Success_Factor_St_6_Eng__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSEF Success Factor St. 6 --></label>
+        <name>CSEF_Success_Factor_St_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Close Date --></label>
+        <name>Close_Date_Actual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Flag --></label>
+        <name>Close_Date_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conditions --></label>
+        <name>Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution --></label>
+        <name>Contribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit --></label>
+        <name>Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date of last email reminder --></label>
+        <name>Date_of_last_email_reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Between Email Alerts --></label>
+        <name>Days_Between_Email_Alerts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days remaining until close date --></label>
+        <name>Days_remaining_until_close_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do&apos;s &amp; Don&apos;ts --></label>
+        <name>Do_s_Don_ts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email alert sent? --></label>
+        <name>Email_reminder_sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event End DateTime --></label>
+        <name>Event_End_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event External Notes --></label>
+        <name>Event_External_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Internal Notes --></label>
+        <name>Event_Internal_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Start DateTime --></label>
+        <name>Event_Start_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Subject --></label>
+        <name>Event_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Expense --></label>
+        <name>Expected_Expense__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal --></label>
+        <name>Goal__c</name>
+    </fields>
+    <fields>
+        <label><!-- IOMC --></label>
+        <name>IOMC__c</name>
+    </fields>
+    <fields>
+        <label><!-- IOMM --></label>
+        <name>IOMM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Method Description --></label>
+        <name>Method_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile First --></label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Animals --></label>
+        <name>Number_of_Animals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Age --></label>
+        <name>Opportunity_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Assessment Questions --></label>
+        <name>Opportunity_Assessment_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Resources Needed --></label>
+        <name>Other_Resources_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other_won_lost_reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Role --></label>
+        <name>Owner_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner&apos;s Manager Role Name --></label>
+        <name>Owner_s_Manager_Role_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance --></label>
+        <name>Performance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Portfolio --></label>
+        <name>Product_Portfolio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quality --></label>
+        <name>Quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Account --></label>
+        <name>Search_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment (Step 1) --></label>
+        <name>Segment_Step_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>Species__c</name>
+        <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beef</masterLabel>
+            <translation><!-- Beef --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broiler</masterLabel>
+            <translation><!-- Broiler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dairy</masterLabel>
+            <translation><!-- Dairy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ducks</masterLabel>
+            <translation><!-- Ducks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equine</masterLabel>
+            <translation><!-- Equine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Goat</masterLabel>
+            <translation><!-- Goat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingredient</masterLabel>
+            <translation><!-- Ingredient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Layer</masterLabel>
+            <translation><!-- Layer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milk Replacers</masterLabel>
+            <translation><!-- Milk Replacers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Poultry</masterLabel>
+            <translation><!-- Other Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pet Food</masterLabel>
+            <translation><!-- Pet Food --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pork</masterLabel>
+            <translation><!-- Pork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rabbit</masterLabel>
+            <translation><!-- Rabbit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheep</masterLabel>
+            <translation><!-- Sheep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Ruminants</masterLabel>
+            <translation><!-- Small Ruminants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty</masterLabel>
+            <translation><!-- Specialty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Contribution --></label>
+        <name>Total_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit of Volume --></label>
+        <name>UOM_Volume__c</name>
+        <picklistValues>
+            <masterLabel>CFE</masterLabel>
+            <translation><!-- CFE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Items</masterLabel>
+            <translation><!-- Items --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tons</masterLabel>
+            <translation><!-- Tons --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Unit of Contribution --></label>
+        <name>Unit_of_Measure_Margin__c</name>
+        <picklistValues>
+            <masterLabel>CCOM</masterLabel>
+            <translation><!-- CCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GM</masterLabel>
+            <translation><!-- GM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOMC</masterLabel>
+            <translation><!-- IOMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points</masterLabel>
+            <translation><!-- Points --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value Driver --></label>
+        <name>Value_Driver__c</name>
+        <picklistValues>
+            <masterLabel>CCOM</masterLabel>
+            <translation><!-- CCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOMC</masterLabel>
+            <translation><!-- IOMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume</masterLabel>
+            <translation><!-- Volume --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Won/Lost Reason Code --></label>
+        <name>Won_Lost_Reason_Code__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation><!-- Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality</masterLabel>
+            <translation><!-- Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Won/Lost Reason Comment --></label>
+        <name>Won_Lost_Reason_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Won/Lost --></label>
+        <name>Won_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation><!-- Won --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 9-Box (Step 2) --></label>
+        <name>X9_Box_Step_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>uf__CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>uf__DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>uf__MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>uf__OrderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tracking Number --></label>
+        <name>uf__TrackingNumber__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout English</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Effectiveness Framework --></label>
+            <section>Sales Effectiveness Framework</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout Old</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Effectiveness Framework --></label>
+            <section>Sales Effectiveness Framework</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout(CN)</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout(Global)</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Value --></label>
+            <section>Opportunity Value</section>
+        </sections>
+        <sections>
+            <label><!-- Segment Information --></label>
+            <section>Segment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Won/Lost Reason --></label>
+            <section>Won/Lost Reason</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Estimated Close Date can&apos;t be in the past --></errorMessage>
+        <name>Closed_date_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Strengthen and Expand stage cannot be used in Poland. --></errorMessage>
+        <name>Do_not_use_Strengthen_stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- External Id cannot be changed. --></errorMessage>
+        <name>External_ID_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Business Unit must match current user&apos;s Business Unit. --></errorMessage>
+        <name>Match_Business_Unit_of_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Your profile is not allowed to edit this field --></errorMessage>
+        <name>Polish_Profile_Restriction</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Lowest value should be 0 --></errorMessage>
+        <name>Reminder_frequency_limit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reason checkbox for winning is selected but Won/Lost PickList value is not selected. --></errorMessage>
+        <name>Won_Lost_PickList_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must enter a Reason that the Opportunity was Won or Lost. --></errorMessage>
+        <name>Won_Lost_Reason_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Cargill_Sales_Framework_Polish --></label>
+        <name>Cargill_Sales_Framework_Polish</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_It --></label>
+        <name>Conga_It</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Effectiveness_Framework --></label>
+        <name>Sales_Effectiveness_Framework</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Sales_Effectiveness_Framework_French --></label>
+        <name>Sales_Effectiveness_Framework_French</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Close_Date_Reminder</name>
+        <subject><!-- Close Date Reminder --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>Estimated_Closed_date_reminder</name>
+        <subject><!-- Close Date Reminder --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

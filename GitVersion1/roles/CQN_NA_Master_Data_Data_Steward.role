@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>CQN-NA Master Data/Data Steward</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>CQN-NA Master Data/Data Steward</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>CQN_NA_Managing_Director_Strategic_Marketing_Lead</parentRole>
+</Role>

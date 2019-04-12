@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This settings holds information for the business units where the suspended account logic should work or not</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Account_Team_Delete__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Account Team Delete</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>SuspendedAccountSettings</label>
+    <visibility>Public</visibility>
+</CustomObject>

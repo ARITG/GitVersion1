@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value><!-- Request Line Item --></value>
+    </caseValues>
+    <fields>
+        <label>ID konta</label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action --></label>
+        <name>Action__c</name>
+    </fields>
+    <fields>
+        <label>Wartość przed zmianą (wyświetlana)</label>
+        <name>Existing_Value_Display__c</name>
+    </fields>
+    <fields>
+        <label>Wartość przed zmianą</label>
+        <name>Existing_Value__c</name>
+    </fields>
+    <fields>
+        <label>Etykieta pola</label>
+        <name>Field_Label__c</name>
+    </fields>
+    <fields>
+        <label>Nazwa pola</label>
+        <name>Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>Wartość po zmianie (wyświetlana)</label>
+        <name>New_Value_Display__c</name>
+    </fields>
+    <fields>
+        <label>Wartość po zmianie</label>
+        <name>New_Value__c</name>
+    </fields>
+    <fields>
+        <label>Wniosek</label>
+        <name>Request__c</name>
+        <relationshipLabel>Szczegóły linii</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Selected Account Id --></label>
+        <name>Selected_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label>Status zatwierdzenia linii</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Zatwierdzony</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation>Odrzucony</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team Member --></label>
+        <name>Team_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id To Be Removed --></label>
+        <name>User_Id_To_Be_Removed__c</name>
+    </fields>
+    <gender><!-- Neuter --></gender>
+    <layouts>
+        <layout>Request Line Item Layout</layout>
+        <sections>
+            <label>Linki niestandardowe</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Request Line Item Name --></nameFieldLabel>
+</CustomObjectTranslation>

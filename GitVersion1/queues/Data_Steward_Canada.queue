@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>can_crm_ds_canada@cargill.com</email>
+    <name>Data Steward - Canada</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Data_Steward_Canada</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Request__c</sobjectType>
+    </queueSobject>
+</Queue>

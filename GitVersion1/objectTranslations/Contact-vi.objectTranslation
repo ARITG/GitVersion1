@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Thành Phố/Tỉnh</value>
+        </caseValues>
+        <name>mailing_state_contact</name>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Thành Phố/Tỉnh</value>
+        </caseValues>
+        <name>other_state_contact</name>
+    </fields>
+    <fields>
+        <label><!-- Account External Id --></label>
+        <name>Account_External_Id__c</name>
+    </fields>
+    <fields>
+        <label>nnn</label>
+        <name>Big_Commerce__c</name>
+    </fields>
+    <fields>
+        <label>Kinh doanh</label>
+        <name>Business_Unit__c</name>
+        <picklistValues>
+            <masterLabel>CFN - China</masterLabel>
+            <translation><!-- CFN - China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Brazil</masterLabel>
+            <translation><!-- CPN - Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - France</masterLabel>
+            <translation><!-- CPN - France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - India</masterLabel>
+            <translation><!-- CPN - India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPN - Poland</masterLabel>
+            <translation><!-- CPN - Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - Canada</masterLabel>
+            <translation><!-- CQN - Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CQN - US</masterLabel>
+            <translation><!-- CQN - US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>France</masterLabel>
+            <translation><!-- France --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Korea</masterLabel>
+            <translation><!-- Korea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poland</masterLabel>
+            <translation><!-- Poland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russia</masterLabel>
+            <translation><!-- Russia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain Mila</masterLabel>
+            <translation><!-- Spain Mila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vietnam</masterLabel>
+            <translation><!-- Vietnam --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CFR In Submission --></label>
+        <name>CFR_In_Submission__c</name>
+    </fields>
+    <fields>
+        <label><!-- CFR USER TYPE --></label>
+        <name>CFR_USER_TYPE__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CFR Contact --></label>
+        <name>CFR_contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Account Number --></label>
+        <name>Dealer_Account_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealer Contact --></label>
+        <name>Dealer_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Text --></label>
+        <name>Email_Text__c</name>
+    </fields>
+    <fields>
+        <label>ID ngoài</label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Offering Switch --></label>
+        <name>Flip_a_switch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flow Name --></label>
+        <name>Flow_Name__c</name>
+    </fields>
+    <fields>
+        <label>Chức năng</label>
+        <name>Function__c</name>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutritionist</masterLabel>
+            <translation><!-- Nutritionist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Representative</masterLabel>
+            <translation><!-- Sales Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Truck Salesman</masterLabel>
+            <translation><!-- Truck Salesman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vet</masterLabel>
+            <translation><!-- Vet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ngày điều chỉnh ID mới nhất</label>
+        <name>Last_Modified_ID__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Phân loại bán hàng</label>
+        <name>Marketing_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Approval for marketing activities</masterLabel>
+            <translation><!-- Approval for marketing activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval for personal data processing</masterLabel>
+            <translation><!-- Approval for personal data processing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approval for sharing</masterLabel>
+            <translation><!-- Approval for sharing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile First --></label>
+        <name>Mobile_First__c</name>
+    </fields>
+    <fields>
+        <label>Phương thức ưa thích</label>
+        <name>Preferred_Method__c</name>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Ngôn ngữ chính</label>
+        <name>Primary_Language__c</name>
+        <picklistValues>
+            <masterLabel>Bulgarian</masterLabel>
+            <translation>Tiếng Bulgaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Mandarin)</masterLabel>
+            <translation>Tiếng Trung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatian</masterLabel>
+            <translation>Tiếng Croatia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech</masterLabel>
+            <translation>Tiếng Séc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation>Tiếng Đan Mạch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation>Tiếng Hà Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Tiếng Anh</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonian</masterLabel>
+            <translation>Tiếng Estonia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation>Phần Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Tiếng Pháp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Tiếng Đức</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greek</masterLabel>
+            <translation>Tiếng Hy lạp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungarian</masterLabel>
+            <translation>Tiếng Hungary</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation>Tiếng Ý</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Tiếng Nhật</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvian</masterLabel>
+            <translation>Tiếng Latvia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuanian</masterLabel>
+            <translation>Tiếng Litva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltese</masterLabel>
+            <translation>Tiếng Malta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation>Tiếng Na Uy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation>Tiếng Ba Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation>Tiếng Bồ Đào Nha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romanian</masterLabel>
+            <translation>Tiếng Rumani</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation>Tiếng Nga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovak</masterLabel>
+            <translation>Tiếng Slovak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenian</masterLabel>
+            <translation>Tiếng Slovenia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Tiếng Tây Ban Nha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish </masterLabel>
+            <translation>Tiếng Thụy Điển</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish</masterLabel>
+            <translation>Tiếng Thổ Nhĩ Kỳ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation>Tiếng Ucraina</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Chính</label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Offering Status --></label>
+        <name>Product_Offering_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Status --></label>
+        <name>Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted For Approval</masterLabel>
+            <translation><!-- Submitted For Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Saleslogic Id --></label>
+        <name>Saleslogic_Id__c</name>
+    </fields>
+    <fields>
+        <label>Email thứ 2</label>
+        <name>Secondary_Email__c</name>
+    </fields>
+    <fields>
+        <label>Ngôn ngữ thứ 2</label>
+        <name>Secondary_Language__c</name>
+        <picklistValues>
+            <masterLabel>Bulgarian</masterLabel>
+            <translation>Tiếng Bulgaria</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chinese (Mandarin)</masterLabel>
+            <translation>Tiếng Trung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Croatian</masterLabel>
+            <translation>Tiếng Croatia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Czech</masterLabel>
+            <translation>Tiếng Séc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danish</masterLabel>
+            <translation>Tiếng Đan Mạch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dutch</masterLabel>
+            <translation>Tiếng Hà Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Tiếng Anh</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estonian</masterLabel>
+            <translation>Tiếng Estonia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finnish</masterLabel>
+            <translation>Phần Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Tiếng Pháp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>German</masterLabel>
+            <translation>Tiếng Đức</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greek</masterLabel>
+            <translation>Tiếng Hy lạp</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hungarian</masterLabel>
+            <translation>Tiếng Hungary</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italian</masterLabel>
+            <translation>Tiếng Ý</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Tiếng Nhật</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latvian</masterLabel>
+            <translation>Tiếng Latvia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lithuanian</masterLabel>
+            <translation>Tiếng Litva</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maltese</masterLabel>
+            <translation>Tiếng Malta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Norwegian</masterLabel>
+            <translation>Tiếng Na Uy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polish</masterLabel>
+            <translation>Tiếng Ba Lan</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation>Tiếng Bồ Đào Nha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Romanian</masterLabel>
+            <translation>Tiếng Rumani</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Russian</masterLabel>
+            <translation>Tiếng Nga</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovak</masterLabel>
+            <translation>Tiếng Slovak</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slovenian</masterLabel>
+            <translation>Tiếng Slovenia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Tiếng Tây Ban Nha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swedish </masterLabel>
+            <translation>Tiếng Thụy Điển</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkish</masterLabel>
+            <translation>Tiếng Thổ Nhĩ Kỳ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ukrainian</masterLabel>
+            <translation>Tiếng Ucraina</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields>
+    <fields>
+        <label>Ngôn ngữ</label>
+        <name>uf__Languages__c</name>
+    </fields>
+    <fields>
+        <label>Cấp bậc</label>
+        <name>uf__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contact CFN</layout>
+        <sections>
+            <label><!-- Cargill Feed Retailer Information --></label>
+            <section>Cargill Feed Retailer Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Cargill Feed Retailer Information --></label>
+            <section>Cargill Feed Retailer Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Submit for Approval --></label>
+        <name>Submit_for_Approval_CFR</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- External Id cannot be changed. --></errorMessage>
+        <name>External_ID_cannot_be_changed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Tên đầu tiên là bắt buộc.</errorMessage>
+        <name>First_Name_Mandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Đơn vị kinh doanh phải khớp với Đơn vị kinh doanh của người dùng hiện tại.</errorMessage>
+        <name>Match_Business_Unit_of_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit Mobile First flag. --></errorMessage>
+        <name>Mobile_First_Flag_Cannot_be_changed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- LinkedIn_Search --></label>
+        <name>LinkedIn_Search</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Delete --></label>
+        <name>Mass_Delete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

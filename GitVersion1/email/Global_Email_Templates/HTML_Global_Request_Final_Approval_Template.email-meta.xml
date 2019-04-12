@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request for Customer Update Final Approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Visit_Report_Letterhead</letterhead>
+    <name>HTML Global Request Final Approval Template</name>
+    <style>freeForm</style>
+    <subject>Request {!Request__c.Name} for {!Request__c.Request_Type__c} ({!Request__c.Account_Name__c}) - {!Request__c.Approval_Status_Email__c}</subject>
+    <textOnly>A Request for Approval has been {!Request__c.Approval_Status_Email__c}
+
+Request Details:
+Request ID: {!Request__c.Name}
+Request Type: {!Request__c.Request_Type__c}
+Approver Comments: {!ApprovalRequest.Comments}
+Date of Request: {!Request__c.CreatedDate}
+Created By: {!Request__c.CreatedBy}
+
+Click here to access the Request directly
+
+
+Account Details:
+Account Name: {!Request__c.Account_Name__c}
+Account Owner: {!Request__c.Account_Owner__c}
+Account Legal Name: {!Request__c.Legal_Name_Formula__c}
+Account Record Type: {!Request__c.Account_Record_Type__c}
+Account Type: {!Request__c.Account_Type_Formula__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

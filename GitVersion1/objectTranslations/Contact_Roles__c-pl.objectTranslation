@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Instrumental</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>false</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Locative</caseType>
+        <plural>true</plural>
+        <value>Role Kontaktów</value>
+    </caseValues>
+    <fields>
+        <label>Typ rekordu konta</label>
+        <name>Account_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label>Typ konta</label>
+        <name>Account_Type__c</name>
+    </fields>
+    <fields>
+        <label>Konto Klienta</label>
+        <name>Account__c</name>
+        <relationshipLabel>Role kontaktu</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Kontakt</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Role kontaktu</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Okazja biznesowa</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel>Role kontaktu</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Podstawowy</label>
+        <name>Primary__c</name>
+    </fields>
+    <fields>
+        <label>Status relacji</label>
+        <name>Relationship_Status__c</name>
+        <picklistValues>
+            <masterLabel>Negative</masterLabel>
+            <translation>Negatywny</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation>Neutralny</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positive</masterLabel>
+            <translation>Pozytywny</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Użyj tego pola by dodać kontakt albo z tego konta lub jakiegokolwiek innego i wskaż jaką rolę ten kontakt pełni dla tego konta.</help>
+        <label>Rola</label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Kupiec</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation>Ambasador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gate Keeper/Channel (access to DMU)</masterLabel>
+            <translation>Stróż</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation>Osoba wpływowa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiator/Problem Identifier</masterLabel>
+            <translation>Inicjator/Identyfikujący problemy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsor</masterLabel>
+            <translation><!-- Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User (consumes product)</masterLabel>
+            <translation>Użytkownik / Konsument</translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Account Contact Roles Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Contact Roles Layout</layout>
+        <sections>
+            <label>Linki</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Contact Role ID --></nameFieldLabel>
+    <recordTypes>
+        <label>Konto</label>
+        <name>Account</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Musisz wybrać linię produktową powiązaną do tego samego konta jaka jest przypisana w rolach kontaktu.</errorMessage>
+        <name>Product_Line_for_correct_Account</name>
+    </validationRules>
+</CustomObjectTranslation>

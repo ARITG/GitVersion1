@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Id</field>
+    </columns>
+    <columns>
+        <field>Account.Application_Mappings__r$External_Record_num__c</field>
+    </columns>
+    <columns>
+        <field>Account$Prospect_Validated__c</field>
+    </columns>
+    <columns>
+        <field>Account.Application_Mappings__r$External_System__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>all accounts with any existing LM Site or MAX mapping</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Application_Mappings__r$External_System__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>MAX,LM_SITE</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts with External systems</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_and_application_mapping__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

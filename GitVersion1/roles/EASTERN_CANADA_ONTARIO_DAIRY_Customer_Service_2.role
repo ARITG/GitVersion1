@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>EASTERN CANADA - ONTARIO-DAIRY-Customer Service  2</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>EASTERN_CANADA_ONTARIO_DAIRY_MANAGER_2</parentRole>
+</Role>
